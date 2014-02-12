@@ -1,4 +1,4 @@
-syntax on
+set syntax on
 set nocompatible
 set showcmd
 
@@ -33,4 +33,5 @@ let g:clipbrdDefaultReg = '+'
 
 set nohidden
 
+set nowrap
 
