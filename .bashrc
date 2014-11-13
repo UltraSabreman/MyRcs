@@ -1,12 +1,18 @@
 alias ls="ls --color=auto"
+alias ll="ls -alhF --color=auto"
 alias grep="grep --color=auto"
 alias sudo="sudo -E"
-alias pacman="sudo pacman"
-alias ssh-rita="ssh -i ~/.ssh/ritaKey byelogur@rita.cat.pdx.edu"
 
 export TERM="rxvt-256color"
-export EDITOR="vim"
 export LANG="en_US.UTF-8"
+export VISUAL=vim
+export EDITOR=$VISUAL
+
+HISTCONTROL=ignoreboth
+shopt -s histappend
+HISTSIZE=1000
+HISTFILESIZE=2000
+shopt -s checkwinsize
 
 # Reset
 Color_Off='\[\e[0m\]'       # Text Reset

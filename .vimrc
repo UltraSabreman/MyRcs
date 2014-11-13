@@ -1,4 +1,3 @@
-set syntax on
 set nocompatible
 set showcmd
 
