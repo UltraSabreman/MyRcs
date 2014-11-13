@@ -96,7 +96,14 @@ else
 fi
 SecCol=$IBlue
 
-PS1="$SecCol[$PrimCol\u$SecCol@$PrimCol\h$SecCol: $PrimCol\W$SecCol]$PrimCol$Prompt $Color_Off"
+ case $TERM in
+     xterm*)
+        PS1="\[\033]0;[\u@\h]: \w\007\]$SecCol[$PrimCol\u$SecCol@$PrimCol\h$SecCol: $PrimCol\W$SecCol]$PrimCol$Prompt $Color_Off"
+        ;;
+     *)
+        PS1="[\u@\h: \W]$Prompt "
+        ;;
+ esac
 
 #
 man() {
