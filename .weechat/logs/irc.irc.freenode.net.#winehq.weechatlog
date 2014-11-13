@@ -1,0 +1,1814 @@
+2013-06-18 22:59:52	-->	sabreman (byelogur@rita.cat.pdx.edu) has joined #winehq
+2013-06-18 22:59:52	--	Topic for #winehq is "Wine end user support http://www.winehq.org || Off-topic: #winehq-social || Winetricks: http://wiki.winehq.org/winetricks || AppDB: http://appdb.winehq.org || Wiki: http://wiki.winehq.org || FAQ: http://wiki.winehq.org/FAQ || Stable[1.4.1] Development[1.6-rc2] || Please upgrade to 1.4.1 or 1.6-rc2 and state version || Please use http://www.pastebin.com for logs"
+2013-06-18 22:59:52	--	Topic set by austin987 (~austin@199.21.234.7) on Tue, 18 Jun 2013 11:25:57
+2013-06-18 22:59:52	--	Nicks #winehq: [@ChanServ [deXter] abyxcos AcTiVaTe Adys AimHere ajmitch_ Alam_Squeeze amboss archer13 aucecil_ austin987 azalyn Azelphur Aziroshin balrog BCN Bish blackstar BlastHardcheese bolcselo Brando753 Brinky brokenshakles BtbN byteframe candlejackson Chehri chihchun clever clobber CME cnu- companion Cork CybrFyre D4rkSilver dansan DarkAceLaptop Dartellum DaZ Deathspawn decltype Dessimat0r desti_T2 Devastator discomfitor dmarkey Drak0nfly dtm Dwarf ElmerFudd ered Eremiell err-or_ Etanolski EvilJStoker f4bs falcon` fasta Fira fling fracting Freejack_ friggle funyun gartral GatoLoko gavriels Genolo Gentle ggherdov gnarface GrantN05 graphitemaster Guest1567 haasn hagabaka HardDisk_WP HarryS heinrich5991 hejki Heliwr Hendikins heroux HeyM-Cld Hussaind instence_ ivan\ ivan` ivanich ivanich_work Jackneill JackWinter jalan jayne jdoles jedix JEEBsv jgeboski JPeterson Justice jwhite K1lleD K1rk kaictl Kalzar kantlivelong Kihokki killertux kode54 kraft ksk l_bratch larks leex lmat lodtank LoganA lukost lyon667|work man_in_shack Marce MickLH mIGu milligan Milos_SD MissionCritical mjrosenb MoLE_ Muzer MVXA nack nbf_ nightwalk nogagplz nsivov_ NuclearMeltdown nukedclx NuSuey nutron ohama olorin_ opalepatrick Orphis orudge peper petteyg_ Phase4 pigeon Pikel Plinker_ QBall_ QKO radzior RedBear redgirl_ rndbit robert_ roboman2444 Romster rudi_s ryao s_20 sabreman salamanderrake Sashmo_ sedulous sektour SeySayux ShapeShifter499 shardz SirCmpwn sl33v3 SlicerDicer smoke_ sontek Stels stringfellow surfdue svolpe SwooshyCueb Tea th0br0 TheLink thexception Thunderbird timwasta1en Tom^ Tommy[D]_ TomWij Triskelios Usurp UukGoblin vect0r vivid vrodic wakou2 weeb1e Whiskey`Wonka WindPower wookienz WormDrink XDS2010_ xpander69 Yamba Ycarene Zaba Zambezi zend zoktar]
+2013-06-18 22:59:52	--	Channel #winehq: 211 nicks (1 op, 0 halfops, 0 voices, 210 normals)
+2013-06-18 22:59:53	--	Mode #winehq [+CLcnt]
+2013-06-18 22:59:54	--	Channel created on Sat, 25 Nov 2006 22:42:43
+2013-06-18 23:00:11	sabreman	oh look this channel exhsits. There really is an irc channel for anything
+2013-06-18 23:00:22	sabreman	anyway, has anyone here tried planetside 2 on wine?
+2013-06-18 23:00:32	sabreman	I've read the winehq page, it look ok
+2013-06-18 23:00:54	sabreman	but i'm just wondering if anyone has actualy played it for a decent amount of time (and not just to test)
+2013-06-18 23:03:22	Phase4	http://appdb.winehq.org/objectManager.php?sClass=version&iId=27109 aparently it does not work well
+2013-06-18 23:06:51	-->	q66 (~q66@213.191.105.214) has joined #winehq
+2013-06-18 23:07:57	-->	Logan_A (logan@zer0drive.lawarias.srb2.org) has joined #winehq
+2013-06-18 23:08:51	-->	fasta_ (1334259@xs8.xs4all.nl) has joined #winehq
+2013-06-18 23:08:53	-->	HobGoblin (~jaa@yatima.uukgoblin.net) has joined #winehq
+2013-06-18 23:08:59	-->	Alam_Lenny (alam@rigginstereo.lawarias.srb2.org) has joined #winehq
+2013-06-18 23:09:16	--	HobGoblin is now known as Guest64518
+2013-06-18 23:09:37	-->	cnu_ (u@the.ultimate.lamer.la) has joined #winehq
+2013-06-18 23:09:56	<--	NuclearMeltdown (rep@unaffiliated/antiliberal) has quit (Read error: Operation timed out)
+2013-06-18 23:09:56	<--	fasta (1334259@xs8.xs4all.nl) has quit (Read error: Operation timed out)
+2013-06-18 23:09:56	<--	Orphis (~orphis@2a01:e0b:1000:17:be30:5bff:fed0:58c) has quit (Read error: Operation timed out)
+2013-06-18 23:09:57	<--	falcon` (~Falcon@falcon.kolosowscy.pl) has quit (Read error: Operation timed out)
+2013-06-18 23:09:57	<--	Alam_Squeeze (alam@rigginstereo.lawarias.srb2.org) has quit (Read error: Operation timed out)
+2013-06-18 23:09:57	<--	abyxcos (~abyxcos@mnetic.ch) has quit (Read error: Operation timed out)
+2013-06-18 23:09:58	<--	dmarkey (~dmarkey@77.95.224.37) has quit (Read error: Operation timed out)
+2013-06-18 23:09:59	<--	cnu- (u@the.ultimate.lamer.la) has quit (Read error: Operation timed out)
+2013-06-18 23:09:59	<--	UukGoblin (~jaa@unaffiliated/uukgoblin) has quit (Read error: Operation timed out)
+2013-06-18 23:09:59	<--	HarryS (H@unaffiliated/harrys) has quit (Ping timeout: 252 seconds)
+2013-06-18 23:09:59	<--	nutron (~nutron@unaffiliated/nutron) has quit (Read error: Operation timed out)
+2013-06-18 23:10:33	<--	Pikel (~toor@unaffiliated/pikel) has quit (Ping timeout: 252 seconds)
+2013-06-18 23:10:39	-->	Orphis (~orphis@2a01:e0b:1000:17:be30:5bff:fed0:58c) has joined #winehq
+2013-06-18 23:10:42	-->	abyxcos_ (~abyxcos@mnetic.ch) has joined #winehq
+2013-06-18 23:10:51	-->	nutron (~nutron@unaffiliated/nutron) has joined #winehq
+2013-06-18 23:11:09	-->	dmarkey (~dmarkey@77.95.224.37) has joined #winehq
+2013-06-18 23:11:17	<--	LoganA (logan@zer0drive.lawarias.srb2.org) has quit (Ping timeout: 252 seconds)
+2013-06-18 23:11:56	-->	Pikel (~toor@unaffiliated/pikel) has joined #winehq
+2013-06-18 23:12:06	-->	HarryS (H@unaffiliated/harrys) has joined #winehq
+2013-06-18 23:15:10	-->	falcon` (~Falcon@falcon.kolosowscy.pl) has joined #winehq
+2013-06-18 23:18:42	<--	BCN (~quassel@2605:6400:2:fed5:22:0:8f1e:7c79) has quit (Quit: No Ping reply in 180 seconds.)
+2013-06-18 23:20:03	-->	BCN (~quassel@2605:6400:2:fed5:22:0:8f1e:7c79) has joined #winehq
+2013-06-18 23:26:25	<--	BCN (~quassel@2605:6400:2:fed5:22:0:8f1e:7c79) has quit (Quit: No Ping reply in 180 seconds.)
+2013-06-18 23:26:38	-->	BCN (~quassel@2605:6400:2:fed5:22:0:8f1e:7c79) has joined #winehq
+2013-06-18 23:29:03	-->	Defolos (~dan@hsi-kbw-134-3-247-222.hsi14.kabel-badenwuerttemberg.de) has joined #winehq
+2013-06-18 23:30:03	<--	BCN (~quassel@2605:6400:2:fed5:22:0:8f1e:7c79) has quit (Client Quit)
+2013-06-18 23:30:48	-->	BCN (~quassel@2605:6400:2:fed5:22:0:8f1e:7c79) has joined #winehq
+2013-06-18 23:47:11	-->	stevenm (~stevenm@stevenm.keele.netcentral.co.uk) has joined #winehq
+2013-06-18 23:47:36	stevenm	Hey, does anyone know a good program (to run in windows or wine) that can record what an installer changes (files, registry entries, etc...)
+2013-06-18 23:48:03	stevenm	perhaps even something that watches what an installer installs - and makes you a new unofficial installer that does the same
+2013-06-18 23:48:13	stevenm	you see it's the installer (not the app it's installing) that's incompatible with wine
+2013-06-18 23:56:59	-->	rgeri77 (~rgeri77@mail.hzpugyvediiroda.hu) has joined #winehq
+2013-06-19 00:02:20	<--	bolcselo (~user@71.163.45.47) has quit (Quit: Leaving)
+2013-06-19 00:02:36	-->	space (~quassel@r186-48-236-104.dialup.adsl.anteldata.net.uy) has joined #winehq
+2013-06-19 00:02:59	--	space is now known as Guest55430
+2013-06-19 00:04:26	<--	DarkAceLaptop (~BillyMays@unaffiliated/darkacez) has quit (Ping timeout: 256 seconds)
+2013-06-19 00:05:38	--	Guest55430 is now known as Spaceghost
+2013-06-19 00:06:07	--	Spaceghost is now known as Guest17962
+2013-06-19 00:07:05	-->	eremiell__ (eremiell@ip-86-49-106-9.net.upcbroadband.cz) has joined #winehq
+2013-06-19 00:07:31	--	Guest17962 is now known as Spaceghost
+2013-06-19 00:07:35	<--	Spaceghost (~quassel@r186-48-236-104.dialup.adsl.anteldata.net.uy) has quit (Changing host)
+2013-06-19 00:07:35	-->	Spaceghost (~quassel@unaffiliated/spaceghost) has joined #winehq
+2013-06-19 00:08:18	<--	Eremiell (eremiell@ip-86-49-106-9.net.upcbroadband.cz) has quit (Read error: Connection reset by peer)
+2013-06-19 00:13:04	-->	DarkAceLaptop (~BillyMays@50.107.52.179) has joined #winehq
+2013-06-19 00:13:04	<--	DarkAceLaptop (~BillyMays@50.107.52.179) has quit (Changing host)
+2013-06-19 00:13:04	-->	DarkAceLaptop (~BillyMays@unaffiliated/darkacez) has joined #winehq
+2013-06-19 00:14:23	-->	killall-9 (~paulc@ns.null.ro) has joined #winehq
+2013-06-19 00:20:46	<--	blackstar (~quassel@24-159-248-198.dhcp.mdsn.wi.charter.com) has quit (Remote host closed the connection)
+2013-06-19 00:21:55	<--	Romster (~Romster@unaffiliated/romster) has quit (Ping timeout: 256 seconds)
+2013-06-19 00:22:48	-->	Romster (~Romster@202.168.100.149.dynamic.rev.eftel.com) has joined #winehq
+2013-06-19 00:22:48	<--	Romster (~Romster@202.168.100.149.dynamic.rev.eftel.com) has quit (Changing host)
+2013-06-19 00:22:48	-->	Romster (~Romster@unaffiliated/romster) has joined #winehq
+2013-06-19 00:24:37	-->	Haaninjo (~anders@85.8.55.65) has joined #winehq
+2013-06-19 00:36:01	Phase4	stevenm, procmon
+2013-06-19 00:36:11	Phase4	stevenm, or sandboxie, depends on what you want
+2013-06-19 00:36:58	stevenm	it'd be nice to have something that can re-do what it watches an installer do
+2013-06-19 00:37:13	stevenm	if either of those do thta
+2013-06-19 00:37:14	stevenm	*that
+2013-06-19 00:37:58	Phase4	uh, neither of them are capable of that, no, but procmon supports exporting events as an xml of csv file
+2013-06-19 00:38:08	Phase4	can't be too hard to make a thing that replays those
+2013-06-19 00:38:54	Phase4	what application is this?
+2013-06-19 00:54:51	<--	DarkAceLaptop (~BillyMays@unaffiliated/darkacez) has quit (Ping timeout: 256 seconds)
+2013-06-19 00:57:32	-->	DarkAceLaptop (~BillyMays@unaffiliated/darkacez) has joined #winehq
+2013-06-19 01:01:54	<--	radzior (~radzior@unaffiliated/radzior) has quit (Ping timeout: 240 seconds)
+2013-06-19 01:05:48	stevenm	Phase4, is this java application that talks to our phone system - but it stores crap in the windows registry so I can't just run it on the java jre
+2013-06-19 01:05:55	stevenm	the installer crashes though
+2013-06-19 01:08:38	Phase4	well i'd recommend changing the java application such that it does not require the registry, if that's not an option though :( WINEDEBUG=+warn and WINEDEBUG=+trace are useful but often very noisy
+2013-06-19 01:09:54	stevenm	Phase4, it's not an option
+2013-06-19 01:12:22	<--	SeySayux (SeySayux@libsylph/developer/seysayux) has quit (Ping timeout: 248 seconds)
+2013-06-19 01:16:31	-->	onny_ (~onny@krlh-5f71f11e.pool.mediaWays.net) has joined #winehq
+2013-06-19 01:20:36	<--	cnu_ (u@the.ultimate.lamer.la) has quit (Quit: Quit.)
+2013-06-19 01:21:07	-->	cnu- (u@the.ultimate.lamer.la) has joined #winehq
+2013-06-19 01:28:07	-->	mahler_ (~matthew@c-71-194-8-51.hsd1.il.comcast.net) has joined #winehq
+2013-06-19 01:28:37	-->	radzior (radzior@83.238.218.216) has joined #winehq
+2013-06-19 01:28:37	<--	radzior (radzior@83.238.218.216) has quit (Changing host)
+2013-06-19 01:28:37	-->	radzior (radzior@unaffiliated/radzior) has joined #winehq
+2013-06-19 01:29:39	<--	K1lleD (~Marto@77.48.92.231) has quit (Quit: KVIrc 4.1.3 Equilibrium http://www.kvirc.net/)
+2013-06-19 01:35:12	<--	MoLE_ (~mole@203.31.252.195) has quit (Quit: Leaving)
+2013-06-19 01:42:01	ryao	austin987: I figured out why wine was detecting a disk drive. KDE seems to be seeing it too. It is my floppy drive.
+2013-06-19 01:42:57	<--	Kihokki (kihokki@unaffiliated/kihokki) has left #winehq ("Leaving")
+2013-06-19 01:42:59	<--	DarkAceLaptop (~BillyMays@unaffiliated/darkacez) has quit (Ping timeout: 268 seconds)
+2013-06-19 01:43:23	-->	DarkAceLaptop (~BillyMays@50.107.52.179) has joined #winehq
+2013-06-19 01:43:23	<--	DarkAceLaptop (~BillyMays@50.107.52.179) has quit (Changing host)
+2013-06-19 01:43:23	-->	DarkAceLaptop (~BillyMays@unaffiliated/darkacez) has joined #winehq
+2013-06-19 01:44:39	ryao	The firefox install seems to hang in crossover too, which is strange.
+2013-06-19 01:58:46	<--	rgeri77 (~rgeri77@mail.hzpugyvediiroda.hu) has quit (Ping timeout: 276 seconds)
+2013-06-19 02:01:10	<--	DarkAceLaptop (~BillyMays@unaffiliated/darkacez) has quit (Ping timeout: 256 seconds)
+2013-06-19 02:03:27	-->	rgeri77 (~rgeri77@mail.hzpugyvediiroda.hu) has joined #winehq
+2013-06-19 02:05:12	-->	DarkAceLaptop (~BillyMays@50.107.52.179) has joined #winehq
+2013-06-19 02:05:12	<--	DarkAceLaptop (~BillyMays@50.107.52.179) has quit (Changing host)
+2013-06-19 02:05:12	-->	DarkAceLaptop (~BillyMays@unaffiliated/darkacez) has joined #winehq
+2013-06-19 02:09:33	<--	Guest64518 (~jaa@yatima.uukgoblin.net) has quit (Changing host)
+2013-06-19 02:09:34	-->	Guest64518 (~jaa@unaffiliated/uukgoblin) has joined #winehq
+2013-06-19 02:09:39	--	Guest64518 is now known as UukGoblin
+2013-06-19 02:10:15	<--	radzior (radzior@unaffiliated/radzior) has left #winehq
+2013-06-19 02:16:35	-->	desti (~desti@dslb-092-073-129-193.pools.arcor-ip.net) has joined #winehq
+2013-06-19 02:18:23	<--	desti_T2 (~desti@dslb-092-073-158-089.pools.arcor-ip.net) has quit (Ping timeout: 240 seconds)
+2013-06-19 02:22:20	--	eremiell__ is now known as Eremiell
+2013-06-19 02:29:47	-->	space_ (~quassel@r186-48-211-239.dialup.adsl.anteldata.net.uy) has joined #winehq
+2013-06-19 02:29:53	<--	Spaceghost (~quassel@unaffiliated/spaceghost) has quit (Ping timeout: 240 seconds)
+2013-06-19 02:31:13	<--	Chehri (~Chehri@unaffiliated/chehri) has quit (Quit: Out)
+2013-06-19 02:34:32	<--	Haaninjo (~anders@85.8.55.65) has quit (Quit: Ex-Chat)
+2013-06-19 02:35:49	-->	SeySayux (SeySayux@libsylph/developer/seysayux) has joined #winehq
+2013-06-19 02:39:15	-->	croppa (~stuart@CPE-120-146-137-99.static.nsw.bigpond.net.au) has joined #winehq
+2013-06-19 02:41:56	<--	DarkAceLaptop (~BillyMays@unaffiliated/darkacez) has quit (Ping timeout: 264 seconds)
+2013-06-19 02:49:57	-->	gibson121 (~androirc@c-98-220-175-180.hsd1.in.comcast.net) has joined #winehq
+2013-06-19 02:53:18	<--	rgeri77 (~rgeri77@mail.hzpugyvediiroda.hu) has quit (Quit: Még visszatérek........)
+2013-06-19 02:54:53	-->	DarkAceLaptop (~BillyMays@50.107.52.179) has joined #winehq
+2013-06-19 02:54:53	<--	DarkAceLaptop (~BillyMays@50.107.52.179) has quit (Changing host)
+2013-06-19 02:54:53	-->	DarkAceLaptop (~BillyMays@unaffiliated/darkacez) has joined #winehq
+2013-06-19 03:04:21	<--	DarkAceLaptop (~BillyMays@unaffiliated/darkacez) has quit (Ping timeout: 256 seconds)
+2013-06-19 03:11:14	-->	Phase4|1 (~Phase4@2001:44b8:4196:e800:9594:4468:77f3:d86d) has joined #winehq
+2013-06-19 03:11:26	<--	Phase4 (~Phase4@2001:44b8:4196:e800:3165:d063:7f23:9e3) has quit (Ping timeout: 256 seconds)
+2013-06-19 03:16:54	<--	balrog (~balrog@discferret/developer/balrog) has quit (Ping timeout: 264 seconds)
+2013-06-19 03:17:10	<--	nightwalk (~null@gateway/tor-sasl/nightwalk) has quit (Ping timeout: 240 seconds)
+2013-06-19 03:18:06	<--	gibson121 (~androirc@c-98-220-175-180.hsd1.in.comcast.net) has quit (Ping timeout: 264 seconds)
+2013-06-19 03:18:51	-->	balrog (~balrog@discferret/developer/balrog) has joined #winehq
+2013-06-19 03:22:10	-->	nightwalk (~null@gateway/tor-sasl/nightwalk) has joined #winehq
+2013-06-19 03:24:43	-->	DarkAceLaptop (~BillyMays@unaffiliated/darkacez) has joined #winehq
+2013-06-19 03:25:23	-->	manuscle (~manuscle@aqu33-4-82-233-55-206.fbx.proxad.net) has joined #winehq
+2013-06-19 03:29:46	<--	redgirl_ (~Red@negval.starlink.ru) has quit (Quit: This computer has gone to sleep)
+2013-06-19 03:36:59	-->	MrSassyPants (thephil@77-58-229-3.dclient.hispeed.ch) has joined #winehq
+2013-06-19 03:39:33	-->	piotr (~piotr@vpn.psi.wroc.pl) has joined #winehq
+2013-06-19 03:52:53	<--	DarkAceLaptop (~BillyMays@unaffiliated/darkacez) has quit (Ping timeout: 246 seconds)
+2013-06-19 03:59:11	<--	funyun (~funyun@cpe-65-25-103-89.neo.res.rr.com) has quit (Ping timeout: 246 seconds)
+2013-06-19 04:07:37	-->	Haaninjo (~anders@85.8.55.65) has joined #winehq
+2013-06-19 04:10:39	-->	DarkAceLaptop (~BillyMays@unaffiliated/darkacez) has joined #winehq
+2013-06-19 04:17:03	<--	croppa (~stuart@CPE-120-146-137-99.static.nsw.bigpond.net.au) has quit
+2013-06-19 04:20:16	-->	iive (~iive@87.119.101.204.client.entry.bg) has joined #winehq
+2013-06-19 04:20:16	<--	iive (~iive@87.119.101.204.client.entry.bg) has quit (Changing host)
+2013-06-19 04:20:16	-->	iive (~iive@unaffiliated/iive) has joined #winehq
+2013-06-19 04:21:26	--	falcon` is now known as Falcon`
+2013-06-19 04:33:24	<--	mahler_ (~matthew@c-71-194-8-51.hsd1.il.comcast.net) has quit (Ping timeout: 252 seconds)
+2013-06-19 04:42:02	-->	neon__ (~neon@109.64.209.66) has joined #winehq
+2013-06-19 04:44:31	<--	nack (~neon@109.67.185.148) has quit (Ping timeout: 276 seconds)
+2013-06-19 04:49:37	-->	ErtanERBEK (~e-diablo@78.186.126.191) has joined #winehq
+2013-06-19 04:57:22	-->	Newk (~Newk@digi-wolf.demon.nl) has joined #winehq
+2013-06-19 05:01:08	-->	El_Presidente (~martin@p57A9F5FB.dip0.t-ipconnect.de) has joined #winehq
+2013-06-19 05:03:20	<--	MrSassyPants (thephil@77-58-229-3.dclient.hispeed.ch) has quit (Remote host closed the connection)
+2013-06-19 05:04:48	-->	redgirl (~Red@213.232.195.228) has joined #winehq
+2013-06-19 05:06:56	-->	MrSassyPants (thephil@77-58-229-3.dclient.hispeed.ch) has joined #winehq
+2013-06-19 05:09:42	<--	El_Presidente (~martin@p57A9F5FB.dip0.t-ipconnect.de) has quit (Ping timeout: 252 seconds)
+2013-06-19 05:11:44	--	chihchun is now known as chihchun_afk
+2013-06-19 05:21:06	<--	ErtanERBEK (~e-diablo@78.186.126.191) has quit (Read error: Connection reset by peer)
+2013-06-19 05:21:34	-->	ErtanERBEK (~e-diablo@78.186.126.191) has joined #winehq
+2013-06-19 05:24:42	<--	ErtanERBEK (~e-diablo@78.186.126.191) has quit (Read error: Connection reset by peer)
+2013-06-19 05:24:49	<--	Hendikins (~wolfox@pdpc/supporter/student/Hendikins) has quit (Quit: Any technology, no matter how primitive, is magic to those who don't understand it)
+2013-06-19 05:24:54	-->	ErtanERBEK (~e-diablo@78.186.126.191) has joined #winehq
+2013-06-19 05:25:25	-->	Hendikins (~wolfox@CPE-60-225-119-27.hhui4.ken.bigpond.net.au) has joined #winehq
+2013-06-19 05:25:25	<--	Hendikins (~wolfox@CPE-60-225-119-27.hhui4.ken.bigpond.net.au) has quit (Changing host)
+2013-06-19 05:25:25	-->	Hendikins (~wolfox@pdpc/supporter/student/Hendikins) has joined #winehq
+2013-06-19 05:25:27	-->	puk (mstefani@nat/redhat/x-wtfuqqdgfrzqotwx) has joined #winehq
+2013-06-19 05:28:32	<--	ErtanERBEK (~e-diablo@78.186.126.191) has quit (Read error: Connection reset by peer)
+2013-06-19 05:28:41	<--	Hendikins (~wolfox@pdpc/supporter/student/Hendikins) has quit (Client Quit)
+2013-06-19 05:28:46	-->	ErtanERBEK (~e-diablo@78.186.126.191) has joined #winehq
+2013-06-19 05:29:06	-->	Hendikins (~wolfox@CPE-60-225-119-27.hhui4.ken.bigpond.net.au) has joined #winehq
+2013-06-19 05:29:06	<--	Hendikins (~wolfox@CPE-60-225-119-27.hhui4.ken.bigpond.net.au) has quit (Changing host)
+2013-06-19 05:29:06	-->	Hendikins (~wolfox@pdpc/supporter/student/Hendikins) has joined #winehq
+2013-06-19 05:29:16	<--	ErtanERBEK (~e-diablo@78.186.126.191) has quit (Read error: Connection reset by peer)
+2013-06-19 05:29:18	-->	e-diablo_ (~e-diablo@78.186.126.191) has joined #winehq
+2013-06-19 05:32:48	-->	e-diablo__ (~e-diablo@78.186.126.191) has joined #winehq
+2013-06-19 05:32:48	<--	e-diablo_ (~e-diablo@78.186.126.191) has quit (Read error: Connection reset by peer)
+2013-06-19 05:34:53	<--	e-diablo__ (~e-diablo@78.186.126.191) has quit (Read error: Connection reset by peer)
+2013-06-19 05:35:49	<--	onny_ (~onny@krlh-5f71f11e.pool.mediaWays.net) has quit (Ping timeout: 248 seconds)
+2013-06-19 05:37:51	Newk	where to look into wine settings when audio gets allot of underruns?.. even with just the 'test sound'option in config i get underruns
+2013-06-19 05:38:08	Newk	sound otherwise is fine
+2013-06-19 05:38:47	Newk	outside of wine i mean
+2013-06-19 05:40:21	<--	Hendikins (~wolfox@pdpc/supporter/student/Hendikins) has quit (Quit: Any technology, no matter how primitive, is magic to those who don't understand it)
+2013-06-19 05:40:51	-->	Hendikins (~wolfox@CPE-60-225-119-27.hhui4.ken.bigpond.net.au) has joined #winehq
+2013-06-19 05:40:51	<--	Hendikins (~wolfox@CPE-60-225-119-27.hhui4.ken.bigpond.net.au) has quit (Changing host)
+2013-06-19 05:40:51	-->	Hendikins (~wolfox@pdpc/supporter/student/Hendikins) has joined #winehq
+2013-06-19 05:41:29	-->	QBall__ (~QBall@host86-174-147-251.range86-174.btcentralplus.com) has joined #winehq
+2013-06-19 05:44:31	<--	QBall_ (~QBall@host86-174-147-251.range86-174.btcentralplus.com) has quit (Ping timeout: 246 seconds)
+2013-06-19 05:47:31	-->	conan_ (~conan@195.Red-88-5-36.dynamicIP.rima-tde.net) has joined #winehq
+2013-06-19 05:53:41	<--	MrSassyPants (thephil@77-58-229-3.dclient.hispeed.ch) has quit (Read error: Connection reset by peer)
+2013-06-19 05:55:41	-->	MrSassyPants (thephil@77-58-229-3.dclient.hispeed.ch) has joined #winehq
+2013-06-19 06:00:40	-->	debdog (~Wowbagger@p5B044BCC.dip0.t-ipconnect.de) has joined #winehq
+2013-06-19 06:01:03	-->	deadalnix_ (~deadalnix@i118-21-142-231.s30.a048.ap.plala.or.jp) has joined #winehq
+2013-06-19 06:05:38	<--	sektour (~SEKTOUR@MEXAHOTABOP.broker.freenet6.net) has quit (Quit: Leaving.)
+2013-06-19 06:06:20	-->	sektour (~SEKTOUR@MEXAHOTABOP.broker.freenet6.net) has joined #winehq
+2013-06-19 06:19:31	<--	zend (~quassel@217.76.192.217) has quit (Remote host closed the connection)
+2013-06-19 06:22:34	<--	killall-9 (~paulc@ns.null.ro) has quit (Quit: Leaving)
+2013-06-19 06:29:44	<--	DarkAceLaptop (~BillyMays@unaffiliated/darkacez) has quit (Ping timeout: 268 seconds)
+2013-06-19 06:42:36	<--	Hussaind (~esds@115.124.115.71) has quit (Remote host closed the connection)
+2013-06-19 06:45:41	-->	Eduard_Munteanu (~Eduard_Mu@188.25.6.155) has joined #winehq
+2013-06-19 06:49:18	<--	Newk (~Newk@digi-wolf.demon.nl) has quit (Remote host closed the connection)
+2013-06-19 06:49:27	-->	LunaVorax (~LunaVorax@ABordeaux-651-1-10-157.w109-215.abo.wanadoo.fr) has joined #winehq
+2013-06-19 06:49:40	-->	Newk (~Newk@digi-wolf.demon.nl) has joined #winehq
+2013-06-19 06:59:52	<--	Sashmo_ (~sashmo_@38.113.164.109) has quit (Remote host closed the connection)
+2013-06-19 07:02:14	-->	Sashmo_ (~sashmo_@38.113.164.109) has joined #winehq
+2013-06-19 07:02:19	<--	debdog (~Wowbagger@p5B044BCC.dip0.t-ipconnect.de) has quit (Remote host closed the connection)
+2013-06-19 07:09:10	-->	diffycat (~diffycat@85.113.55.206) has joined #winehq
+2013-06-19 07:15:08	-->	SilverStreak (~silver@c-68-42-77-242.hsd1.mi.comcast.net) has joined #winehq
+2013-06-19 07:20:29	<--	Stels (~stels@95.104.236.3) has quit (Ping timeout: 256 seconds)
+2013-06-19 07:22:48	-->	nantou (~phonetic@gateway/tor-sasl/martinphone) has joined #winehq
+2013-06-19 07:23:07	-->	Jackneill_ (~Jackneill@62-165-226-46.pool.digikabel.hu) has joined #winehq
+2013-06-19 07:26:22	<--	Jackneill (~Jackneill@unaffiliated/jackneill) has quit (Ping timeout: 276 seconds)
+2013-06-19 07:29:41	-->	Stels (~stels@95.104.209.46) has joined #winehq
+2013-06-19 07:33:14	<--	Jackneill_ (~Jackneill@62-165-226-46.pool.digikabel.hu) has quit (Quit: Leaving)
+2013-06-19 07:33:33	-->	Jackneill (~Jackneill@62-165-226-46.pool.digikabel.hu) has joined #winehq
+2013-06-19 07:33:33	<--	Jackneill (~Jackneill@62-165-226-46.pool.digikabel.hu) has quit (Changing host)
+2013-06-19 07:33:33	-->	Jackneill (~Jackneill@unaffiliated/jackneill) has joined #winehq
+2013-06-19 07:34:02	-->	Pikudoz (~Pikonas@190.238.108.61) has joined #winehq
+2013-06-19 07:34:47	-->	frostwork (~frostwork@p57B2F23D.dip0.t-ipconnect.de) has joined #winehq
+2013-06-19 07:35:25	-->	vpovirk (~urk@75-146-153-89-minnesota.hfc.comcastbusiness.net) has joined #winehq
+2013-06-19 07:44:59	-->	hasufell (~hasufell@gentoo/developer/hasufell) has joined #winehq
+2013-06-19 07:52:56	-->	Nu_learMeltdown (rep@AntiLiberal-1-pt.tunnel.tserv9.chi1.ipv6.he.net) has joined #winehq
+2013-06-19 07:53:13	<--	Nu_learMeltdown (rep@AntiLiberal-1-pt.tunnel.tserv9.chi1.ipv6.he.net) has quit (Changing host)
+2013-06-19 07:53:13	-->	Nu_learMeltdown (rep@unaffiliated/antiliberal) has joined #winehq
+2013-06-19 07:53:38	-->	ErtanERBEK (~e-diablo@78.186.124.76) has joined #winehq
+2013-06-19 07:55:32	-->	andre4s (~daredevil@frnk-5f746b93.pool.mediaWays.net) has joined #winehq
+2013-06-19 07:56:13	-->	Alikexhi (~Alikexhi4@64.156.122.78.rev.sfr.net) has joined #winehq
+2013-06-19 08:12:28	-->	c_korn (~korn@p57B8E83D.dip0.t-ipconnect.de) has joined #winehq
+2013-06-19 08:13:45	<--	ElmerFudd (~le@87-55-166-130-static.dk.customer.tdc.net) has quit (Remote host closed the connection)
+2013-06-19 08:20:09	<--	SilverStreak (~silver@c-68-42-77-242.hsd1.mi.comcast.net) has quit (Quit: Leaving.)
+2013-06-19 08:28:12	<--	redgirl (~Red@213.232.195.228) has quit (Quit: This computer has gone to sleep)
+2013-06-19 08:29:33	-->	SilverStreak (~silver@c-68-42-77-242.hsd1.mi.comcast.net) has joined #winehq
+2013-06-19 08:31:24	<--	Jackneill (~Jackneill@unaffiliated/jackneill) has quit (Ping timeout: 240 seconds)
+2013-06-19 08:32:45	-->	Jackneill (~Jackneill@195-38-96-84.pool.digikabel.hu) has joined #winehq
+2013-06-19 08:32:45	<--	Jackneill (~Jackneill@195-38-96-84.pool.digikabel.hu) has quit (Changing host)
+2013-06-19 08:32:45	-->	Jackneill (~Jackneill@unaffiliated/jackneill) has joined #winehq
+2013-06-19 08:33:53	<--	Phase4|1 (~Phase4@2001:44b8:4196:e800:9594:4468:77f3:d86d) has quit (Quit: Leaving)
+2013-06-19 08:36:46	-->	Phase4 (~Phase4@2001:44b8:4196:e800:5006:21fb:da6c:90d8) has joined #winehq
+2013-06-19 08:37:09	ggherdov	Hi all.  What does wine uses for unit testing ? What unit-testing framework, if any ?
+2013-06-19 08:37:18	<--	ErtanERBEK (~e-diablo@78.186.124.76) has quit (Remote host closed the connection)
+2013-06-19 08:37:37	-->	DarkAceLaptop (~BillyMays@50.107.52.179) has joined #winehq
+2013-06-19 08:37:37	<--	DarkAceLaptop (~BillyMays@50.107.52.179) has quit (Changing host)
+2013-06-19 08:37:37	-->	DarkAceLaptop (~BillyMays@unaffiliated/darkacez) has joined #winehq
+2013-06-19 08:37:52	<--	man_in_shack (~likeyouca@unaffiliated/man-in-shack/x-4279753) has quit (Ping timeout: 276 seconds)
+2013-06-19 08:38:55	<--	hasufell (~hasufell@gentoo/developer/hasufell) has quit (Ping timeout: 264 seconds)
+2013-06-19 08:39:34	-->	man_in_shack (~likeyouca@110-175-33-5.static.tpgi.com.au) has joined #winehq
+2013-06-19 08:39:34	<--	man_in_shack (~likeyouca@110-175-33-5.static.tpgi.com.au) has quit (Changing host)
+2013-06-19 08:39:34	-->	man_in_shack (~likeyouca@unaffiliated/man-in-shack/x-4279753) has joined #winehq
+2013-06-19 08:44:41	-->	ElmerFudd (~le@87-55-166-130-static.dk.customer.tdc.net) has joined #winehq
+2013-06-19 08:53:19	<--	frostwork (~frostwork@p57B2F23D.dip0.t-ipconnect.de) has quit (Quit: Leaving)
+2013-06-19 08:54:34	-->	onny_ (~onny@scc-wkit-clx-231-184.scc.kit.edu) has joined #winehq
+2013-06-19 09:02:05	-->	debdog (~Wowbagger@p549C93D6.dip0.t-ipconnect.de) has joined #winehq
+2013-06-19 09:02:34	<--	deadalnix_ (~deadalnix@i118-21-142-231.s30.a048.ap.plala.or.jp) has quit (Ping timeout: 276 seconds)
+2013-06-19 09:04:24	-->	killall-9 (~paulc@diana.null.ro) has joined #winehq
+2013-06-19 09:05:20	<--	andre4s (~daredevil@frnk-5f746b93.pool.mediaWays.net) has quit (Quit: Leaving)
+2013-06-19 09:05:47	<--	Dessimat0r (~Dessimat0@cpc1-birk8-2-0-cust884.1-3.cable.virginmedia.com) has quit (Quit: Computer has gone to sleep.)
+2013-06-19 09:11:23	<--	debdog (~Wowbagger@p549C93D6.dip0.t-ipconnect.de) has quit (Remote host closed the connection)
+2013-06-19 09:22:33	<--	man_in_shack (~likeyouca@unaffiliated/man-in-shack/x-4279753) has quit (Ping timeout: 246 seconds)
+2013-06-19 09:26:52	Phase4	ggherdov, http://wiki.winehq.org/ConformanceTests
+2013-06-19 09:27:14	-->	Dessimat0r (~Dessimat0@cpc1-birk8-2-0-cust884.1-3.cable.virginmedia.com) has joined #winehq
+2013-06-19 09:28:11	--	DarkAceLaptop is now known as Z2GGY
+2013-06-19 09:29:28	ggherdov	Phase4: thanks for the link
+2013-06-19 09:30:16	--	Z2GGY is now known as DarkAceLaptop
+2013-06-19 09:31:40	ggherdov	Phase4:  I am beginning a medium C project, and facing the choice of the testing framework (the kind of tests where you "include" the header and call the function under test, to see the output -- so, written in the same language as the project itself). So I am asking around what big C projects use.
+2013-06-19 09:31:43	<--	Phase4 (~Phase4@2001:44b8:4196:e800:5006:21fb:da6c:90d8) has quit (Ping timeout: 264 seconds)
+2013-06-19 09:32:21	ggherdov	So, rather than how to actually write tests for wine, I am more interesting in the name of the underlying framework
+2013-06-19 09:38:10	<--	manuscle (~manuscle@aqu33-4-82-233-55-206.fbx.proxad.net) has quit (Quit: Ex-Chat)
+2013-06-19 09:39:06	<--	onny_ (~onny@scc-wkit-clx-231-184.scc.kit.edu) has quit (Ping timeout: 264 seconds)
+2013-06-19 09:44:38	<--	Dessimat0r (~Dessimat0@cpc1-birk8-2-0-cust884.1-3.cable.virginmedia.com) has quit (Quit: Computer has gone to sleep.)
+2013-06-19 09:45:36	-->	hasufell (~hasufell@gentoo/developer/hasufell) has joined #winehq
+2013-06-19 09:45:36	<--	haasn (~nand@2a01:4f8:d13:5245::2) has quit (Ping timeout: 260 seconds)
+2013-06-19 09:49:55	-->	err-or (~err-or@gateway/tor-sasl/err-or) has joined #winehq
+2013-06-19 09:50:09	<--	err-or_ (~err-or@gateway/tor-sasl/err-or) has quit (Ping timeout: 240 seconds)
+2013-06-19 09:51:11	-->	man_in_shack (~likeyouca@unaffiliated/man-in-shack/x-4279753) has joined #winehq
+2013-06-19 09:55:50	-->	redgirl (~Red@negval.starlink.ru) has joined #winehq
+2013-06-19 09:56:39	-->	Dessimat0r (~Dessimat0@cpc1-birk8-2-0-cust884.1-3.cable.virginmedia.com) has joined #winehq
+2013-06-19 10:01:51	-->	deadalnix_ (~deadalnix@i118-21-142-231.s30.a048.ap.plala.or.jp) has joined #winehq
+2013-06-19 10:03:09	<--	nightwalk (~null@gateway/tor-sasl/nightwalk) has quit (Ping timeout: 240 seconds)
+2013-06-19 10:03:38	-->	haasn (~nand@2a01:4f8:d13:5245::2) has joined #winehq
+2013-06-19 10:05:22	<--	LunaVorax (~LunaVorax@ABordeaux-651-1-10-157.w109-215.abo.wanadoo.fr) has quit (Ping timeout: 256 seconds)
+2013-06-19 10:06:01	-->	LunaVorax (~LunaVorax@ABordeaux-651-1-226-182.w83-193.abo.wanadoo.fr) has joined #winehq
+2013-06-19 10:07:09	-->	nightwalk (~null@gateway/tor-sasl/nightwalk) has joined #winehq
+2013-06-19 10:07:12	-->	rgeri77 (~rgeri77@catv-176-63-144-210.catv.broadband.hu) has joined #winehq
+2013-06-19 10:09:32	<--	deadalnix_ (~deadalnix@i118-21-142-231.s30.a048.ap.plala.or.jp) has quit (Ping timeout: 255 seconds)
+2013-06-19 10:16:33	--	nsivov_ is now known as nsivov
+2013-06-19 10:18:19	<--	Dessimat0r (~Dessimat0@cpc1-birk8-2-0-cust884.1-3.cable.virginmedia.com) has quit (Quit: Computer has gone to sleep.)
+2013-06-19 10:20:17	-->	blackstar (~quassel@24-159-249-232.dhcp.mdsn.wi.charter.com) has joined #winehq
+2013-06-19 10:25:13	-->	lfz (~chatzilla@189-30-254-165.paemt702.dsl.brasiltelecom.net.br) has joined #winehq
+2013-06-19 10:30:16	<--	DarkAceLaptop (~BillyMays@unaffiliated/darkacez) has quit (Quit: I'm quitting IRC forever.)
+2013-06-19 10:30:48	-->	LunaVorax_ (~LunaVorax@ABordeaux-651-1-57-47.w109-223.abo.wanadoo.fr) has joined #winehq
+2013-06-19 10:31:47	<--	Devastator (~devas@186.214.15.80) has quit (Read error: Connection reset by peer)
+2013-06-19 10:32:00	<--	LunaVorax (~LunaVorax@ABordeaux-651-1-226-182.w83-193.abo.wanadoo.fr) has quit (Ping timeout: 256 seconds)
+2013-06-19 10:32:13	<--	hasufell (~hasufell@gentoo/developer/hasufell) has quit (Ping timeout: 246 seconds)
+2013-06-19 10:33:16	-->	Devastator (~devas@186.214.15.80) has joined #winehq
+2013-06-19 10:39:06	austin987	Newk, if you're using pulse, try pasuspender
+2013-06-19 10:39:15	austin987	ryao, I doubt that's related, but good to know
+2013-06-19 10:39:40	austin987	what kernel/file system? there's nothing obvious, grasping at straws here..
+2013-06-19 10:42:49	-->	emmanuelux (~emmanuelu@192.123.25.109.rev.sfr.net) has joined #winehq
+2013-06-19 10:45:45	-->	hasufell (~hasufell@gentoo/developer/hasufell) has joined #winehq
+2013-06-19 10:50:30	<--	killall-9 (~paulc@diana.null.ro) has quit (Quit: Leaving)
+2013-06-19 10:51:23	--	Falcon` is now known as falcon`
+2013-06-19 10:53:28	-->	instence (~instence@user-11fagi2.dsl.mindspring.com) has joined #winehq
+2013-06-19 10:55:30	-->	QKO_ (~reaVer@banzai.speedxs.nl) has joined #winehq
+2013-06-19 11:00:09	<--	instence_ (~instence@user-11fagi2.dsl.mindspring.com) has quit (*.net *.split)
+2013-06-19 11:00:09	<--	vect0r (~vect0r@unaffiliated/vect0r) has quit (*.net *.split)
+2013-06-19 11:00:09	<--	QKO (~reaVer@banzai.speedxs.nl) has quit (*.net *.split)
+2013-06-19 11:00:09	<--	gnarface (~gnarface@50.9.177.220) has quit (*.net *.split)
+2013-06-19 11:00:09	<--	sedulous (~sedulous@unaffiliated/sed/x-0159859) has quit (*.net *.split)
+2013-06-19 11:03:36	-->	vect0r (~vect0r@unaffiliated/vect0r) has joined #winehq
+2013-06-19 11:06:03	-->	k1lled (~kvirc@77.48.92.231) has joined #winehq
+2013-06-19 11:07:43	-->	gnarface (~gnarface@50.9.177.220) has joined #winehq
+2013-06-19 11:07:49	-->	sedulous (~sedulous@unaffiliated/sed/x-0159859) has joined #winehq
+2013-06-19 11:08:07	--	gnarface is now known as Guest46674
+2013-06-19 11:11:18	<--	blackstar (~quassel@24-159-249-232.dhcp.mdsn.wi.charter.com) has quit (Remote host closed the connection)
+2013-06-19 11:12:37	<--	Stels (~stels@95.104.209.46) has quit (Quit: Konversation terminated! kernel panic error, the system go to reboot)
+2013-06-19 11:13:44	-->	saintcajetan (~sodalitum@cpe-72-183-246-29.elp.res.rr.com) has joined #winehq
+2013-06-19 11:13:52	-->	Z_God (~julius@2001:888:141f:0:4103:73d5:b515:13d9) has joined #winehq
+2013-06-19 11:15:28	-->	Stels (~stels@91.185.88.148) has joined #winehq
+2013-06-19 11:21:49	-->	funyun (~funyun@cpe-65-25-103-89.neo.res.rr.com) has joined #winehq
+2013-06-19 11:34:17	<--	hasufell (~hasufell@gentoo/developer/hasufell) has quit (Quit: Verlassend)
+2013-06-19 11:39:26	-->	onny_ (~onny@krlh-4d02bcf7.pool.mediaWays.net) has joined #winehq
+2013-06-19 11:55:03	<--	lmat (~lmat@156-56-177-162.dhcp-bl.indiana.edu) has quit (Read error: Connection reset by peer)
+2013-06-19 11:57:17	<--	Tommy[D]_ (~TommyD]@gentoo/developer/tommy) has quit (Ping timeout: 246 seconds)
+2013-06-19 12:01:44	<--	piotr (~piotr@vpn.psi.wroc.pl) has quit (Quit: Konversation terminated!)
+2013-06-19 12:01:45	<--	onny_ (~onny@krlh-4d02bcf7.pool.mediaWays.net) has quit (Read error: Operation timed out)
+2013-06-19 12:06:48	--	falcon` is now known as Falcon`
+2013-06-19 12:10:42	-->	Tommy[D]_ (~TommyD]@gentoo/developer/tommy) has joined #winehq
+2013-06-19 12:12:40	Newk	austin987: nope, i am running jack with alsa bridge
+2013-06-19 12:13:44	Newk	kernel: 3.2.0-48-generic
+2013-06-19 12:14:10	Newk	ubuntu 12.04.2
+2013-06-19 12:17:43	-->	hasufell (~hasufell@gentoo/developer/hasufell) has joined #winehq
+2013-06-19 12:24:54	<--	Devastator (~devas@186.214.15.80) has quit (Ping timeout: 240 seconds)
+2013-06-19 12:32:06	-->	debdog (~Wowbagger@p5B044E54.dip0.t-ipconnect.de) has joined #winehq
+2013-06-19 12:36:26	k1lled	http://postimg.org/image/8j5skqhkn/ when i start game with "run" from playonlinux program
+2013-06-19 12:36:58	-->	Chehri (~Chehri@unaffiliated/chehri) has joined #winehq
+2013-06-19 12:52:40	<--	k1lled (~kvirc@77.48.92.231) has quit (Quit: KVIrc 4.1.3 Equilibrium http://www.kvirc.net/)
+2013-06-19 12:56:23	-->	k1lled (~kvirc@77.48.92.231) has joined #winehq
+2013-06-19 12:59:24	<--	Milos_SD (~r00t@unaffiliated/milos-sd/x-3452255) has quit (Ping timeout: 240 seconds)
+2013-06-19 13:01:24	<--	Jackneill (~Jackneill@unaffiliated/jackneill) has quit (Ping timeout: 240 seconds)
+2013-06-19 13:02:09	k1lled	no one can help me?
+2013-06-19 13:04:54	<--	diffycat (~diffycat@85.113.55.206) has quit (Ping timeout: 264 seconds)
+2013-06-19 13:06:14	austin987	k1lled, playonlinux is not supported here
+2013-06-19 13:06:30	k1lled	and where can help me ?
+2013-06-19 13:06:42	<--	ivanich (~ivanich@ivanich.tenet.odessa.ua) has quit (Ping timeout: 256 seconds)
+2013-06-19 13:09:42	debdog	k1lled: try http://www.playonlinux.com/en/forums.html
+2013-06-19 13:09:54	k1lled	ok, tnx
+2013-06-19 13:10:26	debdog	k1lled: or #playonlinux
+2013-06-19 13:10:41	k1lled	i am already inside
+2013-06-19 13:14:05	debdog	but you where impatient so you thought "well, lets bug the wine-ers instead"? ;)
+2013-06-19 13:16:27	debdog	*were
+2013-06-19 13:21:48	<--	redgirl (~Red@negval.starlink.ru) has quit (Quit: This computer has gone to sleep)
+2013-06-19 13:22:19	--	space_ is now known as Spaceghost
+2013-06-19 13:22:22	<--	Spaceghost (~quassel@r186-48-211-239.dialup.adsl.anteldata.net.uy) has quit (Changing host)
+2013-06-19 13:22:22	-->	Spaceghost (~quassel@unaffiliated/spaceghost) has joined #winehq
+2013-06-19 13:22:57	<--	lfz (~chatzilla@189-30-254-165.paemt702.dsl.brasiltelecom.net.br) has quit (Quit: ChatZilla 0.9.90 [Firefox 21.0/20130512194328])
+2013-06-19 13:23:19	<--	debdog (~Wowbagger@p5B044E54.dip0.t-ipconnect.de) has quit (Remote host closed the connection)
+2013-06-19 13:25:50	-->	Milos_SD (~r00t@178.79.35.174) has joined #winehq
+2013-06-19 13:25:50	<--	Milos_SD (~r00t@178.79.35.174) has quit (Changing host)
+2013-06-19 13:25:50	-->	Milos_SD (~r00t@unaffiliated/milos-sd/x-3452255) has joined #winehq
+2013-06-19 13:43:30	<--	Aziroshin (~yawgmoth@77-56-66-78.dclient.hispeed.ch) has quit (Quit: WeeChat 0.4.0)
+2013-06-19 13:43:51	-->	Aziroshin (~yawgmoth@77-56-66-78.dclient.hispeed.ch) has joined #winehq
+2013-06-19 13:50:36	<--	nantou (~phonetic@gateway/tor-sasl/martinphone) has quit (Quit: gone)
+2013-06-19 13:57:05	<--	Milos_SD (~r00t@unaffiliated/milos-sd/x-3452255) has quit (Quit: Leaving)
+2013-06-19 13:59:25	<--	dansan (~daniel@99-70-244-137.lightspeed.rcsntx.sbcglobal.net) has quit (Quit: Konversation terminated!)
+2013-06-19 14:05:50	-->	winenewb (36f0c4b9@gateway/web/freenode/ip.54.240.196.185) has joined #winehq
+2013-06-19 14:06:15	-->	larsivi (~quassel@188.113.74.106) has joined #winehq
+2013-06-19 14:07:00	winenewb	I'm attempting to install wine on my rhel5 machine but when I do yum install wine, it responds with "no package wine".  I have rpm installed but have almost no idea what I'm doing.  Any help is appreciated
+2013-06-19 14:10:40	<--	vpovirk (~urk@75-146-153-89-minnesota.hfc.comcastbusiness.net) has quit (Remote host closed the connection)
+2013-06-19 14:23:13	<--	Spaceghost (~quassel@unaffiliated/spaceghost) has quit (Read error: Connection reset by peer)
+2013-06-19 14:23:32	-->	Spaceghost (~quassel@r186-48-211-239.dialup.adsl.anteldata.net.uy) has joined #winehq
+2013-06-19 14:23:56	--	Spaceghost is now known as Guest2023
+2013-06-19 14:27:11	-->	dansan (~daniel@99-70-244-137.lightspeed.rcsntx.sbcglobal.net) has joined #winehq
+2013-06-19 14:31:26	-->	space_ (~quassel@r186-48-246-159.dialup.adsl.anteldata.net.uy) has joined #winehq
+2013-06-19 14:32:17	<--	Guest2023 (~quassel@r186-48-211-239.dialup.adsl.anteldata.net.uy) has quit (Ping timeout: 248 seconds)
+2013-06-19 14:36:33	--	space_ is now known as Spaceghost
+2013-06-19 14:36:36	<--	Spaceghost (~quassel@r186-48-246-159.dialup.adsl.anteldata.net.uy) has quit (Changing host)
+2013-06-19 14:36:36	-->	Spaceghost (~quassel@unaffiliated/spaceghost) has joined #winehq
+2013-06-19 14:37:21	-->	mpa1212 (~luke@c-76-113-242-244.hsd1.mn.comcast.net) has joined #winehq
+2013-06-19 14:38:58	<--	rgeri77 (~rgeri77@catv-176-63-144-210.catv.broadband.hu) has quit (Ping timeout: 246 seconds)
+2013-06-19 14:40:13	<--	c_korn (~korn@p57B8E83D.dip0.t-ipconnect.de) has quit (Quit: Bye bye.)
+2013-06-19 14:41:08	<--	ryao (~Richard@gentoo/developer/ryao) has quit (Remote host closed the connection)
+2013-06-19 14:45:23	-->	blackstar (~quassel@24-159-249-232.dhcp.mdsn.wi.charter.com) has joined #winehq
+2013-06-19 14:57:20	<--	Z_God (~julius@2001:888:141f:0:4103:73d5:b515:13d9) has quit (Remote host closed the connection)
+2013-06-19 14:58:48	<--	mpa1212 (~luke@c-76-113-242-244.hsd1.mn.comcast.net) has left #winehq
+2013-06-19 14:59:42	<--	opalepatrick (~patrick@c126-34.i07-32.onvol.net) has quit (Quit: Ex-Chat)
+2013-06-19 15:01:03	<--	ohama (ohama@cicolina.org) has quit (Quit: leaving)
+2013-06-19 15:01:53	winenewb	I'm attempting to install wine on my rhel5 machine but when I do yum install wine, it responds with "no package wine".  I have rpm installed but have almost no idea what I'm doing.  Any help is appreciated
+2013-06-19 15:02:19	-->	ohama (ohama@cicolina.org) has joined #winehq
+2013-06-19 15:04:00	<--	ohama (ohama@cicolina.org) has quit (Disconnected by services)
+2013-06-19 15:05:44	-->	ohama (ohama@cicolina.org) has joined #winehq
+2013-06-19 15:06:33	Alikexhi	winenewb, fedora ?
+2013-06-19 15:07:10	<--	nightwalk (~null@gateway/tor-sasl/nightwalk) has quit (Ping timeout: 240 seconds)
+2013-06-19 15:10:28	-->	madewokherd (~urk@c-75-73-120-18.hsd1.mn.comcast.net) has joined #winehq
+2013-06-19 15:11:06	-->	nightwalk (~null@gateway/tor-sasl/nightwalk) has joined #winehq
+2013-06-19 15:13:06	-->	DarkAceLaptop (~BillyMays@unaffiliated/darkacez) has joined #winehq
+2013-06-19 15:16:49	--	chihchun_afk is now known as chihchun
+2013-06-19 15:17:15	winenewb	Alikexi: yes
+2013-06-19 15:17:35	winenewb	Alikexhi: yes
+2013-06-19 15:19:07	<--	Adys (~adys@unaffiliated/adys) has quit (Quit: No Ping reply in 90 seconds.)
+2013-06-19 15:19:25	-->	Adys (~adys@unaffiliated/adys) has joined #winehq
+2013-06-19 15:19:37	Alikexhi	winenewb, https://fedoraproject.org/wiki/Wine?rd=AndreasBierfert/Wine
+2013-06-19 15:21:31	<--	ohama (ohama@cicolina.org) has quit (Disconnected by services)
+2013-06-19 15:23:03	<--	k1lled (~kvirc@77.48.92.231) has quit (Quit: KVIrc 4.1.3 Equilibrium http://www.kvirc.net/)
+2013-06-19 15:23:31	-->	ohama (ohama@cicolina.org) has joined #winehq
+2013-06-19 15:24:38	winenewb	Alikexhi: I get this error "Error getting repository data for updates-testing, repository not found" when executing "yum --enablerepo=updates-testing upgrade wine"
+2013-06-19 15:28:38	-->	k1lled (~kvirc@77.48.92.231) has joined #winehq
+2013-06-19 15:34:40	-->	nantou (~phonetic@gateway/tor-sasl/martinphone) has joined #winehq
+2013-06-19 15:36:33	-->	Dessimat0r (~Dessimat0@cpc1-birk8-2-0-cust884.1-3.cable.virginmedia.com) has joined #winehq
+2013-06-19 15:40:28	-->	theboos (~theboos@cpe-76-176-142-11.san.res.rr.com) has joined #winehq
+2013-06-19 15:40:39	Alikexhi	winenewb, hum actually I'm not a fedora user, maybe you should ask on #fedora
+2013-06-19 15:44:03	<--	winenewb (36f0c4b9@gateway/web/freenode/ip.54.240.196.185) has quit (Ping timeout: 250 seconds)
+2013-06-19 15:44:13	<--	Logan_A (logan@zer0drive.lawarias.srb2.org) has quit (Read error: Connection reset by peer)
+2013-06-19 15:45:04	-->	LoganA (logan@zer0drive.lawarias.srb2.org) has joined #winehq
+2013-06-19 15:47:24	<--	BCN (~quassel@2605:6400:2:fed5:22:0:8f1e:7c79) has quit (Quit: No Ping reply in 180 seconds.)
+2013-06-19 15:47:26	<--	Heliwr (~Heliwr@pdpc/supporter/student/heliwr) has quit (Read error: Connection reset by peer)
+2013-06-19 15:47:31	-->	BCN (~quassel@2605:6400:2:fed5:22:0:8f1e:7c79) has joined #winehq
+2013-06-19 15:48:39	-->	Heliwr (~Heliwr@pdpc/supporter/student/heliwr) has joined #winehq
+2013-06-19 15:52:21	<--	fracting (~fracting@li584-22.members.linode.com) has quit (Ping timeout: 248 seconds)
+2013-06-19 16:01:04	<--	Justice (~Justice@c-82-209-157-217.cust.bredband2.com) has quit (Quit: Konversation terminated!)
+2013-06-19 16:02:37	-->	debdog (~Wowbagger@p549CB52B.dip0.t-ipconnect.de) has joined #winehq
+2013-06-19 16:03:01	<--	Haaninjo (~anders@85.8.55.65) has quit (Quit: Ex-Chat)
+2013-06-19 16:04:54	<--	madewokherd (~urk@c-75-73-120-18.hsd1.mn.comcast.net) has quit (Ping timeout: 264 seconds)
+2013-06-19 16:04:57	-->	makeworkeasy (~urk@c-66-41-74-61.hsd1.mn.comcast.net) has joined #winehq
+2013-06-19 16:06:48	-->	nephyrin (~neph@2620:101:8003:200:7a2b:cbff:fe9e:2e67) has joined #winehq
+2013-06-19 16:09:08	<--	theboos (~theboos@cpe-76-176-142-11.san.res.rr.com) has quit (Quit: Leaving)
+2013-06-19 16:11:43	<--	k1lled (~kvirc@77.48.92.231) has quit (Quit: KVIrc 4.1.3 Equilibrium http://www.kvirc.net/)
+2013-06-19 16:13:16	--	Usurp is now known as Usurp|zZz
+2013-06-19 16:17:05	--	Guest46674 is now known as gnarface
+2013-06-19 16:21:00	<--	nephyrin (~neph@2620:101:8003:200:7a2b:cbff:fe9e:2e67) has quit (Remote host closed the connection)
+2013-06-19 16:21:25	-->	nephyrin (~neph@2620:101:8003:200:7a2b:cbff:fe9e:2e67) has joined #winehq
+2013-06-19 16:27:36	<--	brokenshakles (~brokensha@50.15.205.42) has quit (Ping timeout: 256 seconds)
+2013-06-19 16:28:06	<--	Pikel (~toor@unaffiliated/pikel) has quit (Ping timeout: 252 seconds)
+2013-06-19 16:30:26	<--	Defolos (~dan@hsi-kbw-134-3-247-222.hsi14.kabel-badenwuerttemberg.de) has quit (Quit: Leaving.)
+2013-06-19 16:32:58	-->	Pikel (~toor@unaffiliated/pikel) has joined #winehq
+2013-06-19 16:36:43	<--	Pikel (~toor@unaffiliated/pikel) has quit (Read error: Operation timed out)
+2013-06-19 16:37:59	-->	Pikel (~toor@unaffiliated/pikel) has joined #winehq
+2013-06-19 16:45:58	<--	makeworkeasy (~urk@c-66-41-74-61.hsd1.mn.comcast.net) has quit (Remote host closed the connection)
+2013-06-19 16:47:05	<--	q66 (~q66@213.191.105.214) has quit (Remote host closed the connection)
+2013-06-19 16:47:25	<--	hasufell (~hasufell@gentoo/developer/hasufell) has quit (Quit: Verlassend)
+2013-06-19 16:50:23	<--	Heliwr (~Heliwr@pdpc/supporter/student/heliwr) has quit (Read error: Operation timed out)
+2013-06-19 16:52:44	<--	BCN (~quassel@2605:6400:2:fed5:22:0:8f1e:7c79) has quit (Ping timeout: 255 seconds)
+2013-06-19 16:54:11	-->	BCN (~quassel@209.141.61.187) has joined #winehq
+2013-06-19 16:55:16	-->	rufianw (~ntrrgc@79.109.49.67.dyn.user.ono.com) has joined #winehq
+2013-06-19 16:57:23	--	Falcon` is now known as falcon`
+2013-06-19 16:57:30	-->	madewokherd (~urk@c-66-41-74-61.hsd1.mn.comcast.net) has joined #winehq
+2013-06-19 17:02:23	-->	nsivov_ (~nsivov@ppp83-237-192-7.pppoe.mtu-net.ru) has joined #winehq
+2013-06-19 17:03:11	<--	conan_ (~conan@195.Red-88-5-36.dynamicIP.rima-tde.net) has quit (Quit: Computer has gone to sleep.)
+2013-06-19 17:04:06	-->	conan (~conan@195.Red-88-5-36.dynamicIP.rima-tde.net) has joined #winehq
+2013-06-19 17:05:21	-->	onny_ (~onny@krlh-4d02bcf7.pool.mediaWays.net) has joined #winehq
+2013-06-19 17:05:50	<--	nsivov (~nsivov@ppp83-237-207-113.pppoe.mtu-net.ru) has quit (Ping timeout: 256 seconds)
+2013-06-19 17:07:43	<--	Plinker_ (~plinker@bas1-ottawa23-1177564173.dsl.bell.ca) has quit (Ping timeout: 264 seconds)
+2013-06-19 17:15:48	-->	brokenshakles (~brokensha@50.15.205.42) has joined #winehq
+2013-06-19 17:23:33	<--	smoke_ (~smoke@108-84-237-73.lightspeed.frokca.sbcglobal.net) has quit (Ping timeout: 248 seconds)
+2013-06-19 17:29:29	<--	nightwalk (~null@gateway/tor-sasl/nightwalk) has quit (Ping timeout: 240 seconds)
+2013-06-19 17:35:49	-->	nightwalk (~null@gateway/tor-sasl/nightwalk) has joined #winehq
+2013-06-19 17:47:40	<--	brokenshakles (~brokensha@50.15.205.42) has quit (Quit: Leaving.)
+2013-06-19 17:49:18	<--	killertux (~tux@et426.netikka.fi) has quit (Ping timeout: 268 seconds)
+2013-06-19 17:49:42	-->	Heliwr (~Heliwr@pdpc/supporter/student/heliwr) has joined #winehq
+2013-06-19 17:50:08	-->	killertux (~tux@et426.netikka.fi) has joined #winehq
+2013-06-19 17:52:17	-->	brokenshakles (~brokensha@50.15.205.42) has joined #winehq
+2013-06-19 17:57:50	-->	El_Presidente (~martin@p57A9F5FB.dip0.t-ipconnect.de) has joined #winehq
+2013-06-19 17:58:50	<--	rufianw (~ntrrgc@79.109.49.67.dyn.user.ono.com) has quit (Quit: Konversation terminated!)
+2013-06-19 17:59:29	<--	nightwalk (~null@gateway/tor-sasl/nightwalk) has quit (Ping timeout: 240 seconds)
+2013-06-19 18:04:21	-->	nightwalk (~null@gateway/tor-sasl/nightwalk) has joined #winehq
+2013-06-19 18:07:03	<--	abyxcos_ (~abyxcos@mnetic.ch) has quit (Ping timeout: 245 seconds)
+2013-06-19 18:07:45	<--	BCN (~quassel@209.141.61.187) has quit (Quit: No Ping reply in 180 seconds.)
+2013-06-19 18:08:01	<--	Alam_Lenny (alam@rigginstereo.lawarias.srb2.org) has quit (Remote host closed the connection)
+2013-06-19 18:08:16	<--	iive (~iive@unaffiliated/iive) has quit (Quit: They came for me...)
+2013-06-19 18:08:25	-->	larsivi_ (~quassel@188.113.74.106) has joined #winehq
+2013-06-19 18:08:36	<--	larsivi (~quassel@188.113.74.106) has quit (Ping timeout: 246 seconds)
+2013-06-19 18:09:08	<--	Nu_learMeltdown (rep@unaffiliated/antiliberal) has quit (Ping timeout: 245 seconds)
+2013-06-19 18:09:08	<--	Genolo (~ivesound@70-52-95-132-ne.sakura.ne.maidlab.jp) has quit (Ping timeout: 245 seconds)
+2013-06-19 18:09:14	-->	viv`d (~vivid@c-76-104-215-159.hsd1.wa.comcast.net) has joined #winehq
+2013-06-19 18:09:15	-->	Alam_Squeeze (alam@rigginstereo.lawarias.srb2.org) has joined #winehq
+2013-06-19 18:09:17	<--	vivid (~vivid@c-76-104-215-159.hsd1.wa.comcast.net) has quit (Read error: Connection reset by peer)
+2013-06-19 18:09:55	--	viv`d is now known as vivid
+2013-06-19 18:10:05	<--	desti (~desti@dslb-092-073-129-193.pools.arcor-ip.net) has quit (Ping timeout: 256 seconds)
+2013-06-19 18:10:48	<--	HarryS (H@unaffiliated/harrys) has quit (Ping timeout: 245 seconds)
+2013-06-19 18:11:32	<--	El_Presidente (~martin@p57A9F5FB.dip0.t-ipconnect.de) has quit (Remote host closed the connection)
+2013-06-19 18:12:35	-->	desti (~desti@dslb-092-073-129-193.pools.arcor-ip.net) has joined #winehq
+2013-06-19 18:12:55	-->	Genolo (~ivesound@70-52-95-132-ne.sakura.ne.maidlab.jp) has joined #winehq
+2013-06-19 18:13:51	-->	abyxcos (~abyxcos@mnetic.ch) has joined #winehq
+2013-06-19 18:14:12	-->	HarryS (H@unaffiliated/harrys) has joined #winehq
+2013-06-19 18:16:50	<--	nantou (~phonetic@gateway/tor-sasl/martinphone) has quit (Quit: gone)
+2013-06-19 18:22:35	<--	Sashmo_ (~sashmo_@38.113.164.109) has quit (Remote host closed the connection)
+2013-06-19 18:24:13	<--	ivan\ (~ivan@unaffiliated/ivan/x-000001) has quit (Ping timeout: 256 seconds)
+2013-06-19 18:29:08	-->	Phase4 (~Phase4@2001:44b8:4196:e800:5006:21fb:da6c:90d8) has joined #winehq
+2013-06-19 18:32:41	-->	fracting_ (~fracting@li584-22.members.linode.com) has joined #winehq
+2013-06-19 18:33:51	-->	ivan\ (~ivan@unaffiliated/ivan/x-000001) has joined #winehq
+2013-06-19 18:35:56	<--	debdog (~Wowbagger@p549CB52B.dip0.t-ipconnect.de) has quit (Remote host closed the connection)
+2013-06-19 18:39:07	-->	Nu_learMeltdown (rep@AntiLiberal-1-pt.tunnel.tserv9.chi1.ipv6.he.net) has joined #winehq
+2013-06-19 18:39:18	<--	Nu_learMeltdown (rep@AntiLiberal-1-pt.tunnel.tserv9.chi1.ipv6.he.net) has quit (Changing host)
+2013-06-19 18:39:18	-->	Nu_learMeltdown (rep@unaffiliated/antiliberal) has joined #winehq
+2013-06-19 18:40:41	--	Nu_learMeltdown is now known as NuclearMeltdown
+2013-06-19 18:46:13	<--	Pikudoz (~Pikonas@190.238.108.61) has quit (Remote host closed the connection)
+2013-06-19 18:47:19	<--	Eduard_Munteanu (~Eduard_Mu@188.25.6.155) has quit (Ping timeout: 264 seconds)
+2013-06-19 18:53:32	<--	Dessimat0r (~Dessimat0@cpc1-birk8-2-0-cust884.1-3.cable.virginmedia.com) has quit (Quit: Computer has gone to sleep.)
+2013-06-19 19:14:06	<--	byteframe (~byteframe@unaffiliated/byteframe) has quit (Quit: Deuces.)
+2013-06-19 19:15:29	<--	conan (~conan@195.Red-88-5-36.dynamicIP.rima-tde.net) has quit (Quit: Computer has gone to sleep.)
+2013-06-19 19:15:49	<--	LunaVorax_ (~LunaVorax@ABordeaux-651-1-57-47.w109-223.abo.wanadoo.fr) has quit (Remote host closed the connection)
+2013-06-19 19:16:25	-->	conan (~conan@195.Red-88-5-36.dynamicIP.rima-tde.net) has joined #winehq
+2013-06-19 19:17:51	<--	emmanuelux (~emmanuelu@192.123.25.109.rev.sfr.net) has quit (Remote host closed the connection)
+2013-06-19 19:27:30	<--	saintcajetan (~sodalitum@cpe-72-183-246-29.elp.res.rr.com) has quit (Remote host closed the connection)
+2013-06-19 19:30:00	-->	saintcajetan (~sodalitum@cpe-72-183-246-29.elp.res.rr.com) has joined #winehq
+2013-06-19 19:31:00	-->	byteframe (~byteframe@unaffiliated/byteframe) has joined #winehq
+2013-06-19 19:34:11	--	NuclearMeltdown is now known as WhatHappened
+2013-06-19 19:36:27	--	WhatHappened is now known as NuclearMeltdown
+2013-06-19 19:38:53	<--	MrSassyPants (thephil@77-58-229-3.dclient.hispeed.ch) has quit (Remote host closed the connection)
+2013-06-19 20:01:48	MickLH	Why doesn't the government broadcast commercials on TV like, "LSD: The Universe's Private Key" and offer it super pure for the public...
+2013-06-19 20:03:11	MickLH	I mean I understand because money, but why money, it doesn't lead to better life overall
+2013-06-19 20:04:21	MickLH	Free everything means better life for everyone, just do your work for free, just be in the art fuckit if nobody gets around to it theres robots anyways
+2013-06-19 20:04:40	MickLH	humans make shitty robots
+2013-06-19 20:05:25	-->	onny (~onny@krlh-5f71ec89.pool.mediaWays.net) has joined #winehq
+2013-06-19 20:06:47	<--	onny_ (~onny@krlh-4d02bcf7.pool.mediaWays.net) has quit (Ping timeout: 256 seconds)
+2013-06-19 20:13:10	-->	onny_ (~onny@krlh-5f71e91b.pool.mediaWays.net) has joined #winehq
+2013-06-19 20:15:18	<--	onny (~onny@krlh-5f71ec89.pool.mediaWays.net) has quit (Ping timeout: 246 seconds)
+2013-06-19 20:37:53	-->	saintcajetan_ (~sodalitum@cpe-72-183-246-29.elp.res.rr.com) has joined #winehq
+2013-06-19 20:55:07	<--	HarryS (H@unaffiliated/harrys) has quit (Ping timeout: 264 seconds)
+2013-06-19 20:55:48	<--	Genolo (~ivesound@70-52-95-132-ne.sakura.ne.maidlab.jp) has quit (Ping timeout: 245 seconds)
+2013-06-19 20:56:13	<--	NuclearMeltdown (rep@unaffiliated/antiliberal) has quit (Ping timeout: 245 seconds)
+2013-06-19 20:57:24	-->	HarryS (H@unaffiliated/harrys) has joined #winehq
+2013-06-19 20:57:41	-->	Genolo (~ivesound@70-52-95-132-ne.sakura.ne.maidlab.jp) has joined #winehq
+2013-06-19 21:01:46	<--	nutron (~nutron@unaffiliated/nutron) has quit (Remote host closed the connection)
+2013-06-19 21:03:38	<--	DarkAceLaptop (~BillyMays@unaffiliated/darkacez) has quit (Quit: I'm quitting IRC forever.)
+2013-06-19 21:03:49	-->	QBall_ (~QBall@host86-174-147-251.range86-174.btcentralplus.com) has joined #winehq
+2013-06-19 21:04:16	--	chihchun is now known as chihchun_afk
+2013-06-19 21:06:01	<--	blackstar (~quassel@24-159-249-232.dhcp.mdsn.wi.charter.com) has quit (Remote host closed the connection)
+2013-06-19 21:06:53	<--	QBall__ (~QBall@host86-174-147-251.range86-174.btcentralplus.com) has quit (Ping timeout: 240 seconds)
+2013-06-19 21:12:43	<--	SilverStreak (~silver@c-68-42-77-242.hsd1.mi.comcast.net) has quit (Ping timeout: 246 seconds)
+2013-06-19 21:19:13	-->	ata (~hgk@S01060025d39bd0a1.vc.shawcable.net) has joined #winehq
+2013-06-19 21:23:17	-->	Jeremy3D (~jeremy@c-66-177-63-54.hsd1.fl.comcast.net) has joined #winehq
+2013-06-19 21:23:26	ata	hello. i am back with a couple pf questions. i managed to install my software through playonlinux bottleneck instead of regular wine and it runs well, but i don't know how to add corefonts to make it fully functional. the install packages option doesn't let me do that- it worked for everything else but in case of corefonts it only shows instillation screen for a few seconds and than turns itself off without installing. i used to do it this way
+2013-06-19 21:23:31	ata	second question - is there a way to back up the playonlinux bottleneck? in case i need to reinstall system i don't want to try to figure out again what works and what not :)
+2013-06-19 21:25:05	-->	SilverStreak (~silver@c-68-42-77-242.hsd1.mi.comcast.net) has joined #winehq
+2013-06-19 21:30:41	-->	Tommy[D] (~TommyD]@gentoo/developer/tommy) has joined #winehq
+2013-06-19 21:33:05	<--	Tommy[D]_ (~TommyD]@gentoo/developer/tommy) has quit (Ping timeout: 248 seconds)
+2013-06-19 21:36:07	ata	i found soemthing in playonlinux folder-fonts: License refused.
+2013-06-19 21:36:07	ata	Please reinstall the ttf-mscorefonts-installer package (e.g. via
+2013-06-19 21:36:08	ata	 apt-get install --reinstall ttf-mscorefonts-installer
+2013-06-19 21:36:08	ata	to get prompted for the license again.
+2013-06-19 21:40:19	<--	Newk (~Newk@digi-wolf.demon.nl) has quit (Quit: Konversation terminated!)
+2013-06-19 21:41:09	Triskelios	we can't help you with playonlinux, at all
+2013-06-19 21:41:22	<--	madewokherd (~urk@c-66-41-74-61.hsd1.mn.comcast.net) has quit (Remote host closed the connection)
+2013-06-19 21:48:11	ata	i managed to reinstall this from this message - seems to work
+2013-06-19 21:48:33	ata	i guess i will find the playonlinux chat if tit exists?
+2013-06-19 21:48:43	ata	sorry thought it was merged project
+2013-06-19 21:55:28	<--	gartral (~gartral@unaffiliated/gartral) has quit (Ping timeout: 260 seconds)
+2013-06-19 21:56:24	-->	Jonbo (~Jonbo123@24.140.125.4) has joined #winehq
+2013-06-19 21:58:32	-->	gartral (~gartral@unaffiliated/gartral) has joined #winehq
+2013-06-19 21:58:42	<--	ata (~hgk@S01060025d39bd0a1.vc.shawcable.net) has quit (Remote host closed the connection)
+2013-06-19 22:02:27	-->	ata (~hgk@S01060025d39bd0a1.vc.shawcable.net) has joined #winehq
+2013-06-19 22:03:23	<--	gartral (~gartral@unaffiliated/gartral) has quit (Ping timeout: 260 seconds)
+2013-06-19 22:06:41	<--	ata (~hgk@S01060025d39bd0a1.vc.shawcable.net) has quit (Read error: Connection reset by peer)
+2013-06-19 22:12:53	-->	Jackneill (~Jackneill@unaffiliated/jackneill) has joined #winehq
+2013-06-19 22:14:02	-->	gartral (~gartral@unaffiliated/gartral) has joined #winehq
+2013-06-19 22:15:19	<--	Jeremy3D (~jeremy@c-66-177-63-54.hsd1.fl.comcast.net) has quit (Remote host closed the connection)
+2013-06-19 22:21:24	-->	faelmc (~fael_mc@189.79.203.63) has joined #winehq
+2013-06-19 22:21:41	<--	faelmc (~fael_mc@189.79.203.63) has left #winehq
+2013-06-19 22:28:35	<--	SilverStreak (~silver@c-68-42-77-242.hsd1.mi.comcast.net) has quit (Ping timeout: 260 seconds)
+2013-06-19 22:37:52	-->	gabo (~t00l@host171.190-229-163.telecom.net.ar) has joined #winehq
+2013-06-19 22:37:57	--	gabo is now known as Guest79725
+2013-06-19 22:38:02	-->	smoke_ (~smoke@108-84-237-73.lightspeed.frokca.sbcglobal.net) has joined #winehq
+2013-06-19 22:38:18	--	Guest79725 is now known as gabo
+2013-06-19 22:42:59	gabo	hi, i can't run 32 bits apps on wine, mainly Starcraft I | Linux debian 3.2.0-4-amd64 #1 SMP Debian 3.2.46-1 x86_64 GNU/Linux | wine-1.4.1 | nvidia gt 640 3.04.88 | error output > http://pastebin.com/gtFCWjdw
+2013-06-19 22:43:27	gabo	if anybody have any tought there will be welcome :)
+2013-06-19 22:45:26	Phase4	you don't have the 32bit opengl librarys
+2013-06-19 22:47:44	gabo	Phase4> thanks for answer, i'm looking for that
+2013-06-19 22:51:53	<--	larsivi_ (~quassel@188.113.74.106) has quit (Ping timeout: 240 seconds)
+2013-06-19 22:52:18	-->	ivanich (~ivanich@ivanich.tenet.odessa.ua) has joined #winehq
+2013-06-19 22:54:24	gabo	hmm i've got this packages in my system libgl1-nvidia-glx-ia32 nvidia-glx-ia32
+2013-06-19 22:55:40	gabo	instead, i don't have this > libglx-nvidia-alternatives:i386  that causes troubles with my actual 64 bit package
+2013-06-19 22:56:22	Phase4	depends on which version of debian you have
+2013-06-19 22:56:24	Phase4	ask in #debian
+2013-06-19 22:57:26	gabo	ok, thanks
+2013-06-19 23:05:25	-->	Chiitoo (~Chiitoo@dsl-hmlbrasgw1-50ded6-153.dhcp.inet.fi) has joined #winehq
+2013-06-19 23:05:28	<--	Chiitoo (~Chiitoo@dsl-hmlbrasgw1-50ded6-153.dhcp.inet.fi) has quit (Client Quit)
+2013-06-19 23:13:40	<--	Jonbo (~Jonbo123@24.140.125.4) has quit (Ping timeout: 268 seconds)
+2013-06-19 23:16:08	-->	q66 (~q66@213.191.105.214) has joined #winehq
+2013-06-19 23:20:50	<--	gabo (~t00l@host171.190-229-163.telecom.net.ar) has quit (Quit: Leaving)
+2013-06-19 23:28:08	-->	lirt (~lirt@90.151.254.220) has joined #winehq
+2013-06-19 23:30:39	<--	pigeon (~pigeon@eth5284.nsw.adsl.internode.on.net) has quit (Remote host closed the connection)
+2013-06-19 23:33:05	-->	opalepatrick (~patrick@c126-34.i07-32.onvol.net) has joined #winehq
+2013-06-19 23:42:41	<--	lirt (~lirt@90.151.254.220) has quit (Ping timeout: 255 seconds)
+2013-06-19 23:45:40	-->	piotr (~piotr@vpn.psi.wroc.pl) has joined #winehq
+2013-06-19 23:45:45	-->	pigeon (~pigeon@eth5284.nsw.adsl.internode.on.net) has joined #winehq
+2013-06-19 23:53:28	<--	RedBear (~Red@cpe-67-249-193-44.twcny.res.rr.com) has quit (Ping timeout: 245 seconds)
+2013-06-20 00:02:07	-->	RedBear (~Red@cpe-67-249-193-44.twcny.res.rr.com) has joined #winehq
+2013-06-20 00:02:46	-->	manuscle (~manuscle@aqu33-4-82-233-55-206.fbx.proxad.net) has joined #winehq
+2013-06-20 00:13:29	<--	stevenm (~stevenm@stevenm.keele.netcentral.co.uk) has quit (Ping timeout: 268 seconds)
+2013-06-20 00:18:40	<--	neon__ (~neon@109.64.209.66) has quit (Read error: Connection reset by peer)
+2013-06-20 00:26:16	-->	stevenm (~stevenm@stevenm.keele.netcentral.co.uk) has joined #winehq
+2013-06-20 00:40:10	-->	Haaninjo (~anders@85.8.55.65) has joined #winehq
+2013-06-20 00:42:38	-->	k1lled (~kvirc@77.48.92.231) has joined #winehq
+2013-06-20 00:44:52	--	chihchun_afk is now known as chihchun
+2013-06-20 00:46:57	-->	Defolos (~dan@HSI-KBW-134-3-247-222.hsi14.kabel-badenwuerttemberg.de) has joined #winehq
+2013-06-20 00:51:52	<--	Chehri (~Chehri@unaffiliated/chehri) has quit (Ping timeout: 260 seconds)
+2013-06-20 01:04:53	-->	croppa (~stuart@CPE-120-146-137-99.static.nsw.bigpond.net.au) has joined #winehq
+2013-06-20 01:09:39	<--	brokenshakles (~brokensha@50.15.205.42) has quit (Read error: Connection reset by peer)
+2013-06-20 01:09:42	<--	jwhite (~jwhite@75-146-153-89-minnesota.hfc.comcastbusiness.net) has quit (Ping timeout: 264 seconds)
+2013-06-20 01:11:47	-->	larsivi (~quassel@208-129-11.connect.netcom.no) has joined #winehq
+2013-06-20 01:19:24	-->	bjelleklang (~chris@wikipedia/Bjelleklang) has joined #winehq
+2013-06-20 01:28:20	-->	jwhite (~jwhite@75-146-153-89-minnesota.hfc.comcastbusiness.net) has joined #winehq
+2013-06-20 01:31:55	-->	debdog (~Wowbagger@p549CA806.dip0.t-ipconnect.de) has joined #winehq
+2013-06-20 01:35:44	<--	ohama (ohama@cicolina.org) has quit (Ping timeout: 260 seconds)
+2013-06-20 01:36:51	-->	ohama (ohama@cicolina.org) has joined #winehq
+2013-06-20 01:48:41	-->	killall-9 (~paulc@ns.null.ro) has joined #winehq
+2013-06-20 01:59:59	<--	opalepatrick (~patrick@c126-34.i07-32.onvol.net) has quit (Quit: Ex-Chat)
+2013-06-20 02:07:33	<--	graphitemaster (~graphitem@unaffiliated/graphitemaster) has quit (Ping timeout: 252 seconds)
+2013-06-20 02:17:27	<--	lyon667|work (lyon667@nat/redhat/x-pwefbggcdrxlqzti) has quit (Read error: Connection reset by peer)
+2013-06-20 02:19:44	-->	lyon667|work (lyon667@nat/redhat/x-zrfbuztktjujtjtw) has joined #winehq
+2013-06-20 02:20:50	-->	brokenshakles (~brokensha@50.15.205.42) has joined #winehq
+2013-06-20 02:24:35	-->	graphitemaster (~graphitem@unaffiliated/graphitemaster) has joined #winehq
+2013-06-20 02:34:32	<--	Spaceghost (~quassel@unaffiliated/spaceghost) has quit (Ping timeout: 260 seconds)
+2013-06-20 02:35:26	-->	Eduard_Munteanu (~Eduard_Mu@188.25.6.46) has joined #winehq
+2013-06-20 02:36:10	-->	Spaceghost (~quassel@r186-48-224-251.dialup.adsl.anteldata.net.uy) has joined #winehq
+2013-06-20 02:36:31	--	Spaceghost is now known as Guest4687
+2013-06-20 02:45:28	-->	err-or_ (~err-or@gateway/tor-sasl/err-or) has joined #winehq
+2013-06-20 02:46:09	<--	err-or (~err-or@gateway/tor-sasl/err-or) has quit (Ping timeout: 240 seconds)
+2013-06-20 02:46:29	--	Guest4687 is now known as Spaceghost
+2013-06-20 02:46:32	<--	Spaceghost (~quassel@r186-48-224-251.dialup.adsl.anteldata.net.uy) has quit (Changing host)
+2013-06-20 02:46:32	-->	Spaceghost (~quassel@unaffiliated/spaceghost) has joined #winehq
+2013-06-20 02:52:38	-->	hasufell (~hasufell@gentoo/developer/hasufell) has joined #winehq
+2013-06-20 02:54:05	-->	jo-erlend (~jo-erlend@ubuntu/member/jo-erlend) has joined #winehq
+2013-06-20 02:56:35	-->	MrSassyPants (thephil@77-58-229-3.dclient.hispeed.ch) has joined #winehq
+2013-06-20 02:59:13	-->	iive (~iive@87.119.101.204.client.entry.bg) has joined #winehq
+2013-06-20 02:59:13	<--	iive (~iive@87.119.101.204.client.entry.bg) has quit (Changing host)
+2013-06-20 02:59:13	-->	iive (~iive@unaffiliated/iive) has joined #winehq
+2013-06-20 03:03:15	AcTiVaTe	Anyone else experience Neverwinter (the new one) crashing after a while? Sometimes I will get a D3D memory error. But I set the stuff correctly in HKCU\Wine\Direct3D
+2013-06-20 03:08:03	--	falcon` is now known as Falcon`
+2013-06-20 03:10:31	<--	Haaninjo (~anders@85.8.55.65) has quit (Quit: Ex-Chat)
+2013-06-20 03:30:21	<--	funyun (~funyun@cpe-65-25-103-89.neo.res.rr.com) has quit (Ping timeout: 246 seconds)
+2013-06-20 03:31:36	<--	err-or_ (~err-or@gateway/tor-sasl/err-or) has quit (Remote host closed the connection)
+2013-06-20 03:46:48	-->	Mo (~Mo@unaffiliated/mo) has joined #winehq
+2013-06-20 03:47:24	Mo	Hi. Wine says for an application: "wine: Install Mono for Windows to run .NET 2.0 applications." What does that mean? Should I install mono? Or some library via winetricks?
+2013-06-20 03:53:15	-->	xingoo (~xingoo@c-51c6e255.03-70-65736b1.cust.bredbandsbolaget.se) has joined #winehq
+2013-06-20 03:54:26	-->	dolly (~knoppix@p5B251FFE.dip0.t-ipconnect.de) has joined #winehq
+2013-06-20 03:54:51	dolly	hello i cant play anno 1503 in wine
+2013-06-20 03:55:10	dolly	the game starts but i cant creat a new game or load a savegame it freeze
+2013-06-20 03:56:41	xingoo	what does debug say?
+2013-06-20 03:57:05	dolly	a lot of fails but it seems to be normal
+2013-06-20 03:58:00	dolly	my graphic is a radeon hd 6450
+2013-06-20 03:58:08	dolly	with the opensource radeon driver
+2013-06-20 03:58:41	-->	Jackneill_ (~Jackneill@62-165-226-195.pool.digikabel.hu) has joined #winehq
+2013-06-20 03:59:53	<--	Jackneill (~Jackneill@unaffiliated/jackneill) has quit (Ping timeout: 240 seconds)
+2013-06-20 04:01:06	<--	dolly (~knoppix@p5B251FFE.dip0.t-ipconnect.de) has quit (Remote host closed the connection)
+2013-06-20 04:01:35	-->	Haaninjo (~anders@85.8.55.65) has joined #winehq
+2013-06-20 04:04:33	<--	Jackneill_ (~Jackneill@62-165-226-195.pool.digikabel.hu) has quit (Ping timeout: 248 seconds)
+2013-06-20 04:05:05	QBall_	Mo: use winetricks to install mono
+2013-06-20 04:05:23	<--	croppa (~stuart@CPE-120-146-137-99.static.nsw.bigpond.net.au) has quit (Remote host closed the connection)
+2013-06-20 04:06:05	Mo	QBall_: Mono is installed now, but the app still crashes like "Unhandled Exception: System.InvalidOperationException: WinForms_SeeInnerException"
+2013-06-20 04:06:15	-->	Jackneill_ (~Jackneill@62-165-220-176.pool.digikabel.hu) has joined #winehq
+2013-06-20 04:06:30	Mo	QBall_: I also tried some dotnet but none of them is able to install on this 64bit Linux.
+2013-06-20 04:06:48	-->	croppa (~stuart@CPE-120-146-137-99.static.nsw.bigpond.net.au) has joined #winehq
+2013-06-20 04:08:14	-->	GermainZ (~GermainZ@unaffiliated/germainz) has joined #winehq
+2013-06-20 04:10:04	GermainZ	Hi, Total War: Shogun 2 is crashing on startup. No one else is having this problem on appdb. Is there anything I can actually do, other than report it as a bug?
+2013-06-20 04:10:11	GermainZ	Here's the log: http://bpaste.net/show/LBJ8S0LWizWTgbzp66dY/
+2013-06-20 04:10:42	-->	croppa_ (~stuart@CPE-120-146-137-99.static.nsw.bigpond.net.au) has joined #winehq
+2013-06-20 04:13:33	<--	croppa (~stuart@CPE-120-146-137-99.static.nsw.bigpond.net.au) has quit (Ping timeout: 256 seconds)
+2013-06-20 04:14:09	<--	Jackneill_ (~Jackneill@62-165-220-176.pool.digikabel.hu) has quit (Ping timeout: 248 seconds)
+2013-06-20 04:17:52	-->	Pikudoz (~Pikonas@190.238.108.61) has joined #winehq
+2013-06-20 04:18:55	<--	QKO_ (~reaVer@banzai.speedxs.nl) has quit (Read error: Operation timed out)
+2013-06-20 04:22:51	-->	QKO (~reaVer@banzai.speedxs.nl) has joined #winehq
+2013-06-20 04:32:38	<--	roboman2444 (~roboman24@unaffiliated/roboman2444) has quit (Ping timeout: 245 seconds)
+2013-06-20 04:33:58	-->	Jackneill (~Jackneill@80-95-86-232.pool.digikabel.hu) has joined #winehq
+2013-06-20 04:33:58	<--	Jackneill (~Jackneill@80-95-86-232.pool.digikabel.hu) has quit (Changing host)
+2013-06-20 04:33:58	-->	Jackneill (~Jackneill@unaffiliated/jackneill) has joined #winehq
+2013-06-20 04:35:56	-->	redgirl (~Red@213.232.195.228) has joined #winehq
+2013-06-20 05:03:03	<--	GermainZ (~GermainZ@unaffiliated/germainz) has quit (Quit: Leaving)
+2013-06-20 05:05:34	-->	feep (~feep@p579E5F38.dip0.t-ipconnect.de) has joined #winehq
+2013-06-20 05:05:46	feep	okay, third try submitting my patch :D
+2013-06-20 05:09:16	-->	roboman2444 (~roboman24@unaffiliated/roboman2444) has joined #winehq
+2013-06-20 05:15:40	--	chihchun is now known as chihchun_afk
+2013-06-20 05:17:31	<--	bjelleklang (~chris@wikipedia/Bjelleklang) has quit (Quit: Leaving)
+2013-06-20 05:25:57	feep	yay
+2013-06-20 05:26:00	feep	conversation is ensuing
+2013-06-20 05:29:04	<--	HeyM-Cld (uid11857@gateway/web/irccloud.com/x-nbvxxgrxqpuxvaje) has quit (Ping timeout: 260 seconds)
+2013-06-20 05:35:47	<--	jo-erlend (~jo-erlend@ubuntu/member/jo-erlend) has quit (Remote host closed the connection)
+2013-06-20 05:51:09	<--	byteframe (~byteframe@unaffiliated/byteframe) has quit (Read error: Connection reset by peer)
+2013-06-20 05:51:43	-->	byteframe (~byteframe@pool-71-174-1-113.bstnma.east.verizon.net) has joined #winehq
+2013-06-20 05:51:43	<--	byteframe (~byteframe@pool-71-174-1-113.bstnma.east.verizon.net) has quit (Changing host)
+2013-06-20 05:51:43	-->	byteframe (~byteframe@unaffiliated/byteframe) has joined #winehq
+2013-06-20 05:57:13	<--	croppa_ (~stuart@CPE-120-146-137-99.static.nsw.bigpond.net.au) has quit
+2013-06-20 06:12:14	<--	k1lled (~kvirc@77.48.92.231) has quit (Quit: KVIrc 4.1.3 Equilibrium http://www.kvirc.net/)
+2013-06-20 06:14:22	--	nbf_ is now known as nbf
+2013-06-20 06:14:28	<--	nbf (~nbf@jubal.seventh-sun.com) has quit (Changing host)
+2013-06-20 06:14:28	-->	nbf (~nbf@unaffiliated/noobfukaire) has joined #winehq
+2013-06-20 06:17:53	<--	Mo (~Mo@unaffiliated/mo) has quit (Ping timeout: 248 seconds)
+2013-06-20 06:18:47	<--	larsivi (~quassel@208-129-11.connect.netcom.no) has quit (Ping timeout: 256 seconds)
+2013-06-20 06:23:02	-->	hasufell_ (~hasufell@gentoo/developer/hasufell) has joined #winehq
+2013-06-20 06:24:49	<--	hasufell (~hasufell@gentoo/developer/hasufell) has quit (Ping timeout: 248 seconds)
+2013-06-20 06:26:41	<--	conan (~conan@195.Red-88-5-36.dynamicIP.rima-tde.net) has quit (Quit: Computer has gone to sleep.)
+2013-06-20 06:27:23	-->	conan (~conan@195.Red-88-5-36.dynamicIP.rima-tde.net) has joined #winehq
+2013-06-20 06:32:03	-->	jo-erlend (~jo-erlend@ubuntu/member/jo-erlend) has joined #winehq
+2013-06-20 06:34:17	--	hasufell_ is now known as hasufell
+2013-06-20 06:40:39	-->	deadalnix_ (~deadalnix@i118-21-142-231.s30.a048.ap.plala.or.jp) has joined #winehq
+2013-06-20 06:41:50	-->	dnukm (~lperry@174.62.212.15) has joined #winehq
+2013-06-20 06:48:18	-->	opalepatrick (~patrick@c126-34.i07-32.onvol.net) has joined #winehq
+2013-06-20 07:09:51	<--	gartral (~gartral@unaffiliated/gartral) has quit (Ping timeout: 260 seconds)
+2013-06-20 07:14:03	-->	gartral (~gartral@unaffiliated/gartral) has joined #winehq
+2013-06-20 07:14:23	<--	redgirl (~Red@213.232.195.228) has quit (Quit: This computer has gone to sleep)
+2013-06-20 07:16:17	-->	hasufell_ (~hasufell@gentoo/developer/hasufell) has joined #winehq
+2013-06-20 07:18:15	-->	diffycat (~diffycat@85.113.55.206) has joined #winehq
+2013-06-20 07:19:07	<--	hasufell (~hasufell@gentoo/developer/hasufell) has quit (Ping timeout: 264 seconds)
+2013-06-20 07:24:05	<--	chihchun_afk (~chihchun@114-34-10-226.HINET-IP.hinet.net) has quit (Ping timeout: 248 seconds)
+2013-06-20 07:27:06	-->	chihchun (~chihchun@114-34-10-226.HINET-IP.hinet.net) has joined #winehq
+2013-06-20 07:27:52	-->	HeyM-Cld (uid11857@gateway/web/irccloud.com/x-kjbcfdqmruvblooa) has joined #winehq
+2013-06-20 07:28:08	--	hasufell_ is now known as hasufell
+2013-06-20 07:28:14	<--	Eduard_Munteanu (~Eduard_Mu@188.25.6.46) has quit (Ping timeout: 268 seconds)
+2013-06-20 07:34:12	<--	debdog (~Wowbagger@p549CA806.dip0.t-ipconnect.de) has quit (Remote host closed the connection)
+2013-06-20 07:35:04	<--	man_in_shack (~likeyouca@unaffiliated/man-in-shack/x-4279753) has quit (Ping timeout: 260 seconds)
+2013-06-20 07:36:47	-->	man_in_shack (~likeyouca@110-175-33-5.static.tpgi.com.au) has joined #winehq
+2013-06-20 07:36:48	<--	man_in_shack (~likeyouca@110-175-33-5.static.tpgi.com.au) has quit (Changing host)
+2013-06-20 07:36:48	-->	man_in_shack (~likeyouca@unaffiliated/man-in-shack/x-4279753) has joined #winehq
+2013-06-20 07:43:27	-->	frostwork (~frostwork@p5DDE4C85.dip0.t-ipconnect.de) has joined #winehq
+2013-06-20 07:57:55	-->	LunaVorax (~LunaVorax@163.5.47.164) has joined #winehq
+2013-06-20 08:02:05	-->	dolly (~knoppix@p5B251FFE.dip0.t-ipconnect.de) has joined #winehq
+2013-06-20 08:02:57	dolly	hi @all i have a problem with my anno 1503 i can start it and it run but i cant load a savgame or create a new game than the game freeze
+2013-06-20 08:03:22	dolly	i have a radeon 6450hd with the opensource driver
+2013-06-20 08:06:19	Phase4	http://appdb.winehq.org/objectManager.php?sClass=application&iId=2784
+2013-06-20 08:06:51	feep	submitted an alternate version~ yay
+2013-06-20 08:06:52	dolly	yes i saw it before
+2013-06-20 08:07:28	Phase4	which version do you have?
+2013-06-20 08:07:35	dolly	my version is 1.4.1-4
+2013-06-20 08:08:27	Phase4	try run it in a virtual desktop
+2013-06-20 08:08:33	Phase4	at 800x600
+2013-06-20 08:08:47	dolly	i try it before but nothing happend
+2013-06-20 08:09:41	Phase4	define 'nothin happend'
+2013-06-20 08:10:35	dolly	it freeze agin
+2013-06-20 08:11:10	dolly	but main menu runs at all fin but if i start a new game or load a game it freeze like no virtual desktop
+2013-06-20 08:12:19	Phase4	what version of wine do you have?
+2013-06-20 08:13:08	dolly	 1.4.1-4
+2013-06-20 08:13:38	Phase4	ahm when i asked before i ment what version of the game do you have
+2013-06-20 08:13:51	dolly	ah okay version 2
+2013-06-20 08:13:53	Phase4	try use the latest wine, 1.5.something or 1.6-rc2
+2013-06-20 08:14:05	dolly	is it a relese or beta version
+2013-06-20 08:15:19	Phase4	its the development branch
+2013-06-20 08:15:19	dolly	in crossover there is the same problem
+2013-06-20 08:15:38	Phase4	exactly the same?
+2013-06-20 08:15:44	dolly	yes
+2013-06-20 08:15:53	Phase4	try the binary blob driver
+2013-06-20 08:16:03	dolly	so im not sure if the alternative wine version will help bnbut i can try
+2013-06-20 08:16:04	-->	byteframe1 (~byteframe@pool-98-118-70-142.bstnma.east.verizon.net) has joined #winehq
+2013-06-20 08:17:10	Phase4	it's worth a shot, but the appdb has reports from 1.2 and newer without the freezing problem, so it's probably not your copy of wine thats misbehaving
+2013-06-20 08:19:27	<--	byteframe (~byteframe@unaffiliated/byteframe) has quit (Ping timeout: 246 seconds)
+2013-06-20 08:19:53	dolly	yes
+2013-06-20 08:20:03	dolly	i thought maby graphic driver
+2013-06-20 08:34:59	-->	Hydrar (~hydrar@m90-129-83-255.cust.tele2.se) has joined #winehq
+2013-06-20 08:35:15	<--	man_in_shack (~likeyouca@unaffiliated/man-in-shack/x-4279753) has quit (Ping timeout: 260 seconds)
+2013-06-20 08:35:49	<--	MrSassyPants (thephil@77-58-229-3.dclient.hispeed.ch) has quit (Remote host closed the connection)
+2013-06-20 08:36:34	-->	Eduard_Munteanu (~Eduard_Mu@188.25.244.2) has joined #winehq
+2013-06-20 08:36:54	-->	man_in_shack (~likeyouca@110-175-33-5.static.tpgi.com.au) has joined #winehq
+2013-06-20 08:36:54	<--	man_in_shack (~likeyouca@110-175-33-5.static.tpgi.com.au) has quit (Changing host)
+2013-06-20 08:36:54	-->	man_in_shack (~likeyouca@unaffiliated/man-in-shack/x-4279753) has joined #winehq
+2013-06-20 08:37:09	<--	jo-erlend (~jo-erlend@ubuntu/member/jo-erlend) has quit (Ping timeout: 256 seconds)
+2013-06-20 08:37:25	<--	dnukm (~lperry@174.62.212.15) has quit (Read error: Connection reset by peer)
+2013-06-20 08:38:21	<--	frostwork (~frostwork@p5DDE4C85.dip0.t-ipconnect.de) has quit (Quit: Leaving)
+2013-06-20 08:40:55	<--	onny_ (~onny@krlh-5f71e91b.pool.mediaWays.net) has quit (Read error: Operation timed out)
+2013-06-20 08:43:45	<--	piotr (~piotr@vpn.psi.wroc.pl) has quit (Quit: Konversation terminated!)
+2013-06-20 08:47:05	<--	dolly (~knoppix@p5B251FFE.dip0.t-ipconnect.de) has quit (Remote host closed the connection)
+2013-06-20 08:49:11	-->	nantou (~phonetic@gateway/tor-sasl/martinphone) has joined #winehq
+2013-06-20 08:49:58	-->	SilverStreak (~silver@c-68-42-77-242.hsd1.mi.comcast.net) has joined #winehq
+2013-06-20 08:51:02	-->	err-or (~err-or@gateway/tor-sasl/err-or) has joined #winehq
+2013-06-20 08:52:53	--	chihchun is now known as chihchun_afk
+2013-06-20 08:54:54	-->	jo-erlend (~jo-erlend@ubuntu/member/jo-erlend) has joined #winehq
+2013-06-20 09:01:06	-->	vpovirk (~urk@75-146-153-89-minnesota.hfc.comcastbusiness.net) has joined #winehq
+2013-06-20 09:01:24	<--	killall-9 (~paulc@ns.null.ro) has quit (Quit: Leaving)
+2013-06-20 09:02:03	-->	c_korn (~korn@p57A6AA50.dip0.t-ipconnect.de) has joined #winehq
+2013-06-20 09:03:12	-->	Jonbo (~Jonbo123@24.140.125.4) has joined #winehq
+2013-06-20 09:05:03	<--	heroux (~heroux@5070823C.static.ziggozakelijk.nl) has quit (Ping timeout: 268 seconds)
+2013-06-20 09:05:20	-->	heroux (~heroux@5070823C.static.ziggozakelijk.nl) has joined #winehq
+2013-06-20 09:07:27	-->	Justice (~Justice@c-82-209-157-217.cust.bredband2.com) has joined #winehq
+2013-06-20 09:08:43	<--	Hydrar (~hydrar@m90-129-83-255.cust.tele2.se) has quit (Read error: Connection reset by peer)
+2013-06-20 09:08:53	<--	saintcajetan (~sodalitum@cpe-72-183-246-29.elp.res.rr.com) has quit (Quit: Leaving)
+2013-06-20 09:09:49	<--	saintcajetan_ (~sodalitum@cpe-72-183-246-29.elp.res.rr.com) has quit (Quit: Leaving)
+2013-06-20 09:10:23	<--	fracting_ (~fracting@li584-22.members.linode.com) has quit (Ping timeout: 240 seconds)
+2013-06-20 09:10:30	-->	saintcajetan (~sodalitum@cpe-72-183-246-29.elp.res.rr.com) has joined #winehq
+2013-06-20 09:11:33	<--	Phase4 (~Phase4@2001:44b8:4196:e800:5006:21fb:da6c:90d8) has quit (Ping timeout: 252 seconds)
+2013-06-20 09:15:04	-->	fracting_ (~fracting@li584-22.members.linode.com) has joined #winehq
+2013-06-20 09:18:26	-->	Sashmo_ (~sashmo_@38.113.164.109) has joined #winehq
+2013-06-20 09:19:22	-->	redgirl (~Red@negval.starlink.ru) has joined #winehq
+2013-06-20 09:23:30	<--	Adys (~adys@unaffiliated/adys) has quit (Ping timeout: 246 seconds)
+2013-06-20 09:25:21	-->	Adys (~adys@unaffiliated/adys) has joined #winehq
+2013-06-20 09:25:31	-->	Hydrar (~hydrar@m83-180-211-146.cust.tele2.se) has joined #winehq
+2013-06-20 09:28:34	-->	Dessimat0r (~Dessimat0@cpc1-birk8-2-0-cust884.1-3.cable.virginmedia.com) has joined #winehq
+2013-06-20 09:32:12	-->	NuclearMeltdown (~rep@AntiLiberal-1-pt.tunnel.tserv9.chi1.ipv6.he.net) has joined #winehq
+2013-06-20 09:43:42	-->	Yoshimo (~Miranda@p5493D25E.dip0.t-ipconnect.de) has joined #winehq
+2013-06-20 09:51:05	<--	Hydrar (~hydrar@m83-180-211-146.cust.tele2.se) has quit (Read error: Connection reset by peer)
+2013-06-20 09:55:21	-->	sythe (~quassel@bas1-ottawa08-1176110077.dsl.bell.ca) has joined #winehq
+2013-06-20 09:55:31	<--	opalepatrick (~patrick@c126-34.i07-32.onvol.net) has quit (Quit: Ex-Chat)
+2013-06-20 09:56:07	-->	err-or_ (~err-or@gateway/tor-sasl/err-or) has joined #winehq
+2013-06-20 09:56:26	-->	opalepatrick (~patrick@c126-34.i07-32.onvol.net) has joined #winehq
+2013-06-20 09:58:12	-->	nutron (~nutron@unaffiliated/nutron) has joined #winehq
+2013-06-20 09:59:29	<--	err-or (~err-or@gateway/tor-sasl/err-or) has quit (Ping timeout: 240 seconds)
+2013-06-20 09:59:57	<--	err-or_ (~err-or@gateway/tor-sasl/err-or) has quit (Remote host closed the connection)
+2013-06-20 10:03:39	-->	Hydrar (~hydrar@m90-132-96-34.cust.tele2.se) has joined #winehq
+2013-06-20 10:05:11	-->	Kai_p_IE (~Kai@host81-131-79-197.range81-131.btcentralplus.com) has joined #winehq
+2013-06-20 10:05:21	<--	Kai_p_IE (~Kai@host81-131-79-197.range81-131.btcentralplus.com) has quit (Changing host)
+2013-06-20 10:05:21	-->	Kai_p_IE (~Kai@unaffiliated/kai-p-ie/x-3016118) has joined #winehq
+2013-06-20 10:08:16	-->	err-or (~err-or@gateway/tor-sasl/err-or) has joined #winehq
+2013-06-20 10:09:56	-->	lyon667 (~lyon667@ip-94-112-188-97.net.upcbroadband.cz) has joined #winehq
+2013-06-20 10:15:28	-->	andre4s (~daredevil@frnk-5f743a1b.pool.mediaWays.net) has joined #winehq
+2013-06-20 10:18:30	-->	emmanuelux (~emmanuelu@192.123.25.109.rev.sfr.net) has joined #winehq
+2013-06-20 10:32:38	-->	larsivi (~quassel@188.113.74.106) has joined #winehq
+2013-06-20 10:35:44	-->	Z_God (~julius@2001:888:141f:0:9c89:cb4f:a2aa:cd2c) has joined #winehq
+2013-06-20 10:36:23	--	Falcon` is now known as falcon`
+2013-06-20 10:37:11	<--	sythe (~quassel@bas1-ottawa08-1176110077.dsl.bell.ca) has quit (Remote host closed the connection)
+2013-06-20 10:38:05	<--	manuscle (~manuscle@aqu33-4-82-233-55-206.fbx.proxad.net) has quit (Quit: Ex-Chat)
+2013-06-20 10:47:20	<--	deadalnix_ (~deadalnix@i118-21-142-231.s30.a048.ap.plala.or.jp) has quit (Ping timeout: 255 seconds)
+2013-06-20 10:52:39	<--	Alikexhi (~Alikexhi4@64.156.122.78.rev.sfr.net) has quit (Quit: quittage)
+2013-06-20 10:53:14	<--	conan (~conan@195.Red-88-5-36.dynamicIP.rima-tde.net) has quit (Quit: Computer has gone to sleep.)
+2013-06-20 10:54:25	-->	conan (~conan@195.Red-88-5-36.dynamicIP.rima-tde.net) has joined #winehq
+2013-06-20 11:03:58	<--	larsivi (~quassel@188.113.74.106) has quit (Ping timeout: 246 seconds)
+2013-06-20 11:04:52	-->	larsivi (~quassel@188.113.74.106) has joined #winehq
+2013-06-20 11:07:45	<--	Hydrar (~hydrar@m90-132-96-34.cust.tele2.se) has quit (Ping timeout: 240 seconds)
+2013-06-20 11:09:33	-->	onny_ (~onny@p57B4A980.dip0.t-ipconnect.de) has joined #winehq
+2013-06-20 11:19:07	<--	Stels (~stels@91.185.88.148) has quit (Ping timeout: 264 seconds)
+2013-06-20 11:20:47	-->	Hydrar (~hydrar@m83-180-191-164.cust.tele2.se) has joined #winehq
+2013-06-20 11:26:12	-->	MrSassyPants (thephil@77-58-229-3.dclient.hispeed.ch) has joined #winehq
+2013-06-20 11:28:31	-->	Stels (~stels@95.104.233.94) has joined #winehq
+2013-06-20 11:29:49	-->	niemand (~niemand@194.118.168.87) has joined #winehq
+2013-06-20 11:30:26	niemand	How can I install SDL to get the SDL.dll?
+2013-06-20 11:33:29	<--	Hydrar (~hydrar@m83-180-191-164.cust.tele2.se) has quit (Read error: Connection reset by peer)
+2013-06-20 11:41:24	<--	Kai_p_IE (~Kai@unaffiliated/kai-p-ie/x-3016118) has quit (Quit: Leaving: i dont want to live on this irc sever anymore)
+2013-06-20 11:42:56	-->	bin_bash (~bin_bash@unaffiliated/bin-bash/x-0273453) has joined #winehq
+2013-06-20 11:42:59	bin_bash	hello
+2013-06-20 11:43:10	vpovirk	niemand: that would normally be included with any application that needs it
+2013-06-20 11:44:04	niemand	if not?
+2013-06-20 11:44:23	niemand	or may it run with mono?
+2013-06-20 11:44:31	bin_bash	I'm using excel 2010 via wine on archlinux, and I'm having a problem with sorting. here's a screenshot to show what I mean: http://i.imgur.com/zvih0r1.png
+2013-06-20 11:44:54	-->	sythe (~quassel@bas1-ottawa08-1176110077.dsl.bell.ca) has joined #winehq
+2013-06-20 11:49:23	Thunderbird	bin_bash, looks like some sort of comctl32 issue in wine; make sure your wine version is recent
+2013-06-20 11:49:35	bin_bash	it's recent i just instaled it
+2013-06-20 11:49:38	-->	Hydrar (~hydrar@m90-129-83-30.cust.tele2.se) has joined #winehq
+2013-06-20 11:52:35	bin_bash	Thunderbird, any way to fix?
+2013-06-20 11:52:52	<--	Yoshimo (~Miranda@p5493D25E.dip0.t-ipconnect.de) has quit (Quit: Yoshimo)
+2013-06-20 11:58:04	<--	Dessimat0r (~Dessimat0@cpc1-birk8-2-0-cust884.1-3.cable.virginmedia.com) has quit (Quit: Computer has gone to sleep.)
+2013-06-20 11:58:20	<--	c_korn (~korn@p57A6AA50.dip0.t-ipconnect.de) has quit (Quit: Bye bye.)
+2013-06-20 12:00:42	--	falcon` is now known as Falcon`
+2013-06-20 12:08:39	<--	ivanich (~ivanich@ivanich.tenet.odessa.ua) has quit (Quit: Konversation terminated!)
+2013-06-20 12:11:56	-->	ivanich (~ivanich@ivanich.tenet.odessa.ua) has joined #winehq
+2013-06-20 12:18:00	<--	niemand (~niemand@194.118.168.87) has left #winehq ("Konversation terminated!")
+2013-06-20 12:19:41	-->	funyun (~funyun@cpe-65-25-103-89.neo.res.rr.com) has joined #winehq
+2013-06-20 12:27:11	<--	fracting_ (~fracting@li584-22.members.linode.com) has quit (Ping timeout: 260 seconds)
+2013-06-20 12:30:08	<--	svolpe (~shane@c-98-236-253-26.hsd1.pa.comcast.net) has quit (Ping timeout: 240 seconds)
+2013-06-20 12:30:29	<--	Hydrar (~hydrar@m90-129-83-30.cust.tele2.se) has quit (Read error: Connection reset by peer)
+2013-06-20 12:33:53	-->	byteframe2 (~byteframe@pool-98-118-74-49.bstnma.east.verizon.net) has joined #winehq
+2013-06-20 12:35:19	<--	byteframe1 (~byteframe@pool-98-118-70-142.bstnma.east.verizon.net) has quit (Ping timeout: 264 seconds)
+2013-06-20 12:35:40	-->	svolpe (~shane@c-98-236-253-26.hsd1.pa.comcast.net) has joined #winehq
+2013-06-20 12:46:07	<--	jwhite (~jwhite@75-146-153-89-minnesota.hfc.comcastbusiness.net) has quit (Remote host closed the connection)
+2013-06-20 12:46:14	-->	Hydrar (~hydrar@m83-180-211-64.cust.tele2.se) has joined #winehq
+2013-06-20 12:46:43	<--	Defolos (~dan@HSI-KBW-134-3-247-222.hsi14.kabel-badenwuerttemberg.de) has quit (Ping timeout: 264 seconds)
+2013-06-20 12:54:25	-->	jwhite (~jwhite@75-146-153-89-minnesota.hfc.comcastbusiness.net) has joined #winehq
+2013-06-20 13:01:33	<--	Jackneill (~Jackneill@unaffiliated/jackneill) has quit (Ping timeout: 246 seconds)
+2013-06-20 13:04:43	<--	aucecil_ (~cecil@flux.crimson.net.au) has left #winehq
+2013-06-20 13:08:11	-->	Defolos (~dan@HSI-KBW-134-3-247-222.hsi14.kabel-badenwuerttemberg.de) has joined #winehq
+2013-06-20 13:13:24	<--	Sashmo_ (~sashmo_@38.113.164.109) has quit (Remote host closed the connection)
+2013-06-20 13:30:09	-->	Sashmo_ (~sashmo_@38.113.164.109) has joined #winehq
+2013-06-20 13:30:10	<--	xingoo (~xingoo@c-51c6e255.03-70-65736b1.cust.bredbandsbolaget.se) has quit (Quit: Lämnar)
+2013-06-20 13:30:23	<--	diffycat (~diffycat@85.113.55.206) has quit (Ping timeout: 240 seconds)
+2013-06-20 13:31:25	<--	Defolos (~dan@HSI-KBW-134-3-247-222.hsi14.kabel-badenwuerttemberg.de) has quit (Quit: Leaving.)
+2013-06-20 13:36:07	<--	vivid (~vivid@c-76-104-215-159.hsd1.wa.comcast.net) has quit (Quit: vivid)
+2013-06-20 13:38:15	-->	vivid (~vivid@c-76-104-215-159.hsd1.wa.comcast.net) has joined #winehq
+2013-06-20 13:41:50	<--	onny_ (~onny@p57B4A980.dip0.t-ipconnect.de) has quit (Ping timeout: 246 seconds)
+2013-06-20 13:47:47	<--	QBall_ (~QBall@host86-174-147-251.range86-174.btcentralplus.com) has quit (Ping timeout: 255 seconds)
+2013-06-20 13:49:38	-->	iamjohngalt (~quassel@z206-174-244-14.ips.direcpath.com) has joined #winehq
+2013-06-20 14:00:00	<--	conan (~conan@195.Red-88-5-36.dynamicIP.rima-tde.net) has quit (Quit: Computer has gone to sleep.)
+2013-06-20 14:02:11	<--	iamjohngalt (~quassel@z206-174-244-14.ips.direcpath.com) has quit (Quit: http://quassel-irc.org - Chat comfortably. Anywhere.)
+2013-06-20 14:03:53	<--	err-or (~err-or@gateway/tor-sasl/err-or) has quit (Quit: No Ping reply in 180 seconds.)
+2013-06-20 14:04:18	-->	err-or (~err-or@gateway/tor-sasl/err-or) has joined #winehq
+2013-06-20 14:04:54	-->	onny (~onny@p57B4A980.dip0.t-ipconnect.de) has joined #winehq
+2013-06-20 14:12:43	<--	Z_God (~julius@2001:888:141f:0:9c89:cb4f:a2aa:cd2c) has quit (Remote host closed the connection)
+2013-06-20 14:14:05	<--	fling (~fling@fsf/member/fling) has quit (Ping timeout: 252 seconds)
+2013-06-20 14:21:19	-->	fling (~fling@fsf/member/fling) has joined #winehq
+2013-06-20 14:22:20	<--	vpovirk (~urk@75-146-153-89-minnesota.hfc.comcastbusiness.net) has quit (Remote host closed the connection)
+2013-06-20 14:24:28	-->	debdog (~Wowbagger@p549CB18F.dip0.t-ipconnect.de) has joined #winehq
+2013-06-20 14:26:19	austin987	bin_bash, what wine version is it?
+2013-06-20 14:26:28	austin987	you can use 'winetricks cc580' to get native comctl32
+2013-06-20 14:29:31	bin_bash	wine-1.5.31
+2013-06-20 14:29:55	bin_bash	do i need to reinstall office
+2013-06-20 14:31:52	<--	mIGu (mig21@87.248.86.218) has quit (Ping timeout: 276 seconds)
+2013-06-20 14:32:44	-->	desti_T2 (~desti@dslb-092-072-220-202.pools.arcor-ip.net) has joined #winehq
+2013-06-20 14:33:09	-->	mIGu (mig21@87.248.86.218) has joined #winehq
+2013-06-20 14:33:12	<--	desti (~desti@dslb-092-073-129-193.pools.arcor-ip.net) has quit (Ping timeout: 256 seconds)
+2013-06-20 14:33:43	<--	opalepatrick (~patrick@c126-34.i07-32.onvol.net) has quit (Quit: Ex-Chat)
+2013-06-20 14:34:34	bin_bash	austin987, after doing that do i need to reinstall
+2013-06-20 14:35:54	-->	space_ (~quassel@r186-48-213-157.dialup.adsl.anteldata.net.uy) has joined #winehq
+2013-06-20 14:36:29	<--	Spaceghost (~quassel@unaffiliated/spaceghost) has quit (Ping timeout: 260 seconds)
+2013-06-20 14:39:15	austin987	bin_bash, no
+2013-06-20 14:39:24	bin_bash	austin987, well it didn't fix it
+2013-06-20 14:49:12	<--	Hydrar (~hydrar@m83-180-211-64.cust.tele2.se) has quit (Ping timeout: 240 seconds)
+2013-06-20 14:58:32	austin987	bin_bash, can you pastebin the terminal output please?
+2013-06-20 14:58:36	austin987	also, retry in 1.6-rc2
+2013-06-20 14:58:50	bin_bash	of what
+2013-06-20 14:59:27	bin_bash	austin987, of what
+2013-06-20 14:59:38	-->	madewokherd (~urk@c-66-41-74-61.hsd1.mn.comcast.net) has joined #winehq
+2013-06-20 15:01:30	-->	Hydrar (~hydrar@m83-180-189-22.cust.tele2.se) has joined #winehq
+2013-06-20 15:02:46	<--	LunaVorax (~LunaVorax@163.5.47.164) has quit (Ping timeout: 256 seconds)
+2013-06-20 15:03:30	<--	bin_bash (~bin_bash@unaffiliated/bin-bash/x-0273453) has quit (Remote host closed the connection)
+2013-06-20 15:05:32	<--	q66 (~q66@213.191.105.214) has quit (Remote host closed the connection)
+2013-06-20 15:07:09	<--	MrSassyPants (thephil@77-58-229-3.dclient.hispeed.ch) has quit (Remote host closed the connection)
+2013-06-20 15:16:15	<--	hasufell (~hasufell@gentoo/developer/hasufell) has quit (Quit: Verlassend)
+2013-06-20 15:16:41	<--	Gentle (~tier@quassel/contributors/gentle) has quit (Read error: Connection reset by peer)
+2013-06-20 15:16:59	-->	Gentle (~tier@quassel/contributors/gentle) has joined #winehq
+2013-06-20 15:26:46	<--	Usurp|zZz (~syl@reactos/developer/Usurp) has quit (Remote host closed the connection)
+2013-06-20 15:27:05	-->	Usurp|zZz (~syl@mail.pvoid.net) has joined #winehq
+2013-06-20 15:37:00	-->	fracting_ (~fracting@222.50.68.67) has joined #winehq
+2013-06-20 15:38:19	<--	Pikudoz (~Pikonas@190.238.108.61) has quit (Ping timeout: 264 seconds)
+2013-06-20 15:40:05	-->	LunaVorax (~LunaVorax@ABordeaux-651-1-57-47.w109-223.abo.wanadoo.fr) has joined #winehq
+2013-06-20 15:40:28	-->	Pikudoz (~Pikonas@190.238.108.61) has joined #winehq
+2013-06-20 15:59:52	-->	DarkAceLaptop (~BillyMays@50.107.52.179) has joined #winehq
+2013-06-20 15:59:52	<--	DarkAceLaptop (~BillyMays@50.107.52.179) has quit (Changing host)
+2013-06-20 15:59:52	-->	DarkAceLaptop (~BillyMays@unaffiliated/darkacez) has joined #winehq
+2013-06-20 16:00:28	-->	feep_ (~feep@p579E4BEB.dip0.t-ipconnect.de) has joined #winehq
+2013-06-20 16:01:47	<--	feep (~feep@p579E5F38.dip0.t-ipconnect.de) has quit (Read error: Operation timed out)
+2013-06-20 16:03:15	<--	Haaninjo (~anders@85.8.55.65) has quit (Quit: Ex-Chat)
+2013-06-20 16:04:13	<--	wakou2 (~stephen@host109-153-11-34.range109-153.btcentralplus.com) has quit (Quit: Konversation terminated!)
+2013-06-20 16:08:34	<--	LunaVorax (~LunaVorax@ABordeaux-651-1-57-47.w109-223.abo.wanadoo.fr) has quit (Quit: Quitte)
+2013-06-20 16:08:40	<--	byteframe2 (~byteframe@pool-98-118-74-49.bstnma.east.verizon.net) has quit (Quit: Deuces.)
+2013-06-20 16:09:50	-->	QBall_ (~QBall@host86-174-147-251.range86-174.btcentralplus.com) has joined #winehq
+2013-06-20 16:13:29	<--	nantou (~phonetic@gateway/tor-sasl/martinphone) has quit (Ping timeout: 240 seconds)
+2013-06-20 16:25:14	-->	MrSassyPants (thephil@77-58-229-3.dclient.hispeed.ch) has joined #winehq
+2013-06-20 16:25:14	<--	err-or (~err-or@gateway/tor-sasl/err-or) has quit (Remote host closed the connection)
+2013-06-20 16:25:14	<--	fracting_ (~fracting@222.50.68.67) has quit (Ping timeout: 246 seconds)
+2013-06-20 16:25:14	-->	wakou2 (~stephen@host109-153-11-34.range109-153.btcentralplus.com) has joined #winehq
+2013-06-20 16:25:14	-->	err-or (~err-or@gateway/tor-sasl/err-or) has joined #winehq
+2013-06-20 16:25:16	-->	Dessimat0r (~Dessimat0@cpc1-birk8-2-0-cust884.1-3.cable.virginmedia.com) has joined #winehq
+2013-06-20 16:26:35	<--	Hydrar (~hydrar@m83-180-189-22.cust.tele2.se) has quit (Ping timeout: 260 seconds)
+2013-06-20 16:27:20	-->	nantou (~phonetic@gateway/tor-sasl/martinphone) has joined #winehq
+2013-06-20 16:33:55	-->	fracting_ (~fracting@li584-22.members.linode.com) has joined #winehq
+2013-06-20 16:37:33	-->	LunaVorax (~LunaVorax@ABordeaux-651-1-57-47.w109-223.abo.wanadoo.fr) has joined #winehq
+2013-06-20 16:38:21	-->	Hydrar (~hydrar@m83-180-189-190.cust.tele2.se) has joined #winehq
+2013-06-20 16:39:43	-->	byteframe (~byteframe@pool-98-118-74-49.bstnma.east.verizon.net) has joined #winehq
+2013-06-20 16:39:43	<--	byteframe (~byteframe@pool-98-118-74-49.bstnma.east.verizon.net) has quit (Changing host)
+2013-06-20 16:39:43	-->	byteframe (~byteframe@unaffiliated/byteframe) has joined #winehq
+2013-06-20 16:43:23	<--	onny (~onny@p57B4A980.dip0.t-ipconnect.de) has quit (Ping timeout: 260 seconds)
+2013-06-20 16:48:23	--	Falcon` is now known as falcon`
+2013-06-20 16:53:22	<--	Eduard_Munteanu (~Eduard_Mu@188.25.244.2) has quit (Read error: Operation timed out)
+2013-06-20 16:58:05	-->	Phase4 (~Phase4@2001:44b8:4196:e800:5006:21fb:da6c:90d8) has joined #winehq
+2013-06-20 17:03:55	-->	nsivov (~nsivov@ppp83-237-223-0.pppoe.mtu-net.ru) has joined #winehq
+2013-06-20 17:05:53	<--	nsivov_ (~nsivov@ppp83-237-192-7.pppoe.mtu-net.ru) has quit (Ping timeout: 248 seconds)
+2013-06-20 17:19:18	<--	debdog (~Wowbagger@p549CB18F.dip0.t-ipconnect.de) has quit (Remote host closed the connection)
+2013-06-20 17:19:53	-->	Hydrar1 (~hydrar@m83-180-189-131.cust.tele2.se) has joined #winehq
+2013-06-20 17:23:01	<--	Hydrar (~hydrar@m83-180-189-190.cust.tele2.se) has quit (Ping timeout: 248 seconds)
+2013-06-20 17:30:48	-->	funyun_ (~funyun@cpe-65-25-103-89.neo.res.rr.com) has joined #winehq
+2013-06-20 17:30:48	<--	Hydrar1 (~hydrar@m83-180-189-131.cust.tele2.se) has quit (Quit: Leaving)
+2013-06-20 17:31:53	<--	funyun (~funyun@cpe-65-25-103-89.neo.res.rr.com) has quit (Ping timeout: 240 seconds)
+2013-06-20 17:32:58	-->	skuft (~skuft@c-69-244-136-107.hsd1.mi.comcast.net) has joined #winehq
+2013-06-20 17:34:11	<--	Dessimat0r (~Dessimat0@cpc1-birk8-2-0-cust884.1-3.cable.virginmedia.com) has quit (Quit: Computer has gone to sleep.)
+2013-06-20 17:35:28	skuft	http://pastebin.com/uH3Se6Zq Anyone have an idea?? I'm running Ultima Online with RazorUO on Wine 1.25.8 Origin. It works but game crashes a lot. I don't know if it's a bad connection to server for some reason or something to do with the Wine of it all. There are a few guides to getting it running, one of which can be seen here: which I am using a slightly modified version. Really bugging me because I don't want to do a virtual windows
+2013-06-20 17:35:29	skuft	just to run the game. Sometimes it runs fine for a few hours.
+2013-06-20 17:37:18	vivid	doubt anyone here will support your wares
+2013-06-20 17:37:51	skuft	It's not a ware. The official game providers allow the client.
+2013-06-20 17:37:51	-->	Dessimat0r (~Dessimat0@cpc1-birk8-2-0-cust884.1-3.cable.virginmedia.com) has joined #winehq
+2013-06-20 17:38:36	<--	skuft (~skuft@c-69-244-136-107.hsd1.mi.comcast.net) has quit (Quit: Ex-Chat)
+2013-06-20 17:38:36	<--	LunaVorax (~LunaVorax@ABordeaux-651-1-57-47.w109-223.abo.wanadoo.fr) has quit (Ping timeout: 256 seconds)
+2013-06-20 17:41:19	<--	NuclearMeltdown (~rep@AntiLiberal-1-pt.tunnel.tserv9.chi1.ipv6.he.net) has quit (Changing host)
+2013-06-20 17:41:19	-->	NuclearMeltdown (~rep@unaffiliated/antiliberal) has joined #winehq
+2013-06-20 18:02:48	-->	Chehri (~Chehri@unaffiliated/chehri) has joined #winehq
+2013-06-20 18:03:20	<--	iive (~iive@unaffiliated/iive) has quit (Quit: They came for me...)
+2013-06-20 18:10:46	<--	MrSassyPants (thephil@77-58-229-3.dclient.hispeed.ch) has quit (Remote host closed the connection)
+2013-06-20 18:12:47	-->	bin_bash (~bin_bash@unaffiliated/bin-bash/x-0273453) has joined #winehq
+2013-06-20 18:21:59	-->	Enko (~ely@ip98-170-210-218.pn.at.cox.net) has joined #winehq
+2013-06-20 18:26:29	<--	wakou2 (~stephen@host109-153-11-34.range109-153.btcentralplus.com) has quit (Quit: Konversation terminated!)
+2013-06-20 18:36:37	<--	space_ (~quassel@r186-48-213-157.dialup.adsl.anteldata.net.uy) has quit (Ping timeout: 248 seconds)
+2013-06-20 18:38:46	<--	emmanuelux (~emmanuelu@192.123.25.109.rev.sfr.net) has quit (Remote host closed the connection)
+2013-06-20 18:40:33	-->	space (~quassel@r186-48-213-157.dialup.adsl.anteldata.net.uy) has joined #winehq
+2013-06-20 18:40:42	--	space is now known as Guest18915
+2013-06-20 18:44:16	--	Enko is now known as Enkouyami
+2013-06-20 19:05:23	--	Guest18915 is now known as Spaceghost
+2013-06-20 19:05:28	<--	Spaceghost (~quassel@r186-48-213-157.dialup.adsl.anteldata.net.uy) has quit (Changing host)
+2013-06-20 19:05:28	-->	Spaceghost (~quassel@unaffiliated/spaceghost) has joined #winehq
+2013-06-20 19:22:45	--	petteyg_ is now known as petteyg
+2013-06-20 19:28:10	<--	sythe (~quassel@bas1-ottawa08-1176110077.dsl.bell.ca) has quit (Remote host closed the connection)
+2013-06-20 19:31:29	--	chihchun_afk is now known as chihchun
+2013-06-20 19:34:40	-->	daredevil_ (~daredevil@frnk-5f7411a3.pool.mediaWays.net) has joined #winehq
+2013-06-20 19:38:06	<--	andre4s (~daredevil@frnk-5f743a1b.pool.mediaWays.net) has quit (Ping timeout: 246 seconds)
+2013-06-20 19:43:26	<--	nantou (~phonetic@gateway/tor-sasl/martinphone) has quit (Quit: gone)
+2013-06-20 20:00:31	<--	Fira (artix@unaffiliated/fira) has quit (Ping timeout: 246 seconds)
+2013-06-20 20:03:14	-->	Fira (artix@unaffiliated/fira) has joined #winehq
+2013-06-20 20:16:21	<--	desti_T2 (~desti@dslb-092-072-220-202.pools.arcor-ip.net) has quit (Ping timeout: 256 seconds)
+2013-06-20 20:17:02	-->	QBall__ (~QBall@host86-174-147-251.range86-174.btcentralplus.com) has joined #winehq
+2013-06-20 20:20:39	<--	QBall_ (~QBall@host86-174-147-251.range86-174.btcentralplus.com) has quit (Ping timeout: 252 seconds)
+2013-06-20 20:20:59	<--	Pikudoz (~Pikonas@190.238.108.61) has quit (Remote host closed the connection)
+2013-06-20 20:23:24	<--	madewokherd (~urk@c-66-41-74-61.hsd1.mn.comcast.net) has quit (Remote host closed the connection)
+2013-06-20 20:28:47	-->	Enko (~ely@ip98-170-210-218.pn.at.cox.net) has joined #winehq
+2013-06-20 20:30:15	-->	desti_T2 (~desti@dslb-188-109-021-092.pools.arcor-ip.net) has joined #winehq
+2013-06-20 20:32:55	-->	Hussaind (~esds@115.124.115.71) has joined #winehq
+2013-06-20 20:34:00	<--	Enkouyami (~ely@ip98-170-210-218.pn.at.cox.net) has quit (Quit: Leaving)
+2013-06-20 20:44:16	<--	nbf (~nbf@unaffiliated/noobfukaire) has quit (Read error: Connection reset by peer)
+2013-06-20 20:44:59	--	Enko is now known as Enkouyami
+2013-06-20 20:48:40	-->	nbf (~nbf@unaffiliated/noobfukaire) has joined #winehq
+2013-06-20 20:54:02	-->	Jeremy3D (~jeremy@c-66-177-63-54.hsd1.fl.comcast.net) has joined #winehq
+2013-06-20 21:01:36	<--	desti_T2 (~desti@dslb-188-109-021-092.pools.arcor-ip.net) has quit (Ping timeout: 252 seconds)
+2013-06-20 21:06:33	-->	Jackneill (~Jackneill@unaffiliated/jackneill) has joined #winehq
+2013-06-20 21:12:04	-->	QBall_ (~QBall@host86-174-147-251.range86-174.btcentralplus.com) has joined #winehq
+2013-06-20 21:15:17	<--	QBall__ (~QBall@host86-174-147-251.range86-174.btcentralplus.com) has quit (Ping timeout: 252 seconds)
+2013-06-20 21:15:45	-->	desti_T2 (~desti@dslb-088-078-082-057.pools.arcor-ip.net) has joined #winehq
+2013-06-20 21:28:38	-->	Tommy[D]_ (~TommyD]@gentoo/developer/tommy) has joined #winehq
+2013-06-20 21:32:19	<--	Tommy[D] (~TommyD]@gentoo/developer/tommy) has quit (Ping timeout: 264 seconds)
+2013-06-20 21:32:27	<--	DarkAceLaptop (~BillyMays@unaffiliated/darkacez) has quit (Quit: I'm quitting IRC forever.)
+2013-06-20 21:48:26	<--	ShapeShifter499 (ShapeShift@bounce.around.the.world.panicbnc.net) has quit (Excess Flood)
+2013-06-20 21:50:07	-->	ShapeShifter499 (ShapeShift@bounce.around.the.world.panicbnc.net) has joined #winehq
+2013-06-20 22:00:37	<--	Jeremy3D (~jeremy@c-66-177-63-54.hsd1.fl.comcast.net) has quit (Remote host closed the connection)
+2013-06-20 22:01:45	<--	amboss (b@fanta.neet.to) has quit (Quit: leaving)
+2013-06-20 22:02:37	-->	debdog (~Wowbagger@p549CB18F.dip0.t-ipconnect.de) has joined #winehq
+2013-06-20 22:02:53	<--	pigeon (~pigeon@eth5284.nsw.adsl.internode.on.net) has quit (Read error: Connection reset by peer)
+2013-06-20 22:05:23	-->	pigeon (~pigeon@eth5284.nsw.adsl.internode.on.net) has joined #winehq
+2013-06-20 22:05:56	-->	Jonbo_ (~Jonbo123@24.140.125.4) has joined #winehq
+2013-06-20 22:07:53	<--	Jonbo (~Jonbo123@24.140.125.4) has quit (Ping timeout: 240 seconds)
+2013-06-20 22:09:13	-->	opalepatrick (~patrick@c126-34.i07-32.onvol.net) has joined #winehq
+2013-06-20 22:11:57	-->	amboss (b@giraffe.catherinemarson.co.uk) has joined #winehq
+2013-06-20 22:21:34	<--	bin_bash (~bin_bash@unaffiliated/bin-bash/x-0273453) has quit (Ping timeout: 246 seconds)
+2013-06-20 22:30:36	<--	daredevil_ (~daredevil@frnk-5f7411a3.pool.mediaWays.net) has quit (Quit: Leaving)
+2013-06-20 22:34:39	<--	killertux (~tux@et426.netikka.fi) has quit (Read error: Operation timed out)
+2013-06-20 22:42:03	<--	amboss (b@giraffe.catherinemarson.co.uk) has quit (Ping timeout: 245 seconds)
+2013-06-20 22:49:57	-->	killertux (~tux@et426.netikka.fi) has joined #winehq
+2013-06-20 22:50:55	<--	Dessimat0r (~Dessimat0@cpc1-birk8-2-0-cust884.1-3.cable.virginmedia.com) has quit (Quit: Computer has gone to sleep.)
+2013-06-20 23:03:04	<--	Jonbo_ (~Jonbo123@24.140.125.4) has quit (Read error: Operation timed out)
+2013-06-20 23:13:42	<--	lyon667 (~lyon667@ip-94-112-188-97.net.upcbroadband.cz) has quit (Quit: Odcházím)
+2013-06-20 23:15:19	<--	AcTiVaTe (~activate@d594eeda.static.dsl.concepts.nl) has quit (Remote host closed the connection)
+2013-06-20 23:17:26	<--	debdog (~Wowbagger@p549CB18F.dip0.t-ipconnect.de) has quit (Remote host closed the connection)
+2013-06-20 23:17:46	<--	ivanich (~ivanich@ivanich.tenet.odessa.ua) has quit (Quit: Konversation terminated!)
+2013-06-20 23:20:58	-->	ivanich (~ivanich@ivanich.tenet.odessa.ua) has joined #winehq
+2013-06-20 23:23:07	<--	Enkouyami (~ely@ip98-170-210-218.pn.at.cox.net) has quit (Ping timeout: 240 seconds)
+2013-06-20 23:24:30	<--	jo-erlend (~jo-erlend@ubuntu/member/jo-erlend) has quit (Remote host closed the connection)
+2013-06-20 23:26:42	-->	jo-erlend (~jo-erlend@ubuntu/member/jo-erlend) has joined #winehq
+2013-06-20 23:45:43	<--	SilverStreak (~silver@c-68-42-77-242.hsd1.mi.comcast.net) has quit (Ping timeout: 258 seconds)
+2013-06-20 23:59:43	-->	piotr (~piotr@vpn.psi.wroc.pl) has joined #winehq
+2013-06-21 00:00:42	<--	ivanich (~ivanich@ivanich.tenet.odessa.ua) has quit (Ping timeout: 264 seconds)
+2013-06-21 00:01:54	<--	heroux (~heroux@5070823C.static.ziggozakelijk.nl) has quit (Ping timeout: 264 seconds)
+2013-06-21 00:03:34	-->	heroux (~heroux@5070823C.static.ziggozakelijk.nl) has joined #winehq
+2013-06-21 00:08:19	<--	heroux (~heroux@5070823C.static.ziggozakelijk.nl) has quit (Ping timeout: 246 seconds)
+2013-06-21 00:09:35	-->	heroux (~heroux@5070823C.static.ziggozakelijk.nl) has joined #winehq
+2013-06-21 00:14:41	<--	Aziroshin (~yawgmoth@77-56-66-78.dclient.hispeed.ch) has quit (Ping timeout: 248 seconds)
+2013-06-21 00:16:07	-->	Aziroshin (~yawgmoth@77-56-66-78.dclient.hispeed.ch) has joined #winehq
+2013-06-21 00:20:11	<--	Stels (~stels@95.104.233.94) has quit (Ping timeout: 268 seconds)
+2013-06-21 00:29:00	-->	Stels (~stels@91.185.91.58) has joined #winehq
+2013-06-21 00:32:52	-->	Haaninjo (~anders@85.8.55.65) has joined #winehq
+2013-06-21 00:33:47	-->	duSn (~duSn@63-248-85-193.static.sdyl010.digis.net) has joined #winehq
+2013-06-21 00:34:53	<--	Chehri (~Chehri@unaffiliated/chehri) has quit (Ping timeout: 240 seconds)
+2013-06-21 00:43:33	-->	QBall__ (~QBall@86.174.147.251) has joined #winehq
+2013-06-21 00:46:06	<--	QBall_ (~QBall@host86-174-147-251.range86-174.btcentralplus.com) has quit (Ping timeout: 246 seconds)
+2013-06-21 00:51:07	-->	Chehri (~Chehri@unaffiliated/chehri) has joined #winehq
+2013-06-21 00:57:34	-->	croppa (~stuart@CPE-120-146-137-99.static.nsw.bigpond.net.au) has joined #winehq
+2013-06-21 01:04:49	-->	QBall_ (~QBall@host86-174-147-251.range86-174.btcentralplus.com) has joined #winehq
+2013-06-21 01:07:59	-->	MrSassyPants (thephil@77-58-229-3.dclient.hispeed.ch) has joined #winehq
+2013-06-21 01:08:54	<--	QBall__ (~QBall@86.174.147.251) has quit (Ping timeout: 268 seconds)
+2013-06-21 01:08:57	<--	Chehri (~Chehri@unaffiliated/chehri) has quit (Read error: Operation timed out)
+2013-06-21 01:09:05	<--	nephyrin (~neph@2620:101:8003:200:7a2b:cbff:fe9e:2e67) has quit (Ping timeout: 255 seconds)
+2013-06-21 01:12:42	-->	nephyrin (~neph@2620:101:8003:200:7a2b:cbff:fe9e:2e67) has joined #winehq
+2013-06-21 01:16:37	<--	fracting_ (~fracting@li584-22.members.linode.com) has quit (Ping timeout: 248 seconds)
+2013-06-21 01:48:11	--	feep_ is now known as feep
+2013-06-21 01:48:42	<--	Spaceghost (~quassel@unaffiliated/spaceghost) has quit (Ping timeout: 264 seconds)
+2013-06-21 02:04:12	<--	duSn (~duSn@63-248-85-193.static.sdyl010.digis.net) has quit (Quit: leaving)
+2013-06-21 02:28:51	<--	ShapeShifter499 (ShapeShift@bounce.around.the.world.panicbnc.net) has quit (Excess Flood)
+2013-06-21 02:32:45	-->	Alikexhi (~Alikexhi4@ARennes-654-1-88-54.w2-10.abo.wanadoo.fr) has joined #winehq
+2013-06-21 02:33:09	-->	Eduard_Munteanu (~Eduard_Mu@188.25.7.45) has joined #winehq
+2013-06-21 02:33:37	-->	ShapeShifter499 (ShapeShift@bounce.around.the.world.panicbnc.net) has joined #winehq
+2013-06-21 02:40:01	<--	Phase4 (~Phase4@2001:44b8:4196:e800:5006:21fb:da6c:90d8) has quit (Quit: Leaving)
+2013-06-21 02:40:47	-->	ivanich (~ivanich@ivanich.tenet.odessa.ua) has joined #winehq
+2013-06-21 02:46:39	-->	Phase4 (~Phase4@2001:44b8:4196:e800:143b:5574:23d5:bd48) has joined #winehq
+2013-06-21 02:53:30	<--	jdoles (~jdoles@unaffiliated/jdoles) has left #winehq
+2013-06-21 03:00:46	-->	LunaVorax (~LunaVorax@ABordeaux-651-1-57-47.w109-223.abo.wanadoo.fr) has joined #winehq
+2013-06-21 03:00:56	-->	desti (~desti@dslb-188-109-023-232.pools.arcor-ip.net) has joined #winehq
+2013-06-21 03:03:47	<--	desti_T2 (~desti@dslb-088-078-082-057.pools.arcor-ip.net) has quit (Ping timeout: 256 seconds)
+2013-06-21 03:05:30	<--	man_in_shack (~likeyouca@unaffiliated/man-in-shack/x-4279753) has quit (Ping timeout: 264 seconds)
+2013-06-21 03:17:18	<--	Alikexhi (~Alikexhi4@ARennes-654-1-88-54.w2-10.abo.wanadoo.fr) has quit (Quit: quittage)
+2013-06-21 03:18:04	-->	man_in_shack (~likeyouca@unaffiliated/man-in-shack/x-4279753) has joined #winehq
+2013-06-21 03:27:02	<--	croppa (~stuart@CPE-120-146-137-99.static.nsw.bigpond.net.au) has quit
+2013-06-21 03:28:12	-->	onny (~onny@p5088F67A.dip0.t-ipconnect.de) has joined #winehq
+2013-06-21 03:35:45	-->	PhoenixSTF (~rudi@78.29.189.104) has joined #winehq
+2013-06-21 03:52:57	-->	q66 (~q66@213.191.105.214) has joined #winehq
+2013-06-21 03:57:09	-->	wakou2 (~stephen@host109-153-11-34.range109-153.btcentralplus.com) has joined #winehq
+2013-06-21 04:02:45	-->	manuscle (~manuscle@aqu33-4-82-233-55-206.fbx.proxad.net) has joined #winehq
+2013-06-21 04:04:46	<--	redgirl (~Red@negval.starlink.ru) has quit (Quit: This computer has gone to sleep)
+2013-06-21 04:07:35	-->	ArGGu^^ (~ArGGu^^@a88-112-164-9.elisa-laajakaista.fi) has joined #winehq
+2013-06-21 04:11:44	ArGGu^^	Hello, is there a way to find out wine version of a wineprefix? I mean the last wine version that was used with the wineprefix.
+2013-06-21 04:12:32	-->	killall-9 (~paulc@ns.null.ro) has joined #winehq
+2013-06-21 04:14:03	<--	smoke_ (~smoke@108-84-237-73.lightspeed.frokca.sbcglobal.net) has quit (Read error: Connection reset by peer)
+2013-06-21 04:14:11	-->	smoke_ (~smoke@108-84-237-73.lightspeed.frokca.sbcglobal.net) has joined #winehq
+2013-06-21 04:19:46	<--	Haaninjo (~anders@85.8.55.65) has quit (Quit: Ex-Chat)
+2013-06-21 04:21:10	-->	iive (~iive@87.119.101.204.client.entry.bg) has joined #winehq
+2013-06-21 04:21:10	<--	iive (~iive@87.119.101.204.client.entry.bg) has quit (Changing host)
+2013-06-21 04:21:10	-->	iive (~iive@unaffiliated/iive) has joined #winehq
+2013-06-21 04:34:53	<--	DaZ (~derp@87-205-164-182.adsl.inetia.pl) has quit (Ping timeout: 240 seconds)
+2013-06-21 04:40:13	-->	DaZ (~derp@77-253-98-11.adsl.inetia.pl) has joined #winehq
+2013-06-21 04:42:22	-->	redgirl (~Red@109.188.125.168) has joined #winehq
+2013-06-21 04:47:37	<--	redgirl (~Red@109.188.125.168) has quit (Ping timeout: 240 seconds)
+2013-06-21 04:53:53	<--	manuscle (~manuscle@aqu33-4-82-233-55-206.fbx.proxad.net) has quit (Quit: Ex-Chat)
+2013-06-21 04:54:05	<--	funyun_ (~funyun@cpe-65-25-103-89.neo.res.rr.com) has quit (Ping timeout: 255 seconds)
+2013-06-21 05:06:42	-->	manuscle (~manuscle@aqu33-4-82-233-55-206.fbx.proxad.net) has joined #winehq
+2013-06-21 05:13:29	<--	DaZ (~derp@77-253-98-11.adsl.inetia.pl) has quit (Ping timeout: 246 seconds)
+2013-06-21 05:19:11	-->	DaZ (~derp@77-255-241-238.adsl.inetia.pl) has joined #winehq
+2013-06-21 05:19:49	-->	redgirl (~Red@213.232.195.228) has joined #winehq
+2013-06-21 05:19:49	<--	SwooshyCueb (~SwooshyCu@ec-cloud.znc.hostification.net) has quit (Read error: Connection reset by peer)
+2013-06-21 05:24:03	<--	manuscle (~manuscle@aqu33-4-82-233-55-206.fbx.proxad.net) has quit (Remote host closed the connection)
+2013-06-21 05:24:35	-->	nantou (~phonetic@gateway/tor-sasl/martinphone) has joined #winehq
+2013-06-21 05:29:01	<--	sl33v3 (~sl33v3@114-25-204-16.dynamic.hinet.net) has quit (Read error: Connection reset by peer)
+2013-06-21 05:33:14	-->	manuscle (~manuscle@aqu33-4-82-233-55-206.fbx.proxad.net) has joined #winehq
+2013-06-21 05:42:27	<--	jalan (~jalan@cpe-174-102-110-54.woh.res.rr.com) has quit (Read error: Connection reset by peer)
+2013-06-21 05:52:18	<--	manuscle (~manuscle@aqu33-4-82-233-55-206.fbx.proxad.net) has quit (Quit: Ex-Chat)
+2013-06-21 05:53:38	-->	manuscle (~manuscle@aqu33-4-82-233-55-206.fbx.proxad.net) has joined #winehq
+2013-06-21 05:54:51	-->	Jonbo (~Jonbo123@24.140.125.4) has joined #winehq
+2013-06-21 05:57:13	--	falcon` is now known as Falcon`
+2013-06-21 06:00:54	-->	jalan (~jalan@cpe-174-102-110-54.woh.res.rr.com) has joined #winehq
+2013-06-21 06:21:24	-->	conan (~conan@195.Red-88-5-36.dynamicIP.rima-tde.net) has joined #winehq
+2013-06-21 06:24:05	-->	hasufell (~hasufell@gentoo/developer/hasufell) has joined #winehq
+2013-06-21 06:28:14	<--	Phase4 (~Phase4@2001:44b8:4196:e800:143b:5574:23d5:bd48) has quit (Read error: Connection reset by peer)
+2013-06-21 06:35:06	-->	Pikudoz (~Pikonas@190.238.108.61) has joined #winehq
+2013-06-21 06:38:26	-->	Usurp (~syl@reactos/developer/Usurp) has joined #winehq
+2013-06-21 06:38:28	<--	Usurp|zZz (~syl@mail.pvoid.net) has quit (Read error: Connection reset by peer)
+2013-06-21 06:38:53	-->	Phase4 (~Phase4@2001:44b8:4196:e800:4c74:2818:79cb:409c) has joined #winehq
+2013-06-21 06:50:41	-->	Defolos (~dan@HSI-KBW-134-3-247-222.hsi14.kabel-badenwuerttemberg.de) has joined #winehq
+2013-06-21 06:53:27	<--	Hussaind (~esds@115.124.115.71) has quit (Remote host closed the connection)
+2013-06-21 06:57:58	-->	bin_bash (~bin_bash@unaffiliated/bin-bash/x-0273453) has joined #winehq
+2013-06-21 07:00:03	<--	Phase4 (~Phase4@2001:44b8:4196:e800:4c74:2818:79cb:409c) has quit (Ping timeout: 252 seconds)
+2013-06-21 07:01:23	-->	deadalnix_ (~deadalnix@i118-21-142-231.s30.a048.ap.plala.or.jp) has joined #winehq
+2013-06-21 07:02:27	-->	SilverStreak (~silver@c-68-42-77-242.hsd1.mi.comcast.net) has joined #winehq
+2013-06-21 07:07:35	-->	diffycat (~diffycat@85.113.55.206) has joined #winehq
+2013-06-21 07:23:56	<--	onny (~onny@p5088F67A.dip0.t-ipconnect.de) has quit (Read error: Operation timed out)
+2013-06-21 07:32:35	<--	hasufell (~hasufell@gentoo/developer/hasufell) has quit (Quit: Verlassend)
+2013-06-21 07:36:13	-->	hasufell (~hasufell@gentoo/developer/hasufell) has joined #winehq
+2013-06-21 07:39:20	-->	fracting_ (~fracting@li584-22.members.linode.com) has joined #winehq
+2013-06-21 07:44:36	<--	lyon667|work (lyon667@nat/redhat/x-zrfbuztktjujtjtw) has quit (Quit: Odcházím)
+2013-06-21 07:48:40	-->	Dessimat0r (~Dessimat0@cpc1-birk8-2-0-cust884.1-3.cable.virginmedia.com) has joined #winehq
+2013-06-21 07:57:30	<--	redgirl (~Red@213.232.195.228) has quit (Quit: This computer has gone to sleep)
+2013-06-21 08:04:32	<--	piotr (~piotr@vpn.psi.wroc.pl) has quit (Quit: Konversation terminated!)
+2013-06-21 08:06:48	<--	graphitemaster (~graphitem@unaffiliated/graphitemaster) has quit (Read error: Connection reset by peer)
+2013-06-21 08:07:05	-->	graphitemaster (~graphitem@24-138-180-122.eastlink.ca) has joined #winehq
+2013-06-21 08:07:05	<--	graphitemaster (~graphitem@24-138-180-122.eastlink.ca) has quit (Changing host)
+2013-06-21 08:07:05	-->	graphitemaster (~graphitem@unaffiliated/graphitemaster) has joined #winehq
+2013-06-21 08:07:18	<--	graphitemaster (~graphitem@unaffiliated/graphitemaster) has quit (Read error: Connection reset by peer)
+2013-06-21 08:07:35	-->	graphitemaster (~graphitem@24-138-180-122.eastlink.ca) has joined #winehq
+2013-06-21 08:07:35	<--	graphitemaster (~graphitem@24-138-180-122.eastlink.ca) has quit (Changing host)
+2013-06-21 08:07:35	-->	graphitemaster (~graphitem@unaffiliated/graphitemaster) has joined #winehq
+2013-06-21 08:09:00	-->	onny (~onny@p57B4ADA9.dip0.t-ipconnect.de) has joined #winehq
+2013-06-21 08:15:43	<--	Dessimat0r (~Dessimat0@cpc1-birk8-2-0-cust884.1-3.cable.virginmedia.com) has quit (Quit: Computer has gone to sleep.)
+2013-06-21 08:20:07	-->	siero (3e2f9599@gateway/web/freenode/ip.62.47.149.153) has joined #winehq
+2013-06-21 08:21:48	<--	MickLH (~mick@99-33-248-193.lightspeed.frokca.sbcglobal.net) has quit (Ping timeout: 268 seconds)
+2013-06-21 08:23:29	siero	hello; I have a little .net4 app and tried to run it with wine1.5.31 and mono; the app starts up perfectly. But it uses drag&drop to get files loaded in it. If I do that, the app reacts as something was dropped, but it does not show up... I get a fixme:xdnd:X11DRV_XDND_DROPEFFECTToXdndAction unknown drop effect 2147483651, assuming XdndActionCopy
+2013-06-21 08:31:54	siero	wrong time, huh? when are most people around?
+2013-06-21 08:32:28	<--	bin_bash (~bin_bash@unaffiliated/bin-bash/x-0273453) has quit (Remote host closed the connection)
+2013-06-21 08:33:16	graphitemaster	well the fixme says it all
+2013-06-21 08:33:27	graphitemaster	the drop effect is most likely not implemented
+2013-06-21 08:33:32	<--	conan (~conan@195.Red-88-5-36.dynamicIP.rima-tde.net) has quit (Ping timeout: 252 seconds)
+2013-06-21 08:33:34	graphitemaster	so it fall'd back to something else
+2013-06-21 08:33:47	graphitemaster	check to see if the git has it, if not you ca implement it yourself ;)
+2013-06-21 08:35:21	siero	nice advice, will try ...
+2013-06-21 08:37:34	<--	deadalnix_ (~deadalnix@i118-21-142-231.s30.a048.ap.plala.or.jp) has quit (Remote host closed the connection)
+2013-06-21 08:37:46	-->	Dessimat0r (~Dessimat0@cpc1-birk8-2-0-cust884.1-3.cable.virginmedia.com) has joined #winehq
+2013-06-21 08:38:50	-->	deadalnix_ (~deadalnix@i118-21-142-231.s30.a048.ap.plala.or.jp) has joined #winehq
+2013-06-21 08:39:22	-->	andre4s (~daredevil@frnk-5f7411a3.pool.mediaWays.net) has joined #winehq
+2013-06-21 08:43:07	-->	conan (~conan@195.Red-88-5-36.dynamicIP.rima-tde.net) has joined #winehq
+2013-06-21 08:43:35	<--	onny (~onny@p57B4ADA9.dip0.t-ipconnect.de) has quit (Read error: Operation timed out)
+2013-06-21 08:43:49	<--	nightwalk (~null@gateway/tor-sasl/nightwalk) has quit (Ping timeout: 240 seconds)
+2013-06-21 08:49:46	-->	nightwalk (~null@gateway/tor-sasl/nightwalk) has joined #winehq
+2013-06-21 08:49:51	<--	hasufell (~hasufell@gentoo/developer/hasufell) has quit (Ping timeout: 260 seconds)
+2013-06-21 08:50:03	-->	hasufell (~hasufell@gentoo/developer/hasufell) has joined #winehq
+2013-06-21 08:52:37	<--	Dessimat0r (~Dessimat0@cpc1-birk8-2-0-cust884.1-3.cable.virginmedia.com) has quit (Quit: Computer has gone to sleep.)
+2013-06-21 08:55:23	-->	c_korn (~korn@p57A6A95E.dip0.t-ipconnect.de) has joined #winehq
+2013-06-21 09:02:43	-->	redgirl (~Red@109.188.125.174) has joined #winehq
+2013-06-21 09:03:35	<--	siero (3e2f9599@gateway/web/freenode/ip.62.47.149.153) has quit (Ping timeout: 250 seconds)
+2013-06-21 09:07:28	-->	Dessimat0r (~Dessimat0@cpc1-birk8-2-0-cust884.1-3.cable.virginmedia.com) has joined #winehq
+2013-06-21 09:08:43	<--	redgirl (~Red@109.188.125.174) has quit (Ping timeout: 246 seconds)
+2013-06-21 09:18:35	<--	killall-9 (~paulc@ns.null.ro) has quit (Quit: Leaving)
+2013-06-21 09:30:06	<--	ArGGu^^ (~ArGGu^^@a88-112-164-9.elisa-laajakaista.fi) has quit (Read error: Connection reset by peer)
+2013-06-21 09:40:48	-->	Yoshimo (~Miranda@p5493DA13.dip0.t-ipconnect.de) has joined #winehq
+2013-06-21 10:03:00	-->	tyn (~rynxy@fctnnbsc30w-198164211103.dhcp-dynamic.FibreOp.nb.bellaliant.net) has joined #winehq
+2013-06-21 10:06:54	<--	ivanich (~ivanich@ivanich.tenet.odessa.ua) has quit (Remote host closed the connection)
+2013-06-21 10:07:14	-->	ivanich (~ivanich@ivanich.tenet.odessa.ua) has joined #winehq
+2013-06-21 10:13:10	-->	redgirl (~Red@negval.starlink.ru) has joined #winehq
+2013-06-21 10:14:48	-->	emmanuelux (~emmanuelu@192.123.25.109.rev.sfr.net) has joined #winehq
+2013-06-21 10:16:13	<--	PhoenixSTF (~rudi@78.29.189.104) has quit (Quit: Leaving)
+2013-06-21 10:17:55	<--	andre4s (~daredevil@frnk-5f7411a3.pool.mediaWays.net) has quit (Quit: Leaving)
+2013-06-21 10:22:32	-->	andre4s (~daredevil@frnk-5f7411a3.pool.mediaWays.net) has joined #winehq
+2013-06-21 10:33:58	-->	Z_God (~julius@2001:888:141f:0:2cb6:2257:9d7c:225e) has joined #winehq
+2013-06-21 10:36:58	<--	tyn (~rynxy@fctnnbsc30w-198164211103.dhcp-dynamic.FibreOp.nb.bellaliant.net) has quit (Ping timeout: 276 seconds)
+2013-06-21 10:37:15	<--	archer13 (~archer13@91.228.199.193) has quit (Read error: Operation timed out)
+2013-06-21 10:45:16	-->	AcTiVaTe (~activate@d594eeda.static.dsl.concepts.nl) has joined #winehq
+2013-06-21 10:51:08	-->	skython (~skython@sign-4db60993.pool.mediaWays.net) has joined #winehq
+2013-06-21 10:52:43	-->	archer13 (~archer13@91.228.199.193) has joined #winehq
+2013-06-21 10:53:15	-->	lfz (~chatzilla@200.198.133.74) has joined #winehq
+2013-06-21 10:56:49	<--	manuscle (~manuscle@aqu33-4-82-233-55-206.fbx.proxad.net) has quit (Quit: Ex-Chat)
+2013-06-21 11:06:38	--	chihchun is now known as chihchun_afk
+2013-06-21 11:07:56	<--	andre4s (~daredevil@frnk-5f7411a3.pool.mediaWays.net) has quit (Quit: Leaving)
+2013-06-21 11:09:01	-->	onny (~onny@krlh-d9be74d7.pool.mediaWays.net) has joined #winehq
+2013-06-21 11:10:40	<--	Dartellum (~Thunderbi@c-69-249-244-7.hsd1.pa.comcast.net) has quit (Read error: Operation timed out)
+2013-06-21 11:11:24	-->	debdog (~Wowbagger@p549CA687.dip0.t-ipconnect.de) has joined #winehq
+2013-06-21 11:13:49	<--	lfz (~chatzilla@200.198.133.74) has quit (Remote host closed the connection)
+2013-06-21 11:26:00	-->	Dartellum (~Thunderbi@c-69-249-244-7.hsd1.pa.comcast.net) has joined #winehq
+2013-06-21 11:27:47	<--	conan (~conan@195.Red-88-5-36.dynamicIP.rima-tde.net) has quit (Quit: Computer has gone to sleep.)
+2013-06-21 11:28:28	-->	conan (~conan@195.Red-88-5-36.dynamicIP.rima-tde.net) has joined #winehq
+2013-06-21 11:28:41	<--	debdog (~Wowbagger@p549CA687.dip0.t-ipconnect.de) has quit (Remote host closed the connection)
+2013-06-21 11:29:35	--	Falcon` is now known as falcon`
+2013-06-21 11:33:51	--	Usurp is now known as Usurp|eat
+2013-06-21 11:34:29	<--	q66 (~q66@213.191.105.214) has quit (Ping timeout: 240 seconds)
+2013-06-21 11:34:37	<--	hasufell (~hasufell@gentoo/developer/hasufell) has quit (Quit: Verlassend)
+2013-06-21 11:37:00	-->	funyun (~funyun@cpe-65-25-103-89.neo.res.rr.com) has joined #winehq
+2013-06-21 11:39:29	<--	sektour (~SEKTOUR@MEXAHOTABOP.broker.freenet6.net) has quit (Read error: Connection reset by peer)
+2013-06-21 11:39:45	-->	sektour (~SEKTOUR@MEXAHOTABOP.broker.freenet6.net) has joined #winehq
+2013-06-21 11:41:09	<--	Pikudoz (~Pikonas@190.238.108.61) has quit (Ping timeout: 240 seconds)
+2013-06-21 11:54:50	-->	lfz (~chatzilla@200.198.133.74) has joined #winehq
+2013-06-21 11:55:16	-->	andre4s (~daredevil@frnk-5f7411a3.pool.mediaWays.net) has joined #winehq
+2013-06-21 11:55:47	<--	lfz (~chatzilla@200.198.133.74) has left #winehq
+2013-06-21 11:55:49	-->	Pikudoz (~Pikonas@190.238.108.61) has joined #winehq
+2013-06-21 11:57:06	-->	q66 (~q66@213.191.105.214) has joined #winehq
+2013-06-21 11:58:07	<--	Alam_Squeeze (alam@rigginstereo.lawarias.srb2.org) has quit (Read error: Operation timed out)
+2013-06-21 11:59:07	-->	Logan_A (lawarias@pool-173-48-153-22.bstnma.fios.verizon.net) has joined #winehq
+2013-06-21 11:59:13	<--	Pikel (~toor@unaffiliated/pikel) has quit (Ping timeout: 252 seconds)
+2013-06-21 12:00:41	<--	LoganA (logan@zer0drive.lawarias.srb2.org) has quit (Ping timeout: 251 seconds)
+2013-06-21 12:01:07	<--	HarryS (H@unaffiliated/harrys) has quit (Ping timeout: 264 seconds)
+2013-06-21 12:01:26	<--	Kalzar (~D4rkSilve@198-84-250-145.cpe.teksavvy.com) has quit (Ping timeout: 252 seconds)
+2013-06-21 12:01:27	-->	deadalnix__ (~deadalnix@i118-21-142-231.s30.a048.ap.plala.or.jp) has joined #winehq
+2013-06-21 12:02:11	-->	Kalzar (~D4rkSilve@198-84-250-145.cpe.teksavvy.com) has joined #winehq
+2013-06-21 12:03:03	-->	Alam_Squeeze (lawarias@pool-173-48-153-22.bstnma.fios.verizon.net) has joined #winehq
+2013-06-21 12:03:42	<--	andre4s (~daredevil@frnk-5f7411a3.pool.mediaWays.net) has quit (Quit: Leaving)
+2013-06-21 12:03:53	<--	deadalnix_ (~deadalnix@i118-21-142-231.s30.a048.ap.plala.or.jp) has quit (Ping timeout: 240 seconds)
+2013-06-21 12:04:45	<--	smoke_ (~smoke@108-84-237-73.lightspeed.frokca.sbcglobal.net) has quit (Ping timeout: 246 seconds)
+2013-06-21 12:06:13	-->	andre4s (~daredevil@frnk-5f7411a3.pool.mediaWays.net) has joined #winehq
+2013-06-21 12:07:50	<--	andre4s (~daredevil@frnk-5f7411a3.pool.mediaWays.net) has quit (Client Quit)
+2013-06-21 12:09:23	<--	DaZ (~derp@77-255-241-238.adsl.inetia.pl) has quit (Ping timeout: 240 seconds)
+2013-06-21 12:10:37	<--	deadalnix__ (~deadalnix@i118-21-142-231.s30.a048.ap.plala.or.jp) has quit (Remote host closed the connection)
+2013-06-21 12:11:20	-->	andre4s (~daredevil@frnk-5f7411a3.pool.mediaWays.net) has joined #winehq
+2013-06-21 12:13:10	<--	Dessimat0r (~Dessimat0@cpc1-birk8-2-0-cust884.1-3.cable.virginmedia.com) has quit (Ping timeout: 276 seconds)
+2013-06-21 12:15:21	-->	DaZ (~derp@77-255-249-125.adsl.inetia.pl) has joined #winehq
+2013-06-21 12:20:57	-->	Pikel (~toor@unaffiliated/pikel) has joined #winehq
+2013-06-21 12:25:24	<--	Jackneill (~Jackneill@unaffiliated/jackneill) has quit (Ping timeout: 246 seconds)
+2013-06-21 12:27:07	-->	Spaceghost (~quassel@r186-50-162-170.dialup.adsl.anteldata.net.uy) has joined #winehq
+2013-06-21 12:27:31	--	Spaceghost is now known as Guest7993
+2013-06-21 12:33:55	-->	Dessimat0r (~Dessimat0@cpc1-birk8-2-0-cust884.1-3.cable.virginmedia.com) has joined #winehq
+2013-06-21 12:35:34	<--	Guest7993 (~quassel@r186-50-162-170.dialup.adsl.anteldata.net.uy) has quit (Read error: Connection reset by peer)
+2013-06-21 12:35:43	<--	man_in_shack (~likeyouca@unaffiliated/man-in-shack/x-4279753) has quit (Ping timeout: 260 seconds)
+2013-06-21 12:37:27	-->	man_in_shack (~likeyouca@110-175-33-5.static.tpgi.com.au) has joined #winehq
+2013-06-21 12:37:27	<--	man_in_shack (~likeyouca@110-175-33-5.static.tpgi.com.au) has quit (Changing host)
+2013-06-21 12:37:27	-->	man_in_shack (~likeyouca@unaffiliated/man-in-shack/x-4279753) has joined #winehq
+2013-06-21 12:41:36	-->	hasufell (~hasufell@gentoo/developer/hasufell) has joined #winehq
+2013-06-21 12:50:41	<--	DaZ (~derp@77-255-249-125.adsl.inetia.pl) has quit (Read error: Operation timed out)
+2013-06-21 12:50:58	<--	Defolos (~dan@HSI-KBW-134-3-247-222.hsi14.kabel-badenwuerttemberg.de) has quit (Ping timeout: 246 seconds)
+2013-06-21 12:52:02	--	falcon` is now known as Falcon`
+2013-06-21 12:52:56	-->	smoke_ (~smoke@108-84-237-73.lightspeed.frokca.sbcglobal.net) has joined #winehq
+2013-06-21 12:58:55	-->	DaZ (~derp@77-253-99-0.adsl.inetia.pl) has joined #winehq
+2013-06-21 13:05:08	-->	rgeri77 (~rgeri77@catv-176-63-144-210.catv.broadband.hu) has joined #winehq
+2013-06-21 13:05:34	<--	redgirl (~Red@negval.starlink.ru) has quit (Read error: Connection reset by peer)
+2013-06-21 13:05:36	-->	tizbac (~1337@host26-186-dynamic.20-87-r.retail.telecomitalia.it) has joined #winehq
+2013-06-21 13:05:51	-->	redgirl (~Red@negval.starlink.ru) has joined #winehq
+2013-06-21 13:12:32	-->	HarryS (H@unaffiliated/harrys) has joined #winehq
+2013-06-21 13:16:08	<--	Yoshimo (~Miranda@p5493DA13.dip0.t-ipconnect.de) has quit (Quit: Yoshimo)
+2013-06-21 13:16:26	<--	Dessimat0r (~Dessimat0@cpc1-birk8-2-0-cust884.1-3.cable.virginmedia.com) has quit (Quit: Computer has gone to sleep.)
+2013-06-21 13:18:52	<--	zoktar (~zoktar@unaffiliated/zoktar) has quit (Quit: -)
+2013-06-21 13:21:47	-->	zoktar (~zoktar@unaffiliated/zoktar) has joined #winehq
+2013-06-21 13:26:15	-->	Dessimat0r (~Dessimat0@cpc1-birk8-2-0-cust884.1-3.cable.virginmedia.com) has joined #winehq
+2013-06-21 13:27:05	<--	DaZ (~derp@77-253-99-0.adsl.inetia.pl) has quit (Ping timeout: 255 seconds)
+2013-06-21 13:27:53	<--	Pikudoz (~Pikonas@190.238.108.61) has quit (Ping timeout: 241 seconds)
+2013-06-21 13:32:28	-->	DaZ (~derp@77-255-250-103.adsl.inetia.pl) has joined #winehq
+2013-06-21 13:32:55	<--	saintcajetan (~sodalitum@cpe-72-183-246-29.elp.res.rr.com) has quit (Read error: Connection reset by peer)
+2013-06-21 13:33:02	-->	ced117 (~ced117@opensuse/member/ced117) has joined #winehq
+2013-06-21 13:42:53	<--	diffycat (~diffycat@85.113.55.206) has quit (Ping timeout: 240 seconds)
+2013-06-21 13:42:58	-->	Pikudoz (~Pikonas@190.238.108.61) has joined #winehq
+2013-06-21 13:44:49	<--	DaZ (~derp@77-255-250-103.adsl.inetia.pl) has quit (Ping timeout: 248 seconds)
+2013-06-21 13:50:30	-->	DaZ- (~derp@87-205-150-239.adsl.inetia.pl) has joined #winehq
+2013-06-21 14:00:58	<--	DaZ- (~derp@87-205-150-239.adsl.inetia.pl) has quit (Ping timeout: 268 seconds)
+2013-06-21 14:01:16	<--	nantou (~phonetic@gateway/tor-sasl/martinphone) has quit (Quit: gone)
+2013-06-21 14:02:22	<--	puk (mstefani@nat/redhat/x-wtfuqqdgfrzqotwx) has quit (Quit: Leaving)
+2013-06-21 14:03:53	<--	onny (~onny@krlh-d9be74d7.pool.mediaWays.net) has quit (Ping timeout: 240 seconds)
+2013-06-21 14:06:02	-->	DaZ- (~derp@77-255-246-123.adsl.inetia.pl) has joined #winehq
+2013-06-21 14:11:28	<--	DaZ- (~derp@77-255-246-123.adsl.inetia.pl) has quit (Ping timeout: 276 seconds)
+2013-06-21 14:12:32	-->	Alikexhi (~Alikexhi4@ARennes-654-1-88-54.w2-10.abo.wanadoo.fr) has joined #winehq
+2013-06-21 14:15:48	-->	DarkAceLaptop (~BillyMays@50.107.52.179) has joined #winehq
+2013-06-21 14:15:48	<--	DarkAceLaptop (~BillyMays@50.107.52.179) has quit (Changing host)
+2013-06-21 14:15:48	-->	DarkAceLaptop (~BillyMays@unaffiliated/darkacez) has joined #winehq
+2013-06-21 14:16:02	-->	DaZ- (~derp@213-238-73-62.adsl.inetia.pl) has joined #winehq
+2013-06-21 14:17:30	--	DaZ- is now known as DaZ
+2013-06-21 14:18:01	<--	rgeri77 (~rgeri77@catv-176-63-144-210.catv.broadband.hu) has quit (Quit: Még visszatérek........)
+2013-06-21 14:21:06	<--	opalepatrick (~patrick@c126-34.i07-32.onvol.net) has quit (Quit: Ex-Chat)
+2013-06-21 14:21:49	-->	lunix (~nop@bl8-221-68.dsl.telepac.pt) has joined #winehq
+2013-06-21 14:22:15	<--	DaZ (~derp@213-238-73-62.adsl.inetia.pl) has quit (Read error: Operation timed out)
+2013-06-21 14:23:24	-->	nantou (~phonetic@gateway/tor-sasl/martinphone) has joined #winehq
+2013-06-21 14:25:56	<--	tizbac (~1337@host26-186-dynamic.20-87-r.retail.telecomitalia.it) has quit (Quit: Sto andando via)
+2013-06-21 14:26:32	<--	Pikudoz (~Pikonas@190.238.108.61) has quit (Remote host closed the connection)
+2013-06-21 14:30:34	-->	DaZ (~derp@213-238-77-231.adsl.inetia.pl) has joined #winehq
+2013-06-21 14:45:53	-->	saintcajetan (~sodalitum@cpe-72-183-246-29.elp.res.rr.com) has joined #winehq
+2013-06-21 14:49:41	lunix	gta san andreas shows whit screens instead of contend. Output WINEDEBUG=+wgl wine gta_sa.exe &> wine.log http://pastebin.sabayon.org/pastie/12857 . Wine-1.5.31 on sabayon linux 64bits.
+2013-06-21 14:49:51	lunix	white*
+2013-06-21 14:50:36	lunix	i think the problem is on drivers or some lib. On debian squeeze i had fglrx and gtasa worked. them i uninstalled fglrx and installed the radeon opensource driver and then the game was showing this white screens
+2013-06-21 14:51:16	Alikexhi	lunix, need to register to read your paste ?
+2013-06-21 14:51:59	lunix	Alikexhi: no
+2013-06-21 14:52:15	Alikexhi	lunix, well about wine and games it's adviced to use proprietary drivers
+2013-06-21 14:52:34	lunix	Alikexhi: i cant
+2013-06-21 14:52:45	Alikexhi	lunix, they stopped supporting your hardware ?
+2013-06-21 14:53:07	lunix	Alikexhi: this graphic board inst suported any more
+2013-06-21 14:53:30	Alikexhi	lunix, had the same problem with an ATI card...that's why I bought a nvidia card
+2013-06-21 14:53:35	lunix	on ubuntu this worked fine
+2013-06-21 14:53:43	<--	funyun (~funyun@cpe-65-25-103-89.neo.res.rr.com) has quit (Ping timeout: 276 seconds)
+2013-06-21 14:54:22	lunix	on debian i used wine-1.4 on ubuntu wine-1.4.1
+2013-06-21 14:54:23	<--	skython (~skython@sign-4db60993.pool.mediaWays.net) has quit (Read error: Connection reset by peer)
+2013-06-21 14:54:56	Alikexhi	lunix, ADM stop supporting drivers just a few years after you buy it, not nvidia...
+2013-06-21 14:54:57	<--	ced117 (~ced117@opensuse/member/ced117) has quit (Quit: Quitte)
+2013-06-21 14:55:31	Alikexhi	lunix, anyway maybe you can try different wine regedit options about D3d
+2013-06-21 14:55:53	Alikexhi	lunix, on direct3D section of this page http://wiki.winehq.org/UsefulRegistryKeys
+2013-06-21 14:56:14	lunix	Alikexhi: ill try it
+2013-06-21 14:56:37	Alikexhi	lunix, but you must know ATI free drivers work very well with 2D thing (even better than proprietary drivers) but about 3D it's the controry
+2013-06-21 14:56:52	Alikexhi	lunix, in all case you will be really limited
+2013-06-21 14:57:05	Alikexhi	(by the drivers)
+2013-06-21 14:58:01	lunix	Alikexhi: i played well gtasa whith this board and radeon opensource driver
+2013-06-21 14:58:54	lunix	Alikexhi: some times it did a little lag but was almost nothing
+2013-06-21 14:59:45	Alikexhi	lunix, well maybe you can find a configuration optimized for your drivers and your game with these Direct3D options
+2013-06-21 15:09:35	<--	c_korn (~korn@p57A6A95E.dip0.t-ipconnect.de) has quit (Quit: Bye bye.)
+2013-06-21 15:11:16	<--	fracting_ (~fracting@li584-22.members.linode.com) has quit (Ping timeout: 240 seconds)
+2013-06-21 15:11:19	<--	DaZ (~derp@213-238-77-231.adsl.inetia.pl) has quit (Ping timeout: 246 seconds)
+2013-06-21 15:17:38	-->	DaZ (~derp@213-238-76-175.adsl.inetia.pl) has joined #winehq
+2013-06-21 15:20:59	--	Falcon` is now known as falcon`
+2013-06-21 15:33:50	<--	DaZ (~derp@213-238-76-175.adsl.inetia.pl) has quit (Ping timeout: 256 seconds)
+2013-06-21 15:37:31	lunix	Alikexhi: regedit configs on ubuntu, debian and sabayon are the same?
+2013-06-21 15:38:31	-->	Phase4 (~Phase4@2001:44b8:4196:e800:4c74:2818:79cb:409c) has joined #winehq
+2013-06-21 15:39:40	-->	DaZ (~derp@213-238-71-97.adsl.inetia.pl) has joined #winehq
+2013-06-21 15:42:11	lunix	Alikexhi: i mean, the defaults configs
+2013-06-21 15:44:55	<--	Phase4 (~Phase4@2001:44b8:4196:e800:4c74:2818:79cb:409c) has quit (Ping timeout: 264 seconds)
+2013-06-21 15:45:19	austin987	lunix, they should be, yes, unless the packager is changing things
+2013-06-21 15:45:26	--	Mode #winehq [+o austin987] by ChanServ
+2013-06-21 15:45:33	--	austin987 has changed topic for #winehq from "Wine end user support http://www.winehq.org || Off-topic: #winehq-social || Winetricks: http://wiki.winehq.org/winetricks || AppDB: http://appdb.winehq.org || Wiki: http://wiki.winehq.org || FAQ: http://wiki.winehq.org/FAQ || Stable[1.4.1] Development[1.6-rc2] || Please upgrade to 1.4.1 or 1.6-rc2 and state version || Please use http://www.pastebin.com for logs" to "Wine end user support http://www.winehq.org || Off-topic: #winehq-social || Winetricks: http://wiki.winehq.org/winetricks || AppDB: http://appdb.winehq.org || Wiki: http://wiki.winehq.org || FAQ: http://wiki.winehq.org/FAQ || Stable[1.4.1] Development[1.6-rc3] || Please upgrade to 1.4.1 or 1.6-rc3 and state version || Please use http://www.pastebin.com for logs"
+2013-06-21 15:50:55	<--	HarryS (H@unaffiliated/harrys) has quit (Ping timeout: 264 seconds)
+2013-06-21 15:51:08	lunix	if they have the same reg config, its useless to regedit . ubuntu worked fine with this configs (if they are the same) in this hardware with radeon driver
+2013-06-21 15:53:16	lunix	when i was using debian i found one forum thread saying it was a bug in some library but i not remember more
+2013-06-21 15:53:32	<--	hasufell (~hasufell@gentoo/developer/hasufell) has quit (Quit: Verlassend)
+2013-06-21 15:54:22	-->	croppa (~stuart@CPE-120-146-137-99.static.nsw.bigpond.net.au) has joined #winehq
+2013-06-21 15:54:42	-->	DarkAceLaptop_ (~h@50.107.52.179) has joined #winehq
+2013-06-21 15:56:21	-->	HarryS (H@unaffiliated/harrys) has joined #winehq
+2013-06-21 15:57:09	<--	DarkAceLaptop (~BillyMays@unaffiliated/darkacez) has quit (Ping timeout: 246 seconds)
+2013-06-21 16:00:28	<--	Z_God (~julius@2001:888:141f:0:2cb6:2257:9d7c:225e) has quit (Remote host closed the connection)
+2013-06-21 16:00:44	-->	feep_ (~feep@p579E4CDF.dip0.t-ipconnect.de) has joined #winehq
+2013-06-21 16:04:08	<--	feep (~feep@p579E4BEB.dip0.t-ipconnect.de) has quit (Ping timeout: 255 seconds)
+2013-06-21 16:12:05	--	DarkAceLaptop_ is now known as DarkAceLaptop
+2013-06-21 16:18:16	<--	HarryS (H@unaffiliated/harrys) has quit (Quit: Äddi)
+2013-06-21 16:31:03	<--	saintcajetan (~sodalitum@cpe-72-183-246-29.elp.res.rr.com) has quit (Remote host closed the connection)
+2013-06-21 16:36:58	<--	DaZ (~derp@213-238-71-97.adsl.inetia.pl) has quit (Read error: Operation timed out)
+2013-06-21 16:39:18	-->	QBall__ (~QBall@host86-174-147-251.range86-174.btcentralplus.com) has joined #winehq
+2013-06-21 16:40:33	<--	QBall_ (~QBall@host86-174-147-251.range86-174.btcentralplus.com) has quit (Ping timeout: 246 seconds)
+2013-06-21 16:44:46	<--	Dwarf (user@chat.bcome.nl) has quit (Ping timeout: 246 seconds)
+2013-06-21 16:45:16	-->	DaZ (~derp@87-205-156-164.adsl.inetia.pl) has joined #winehq
+2013-06-21 16:49:07	<--	Alikexhi (~Alikexhi4@ARennes-654-1-88-54.w2-10.abo.wanadoo.fr) has quit (Quit: quittage)
+2013-06-21 16:54:04	-->	madewokherd (~urk@c-66-41-74-61.hsd1.mn.comcast.net) has joined #winehq
+2013-06-21 17:02:42	-->	Dwarf (~user@chat.bcome.nl) has joined #winehq
+2013-06-21 17:03:06	-->	nsivov_ (~nsivov@ppp83-237-201-205.pppoe.mtu-net.ru) has joined #winehq
+2013-06-21 17:06:05	<--	nsivov (~nsivov@ppp83-237-223-0.pppoe.mtu-net.ru) has quit (Ping timeout: 252 seconds)
+2013-06-21 17:08:45	<--	Dwarf (~user@chat.bcome.nl) has quit (Ping timeout: 256 seconds)
+2013-06-21 17:38:43	<--	croppa (~stuart@CPE-120-146-137-99.static.nsw.bigpond.net.au) has quit (Ping timeout: 256 seconds)
+2013-06-21 17:38:58	<--	emmanuelux (~emmanuelu@192.123.25.109.rev.sfr.net) has quit (Remote host closed the connection)
+2013-06-21 17:46:47	<--	Dessimat0r (~Dessimat0@cpc1-birk8-2-0-cust884.1-3.cable.virginmedia.com) has quit (Quit: Computer has gone to sleep.)
+2013-06-21 17:47:07	-->	croppa (~stuart@CPE-120-146-137-99.static.nsw.bigpond.net.au) has joined #winehq
+2013-06-21 17:50:00	<--	q66 (~q66@213.191.105.214) has quit (Remote host closed the connection)
+2013-06-21 17:51:12	<--	croppa (~stuart@CPE-120-146-137-99.static.nsw.bigpond.net.au) has quit (Read error: Connection reset by peer)
+2013-06-21 17:51:32	-->	croppa (~stuart@CPE-120-146-137-99.static.nsw.bigpond.net.au) has joined #winehq
+2013-06-21 17:52:10	-->	jalan__ (~jalan@cpe-174-102-110-54.woh.res.rr.com) has joined #winehq
+2013-06-21 17:52:52	<--	lunix (~nop@bl8-221-68.dsl.telepac.pt) has quit (Remote host closed the connection)
+2013-06-21 17:53:30	<--	jalan (~jalan@cpe-174-102-110-54.woh.res.rr.com) has quit (Ping timeout: 264 seconds)
+2013-06-21 17:56:34	-->	Dessimat0r (~Dessimat0@cpc1-birk8-2-0-cust884.1-3.cable.virginmedia.com) has joined #winehq
+2013-06-21 17:58:08	<--	Dessimat0r (~Dessimat0@cpc1-birk8-2-0-cust884.1-3.cable.virginmedia.com) has quit (Client Quit)
+2013-06-21 17:58:27	--	jalan__ is now known as jalan
+2013-06-21 17:58:33	<--	jalan (~jalan@cpe-174-102-110-54.woh.res.rr.com) has quit (Quit: Quit)
+2013-06-21 17:58:51	-->	jalan (~jalan@cpe-174-102-110-54.woh.res.rr.com) has joined #winehq
+2013-06-21 18:04:23	-->	daredevil_ (~daredevil@frnk-5f743b02.pool.mediaWays.net) has joined #winehq
+2013-06-21 18:06:15	<--	iive (~iive@unaffiliated/iive) has quit (Quit: They came for me...)
+2013-06-21 18:06:50	<--	madewokherd (~urk@c-66-41-74-61.hsd1.mn.comcast.net) has quit (Ping timeout: 256 seconds)
+2013-06-21 18:06:53	<--	andre4s (~daredevil@frnk-5f7411a3.pool.mediaWays.net) has quit (Ping timeout: 240 seconds)
+2013-06-21 18:11:20	-->	Chehri (~Chehri@unaffiliated/chehri) has joined #winehq
+2013-06-21 18:28:46	-->	Smartnow (noident@unaffiliated/smartnow) has joined #winehq
+2013-06-21 18:36:54	<--	Eduard_Munteanu (~Eduard_Mu@188.25.7.45) has quit (Read error: Connection reset by peer)
+2013-06-21 19:10:32	-->	daredevil__ (~daredevil@frnk-5f7458d9.pool.mediaWays.net) has joined #winehq
+2013-06-21 19:10:34	-->	Dessimat0r (~Dessimat0@cpc1-birk8-2-0-cust884.1-3.cable.virginmedia.com) has joined #winehq
+2013-06-21 19:12:36	<--	Justice (~Justice@c-82-209-157-217.cust.bredband2.com) has quit (Quit: Konversation terminated!)
+2013-06-21 19:13:51	<--	daredevil_ (~daredevil@frnk-5f743b02.pool.mediaWays.net) has quit (Ping timeout: 246 seconds)
+2013-06-21 19:34:07	-->	madewokherd (~urk@c-66-41-74-61.hsd1.mn.comcast.net) has joined #winehq
+2013-06-21 20:05:14	<--	nantou (~phonetic@gateway/tor-sasl/martinphone) has quit (Quit: gone)
+2013-06-21 20:06:24	<--	daredevil__ (~daredevil@frnk-5f7458d9.pool.mediaWays.net) has quit (Quit: Leaving)
+2013-06-21 20:09:42	-->	funyun (~funyun@cpe-65-25-103-89.neo.res.rr.com) has joined #winehq
+2013-06-21 20:16:46	-->	Hussaind (~esds@115.124.115.71) has joined #winehq
+2013-06-21 20:30:32	<--	DaZ (~derp@87-205-156-164.adsl.inetia.pl) has quit (Ping timeout: 255 seconds)
+2013-06-21 20:35:37	-->	DaZ (~derp@87-205-155-70.adsl.inetia.pl) has joined #winehq
+2013-06-21 20:37:34	<--	LunaVorax (~LunaVorax@ABordeaux-651-1-57-47.w109-223.abo.wanadoo.fr) has quit (Ping timeout: 256 seconds)
+2013-06-21 20:51:08	-->	KaMii (~KaMii@unaffiliated/kamii) has joined #winehq
+2013-06-21 20:51:24	KaMii	anyone able to get League of Legends to play?  everytime i try to load a tutorial i get bugsplat
+2013-06-21 20:53:41	<--	fling (~fling@fsf/member/fling) has quit (Ping timeout: 248 seconds)
+2013-06-21 21:04:47	-->	Jackneill (~Jackneill@unaffiliated/jackneill) has joined #winehq
+2013-06-21 21:06:59	<--	killertux (~tux@et426.netikka.fi) has quit (Quit: Leaving)
+2013-06-21 21:11:33	<--	DarkAceLaptop (~h@50.107.52.179) has quit (Quit: I'm quitting IRC forever.)
+2013-06-21 21:18:41	<--	smoke_ (~smoke@108-84-237-73.lightspeed.frokca.sbcglobal.net) has quit (Ping timeout: 255 seconds)
+2013-06-21 21:27:47	-->	Tommy[D] (~TommyD]@gentoo/developer/tommy) has joined #winehq
+2013-06-21 21:28:57	-->	jotaxpe (~jotaxpe@pc-19-109-44-190.cm.vtr.net) has joined #winehq
+2013-06-21 21:30:21	<--	Tommy[D]_ (~TommyD]@gentoo/developer/tommy) has quit (Ping timeout: 246 seconds)
+2013-06-21 21:35:28	-->	fling (~fling@fsf/member/fling) has joined #winehq
+2013-06-21 21:35:45	<--	DaZ (~derp@87-205-155-70.adsl.inetia.pl) has quit (Ping timeout: 248 seconds)
+2013-06-21 21:37:53	<--	croppa (~stuart@CPE-120-146-137-99.static.nsw.bigpond.net.au) has quit (Remote host closed the connection)
+2013-06-21 21:38:18	-->	croppa (~stuart@CPE-120-146-137-99.static.nsw.bigpond.net.au) has joined #winehq
+2013-06-21 21:40:44	<--	wakou2 (~stephen@host109-153-11-34.range109-153.btcentralplus.com) has quit (Quit: Konversation terminated!)
+2013-06-21 21:41:43	-->	DaZ (~derp@77-255-56-105.adsl.inetia.pl) has joined #winehq
+2013-06-21 21:47:26	-->	fracting_ (~fracting@li584-22.members.linode.com) has joined #winehq
+2013-06-21 21:54:42	<--	jotaxpe (~jotaxpe@pc-19-109-44-190.cm.vtr.net) has quit (Quit: Saliendo)
+2013-06-21 22:05:21	-->	sl33v3 (~sl33v3@114-36-224-117.dynamic.hinet.net) has joined #winehq
+2013-06-21 22:13:02	-->	deadalnix (~deadalnix@i118-21-142-231.s30.a048.ap.plala.or.jp) has joined #winehq
+2013-06-21 22:47:38	-->	nsivov (~nsivov@ppp83-237-220-71.pppoe.mtu-net.ru) has joined #winehq
+2013-06-21 22:51:28	<--	nsivov_ (~nsivov@ppp83-237-201-205.pppoe.mtu-net.ru) has quit (Ping timeout: 276 seconds)
+2013-06-21 23:03:42	<--	MrSassyPants (thephil@77-58-229-3.dclient.hispeed.ch) has quit (Remote host closed the connection)
+2013-06-21 23:07:25	<--	madewokherd (~urk@c-66-41-74-61.hsd1.mn.comcast.net) has quit (Remote host closed the connection)
+2013-06-21 23:11:54	-->	StrikerBob (~bob@c-71-236-255-238.hsd1.or.comcast.net) has joined #winehq
+2013-06-21 23:17:20	<--	fracting_ (~fracting@li584-22.members.linode.com) has quit (Read error: Connection reset by peer)
+2013-06-21 23:19:19	<--	Stels (~stels@91.185.91.58) has quit (Quit: Konversation terminated! kernel panic error, the system go to reboot)
+2013-06-21 23:19:47	-->	Stels (~stels@95.104.224.31) has joined #winehq
+2013-06-21 23:20:27	-->	killertux (~tux@et426.netikka.fi) has joined #winehq
+2013-06-21 23:23:42	<--	StrikerBob (~bob@c-71-236-255-238.hsd1.or.comcast.net) has left #winehq ("Leaving")
+2013-06-21 23:23:53	-->	siero (4d74f617@gateway/web/freenode/ip.77.116.246.23) has joined #winehq
+2013-06-21 23:25:21	siero	hello, may I ask if there is a possibility to find out which wineversion a wineprefix was made with?
+2013-06-21 23:26:13	siero	because if I do not use the prefix I created it with, the prefix gets updated, thus the program I want to run, crashes
+2013-06-21 23:28:35	-->	diffycat (~diffycat@85.113.55.206) has joined #winehq
+2013-06-21 23:31:45	-->	fracting_ (~fracting@222.50.68.67) has joined #winehq
+2013-06-21 23:31:59	-->	Sashmo__ (~sashmo_@38.113.164.109) has joined #winehq
+2013-06-21 23:33:06	<--	conan (~conan@195.Red-88-5-36.dynamicIP.rima-tde.net) has quit (Ping timeout: 264 seconds)
+2013-06-21 23:34:00	<--	larsivi (~quassel@188.113.74.106) has quit (Read error: Connection reset by peer)
+2013-06-21 23:34:06	-->	larsivi (~quassel@188.113.74.106) has joined #winehq
+2013-06-21 23:34:17	-->	Alam_Lenny (alam@rigginstereo.lawarias.srb2.org) has joined #winehq
+2013-06-21 23:34:18	<--	archer13 (~archer13@91.228.199.193) has quit (Ping timeout: 264 seconds)
+2013-06-21 23:34:25	<--	Sashmo_ (~sashmo_@38.113.164.109) has quit (Read error: Connection reset by peer)
+2013-06-21 23:34:29	<--	nightwalk (~null@gateway/tor-sasl/nightwalk) has quit (Ping timeout: 240 seconds)
+2013-06-21 23:35:38	<--	Alam_Squeeze (lawarias@pool-173-48-153-22.bstnma.fios.verizon.net) has quit (Read error: Connection reset by peer)
+2013-06-21 23:35:53	-->	conan (~conan@195.Red-88-5-36.dynamicIP.rima-tde.net) has joined #winehq
+2013-06-21 23:36:57	-->	archer13 (~archer13@91.228.199.193) has joined #winehq
+2013-06-21 23:37:07	-->	nightwalk (~null@gateway/tor-sasl/nightwalk) has joined #winehq
+2013-06-21 23:48:36	<--	SilverStreak (~silver@c-68-42-77-242.hsd1.mi.comcast.net) has quit (Ping timeout: 246 seconds)
+2013-06-21 23:54:39	-->	opalepatrick (~patrick@c126-34.i07-32.onvol.net) has joined #winehq
+2013-06-21 23:54:43	-->	Yoshimo (~Miranda@p5493FA81.dip0.t-ipconnect.de) has joined #winehq
+2013-06-21 23:56:53	<--	Chehri (~Chehri@unaffiliated/chehri) has quit (Quit: Out)
+2013-06-22 00:09:02	-->	Defolos (~dan@HSI-KBW-134-3-247-222.hsi14.kabel-badenwuerttemberg.de) has joined #winehq
+2013-06-22 00:26:56	-->	rgeri77 (~rgeri77@catv-176-63-144-210.catv.broadband.hu) has joined #winehq
+2013-06-22 00:44:22	<--	redgirl (~Red@negval.starlink.ru) has quit (Quit: This computer has gone to sleep)
+2013-06-22 00:45:04	-->	redgirl (~Red@negval.starlink.ru) has joined #winehq
+2013-06-22 00:45:23	<--	Jonbo (~Jonbo123@24.140.125.4) has quit (Ping timeout: 240 seconds)
+2013-06-22 00:53:22	<--	funyun (~funyun@cpe-65-25-103-89.neo.res.rr.com) has quit (Ping timeout: 256 seconds)
+2013-06-22 00:53:22	-->	Phase4 (~Phase4@2001:44b8:4196:e800:88a1:dc1:4d55:ccc2) has joined #winehq
+2013-06-22 00:58:29	-->	xingoo (~xingoo@c-51c6e255.03-70-65736b1.cust.bredbandsbolaget.se) has joined #winehq
+2013-06-22 01:06:09	<--	Yoshimo (~Miranda@p5493FA81.dip0.t-ipconnect.de) has quit (Quit: Yoshimo)
+2013-06-22 01:10:41	<--	Smartnow (noident@unaffiliated/smartnow) has quit (Quit: Smartnow)
+2013-06-22 01:11:24	<--	Defolos (~dan@HSI-KBW-134-3-247-222.hsi14.kabel-badenwuerttemberg.de) has quit (Quit: Leaving.)
+2013-06-22 01:14:23	<--	DaZ (~derp@77-255-56-105.adsl.inetia.pl) has quit (Ping timeout: 240 seconds)
+2013-06-22 01:14:52	<--	KaMii (~KaMii@unaffiliated/kamii) has left #winehq
+2013-06-22 01:27:37	<--	graphitemaster (~graphitem@unaffiliated/graphitemaster) has quit (Read error: Connection reset by peer)
+2013-06-22 01:27:59	-->	Yoshimo (~Miranda@p5493FA81.dip0.t-ipconnect.de) has joined #winehq
+2013-06-22 01:28:02	-->	graphitemaster (~graphitem@24-138-180-122.eastlink.ca) has joined #winehq
+2013-06-22 01:28:02	<--	graphitemaster (~graphitem@24-138-180-122.eastlink.ca) has quit (Changing host)
+2013-06-22 01:28:02	-->	graphitemaster (~graphitem@unaffiliated/graphitemaster) has joined #winehq
+2013-06-22 01:37:34	-->	DaZ (~derp@77-253-109-83.adsl.inetia.pl) has joined #winehq
+2013-06-22 01:38:18	-->	onny (~onny@dslb-094-219-117-169.pools.arcor-ip.net) has joined #winehq
+2013-06-22 01:39:23	<--	fracting_ (~fracting@222.50.68.67) has quit (Ping timeout: 240 seconds)
+2013-06-22 01:46:07	-->	hasufell (~hasufell@gentoo/developer/hasufell) has joined #winehq
+2013-06-22 01:52:08	-->	fracting_ (~fracting@li584-22.members.linode.com) has joined #winehq
+2013-06-22 01:52:44	<--	DaZ (~derp@77-253-109-83.adsl.inetia.pl) has quit (Ping timeout: 255 seconds)
+2013-06-22 01:57:36	-->	DaZ (~derp@87.205.148.233) has joined #winehq
+2013-06-22 01:58:45	<--	onny (~onny@dslb-094-219-117-169.pools.arcor-ip.net) has quit (Quit: WeeChat 0.4.1)
+2013-06-22 01:59:07	<--	DaZ (~derp@87.205.148.233) has quit (Read error: Connection reset by peer)
+2013-06-22 02:02:05	-->	onny (~onny@dslb-094-219-117-169.pools.arcor-ip.net) has joined #winehq
+2013-06-22 02:08:07	-->	DaZ (~derp@77-255-250-227.adsl.inetia.pl) has joined #winehq
+2013-06-22 02:09:52	-->	Defolos (~dan@HSI-KBW-134-3-247-222.hsi14.kabel-badenwuerttemberg.de) has joined #winehq
+2013-06-22 02:11:40	<--	onny (~onny@dslb-094-219-117-169.pools.arcor-ip.net) has quit (Ping timeout: 276 seconds)
+2013-06-22 02:15:52	<--	xingoo (~xingoo@c-51c6e255.03-70-65736b1.cust.bredbandsbolaget.se) has quit (Ping timeout: 256 seconds)
+2013-06-22 02:20:38	<--	Yoshimo (~Miranda@p5493FA81.dip0.t-ipconnect.de) has quit (Ping timeout: 255 seconds)
+2013-06-22 02:30:44	-->	wakou2 (~stephen@host109-153-11-34.range109-153.btcentralplus.com) has joined #winehq
+2013-06-22 02:31:51	-->	Alikexhi (~Alikexhi4@ARennes-654-1-88-54.w2-10.abo.wanadoo.fr) has joined #winehq
+2013-06-22 02:39:17	-->	instence_ (~instence@user-11fagi2.dsl.mindspring.com) has joined #winehq
+2013-06-22 02:40:06	<--	instence (~instence@user-11fagi2.dsl.mindspring.com) has quit (Ping timeout: 246 seconds)
+2013-06-22 02:44:23	<--	siero (4d74f617@gateway/web/freenode/ip.77.116.246.23) has quit (Ping timeout: 250 seconds)
+2013-06-22 02:47:22	-->	debdog (~Wowbagger@p549CB0EF.dip0.t-ipconnect.de) has joined #winehq
+2013-06-22 02:48:01	-->	Z_God (~julius@2001:888:141f:0:eda5:2fc6:1445:89f9) has joined #winehq
+2013-06-22 02:52:08	-->	smoke_ (~smoke@108-84-237-73.lightspeed.frokca.sbcglobal.net) has joined #winehq
+2013-06-22 02:53:55	-->	onny (~onny@dslb-094-219-117-169.pools.arcor-ip.net) has joined #winehq
+2013-06-22 02:58:54	-->	q66 (~q66@213.191.105.214) has joined #winehq
+2013-06-22 03:02:10	<--	desti (~desti@dslb-188-109-023-232.pools.arcor-ip.net) has quit (Ping timeout: 246 seconds)
+2013-06-22 03:08:09	-->	sulab3 (~surf@ABordeaux-256-1-66-24.w90-11.abo.wanadoo.fr) has joined #winehq
+2013-06-22 03:09:42	sulab3	hello, will i be able to use this program [ familyhotel.fr ] with wine?
+2013-06-22 03:14:24	sulab3	anybody around?
+2013-06-22 03:15:13	-->	desti (~desti@dslb-088-078-094-093.pools.arcor-ip.net) has joined #winehq
+2013-06-22 03:20:36	sulab3	hello, will i be able to use this program [ familyhotel.fr ] with wine?
+2013-06-22 03:22:25	<--	hagabaka (~quassel@unaffiliated/hagabaka) has quit (Read error: Connection reset by peer)
+2013-06-22 03:25:13	-->	hagabaka (~quassel@unaffiliated/hagabaka) has joined #winehq
+2013-06-22 03:37:01	<--	sulab3 (~surf@ABordeaux-256-1-66-24.w90-11.abo.wanadoo.fr) has left #winehq
+2013-06-22 03:37:11	debdog	sulab3: the most best repl...
+2013-06-22 03:38:05	debdog	friggin impatient people
+2013-06-22 03:42:31	-->	cocoa117 (~cocoa117@94-192-55-129.zone6.bethere.co.uk) has joined #winehq
+2013-06-22 03:44:49	<--	onny (~onny@dslb-094-219-117-169.pools.arcor-ip.net) has quit (Ping timeout: 248 seconds)
+2013-06-22 03:45:19	-->	AmR|EiSa (~eIsA@41.42.165.56) has joined #winehq
+2013-06-22 03:45:43	<--	AmR|EiSa (~eIsA@41.42.165.56) has left #winehq
+2013-06-22 03:49:41	-->	Eduard_Munteanu (~Eduard_Mu@188.25.7.119) has joined #winehq
+2013-06-22 03:52:16	-->	c_korn (~korn@p57B8EDDF.dip0.t-ipconnect.de) has joined #winehq
+2013-06-22 03:57:45	<--	croppa (~stuart@CPE-120-146-137-99.static.nsw.bigpond.net.au) has quit
+2013-06-22 04:02:42	<--	cocoa117 (~cocoa117@94-192-55-129.zone6.bethere.co.uk) has quit (Quit: Leaving)
+2013-06-22 04:03:10	-->	nantou (~phonetic@gateway/tor-sasl/martinphone) has joined #winehq
+2013-06-22 04:10:35	-->	LunaVorax (~LunaVorax@ABordeaux-651-1-57-47.w109-223.abo.wanadoo.fr) has joined #winehq
+2013-06-22 04:17:48	-->	onny (~onny@dslb-094-219-117-169.pools.arcor-ip.net) has joined #winehq
+2013-06-22 04:22:35	<--	conan (~conan@195.Red-88-5-36.dynamicIP.rima-tde.net) has quit (Quit: Computer has gone to sleep.)
+2013-06-22 04:23:17	-->	conan (~conan@195.Red-88-5-36.dynamicIP.rima-tde.net) has joined #winehq
+2013-06-22 04:28:37	<--	onny (~onny@dslb-094-219-117-169.pools.arcor-ip.net) has quit (Ping timeout: 268 seconds)
+2013-06-22 04:32:19	-->	emmanuelux (~emmanuelu@192.123.25.109.rev.sfr.net) has joined #winehq
+2013-06-22 04:39:49	<--	diffycat (~diffycat@85.113.55.206) has quit (Quit: diffycat)
+2013-06-22 04:46:48	<--	debdog (~Wowbagger@p549CB0EF.dip0.t-ipconnect.de) has quit (Remote host closed the connection)
+2013-06-22 04:47:09	-->	iive (~iive@87.119.101.204.client.entry.bg) has joined #winehq
+2013-06-22 04:47:09	<--	iive (~iive@87.119.101.204.client.entry.bg) has quit (Changing host)
+2013-06-22 04:47:09	-->	iive (~iive@unaffiliated/iive) has joined #winehq
+2013-06-22 04:48:50	-->	instence (~instence@user-11fagi2.dsl.mindspring.com) has joined #winehq
+2013-06-22 04:50:48	<--	instence_ (~instence@user-11fagi2.dsl.mindspring.com) has quit (Ping timeout: 256 seconds)
+2013-06-22 04:53:58	-->	MrSassyPants (thephil@77-58-229-3.dclient.hispeed.ch) has joined #winehq
+2013-06-22 05:12:12	<--	conan (~conan@195.Red-88-5-36.dynamicIP.rima-tde.net) has quit (Quit: Computer has gone to sleep.)
+2013-06-22 05:12:15	<--	QBall__ (~QBall@host86-174-147-251.range86-174.btcentralplus.com) has quit (Read error: Connection reset by peer)
+2013-06-22 05:14:29	-->	QBall__ (~QBall@host86-174-147-251.range86-174.btcentralplus.com) has joined #winehq
+2013-06-22 05:17:37	-->	Plinker_ (~plinker@bas1-ottawa23-1177564873.dsl.bell.ca) has joined #winehq
+2013-06-22 05:23:09	<--	Dessimat0r (~Dessimat0@cpc1-birk8-2-0-cust884.1-3.cable.virginmedia.com) has quit (Quit: Computer has gone to sleep.)
+2013-06-22 05:23:41	-->	Dessimat0r (~Dessimat0@cpc1-birk8-2-0-cust884.1-3.cable.virginmedia.com) has joined #winehq
+2013-06-22 05:24:04	--	Plinker_ is now known as Plinker
+2013-06-22 05:27:43	<--	Hussaind (~esds@115.124.115.71) has quit (Read error: Connection reset by peer)
+2013-06-22 05:37:54	-->	Yoshimo (~Miranda@p5493FA81.dip0.t-ipconnect.de) has joined #winehq
+2013-06-22 05:59:19	-->	diffycat (~diffycat@85.113.55.206) has joined #winehq
+2013-06-22 05:59:34	<--	LunaVorax (~LunaVorax@ABordeaux-651-1-57-47.w109-223.abo.wanadoo.fr) has quit (Quit: reboot)
+2013-06-22 05:59:44	-->	onny (~onny@dslb-094-219-117-169.pools.arcor-ip.net) has joined #winehq
+2013-06-22 06:02:32	-->	LunaVorax (~LunaVorax@ABordeaux-651-1-57-47.w109-223.abo.wanadoo.fr) has joined #winehq
+2013-06-22 06:03:58	-->	cocoa117 (~cocoa117@94-192-55-129.zone6.bethere.co.uk) has joined #winehq
+2013-06-22 06:08:52	<--	wakou2 (~stephen@host109-153-11-34.range109-153.btcentralplus.com) has quit (Quit: Konversation terminated!)
+2013-06-22 06:15:25	<--	onny (~onny@dslb-094-219-117-169.pools.arcor-ip.net) has quit (Ping timeout: 276 seconds)
+2013-06-22 06:18:02	<--	Alikexhi (~Alikexhi4@ARennes-654-1-88-54.w2-10.abo.wanadoo.fr) has quit (Quit: quittage)
+2013-06-22 06:35:59	-->	DarkAceLaptop (~h@unaffiliated/darkacez) has joined #winehq
+2013-06-22 06:49:13	<--	deadalnix (~deadalnix@i118-21-142-231.s30.a048.ap.plala.or.jp) has quit (Ping timeout: 268 seconds)
+2013-06-22 06:54:13	-->	Kai_p_IE (~Kai@host86-142-211-95.range86-142.btcentralplus.com) has joined #winehq
+2013-06-22 06:54:33	<--	Kai_p_IE (~Kai@host86-142-211-95.range86-142.btcentralplus.com) has quit (Changing host)
+2013-06-22 06:54:33	-->	Kai_p_IE (~Kai@unaffiliated/kai-p-ie/x-3016118) has joined #winehq
+2013-06-22 06:55:52	-->	deadalnix (~deadalnix@i118-21-142-231.s30.a048.ap.plala.or.jp) has joined #winehq
+2013-06-22 07:17:38	<--	discomfitor (asdf@enlightenment/developer/discomfitor) has quit (Quit: ah. I see.)
+2013-06-22 07:22:34	<--	cocoa117 (~cocoa117@94-192-55-129.zone6.bethere.co.uk) has quit (Ping timeout: 246 seconds)
+2013-06-22 07:26:07	-->	discomfitor (asdf@enlightenment/developer/discomfitor) has joined #winehq
+2013-06-22 07:26:58	<--	Dessimat0r (~Dessimat0@cpc1-birk8-2-0-cust884.1-3.cable.virginmedia.com) has quit (Quit: Computer has gone to sleep.)
+2013-06-22 07:28:37	--	falcon` is now known as Falcon`
+2013-06-22 07:29:55	-->	Wasp (~wasp@g225138182.adsl.alicedsl.de) has joined #winehq
+2013-06-22 07:29:55	<--	Wasp (~wasp@g225138182.adsl.alicedsl.de) has quit (Client Quit)
+2013-06-22 07:31:08	<--	DarkAceLaptop (~h@unaffiliated/darkacez) has quit (Ping timeout: 255 seconds)
+2013-06-22 07:34:17	-->	DarkAceLaptop (~h@50.107.52.179) has joined #winehq
+2013-06-22 07:34:17	<--	DarkAceLaptop (~h@50.107.52.179) has quit (Changing host)
+2013-06-22 07:34:17	-->	DarkAceLaptop (~h@unaffiliated/darkacez) has joined #winehq
+2013-06-22 07:36:40	<--	fracting_ (~fracting@li584-22.members.linode.com) has quit (Read error: Connection reset by peer)
+2013-06-22 07:41:08	-->	fracting (~fracting@222.50.68.67) has joined #winehq
+2013-06-22 07:41:21	<--	Phase4 (~Phase4@2001:44b8:4196:e800:88a1:dc1:4d55:ccc2) has quit (Ping timeout: 256 seconds)
+2013-06-22 07:43:40	-->	DarkAceLaptop_ (~h@50.107.52.179) has joined #winehq
+2013-06-22 07:44:26	<--	Kai_p_IE (~Kai@unaffiliated/kai-p-ie/x-3016118) has quit (Quit: Leaving: i dont want to live on this irc sever anymore)
+2013-06-22 07:46:25	<--	DarkAceLaptop (~h@unaffiliated/darkacez) has quit (Ping timeout: 276 seconds)
+2013-06-22 07:47:04	-->	madewokherd (~urk@c-66-41-74-61.hsd1.mn.comcast.net) has joined #winehq
+2013-06-22 07:48:58	--	DarkAceLaptop_ is now known as DarkAceLaptop
+2013-06-22 07:49:04	<--	DarkAceLaptop (~h@50.107.52.179) has quit (Changing host)
+2013-06-22 07:49:05	-->	DarkAceLaptop (~h@unaffiliated/darkacez) has joined #winehq
+2013-06-22 07:58:45	<--	DarkAceLaptop (~h@unaffiliated/darkacez) has quit (Quit: I'm quitting IRC forever.)
+2013-06-22 07:59:06	-->	DarkAceLaptop (~h@unaffiliated/darkacez) has joined #winehq
+2013-06-22 07:59:53	-->	andre4s (~daredevil@frnk-5f7458d9.pool.mediaWays.net) has joined #winehq
+2013-06-22 08:01:31	<--	Defolos (~dan@HSI-KBW-134-3-247-222.hsi14.kabel-badenwuerttemberg.de) has quit (Quit: Leaving.)
+2013-06-22 08:10:35	<--	nantou (~phonetic@gateway/tor-sasl/martinphone) has quit (Quit: gone)
+2013-06-22 08:12:13	-->	onny (~onny@dslb-094-219-117-169.pools.arcor-ip.net) has joined #winehq
+2013-06-22 08:20:12	<--	Yoshimo (~Miranda@p5493FA81.dip0.t-ipconnect.de) has quit (Quit: Yoshimo)
+2013-06-22 08:55:23	<--	NuclearMeltdown (~rep@unaffiliated/antiliberal) has quit (Ping timeout: 245 seconds)
+2013-06-22 08:59:29	<--	DaZ (~derp@77-255-250-227.adsl.inetia.pl) has quit (Ping timeout: 248 seconds)
+2013-06-22 09:04:20	-->	DaZ (~derp@77-255-54-88.adsl.inetia.pl) has joined #winehq
+2013-06-22 09:08:02	-->	amboss (b@fanta.neet.to) has joined #winehq
+2013-06-22 09:12:18	-->	SilverStreak (~silver@c-68-42-77-242.hsd1.mi.comcast.net) has joined #winehq
+2013-06-22 09:14:04	<--	fracting (~fracting@222.50.68.67) has quit (Ping timeout: 256 seconds)
+2013-06-22 09:20:51	<--	rgeri77 (~rgeri77@catv-176-63-144-210.catv.broadband.hu) has quit (Ping timeout: 246 seconds)
+2013-06-22 09:21:06	-->	NuclearMeltdown (rep@AntiLiberal-1-pt.tunnel.tserv9.chi1.ipv6.he.net) has joined #winehq
+2013-06-22 09:24:42	-->	Yoshimo (~Miranda@p5493FA81.dip0.t-ipconnect.de) has joined #winehq
+2013-06-22 09:25:07	<--	Eremiell (eremiell@ip-86-49-106-9.net.upcbroadband.cz) has quit (Ping timeout: 264 seconds)
+2013-06-22 09:25:49	<--	madewokherd (~urk@c-66-41-74-61.hsd1.mn.comcast.net) has quit (Remote host closed the connection)
+2013-06-22 09:26:48	-->	Eremiell (eremiell@ip-86-49-106-9.net.upcbroadband.cz) has joined #winehq
+2013-06-22 09:27:25	-->	fracting (~fracting@li584-22.members.linode.com) has joined #winehq
+2013-06-22 09:31:16	<--	redgirl (~Red@negval.starlink.ru) has quit (Read error: Connection reset by peer)
+2013-06-22 09:32:03	-->	redgirl (~Red@negval.starlink.ru) has joined #winehq
+2013-06-22 09:34:35	-->	rgeri77 (~rgeri77@mail.wallitrade.hu) has joined #winehq
+2013-06-22 09:38:58	-->	rgeri7712 (~rgeri77@catv-176-63-144-210.catv.broadband.hu) has joined #winehq
+2013-06-22 09:39:31	<--	rgeri77 (~rgeri77@mail.wallitrade.hu) has quit (Ping timeout: 276 seconds)
+2013-06-22 09:41:37	<--	rgeri7712 (~rgeri77@catv-176-63-144-210.catv.broadband.hu) has quit (Client Quit)
+2013-06-22 09:49:36	-->	madewokherd (~urk@c-66-41-74-61.hsd1.mn.comcast.net) has joined #winehq
+2013-06-22 09:53:48	-->	ced117 (~ced117@opensuse/member/ced117) has joined #winehq
+2013-06-22 10:00:46	-->	rgeri77 (~rgeri77@catv-176-63-144-210.catv.broadband.hu) has joined #winehq
+2013-06-22 10:01:18	--	Usurp|eat is now known as Usurp
+2013-06-22 10:05:37	<--	DaZ (~derp@77-255-54-88.adsl.inetia.pl) has quit (Ping timeout: 248 seconds)
+2013-06-22 10:08:14	<--	weeb1e (~quassel@41.86.98.15) has quit (Quit: No Ping reply in 180 seconds.)
+2013-06-22 10:09:39	-->	weeb1e (~quassel@41.86.98.15) has joined #winehq
+2013-06-22 10:11:26	-->	DaZ (~derp@213-238-79-253.adsl.inetia.pl) has joined #winehq
+2013-06-22 10:18:25	<--	onny (~onny@dslb-094-219-117-169.pools.arcor-ip.net) has quit (Ping timeout: 248 seconds)
+2013-06-22 10:29:37	<--	nsivov (~nsivov@ppp83-237-220-71.pppoe.mtu-net.ru) has quit (Ping timeout: 248 seconds)
+2013-06-22 10:29:49	<--	nightwalk (~null@gateway/tor-sasl/nightwalk) has quit (Ping timeout: 240 seconds)
+2013-06-22 10:30:27	-->	onny (~onny@dslb-094-219-117-169.pools.arcor-ip.net) has joined #winehq
+2013-06-22 10:33:30	-->	Dwarf (user@chat.bcome.nl) has joined #winehq
+2013-06-22 10:34:00	-->	nightwalk (~null@gateway/tor-sasl/nightwalk) has joined #winehq
+2013-06-22 10:37:06	-->	Jonbo (~Jonbo123@24.140.125.4) has joined #winehq
+2013-06-22 10:43:05	-->	nsivov (~nsivov@ppp83-237-202-64.pppoe.mtu-net.ru) has joined #winehq
+2013-06-22 10:45:04	--	Drak0nfly is now known as drakkis
+2013-06-22 10:48:26	-->	diverdude (~bdi@ti0028a380-0163.bb.online.no) has joined #winehq
+2013-06-22 10:49:08	diverdude	hello. i have tried installing this program with wine: http://sssp.dtuaqua.dk/download.aspx But when i run the program it says missing parameter and it dont start. How can i run this program?
+2013-06-22 10:53:43	-->	Devastator (~devas@186.214.15.156) has joined #winehq
+2013-06-22 10:54:24	<--	Devastator (~devas@186.214.15.156) has quit (Changing host)
+2013-06-22 10:54:24	-->	Devastator (~devas@unaffiliated/devastator) has joined #winehq
+2013-06-22 10:59:11	-->	Drak0nfly (~maria@v6.fi) has joined #winehq
+2013-06-22 11:07:16	<--	onny (~onny@dslb-094-219-117-169.pools.arcor-ip.net) has quit (Ping timeout: 276 seconds)
+2013-06-22 11:14:57	<--	DarkAceLaptop (~h@unaffiliated/darkacez) has quit (Ping timeout: 246 seconds)
+2013-06-22 11:17:54	-->	onny (~onny@dslb-094-219-117-169.pools.arcor-ip.net) has joined #winehq
+2013-06-22 11:18:09	-->	DarkAceLaptop (~h@unaffiliated/darkacez) has joined #winehq
+2013-06-22 11:22:13	<--	DaZ (~derp@213-238-79-253.adsl.inetia.pl) has quit (Ping timeout: 276 seconds)
+2013-06-22 11:22:30	-->	wakou2 (~stephen@host109-153-11-34.range109-153.btcentralplus.com) has joined #winehq
+2013-06-22 11:25:06	-->	palmer (~palmer@c-50-131-238-161.hsd1.ca.comcast.net) has joined #winehq
+2013-06-22 11:26:59	-->	DaZ (~derp@87-205-193-9.adsl.inetia.pl) has joined #winehq
+2013-06-22 11:27:26	palmer	Does anyone know how to find joystick names so I can change the axis mapping in the registry?  The method suggested in the registry wiki page doesn't work.  Here's the output with WINEDEBUG=+dinput: http://bpaste.net/show/109010/
+2013-06-22 11:30:05	-->	nantou (~phonetic@gateway/tor-sasl/martinphone) has joined #winehq
+2013-06-22 11:30:30	<--	fracting (~fracting@li584-22.members.linode.com) has quit (Read error: Connection reset by peer)
+2013-06-22 11:38:28	<--	diverdude (~bdi@ti0028a380-0163.bb.online.no) has quit (Remote host closed the connection)
+2013-06-22 11:43:49	-->	Gunman1982 (~Gunman198@dyndsl-085-016-179-126.ewe-ip-backbone.de) has joined #winehq
+2013-06-22 11:45:13	<--	DarkAceLaptop (~h@unaffiliated/darkacez) has quit (Ping timeout: 268 seconds)
+2013-06-22 11:45:29	-->	Romance (~gagakhita@unaffiliated/yusuke) has joined #winehq
+2013-06-22 11:46:12	-->	DarkAceLaptop (~h@unaffiliated/darkacez) has joined #winehq
+2013-06-22 11:51:23	<--	DarkAceLaptop (~h@unaffiliated/darkacez) has quit (Ping timeout: 240 seconds)
+2013-06-22 11:51:28	<--	onny (~onny@dslb-094-219-117-169.pools.arcor-ip.net) has quit (Ping timeout: 276 seconds)
+2013-06-22 11:51:50	<--	man_in_shack (~likeyouca@unaffiliated/man-in-shack/x-4279753) has quit (Ping timeout: 256 seconds)
+2013-06-22 11:54:00	-->	DarkAceLaptop (~h@unaffiliated/darkacez) has joined #winehq
+2013-06-22 11:59:46	<--	deadalnix (~deadalnix@i118-21-142-231.s30.a048.ap.plala.or.jp) has quit (Ping timeout: 246 seconds)
+2013-06-22 12:01:52	<--	Romance (~gagakhita@unaffiliated/yusuke) has quit (Ping timeout: 268 seconds)
+2013-06-22 12:08:05	-->	num7 (~num7@unaffiliated/num7) has joined #winehq
+2013-06-22 12:08:31	<--	Gunman1982 (~Gunman198@dyndsl-085-016-179-126.ewe-ip-backbone.de) has quit (Quit: swoosh)
+2013-06-22 12:09:41	-->	funyun (~funyun@cpe-65-25-103-89.neo.res.rr.com) has joined #winehq
+2013-06-22 12:11:30	num7	hi, i want to insall visual c++ 2005 express with wine i already install winetricks and clear wineprefix and corefonts, like on this page http://appdb.winehq.org/objectManager.php?sClass=version&iId=14208. When i start the setup, it tell me "The temp directory 'C:\users\num7\Temp\' is not a valid directory. Steup cannot continue."
+2013-06-22 12:11:42	num7	Can someone help here?
+2013-06-22 12:15:06	<--	Ycarene (~Ycarene@2001:470:1f0e:b93::2) has quit (Remote host closed the connection)
+2013-06-22 12:15:59	<--	Jackneill (~Jackneill@unaffiliated/jackneill) has quit (Ping timeout: 255 seconds)
+2013-06-22 12:26:26	-->	roentgen (~arthur@openvpn/community/support/roentgen) has joined #winehq
+2013-06-22 12:27:16	<--	roentgen (~arthur@openvpn/community/support/roentgen) has quit (Client Quit)
+2013-06-22 12:30:31	<--	DaZ (~derp@87-205-193-9.adsl.inetia.pl) has quit (Ping timeout: 264 seconds)
+2013-06-22 12:35:36	-->	DaZ (~derp@87-205-161-100.adsl.inetia.pl) has joined #winehq
+2013-06-22 12:44:56	-->	tyn (~rynxy@fctnnbsc30w-198164211103.dhcp-dynamic.FibreOp.nb.bellaliant.net) has joined #winehq
+2013-06-22 12:50:51	QKO	hi
+2013-06-22 12:50:54	QKO	can i get some help?
+2013-06-22 12:51:04	QKO	I'm trying to run revelations and the gamelauncher crashes
+2013-06-22 12:51:17	QKO	*AC Revelations
+2013-06-22 12:59:00	-->	light0 (~lynx@mnch-5d85ce4c.pool.mediaWays.net) has joined #winehq
+2013-06-22 12:59:46	light0	Any thoughts why enabling antialiasing in GTA San Andreas on my 64 bit intel setup gives blue dots?
+2013-06-22 13:06:59	<--	madewokherd (~urk@c-66-41-74-61.hsd1.mn.comcast.net) has quit (Remote host closed the connection)
+2013-06-22 13:16:23	light0	http://www.dumpt.com/img/viewer.php?file=0eieyyonlqr0xa9qvi7h.png
+2013-06-22 13:21:03	-->	bp0 (~bp@223.222.2.96.wimax.dynamic.datatruck.com) has joined #winehq
+2013-06-22 13:21:03	<--	bp0 (~bp@223.222.2.96.wimax.dynamic.datatruck.com) has quit (Changing host)
+2013-06-22 13:21:03	-->	bp0 (~bp@unaffiliated/bp0) has joined #winehq
+2013-06-22 13:22:43	<--	diffycat (~diffycat@85.113.55.206) has quit (Ping timeout: 246 seconds)
+2013-06-22 13:26:05	<--	nantou (~phonetic@gateway/tor-sasl/martinphone) has quit (Remote host closed the connection)
+2013-06-22 13:26:14	QKO	where can I find the maintainer(s) of the winsock libraries?
+2013-06-22 13:26:28	-->	Ycarene (~Ycarene@2001:470:1f0e:b93::2) has joined #winehq
+2013-06-22 13:29:47	num7	 hi, i want to insall visual c++ 2005 express with wine i already install winetricks and clear wineprefix and corefonts, like on this page http://appdb.winehq.org/objectManager.php?sClass=version&iId=14208. When i start the setup, it tell me "The temp directory 'C:\users\num7\Temp\' is not a valid directory. Steup cannot continue." Can someone help here?
+2013-06-22 13:41:49	<--	Tom^ (~root@unaffiliated/tom/x-6084202) has quit (Quit: WeeChat 0.4.1)
+2013-06-22 13:42:19	-->	madewokherd (~urk@c-66-41-74-61.hsd1.mn.comcast.net) has joined #winehq
+2013-06-22 13:42:51	-->	nantou (~phonetic@gateway/tor-sasl/martinphone) has joined #winehq
+2013-06-22 13:47:12	<--	rgeri77 (~rgeri77@catv-176-63-144-210.catv.broadband.hu) has quit (Quit: Még visszatérek........)
+2013-06-22 13:49:26	DarkAceLaptop	http://pastebin.com/d6hSiFep
+2013-06-22 13:50:37	DarkAceLaptop	ugh, looks like architecture errors again
+2013-06-22 13:55:52	-->	Tom^ (~root@unaffiliated/tom/x-6084202) has joined #winehq
+2013-06-22 14:03:07	<--	bp0 (~bp@unaffiliated/bp0) has quit (Quit: Leaving)
+2013-06-22 14:07:12	DarkAceLaptop	eh, got it
+2013-06-22 14:09:47	<--	Tom^ (~root@unaffiliated/tom/x-6084202) has quit (Quit: WeeChat 0.4.1)
+2013-06-22 14:10:58	-->	xingoo (~xingoo@c-51c6e255.03-70-65736b1.cust.bredbandsbolaget.se) has joined #winehq
+2013-06-22 14:13:08	<--	Yoshimo (~Miranda@p5493FA81.dip0.t-ipconnect.de) has quit (Quit: Yoshimo)
+2013-06-22 14:16:11	<--	q66 (~q66@213.191.105.214) has quit (Remote host closed the connection)
+2013-06-22 14:41:16	<--	ced117 (~ced117@opensuse/member/ced117) has quit (Quit: Quitte)
+2013-06-22 14:42:32	<--	light0 (~lynx@mnch-5d85ce4c.pool.mediaWays.net) has quit (Quit: Leaving)
+2013-06-22 14:44:53	<--	tyn (~rynxy@fctnnbsc30w-198164211103.dhcp-dynamic.FibreOp.nb.bellaliant.net) has quit (Ping timeout: 240 seconds)
+2013-06-22 14:45:44	-->	Tom^ (~root@unaffiliated/tom/x-6084202) has joined #winehq
+2013-06-22 14:47:24	-->	tyn (~rynxy@fctnnbsc30w-198164211103.dhcp-dynamic.FibreOp.nb.bellaliant.net) has joined #winehq
+2013-06-22 15:00:25	--	Falcon` is now known as falcon`
+2013-06-22 15:00:56	-->	Spaceghost (~quassel@r186-48-236-7.dialup.adsl.anteldata.net.uy) has joined #winehq
+2013-06-22 15:01:20	--	Spaceghost is now known as Guest93731
+2013-06-22 15:13:33	<--	num7 (~num7@unaffiliated/num7) has quit (Quit: Leaving)
+2013-06-22 15:15:42	-->	conan (~conan@mdproctor.plus.com) has joined #winehq
+2013-06-22 15:16:35	-->	Phase4 (~Phase4@2001:44b8:4196:e800:88a1:dc1:4d55:ccc2) has joined #winehq
+2013-06-22 15:21:58	<--	Hendikins (~wolfox@pdpc/supporter/student/Hendikins) has quit (Quit: Any technology, no matter how primitive, is magic to those who don't understand it)
+2013-06-22 15:23:15	<--	nantou (~phonetic@gateway/tor-sasl/martinphone) has quit (Quit: gone)
+2013-06-22 15:24:01	<--	Jonbo (~Jonbo123@24.140.125.4) has quit (Ping timeout: 276 seconds)
+2013-06-22 15:25:43	<--	opalepatrick (~patrick@c126-34.i07-32.onvol.net) has quit (Remote host closed the connection)
+2013-06-22 15:34:31	<--	Phase4 (~Phase4@2001:44b8:4196:e800:88a1:dc1:4d55:ccc2) has quit (Ping timeout: 256 seconds)
+2013-06-22 15:38:53	<--	xingoo (~xingoo@c-51c6e255.03-70-65736b1.cust.bredbandsbolaget.se) has quit (Quit: Lämnar)
+2013-06-22 15:45:27	<--	conan (~conan@mdproctor.plus.com) has quit (Quit: Computer has gone to sleep.)
+2013-06-22 15:48:16	-->	instence_ (~instence@user-11fagi2.dsl.mindspring.com) has joined #winehq
+2013-06-22 15:50:23	<--	instence (~instence@user-11fagi2.dsl.mindspring.com) has quit (Ping timeout: 240 seconds)
+2013-06-22 15:59:48	-->	instence (~instence@user-11fagi2.dsl.mindspring.com) has joined #winehq
+2013-06-22 16:00:53	-->	feep__ (~feep@p579E4107.dip0.t-ipconnect.de) has joined #winehq
+2013-06-22 16:01:22	<--	feep_ (~feep@p579E4CDF.dip0.t-ipconnect.de) has quit (Read error: Operation timed out)
+2013-06-22 16:01:53	<--	instence_ (~instence@user-11fagi2.dsl.mindspring.com) has quit (Ping timeout: 255 seconds)
+2013-06-22 16:08:09	<--	c_korn (~korn@p57B8EDDF.dip0.t-ipconnect.de) has quit (Quit: Bye bye.)
+2013-06-22 16:09:08	-->	Dessimat0r (~Dessimat0@cpc1-birk8-2-0-cust884.1-3.cable.virginmedia.com) has joined #winehq
+2013-06-22 16:11:02	-->	Chehri (~Chehri@unaffiliated/chehri) has joined #winehq
+2013-06-22 16:26:35	<--	Z_God (~julius@2001:888:141f:0:eda5:2fc6:1445:89f9) has quit (Remote host closed the connection)
+2013-06-22 16:26:48	-->	nantou (~phonetic@gateway/tor-sasl/martinphone) has joined #winehq
+2013-06-22 16:36:24	-->	man_in_shack (~likeyouca@110-175-33-5.static.tpgi.com.au) has joined #winehq
+2013-06-22 16:36:25	<--	man_in_shack (~likeyouca@110-175-33-5.static.tpgi.com.au) has quit (Changing host)
+2013-06-22 16:36:25	-->	man_in_shack (~likeyouca@unaffiliated/man-in-shack/x-4279753) has joined #winehq
+2013-06-22 16:39:15	-->	anon^_^ (~anon58@unaffiliated/anon-/x-7433000) has joined #winehq
+2013-06-22 16:46:54	-->	debdog (~Wowbagger@p549C941A.dip0.t-ipconnect.de) has joined #winehq
+2013-06-22 16:49:19	-->	fracting (~fracting@li584-22.members.linode.com) has joined #winehq
+2013-06-22 16:57:37	<--	Guest93731 (~quassel@r186-48-236-7.dialup.adsl.anteldata.net.uy) has quit (Ping timeout: 246 seconds)
+2013-06-22 17:03:28	<--	tyn (~rynxy@fctnnbsc30w-198164211103.dhcp-dynamic.FibreOp.nb.bellaliant.net) has quit (Ping timeout: 276 seconds)
+2013-06-22 17:05:25	<--	Chehri (~Chehri@unaffiliated/chehri) has quit (Ping timeout: 276 seconds)
+2013-06-22 17:11:36	<--	DaZ (~derp@87-205-161-100.adsl.inetia.pl) has quit (Ping timeout: 246 seconds)
+2013-06-22 17:17:02	-->	DaZ (~derp@213-238-65-99.adsl.inetia.pl) has joined #winehq
+2013-06-22 17:18:50	-->	saintcajetan (~sodalitum@cpe-72-183-246-29.elp.res.rr.com) has joined #winehq
+2013-06-22 17:19:37	-->	Chehri (~Chehri@unaffiliated/chehri) has joined #winehq
+2013-06-22 17:25:29	<--	hasufell (~hasufell@gentoo/developer/hasufell) has quit (Quit: Verlassend)
+2013-06-22 17:38:18	-->	rufianw (~ntrrgc@79.109.49.67.dyn.user.ono.com) has joined #winehq
+2013-06-22 17:53:21	--	Usurp is now known as Usurp|zZz
+2013-06-22 17:56:16	-->	tyn (~rynxy@fctnnbsc30w-198164211103.dhcp-dynamic.FibreOp.nb.bellaliant.net) has joined #winehq
+2013-06-22 18:03:49	-->	croppa (~stuart@CPE-120-146-137-99.static.nsw.bigpond.net.au) has joined #winehq
+2013-06-22 18:07:26	<--	tyn (~rynxy@fctnnbsc30w-198164211103.dhcp-dynamic.FibreOp.nb.bellaliant.net) has quit (Ping timeout: 255 seconds)
+2013-06-22 18:09:38	<--	NuclearMeltdown (rep@AntiLiberal-1-pt.tunnel.tserv9.chi1.ipv6.he.net) has quit (Changing host)
+2013-06-22 18:09:38	-->	NuclearMeltdown (rep@unaffiliated/antiliberal) has joined #winehq
+2013-06-22 18:10:12	--	NuclearMeltdown is now known as AntiZhivago
+2013-06-22 18:13:19	<--	Chehri (~Chehri@unaffiliated/chehri) has quit (Quit: Out)
+2013-06-22 18:15:24	<--	debdog (~Wowbagger@p549C941A.dip0.t-ipconnect.de) has quit (Remote host closed the connection)
+2013-06-22 18:24:19	QKO	where can I contact the winsock maintainer?
+2013-06-22 18:26:22	Triskelios	QKO: look at the repo history for the last couple of people working on it
+2013-06-22 18:29:20	QKO	no clear maintainer -_-
+2013-06-22 18:29:22	<--	iive (~iive@unaffiliated/iive) has quit (Quit: They came for me...)
+2013-06-22 18:30:03	QKO	where can I find alexandre julliard?
+2013-06-22 18:32:16	Triskelios	he's on IRC sometimes, but you're probably better off emailing the list
+2013-06-22 18:34:44	QKO	sigh-_-
+2013-06-22 18:34:52	 *	QKO wants to play AC Revelations -_-
+2013-06-22 18:40:51	<--	Eduard_Munteanu (~Eduard_Mu@188.25.7.119) has quit (Ping timeout: 246 seconds)
+2013-06-22 18:45:25	Triskelios	how is contacting aj going to help?
+2013-06-22 18:48:26	<--	LunaVorax (~LunaVorax@ABordeaux-651-1-57-47.w109-223.abo.wanadoo.fr) has quit (Quit: Quitte)
+2013-06-22 18:52:26	QKO	Triskelios: he seems to have his nose in everything and is likely to help me understand the code
+2013-06-22 18:53:09	Triskelios	he probably doesn't have time to help anyone
+2013-06-22 18:56:17	Triskelios	individually, I mean
+2013-06-22 19:09:05	-->	daredevil_ (~daredevil@frnk-5f742035.pool.mediaWays.net) has joined #winehq
+2013-06-22 19:12:55	<--	andre4s (~daredevil@frnk-5f7458d9.pool.mediaWays.net) has quit (Ping timeout: 268 seconds)
+2013-06-22 19:30:02	-->	sekanS (~Mojak@188.26.52.74) has joined #winehq
+2013-06-22 19:49:38	-->	Phase4 (~Phase4@2001:44b8:4196:e800:d98f:f4ca:a139:3651) has joined #winehq
+2013-06-22 19:49:49	<--	redgirl (~Red@negval.starlink.ru) has quit (Quit: This computer has gone to sleep)
+2013-06-22 19:54:42	<--	nantou (~phonetic@gateway/tor-sasl/martinphone) has quit (Quit: gone)
+2013-06-22 20:27:22	-->	_Andrew (~andrew@unaffiliated/andrew/x-643872) has joined #winehq
+2013-06-22 20:28:05	<--	Dessimat0r (~Dessimat0@cpc1-birk8-2-0-cust884.1-3.cable.virginmedia.com) has quit (Quit: Computer has gone to sleep.)
+2013-06-22 20:30:34	-->	Hussaind (~esds@115.124.115.71) has joined #winehq
+2013-06-22 20:40:13	<--	anon^_^ (~anon58@unaffiliated/anon-/x-7433000) has quit (Ping timeout: 246 seconds)
+2013-06-22 20:49:07	<--	DaZ (~derp@213-238-65-99.adsl.inetia.pl) has quit (Ping timeout: 268 seconds)
+2013-06-22 20:49:15	<--	daredevil_ (~daredevil@frnk-5f742035.pool.mediaWays.net) has quit (Quit: Leaving)
+2013-06-22 20:52:12	-->	space (~quassel@r186-48-236-7.dialup.adsl.anteldata.net.uy) has joined #winehq
+2013-06-22 20:52:14	--	space is now known as Guest14136
+2013-06-22 20:52:44	-->	anon^_^ (~anon58@209-112-136-217-rb1.nwc.dsl.dynamic.acsalaska.net) has joined #winehq
+2013-06-22 20:52:44	<--	anon^_^ (~anon58@209-112-136-217-rb1.nwc.dsl.dynamic.acsalaska.net) has quit (Changing host)
+2013-06-22 20:52:44	-->	anon^_^ (~anon58@unaffiliated/anon-/x-7433000) has joined #winehq
+2013-06-22 20:54:22	-->	DaZ (~derp@77-255-58-45.adsl.inetia.pl) has joined #winehq
+2013-06-22 20:54:26	--	DarkAceLaptop is now known as JoshDreamland
+2013-06-22 20:54:35	--	JoshDreamland is now known as DarkAceLaptop
+2013-06-22 21:10:07	<--	Tommy[D] (~TommyD]@gentoo/developer/tommy) has quit (Ping timeout: 264 seconds)
+2013-06-22 21:22:21	-->	Tommy[D] (~TommyD]@gentoo/developer/tommy) has joined #winehq
+2013-06-22 21:23:58	<--	nsivov (~nsivov@ppp83-237-202-64.pppoe.mtu-net.ru) has quit (Ping timeout: 246 seconds)
+2013-06-22 21:24:00	--	Guest14136 is now known as Spaceghost
+2013-06-22 21:24:04	<--	Spaceghost (~quassel@r186-48-236-7.dialup.adsl.anteldata.net.uy) has quit (Changing host)
+2013-06-22 21:24:04	-->	Spaceghost (~quassel@unaffiliated/spaceghost) has joined #winehq
+2013-06-22 21:26:07	-->	Tommy[D]_ (~TommyD]@gentoo/developer/tommy) has joined #winehq
+2013-06-22 21:29:33	<--	Tommy[D] (~TommyD]@gentoo/developer/tommy) has quit (Ping timeout: 246 seconds)
+2013-06-22 21:30:17	<--	emmanuelux (~emmanuelu@192.123.25.109.rev.sfr.net) has quit (Quit: emmanuelux)
+2013-06-22 21:32:21	<--	Devastator (~devas@unaffiliated/devastator) has quit (Ping timeout: 246 seconds)
+2013-06-22 21:32:51	-->	Devastator (~devas@186.214.15.156) has joined #winehq
+2013-06-22 21:33:32	<--	Devastator (~devas@186.214.15.156) has quit (Changing host)
+2013-06-22 21:33:32	-->	Devastator (~devas@unaffiliated/devastator) has joined #winehq
+2013-06-22 21:35:41	-->	nsivov (~nsivov@ppp83-237-202-64.pppoe.mtu-net.ru) has joined #winehq
+2013-06-22 21:38:04	-->	Devastator- (~devas@186.214.15.156) has joined #winehq
+2013-06-22 21:38:25	<--	Devastator (~devas@unaffiliated/devastator) has quit (Ping timeout: 276 seconds)
+2013-06-22 21:47:19	<--	Devastator- (~devas@186.214.15.156) has quit (Changing host)
+2013-06-22 21:47:19	-->	Devastator- (~devas@unaffiliated/devastator) has joined #winehq
+2013-06-22 21:47:21	--	Devastator- is now known as Devastator
+2013-06-22 21:48:14	<--	Spaceghost (~quassel@unaffiliated/spaceghost) has quit (Quit: http://quassel-irc.org - Chatee cómodamente donde sea.)
+2013-06-22 21:48:37	<--	nbf (~nbf@unaffiliated/noobfukaire) has quit (Ping timeout: 248 seconds)
+2013-06-22 21:50:07	-->	Spaceghost (~quassel@r186-48-236-7.dialup.adsl.anteldata.net.uy) has joined #winehq
+2013-06-22 21:50:31	--	Spaceghost is now known as Guest60502
+2013-06-22 21:52:34	<--	Guest60502 (~quassel@r186-48-236-7.dialup.adsl.anteldata.net.uy) has quit (Client Quit)
+2013-06-22 21:53:07	-->	nbf (~nbf@unaffiliated/noobfukaire) has joined #winehq
+2013-06-22 21:55:04	-->	space (~quassel@r186-48-236-7.dialup.adsl.anteldata.net.uy) has joined #winehq
+2013-06-22 21:55:07	--	space is now known as Guest37779
+2013-06-22 21:56:52	-->	Jackneill (~Jackneill@unaffiliated/jackneill) has joined #winehq
+2013-06-22 21:58:34	--	Guest37779 is now known as Spaceghost
+2013-06-22 21:58:37	<--	Spaceghost (~quassel@r186-48-236-7.dialup.adsl.anteldata.net.uy) has quit (Changing host)
+2013-06-22 21:58:37	-->	Spaceghost (~quassel@unaffiliated/spaceghost) has joined #winehq
+2013-06-22 22:02:12	<--	killertux (~tux@et426.netikka.fi) has quit (Quit: Leaving)
+2013-06-22 22:02:50	-->	deadalnix (~deadalnix@i118-21-142-231.s30.a048.ap.plala.or.jp) has joined #winehq
+2013-06-22 22:15:37	<--	DarkAceLaptop (~h@unaffiliated/darkacez) has quit (Excess Flood)
+2013-06-22 22:16:10	-->	DarkAceLaptop (~h@50.107.52.179) has joined #winehq
+2013-06-22 22:16:10	<--	DarkAceLaptop (~h@50.107.52.179) has quit (Changing host)
+2013-06-22 22:16:10	-->	DarkAceLaptop (~h@unaffiliated/darkacez) has joined #winehq
+2013-06-22 22:18:01	<--	SilverStreak (~silver@c-68-42-77-242.hsd1.mi.comcast.net) has quit (Ping timeout: 256 seconds)
+2013-06-22 22:24:36	<--	DarkAceLaptop (~h@unaffiliated/darkacez) has quit (Quit: I'm quitting IRC forever.)
+2013-06-22 22:30:39	<--	madewokherd (~urk@c-66-41-74-61.hsd1.mn.comcast.net) has quit (Remote host closed the connection)
+2013-06-22 22:34:32	<--	wakou2 (~stephen@host109-153-11-34.range109-153.btcentralplus.com) has quit (Quit: Konversation terminated!)
+2013-06-22 22:43:52	<--	rufianw (~ntrrgc@79.109.49.67.dyn.user.ono.com) has quit (Quit: Konversation terminated!)
+2013-06-22 22:49:16	<--	DaZ (~derp@77-255-58-45.adsl.inetia.pl) has quit (Ping timeout: 276 seconds)
+2013-06-22 22:54:06	-->	DaZ (~derp@77-255-247-249.adsl.inetia.pl) has joined #winehq
+2013-06-22 22:59:40	<--	DaZ (~derp@77-255-247-249.adsl.inetia.pl) has quit (Ping timeout: 276 seconds)
+2013-06-22 23:00:43	-->	tyn (~rynxy@fctnnbsc30w-198164211103.dhcp-dynamic.FibreOp.nb.bellaliant.net) has joined #winehq
+2013-06-22 23:01:54	<--	MrSassyPants (thephil@77-58-229-3.dclient.hispeed.ch) has quit (Remote host closed the connection)
+2013-06-22 23:04:04	-->	DaZ (~derp@77-255-41-222.adsl.inetia.pl) has joined #winehq
+2013-06-22 23:10:53	<--	DaZ (~derp@77-255-41-222.adsl.inetia.pl) has quit (Ping timeout: 240 seconds)
+2013-06-22 23:24:01	<--	Stels (~stels@95.104.224.31) has quit (Ping timeout: 248 seconds)
+2013-06-22 23:24:32	-->	redgirl (~Red@negval.starlink.ru) has joined #winehq
+2013-06-22 23:27:51	-->	rgeri77 (~rgeri77@catv-176-63-144-210.catv.broadband.hu) has joined #winehq
+2013-06-22 23:33:10	-->	QBall_ (~QBall@host86-174-147-251.range86-174.btcentralplus.com) has joined #winehq
+2013-06-22 23:33:19	<--	QBall_ (~QBall@host86-174-147-251.range86-174.btcentralplus.com) has quit (Client Quit)
+2013-06-22 23:33:32	-->	Stels (~stels@95.104.200.226) has joined #winehq
+2013-06-22 23:34:37	-->	DaZ (~derp@77-255-34-221.adsl.inetia.pl) has joined #winehq
+2013-06-22 23:39:10	-->	diffycat (~diffycat@85.113.55.206) has joined #winehq
+2013-06-22 23:49:11	-->	Jonbo (~Jonbo123@24.140.125.4) has joined #winehq
+2013-06-23 00:00:31	-->	frostwork (~frostwork@p5DDE7BEC.dip0.t-ipconnect.de) has joined #winehq
+2013-06-23 00:04:16	<--	tyn (~rynxy@fctnnbsc30w-198164211103.dhcp-dynamic.FibreOp.nb.bellaliant.net) has quit (Ping timeout: 246 seconds)

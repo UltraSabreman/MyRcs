@@ -1,0 +1,68 @@
+2013-01-31 12:15:22		irc: connecting to server chat.freenode.net/6667...
+2013-01-31 12:15:22		irc: connected to chat.freenode.net/6667 (94.125.182.252)
+2013-01-31 12:15:22	--	adams.freenode.net (adams.freenode.net): *** Looking up your hostname...
+2013-01-31 12:15:23	--	adams.freenode.net (adams.freenode.net): *** Checking Ident
+2013-01-31 12:15:23	--	adams.freenode.net (adams.freenode.net): *** Found your hostname
+2013-01-31 12:15:23	--	adams.freenode.net (adams.freenode.net): *** Got Ident response
+2013-01-31 12:15:23	--	Welcome to the freenode Internet Relay Chat Network byelogur
+2013-01-31 12:15:23	--	Your host is adams.freenode.net[94.125.182.252/6667], running version ircd-seven-1.1.3
+2013-01-31 12:15:23	--	This server was created Sat Mar 10 2012 at 14:55:48 CET
+2013-01-31 12:15:23	--	adams.freenode.net ircd-seven-1.1.3 DOQRSZaghilopswz CFILMPQbcefgijklmnopqrstvz bkloveqjfI
+2013-01-31 12:15:23	--	CHANTYPES=# EXCEPTS INVEX CHANMODES=eIbq,k,flj,CFLMPQcgimnprstz CHANLIMIT=#:120 PREFIX=(ov)@+ MAXLIST=bqeI:100 MODES=4 NETWORK=freenode KNOCK STATUSMSG=@+ CALLERID=g :are supported by this server
+2013-01-31 12:15:23	--	CASEMAPPING=rfc1459 CHARSET=ascii NICKLEN=16 CHANNELLEN=50 TOPICLEN=390 ETRACE CPRIVMSG CNOTICE DEAF=D MONITOR=100 FNC TARGMAX=NAMES:1,LIST:1,KICK:1,WHOIS:1,PRIVMSG:4,NOTICE:4,ACCEPT:,MONITOR: :are supported by this server
+2013-01-31 12:15:23	--	EXTBAN=$,arx WHOX CLIENTVER=3.0 SAFELIST ELIST=CTU :are supported by this server
+2013-01-31 12:15:23	--	There are 214 users and 85458 invisible on 32 servers
+2013-01-31 12:15:23	--	34 :IRC Operators online
+2013-01-31 12:15:23	--	2 :unknown connection(s)
+2013-01-31 12:15:23	--	43728 :channels formed
+2013-01-31 12:15:23	--	I have 3953 clients and 1 servers
+2013-01-31 12:15:23	--	3953 10111 :Current local users 3953, max 10111
+2013-01-31 12:15:23	--	85672 87109 :Current global users 85672, max 87109
+2013-01-31 12:15:23	--	Highest connection count: 10112 (10111 clients) (4347384 connections received)
+2013-01-31 12:15:23	--	- adams.freenode.net Message of the Day -
+2013-01-31 12:15:23	--	- Welcome to adams.freenode.net. Thanks to ATW Internet Kft
+2013-01-31 12:15:23	--	- (http://www.atw.hu) for sponsoring this server!
+2013-01-31 12:15:23	--	-
+2013-01-31 12:15:23	--	- ADAMS, DOUGLAS (1952-2001).  Author of The Hitch Hikers Guide
+2013-01-31 12:15:23	--	- to the Galaxy and many other witty and humourous books,
+2013-01-31 12:15:23	--	- portrayed in his uniquely British irony. He is sorely missed
+2013-01-31 12:15:23	--	- by many millions of devoted fans. "So long and thanks for all
+2013-01-31 12:15:23	--	- the books!"
+2013-01-31 12:15:23	--	-
+2013-01-31 12:15:23	--	- You're using freenode, a service of Peer-Directed Projects
+2013-01-31 12:15:23	--	- Center Ltd (http://freenode.net/pdpc.shtml).
+2013-01-31 12:15:23	--	-
+2013-01-31 12:15:23	--	- By connecting to freenode you indicate that you have read
+2013-01-31 12:15:23	--	- and agree to adhere to our policies and procedures as per
+2013-01-31 12:15:23	--	- the website (http://freenode.net). We would like to remind
+2013-01-31 12:15:23	--	- you that unauthorized public logging of channels on the
+2013-01-31 12:15:23	--	- network is prohibited. Public channel logging should only
+2013-01-31 12:15:23	--	- take place where the channel owner(s) has requested this
+2013-01-31 12:15:23	--	- and users of the channel are all made aware (if you are
+2013-01-31 12:15:23	--	- publically logging your channel, you may wish to keep a
+2013-01-31 12:15:23	--	- notice in topic and perhaps as a on-join message).
+2013-01-31 12:15:23	--	-
+2013-01-31 12:15:23	--	- freenode runs an open proxy scanner. Your use of the network
+2013-01-31 12:15:23	--	- indicates your acceptance of this policy. For details on
+2013-01-31 12:15:23	--	- freenode network policy, please take a look at our policy
+2013-01-31 12:15:23	--	- page (http://freenode.net/policy.shtml). Thank you for using
+2013-01-31 12:15:23	--	- the network!
+2013-01-31 12:15:23	--	-
+2013-01-31 12:15:23	--	- Don't forget to check out these other Peer-Directed Projects:
+2013-01-31 12:15:23	--	- FOSSCON [http://www.fosscon.org] and fossevents
+2013-01-31 12:15:23	--	- [http://www.fossevents.org], and soon we'll repeat last years
+2013-01-31 12:15:23	--	- success with Picnics for Geeks across the globe, more info at
+2013-01-31 12:15:23	--	- [http://geeknic.org]
+2013-01-31 12:15:23	--	-
+2013-01-31 12:15:23	--	- freenode is a service of Peer-Directed Projects Center Ltd,
+2013-01-31 12:15:23	--	- a not for profit organisation registered in England and Wales.
+2013-01-31 12:15:23	--	-
+2013-01-31 12:15:23	--	- Thank you for using freenode!
+2013-01-31 12:15:23	--	-
+2013-01-31 12:15:23	--	- ***************************************************************
+2013-01-31 12:15:23	--	- Please read http://blog.freenode.net/2010/11/be-safe-out-there/
+2013-01-31 12:15:23	--	- ***************************************************************
+2013-01-31 12:15:23	--	End of /MOTD command.
+2013-01-31 12:15:23	--	User mode [+i] by byelogur
+2013-01-31 12:15:43	--	NickServ (NickServ@services.): This nickname is registered. Please choose a different nickname, or identify via /msg NickServ identify <password>.
+2013-01-31 12:17:32		irc: disconnected from server

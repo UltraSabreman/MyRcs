@@ -1,0 +1,192 @@
+2014-11-04 10:40:31		MENU(1)                                                  User Contributed Perl Documentation                                                 MENU(1)
+2014-11-04 10:40:31		NAME
+2014-11-04 10:40:31		       menu - menu and popup menu system for weechat (weechat edition)
+2014-11-04 10:40:31		SYNOPSIS
+2014-11-04 10:40:31		       Use
+2014-11-04 10:40:31		         /menu
+2014-11-04 10:40:31		       to open the main menu or (recommended) add a key binding to open the menu. For example,
+2014-11-04 10:40:31		         /key bind meta-m /menu
+2014-11-04 10:40:31		       would allow you to open the menu with Alt+M.
+2014-11-04 10:40:31		       If your WeeChat comes with builtin cursor and mouse support, you can bind the nick popup menu to the nicklist using
+2014-11-04 10:40:31		         /key bindctxt mouse @item(buffer_nicklist):button1 hsignal:menu
+2014-11-04 10:40:31		       or if you want to use cursor mode, you can bind it to a key like this:
+2014-11-04 10:40:31		         /key bindctxt cursor @item(buffer_nicklist):m hsignal:menu;/cursor stop
+2014-11-04 10:40:31		DESCRIPTION
+2014-11-04 10:40:31		       menu will give you a main menu and a popup menu to be able to use some features through menu entries. A popup menu for the nicklist is
+2014-11-04 10:40:31		       included by default.
+2014-11-04 10:40:31		USAGE
+2014-11-04 10:40:31		       to open the main menu, hit the key you defined as a keybinding as explained in the "SYNOPSIS" or type "/menu".
+2014-11-04 10:40:31		   Menu navigation
+2014-11-04 10:40:31		       after you open the main menu, you will be able to choose the main menu entry using the left-arrow and right-arrow keys of your keyboard. You
+2014-11-04 10:40:31		       can also type the underlined letters for quick access. To open a submenu, just press the Return key while the menu entry is highlighted.
+2014-11-04 10:40:31		   Submenus
+2014-11-04 10:40:31		       Once you have opened a submenu, use the up-arrow and down-arrow to choose a menu entry. To run a menu entry, confirm with Return again.
+2014-11-04 10:40:31		       to close any menu, type Ctrl+X on your keyboard.
+2014-11-04 10:40:31		       for mouse support, this script will listen to mouse input signals. You need WeeChat with builtin cursor and mouse support.
+2014-11-04 10:40:31		   Nick menu
+2014-11-04 10:40:31		       There is a popup menu for nick names which can be opened using
+2014-11-04 10:40:31		         /menu nick NICKNAME
+2014-11-04 10:40:31		       whereby NICKNAME has to be replaced by a real nick. More conveniently, when using the mouse this command is bound to clicks on the nicklist
+2014-11-04 10:40:31		       so you can just click on a nick in the nicklist to open this popup menu. It is navigated in the same way as a submenu.
+2014-11-04 10:40:31		CAVEATS
+2014-11-04 10:40:31		       ·   per-buffer key bindings as are used by iset, urlgrab, coords, the man page viewer (/menu help) and some game scripts always override the
+2014-11-04 10:40:31		           global key bindings, so you will not be able to navigate the menu in this case.
+2014-11-04 10:40:31		TODO
+2014-11-04 10:40:31		       ·   would be nice to have popup menu on right click, name insertion on left click and query (or default action) on double click on the
+2014-11-04 10:40:31		           nicklist. Also, clicking on names in chat should scroll the nicklist there and otherwise behave the same.
+2014-11-04 10:40:31		       ·   interactive menu entries are lacking yet (like Join channel, Connect to server) due to the missing implementation of a interactive
+2014-11-04 10:40:31		           command.
+2014-11-04 10:40:31		SETTINGS
+2014-11-04 10:40:31		       the settings are usually found in the
+2014-11-04 10:40:31		         plugins.var.perl.menu
+2014-11-04 10:40:31		       namespace, that is, type
+2014-11-04 10:40:31		         /set plugins.var.perl.menu.*
+2014-11-04 10:40:31		       to see them and
+2014-11-04 10:40:31		         /set plugins.var.perl.menu.SETTINGNAME VALUE
+2014-11-04 10:40:31		       to change a setting "SETTINGNAME" to a new value "VALUE". Finally,
+2014-11-04 10:40:31		         /unset plugins.var.perl.menu.SETTINGNAME
+2014-11-04 10:40:31		       will reset a setting to its default value.
+2014-11-04 10:40:31		       the following settings are available:
+2014-11-04 10:40:31		   sticky_menu
+2014-11-04 10:40:31		       if this is set to on, a submenu is not closed when the entry is confirmed but has to be closed manually using Ctrl+X.
+2014-11-04 10:40:31		   active_help
+2014-11-04 10:40:31		       this setting is documented for completeness, it reflects if the help bar is visible and can be toggled from within the menu with Ctrl+H.
+2014-11-04 10:40:31		   key_binding_hidden
+2014-11-04 10:40:31		       if set to on, the friendly reminder how to open the main menu (by default: /menu to open menu) will be removed from view. useful for those
+2014-11-04 10:40:31		       people bothered by it.
+2014-11-04 10:40:31		   main_menu_hidden
+2014-11-04 10:40:31		       if set to on, the main menu bar will be always hidden. useful if you don't care about clicking on the main menu and want to save one line on
+2014-11-04 10:40:31		       your screen (due to internal reasons, the setting weechat.bar.main_menu.hidden does not work reliably, use this instead.)
+2014-11-04 10:40:31		MENU CONFIGURATION
+2014-11-04 10:40:31		       the whole menu is configurable through the file menu.conf or
+2014-11-04 10:40:31		         /set menu.var.*
+2014-11-04 10:40:31		       The syntax for a main menu is
+2014-11-04 10:40:31		         /set menu.var.#.name &Name
+2014-11-04 10:40:31		       where "#" is an unique number, "Name" is the name of the menu and the letter after the "&" is the unique shortcut for this menu. All menu
+2014-11-04 10:40:31		       entries in the submenu of this menu are of the form
+2014-11-04 10:40:31		         /set menu.var.#.1.name &Item
+2014-11-04 10:40:31		         /set menu.var.#.1.command /command
+2014-11-04 10:40:31		       where "#" is the number of the main menu, 1 is an unique number for this submenu item, "Item" is the name of this item, the letter after the
+2014-11-04 10:40:31		       "&" is the unique shortcut for this item as above. "/command" specifies the command to be executed, for multiple commands create an alias
+2014-11-04 10:40:31		       first.
+2014-11-04 10:40:31		       See the included main menu for an example.
+2014-11-04 10:40:31		   Popup menus
+2014-11-04 10:40:31		       Popup menus are configured through
+2014-11-04 10:40:31		         /set menu.var.POPUP.*
+2014-11-04 10:40:31		       where "POPUP" is the name of the popup menu. The popup menu entries are configured in the same way as submenu entries above, with "POPUP"
+2014-11-04 10:40:31		       replacing "#". To open a popup menu, use
+2014-11-04 10:40:31		         /menu POPUP args
+2014-11-04 10:40:31		       The value of "args" is available in a popup command as $0, $1, ...
+2014-11-04 10:40:31		       See the included "nick" popup for an example.
+2014-11-04 10:40:31		   Dynamic menus
+2014-11-04 10:40:31		       Dynamic menu entries are configured through .command settings. There must not be a .name on this level for dynamic menu generation to work.
+2014-11-04 10:40:31		       The syntax is as follows:
+2014-11-04 10:40:31		         /set menu.var.#.name &Buffers
+2014-11-04 10:40:31		         /set menu.var.#.1.command "%gui_buffers.buffer% ${i} ${buffer.name} % /buffer ${buffer.full_name}"
+2014-11-04 10:40:31		       The first part of command must be %HDATA_LIST.HDATA_NAME% (see the weechat api docs for info on hdata).
+2014-11-04 10:40:31		       The second part sets the .name of the dynamic items and the third part sets the .command. They are seperated by % and evaluated with /eval
+2014-11-04 10:40:31		       (see /help eval for more info).
+2014-11-04 10:40:31		       Refer to the three dynamic menus that ship with the sample config.
+2014-11-04 10:40:31		       For usage with scripts, another form of dynamic menu is supported:
+2014-11-04 10:40:31		         /set menu.var.POPUP.1.command "%#info_hashtable% $1 % $0"
+2014-11-04 10:40:31		       The first part of command must be %#INFO_HASHTABLE_NAME% (see the weechat api docs on weechat_hook_info_hashtable).
+2014-11-04 10:40:31		       The second and third part are passed on to the hashtable function in the hashtable parameter. The returned hashtable must contain suitable
+2014-11-04 10:40:31		       1.command/1.name pairs to be added into the menu.
+2014-11-04 10:40:31		       You can check the spell_menu script for an example of how to use this.
+2014-11-04 10:40:31		perl v5.18.2                                                         2014-11-04                                                              MENU(1)
+2014-11-04 10:41:39		MENU(1)                                                  User Contributed Perl Documentation                                                 MENU(1)
+2014-11-04 10:41:39		NAME
+2014-11-04 10:41:39		       menu - menu and popup menu system for weechat (weechat edition)
+2014-11-04 10:41:39		SYNOPSIS
+2014-11-04 10:41:39		       Use
+2014-11-04 10:41:39		         /menu
+2014-11-04 10:41:39		       to open the main menu or (recommended) add a key binding to open the menu. For example,
+2014-11-04 10:41:39		         /key bind meta-m /menu
+2014-11-04 10:41:39		       would allow you to open the menu with Alt+M.
+2014-11-04 10:41:39		       If your WeeChat comes with builtin cursor and mouse support, you can bind the nick popup menu to the nicklist using
+2014-11-04 10:41:39		         /key bindctxt mouse @item(buffer_nicklist):button1 hsignal:menu
+2014-11-04 10:41:39		       or if you want to use cursor mode, you can bind it to a key like this:
+2014-11-04 10:41:39		         /key bindctxt cursor @item(buffer_nicklist):m hsignal:menu;/cursor stop
+2014-11-04 10:41:39		DESCRIPTION
+2014-11-04 10:41:39		       menu will give you a main menu and a popup menu to be able to use some features through menu entries. A popup menu for the nicklist is
+2014-11-04 10:41:39		       included by default.
+2014-11-04 10:41:39		USAGE
+2014-11-04 10:41:39		       to open the main menu, hit the key you defined as a keybinding as explained in the "SYNOPSIS" or type "/menu".
+2014-11-04 10:41:39		   Menu navigation
+2014-11-04 10:41:39		       after you open the main menu, you will be able to choose the main menu entry using the left-arrow and right-arrow keys of your keyboard. You
+2014-11-04 10:41:39		       can also type the underlined letters for quick access. To open a submenu, just press the Return key while the menu entry is highlighted.
+2014-11-04 10:41:39		   Submenus
+2014-11-04 10:41:39		       Once you have opened a submenu, use the up-arrow and down-arrow to choose a menu entry. To run a menu entry, confirm with Return again.
+2014-11-04 10:41:39		       to close any menu, type Ctrl+X on your keyboard.
+2014-11-04 10:41:39		       for mouse support, this script will listen to mouse input signals. You need WeeChat with builtin cursor and mouse support.
+2014-11-04 10:41:39		   Nick menu
+2014-11-04 10:41:39		       There is a popup menu for nick names which can be opened using
+2014-11-04 10:41:39		         /menu nick NICKNAME
+2014-11-04 10:41:39		       whereby NICKNAME has to be replaced by a real nick. More conveniently, when using the mouse this command is bound to clicks on the nicklist
+2014-11-04 10:41:39		       so you can just click on a nick in the nicklist to open this popup menu. It is navigated in the same way as a submenu.
+2014-11-04 10:41:39		CAVEATS
+2014-11-04 10:41:39		       ·   per-buffer key bindings as are used by iset, urlgrab, coords, the man page viewer (/menu help) and some game scripts always override the
+2014-11-04 10:41:39		           global key bindings, so you will not be able to navigate the menu in this case.
+2014-11-04 10:41:39		TODO
+2014-11-04 10:41:39		       ·   would be nice to have popup menu on right click, name insertion on left click and query (or default action) on double click on the
+2014-11-04 10:41:39		           nicklist. Also, clicking on names in chat should scroll the nicklist there and otherwise behave the same.
+2014-11-04 10:41:39		       ·   interactive menu entries are lacking yet (like Join channel, Connect to server) due to the missing implementation of a interactive
+2014-11-04 10:41:39		           command.
+2014-11-04 10:41:39		SETTINGS
+2014-11-04 10:41:39		       the settings are usually found in the
+2014-11-04 10:41:39		         plugins.var.perl.menu
+2014-11-04 10:41:39		       namespace, that is, type
+2014-11-04 10:41:39		         /set plugins.var.perl.menu.*
+2014-11-04 10:41:39		       to see them and
+2014-11-04 10:41:39		         /set plugins.var.perl.menu.SETTINGNAME VALUE
+2014-11-04 10:41:39		       to change a setting "SETTINGNAME" to a new value "VALUE". Finally,
+2014-11-04 10:41:39		         /unset plugins.var.perl.menu.SETTINGNAME
+2014-11-04 10:41:39		       will reset a setting to its default value.
+2014-11-04 10:41:39		       the following settings are available:
+2014-11-04 10:41:39		   sticky_menu
+2014-11-04 10:41:39		       if this is set to on, a submenu is not closed when the entry is confirmed but has to be closed manually using Ctrl+X.
+2014-11-04 10:41:39		   active_help
+2014-11-04 10:41:39		       this setting is documented for completeness, it reflects if the help bar is visible and can be toggled from within the menu with Ctrl+H.
+2014-11-04 10:41:39		   key_binding_hidden
+2014-11-04 10:41:39		       if set to on, the friendly reminder how to open the main menu (by default: /menu to open menu) will be removed from view. useful for those
+2014-11-04 10:41:39		       people bothered by it.
+2014-11-04 10:41:39		   main_menu_hidden
+2014-11-04 10:41:39		       if set to on, the main menu bar will be always hidden. useful if you don't care about clicking on the main menu and want to save one line on
+2014-11-04 10:41:39		       your screen (due to internal reasons, the setting weechat.bar.main_menu.hidden does not work reliably, use this instead.)
+2014-11-04 10:41:39		MENU CONFIGURATION
+2014-11-04 10:41:39		       the whole menu is configurable through the file menu.conf or
+2014-11-04 10:41:39		         /set menu.var.*
+2014-11-04 10:41:39		       The syntax for a main menu is
+2014-11-04 10:41:39		         /set menu.var.#.name &Name
+2014-11-04 10:41:39		       where "#" is an unique number, "Name" is the name of the menu and the letter after the "&" is the unique shortcut for this menu. All menu
+2014-11-04 10:41:39		       entries in the submenu of this menu are of the form
+2014-11-04 10:41:39		         /set menu.var.#.1.name &Item
+2014-11-04 10:41:39		         /set menu.var.#.1.command /command
+2014-11-04 10:41:39		       where "#" is the number of the main menu, 1 is an unique number for this submenu item, "Item" is the name of this item, the letter after the
+2014-11-04 10:41:39		       "&" is the unique shortcut for this item as above. "/command" specifies the command to be executed, for multiple commands create an alias
+2014-11-04 10:41:39		       first.
+2014-11-04 10:41:39		       See the included main menu for an example.
+2014-11-04 10:41:39		   Popup menus
+2014-11-04 10:41:39		       Popup menus are configured through
+2014-11-04 10:41:39		         /set menu.var.POPUP.*
+2014-11-04 10:41:39		       where "POPUP" is the name of the popup menu. The popup menu entries are configured in the same way as submenu entries above, with "POPUP"
+2014-11-04 10:41:39		       replacing "#". To open a popup menu, use
+2014-11-04 10:41:39		         /menu POPUP args
+2014-11-04 10:41:39		       The value of "args" is available in a popup command as $0, $1, ...
+2014-11-04 10:41:39		       See the included "nick" popup for an example.
+2014-11-04 10:41:39		   Dynamic menus
+2014-11-04 10:41:39		       Dynamic menu entries are configured through .command settings. There must not be a .name on this level for dynamic menu generation to work.
+2014-11-04 10:41:39		       The syntax is as follows:
+2014-11-04 10:41:39		         /set menu.var.#.name &Buffers
+2014-11-04 10:41:39		         /set menu.var.#.1.command "%gui_buffers.buffer% ${i} ${buffer.name} % /buffer ${buffer.full_name}"
+2014-11-04 10:41:39		       The first part of command must be %HDATA_LIST.HDATA_NAME% (see the weechat api docs for info on hdata).
+2014-11-04 10:41:39		       The second part sets the .name of the dynamic items and the third part sets the .command. They are seperated by % and evaluated with /eval
+2014-11-04 10:41:39		       (see /help eval for more info).
+2014-11-04 10:41:39		       Refer to the three dynamic menus that ship with the sample config.
+2014-11-04 10:41:39		       For usage with scripts, another form of dynamic menu is supported:
+2014-11-04 10:41:39		         /set menu.var.POPUP.1.command "%#info_hashtable% $1 % $0"
+2014-11-04 10:41:39		       The first part of command must be %#INFO_HASHTABLE_NAME% (see the weechat api docs on weechat_hook_info_hashtable).
+2014-11-04 10:41:39		       The second and third part are passed on to the hashtable function in the hashtable parameter. The returned hashtable must contain suitable
+2014-11-04 10:41:39		       1.command/1.name pairs to be added into the menu.
+2014-11-04 10:41:39		       You can check the spell_menu script for an example of how to use this.
+2014-11-04 10:41:39		perl v5.18.2                                                         2014-11-04                                                              MENU(1)

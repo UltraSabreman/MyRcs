@@ -1,0 +1,48 @@
+2013-01-31 12:14:28		irc: connecting to server irc.newnet.net/6667...
+2013-01-31 12:14:28		irc: connected to irc.newnet.net/6667 (74.221.208.242)
+2013-01-31 12:14:28	--	irc.DopeChat.net (irc.DopeChat.net): *** Looking up your hostname...
+2013-01-31 12:14:28	--	irc.DopeChat.net (irc.DopeChat.net): *** Checking ident...
+2013-01-31 12:14:28	--	irc.DopeChat.net (irc.DopeChat.net): *** Found your hostname
+2013-01-31 12:14:28	--	irc.DopeChat.net (irc.DopeChat.net): *** Received identd response
+2013-01-31 12:14:33	--	Welcome to the NewNet IRC Network byelogur!byelogur@rita.cat.pdx.edu
+2013-01-31 12:14:33	--	Your host is irc.DopeChat.net, running version Unreal3.2.10
+2013-01-31 12:14:33	--	This server was created Sun Jan 27 2013 at 00:02:54 PST
+2013-01-31 12:14:33	--	irc.DopeChat.net Unreal3.2.10 iowghraAsORTVSxNCWqBzvdHtGpI lvhopsmntikrRcaqOALQbSeIKVfMCuzNTGjZ
+2013-01-31 12:14:33	--	CMDS=KNOCK,MAP,DCCALLOW,USERIP,STARTTLS UHNAMES NAMESX SAFELIST HCN MAXCHANNELS=25 CHANLIMIT=#:25 MAXLIST=b:60,e:60,I:60 NICKLEN=30 CHANNELLEN=32 TOPICLEN=307 KICKLEN=307 AWAYLEN=307 :are supported by this server
+2013-01-31 12:14:33	--	MAXTARGETS=20 WALLCHOPS WATCH=128 WATCHOPTS=A SILENCE=15 MODES=12 CHANTYPES=# PREFIX=(ohv)@%+ CHANMODES=beIqa,kfL,lj,psmntirRcOAQKVCuzNSMTGZ NETWORK=NewNet CASEMAPPING=ascii EXTBAN=~,qjncrRa ELIST=MNUCT :are supported by this server
+2013-01-31 12:14:33	--	STATUSMSG=@%+ EXCEPTS INVEX :are supported by this server
+2013-01-31 12:14:33	--	There are 56 users and 658 invisible on 13 servers
+2013-01-31 12:14:33	--	24 :operator(s) online
+2013-01-31 12:14:33	--	341 :channels formed
+2013-01-31 12:14:33	--	I have 116 clients and 0 servers
+2013-01-31 12:14:33	--	116 123 :Current local users 116, max 123
+2013-01-31 12:14:33	--	714 4939 :Current global users 714, max 4939
+2013-01-31 12:14:33	--	- irc.DopeChat.net Message of the Day -
+2013-01-31 12:14:33	--	- 22/8/2012 20:54
+2013-01-31 12:14:33	--	- This is the short MOTD. To view the complete MOTD type /motd
+2013-01-31 12:14:33	--	-
+2013-01-31 12:14:33	--	- -= Irc.DopeChat.Net =- NewNet IRC Network - Seattle, Washington
+2013-01-31 12:14:33	--	- Ports: 6665-6669,7000 SSL:9999
+2013-01-31 12:14:33	--	- __________________________________________________________________
+2013-01-31 12:14:33	--	- __________________________SERVER STAFF____________________________
+2013-01-31 12:14:33	--	-
+2013-01-31 12:14:33	--	- Admin: RATCONTRL
+2013-01-31 12:14:33	--	- Co-Admin Marines
+2013-01-31 12:14:33	--	- Opers: Info-Seeker, Mog
+2013-01-31 12:14:33	--	- Backup: Peeer, shadowcptn, Slade
+2013-01-31 12:14:33	--	- __________________________________________________________________
+2013-01-31 12:14:33	--	-
+2013-01-31 12:14:33	--	- eof.
+2013-01-31 12:14:33	--	End of /MOTD command.
+2013-01-31 12:14:33	--	User mode [+iwx] by byelogur
+2013-01-31 12:14:33	--	Global (services@newnet.net): [Logon News - Jun 04 2012] Welcome to NewNet! Please feel free to hang out and stay a while, You may register your nickname(s) and channel(s). Also, remember when registering secondary nicknames to use the GROUP function. Type /ns help GROUP. To get help, join #help or #services channel. Forums are at www.newnet.net/4um
+2013-01-31 12:14:33	--	opsb (opsb@stats2.newnet.net): Your Host is being Scanned for Open Proxies
+2013-01-31 12:14:33	--	CTCP requested by NeoStats: VERSION
+2013-01-31 12:14:33	--	CTCP reply to NeoStats: VERSION WeeChat 0.3.7 (Apr  4 2012)
+2013-01-31 12:14:33	--	Global (services@newnet.net): [Logon News - Jun 09 2012] Attention all NewNet users we are updating our user database please identify your registered #channels and nicknames if you haven't in the last few days thank you. - NewNet
+2013-02-03 09:17:21	--	Wallops from Pei (.@.): Well everyone, it's that time. I must restart irc.virtual-dope.com, please reconnect as it will only take a split second. (Restarting for ircd upgrade)
+2013-02-03 09:27:56	--	Wallops from Pei (pei@dont.make.me.beat.you): One more time, sorry about this....
+2013-02-03 09:36:15	--	Wallops from Pei (pei@dont.make.me.beat.you): irc.virtual-dope.com is now up and stable. This server will not be restarted until next ircd upgrade.
+2013-02-03 16:59:34	--	Global (services@newnet.net): No one's on IRC cuz of the superbowl!
+2013-02-15 02:16:32	--	CTCP requested by NeoStats: VERSION
+2013-02-15 02:16:32	--	CTCP reply to NeoStats: VERSION WeeChat 0.3.7 (Apr  4 2012)

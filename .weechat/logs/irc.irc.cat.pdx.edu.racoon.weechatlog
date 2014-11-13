@@ -1,0 +1,55 @@
+2013-05-30 21:31:57	sabreman	Yo, I'm having some fun issues trying to flash my nexus
+2013-05-30 21:32:27	sabreman	I'm using the lateset snapshot of cyanogenmod and the appropriate (i think) version of gapps
+2013-05-30 21:32:48	sabreman	it got flashed properly, except the keyboard app is busted
+2013-05-30 21:32:54	sabreman	like, it crashes every 10 seconds
+2013-05-30 21:33:33	sabreman	i've tried re-flashing with diffrent versions, but so far no luck. The only other solution i found was clearing the keyboards cache and the dictionary providers cache
+2013-05-30 21:33:48	sabreman	but unfortunatly the dictinary provider doesnt seem to exhist for me
+2013-05-30 21:34:20	sabreman	I don't preticularly feel like flashing it back to the defualt os, but it looks like I might have to, unless you have any ideas.
+2013-05-30 23:17:43	sabreman	So 
+2013-05-30 23:17:48	sabreman	I just had a very fun adventure
+2013-05-30 23:18:30	sabreman	manged to sckre up so baddly, thatI ended up with no bootloader and os, and had to sideload a new one
+2013-05-30 23:18:47	sabreman	so yea, my first forwa into trying to fix something has not gone to well lol
+2013-05-30 23:18:53	sabreman	i'll try agian tommororw
+2013-05-31 11:23:44	Racoon	whoops, didn't see this here
+2013-05-31 11:23:55	Racoon	are you using nightlies?
+2013-05-31 11:24:16	Racoon	i never trust the nightliews, i go for 'at least' stabke releases
+2013-05-31 11:24:49	Racoon	haha
+2013-05-31 11:25:01	Racoon	and make sure you secure the bootloader on there
+2013-05-31 11:25:08	Racoon	clockworkmod right?
+2013-05-31 13:21:27	sabreman	k
+2013-05-31 13:21:28	sabreman	yea
+2013-05-31 13:21:38	sabreman	no i use team win recovery
+2013-05-31 13:21:51	sabreman	and no, im using snapeshot (or the one above stable)
+2013-05-31 13:22:00	sabreman	i'm re-doing it now, we'll see if it works
+2013-05-31 13:25:12	sabreman	So you used clockeork for your recovery, but what version of cyanogen and gapps did you get?
+2013-05-31 13:25:28	sabreman	i tired all theree of the gapps versions
+2013-05-31 13:26:47	Racoon	i used
+2013-05-31 13:29:31	Racoon	the snapshot and latest clockwork mod
+2013-05-31 13:29:47	Racoon	i think i got it from the clockwork mod recovery website
+2013-05-31 13:30:04	Racoon	not sure which version
+2013-05-31 13:30:24	Racoon	i followed some tutorial that essentially pointed me to all of the sites
+2013-05-31 13:30:41	Racoon	and i just got latest versions at the time, save the cyanogenmod version
+2013-05-31 13:31:23	Racoon	cyanogenmod version 10.1
+2013-05-31 13:31:30	sabreman	ok
+2013-05-31 13:31:44	sabreman	if i can't get this to work like im doing it, i'll try clockwork
+2013-05-31 13:31:45	sabreman	thanks
+2013-05-31 13:31:59	Racoon	yup
+2013-05-31 13:32:27	Racoon	ima big fan of the clockworkmod, is on all of my android devices
+2013-05-31 13:32:50	sabreman	you've never tried TWRP?
+2013-05-31 13:35:20	sabreman	actualy clockwork looks sexy
+2013-05-31 13:35:32	sabreman	i'll try that once this (almost certanly) fails
+2013-05-31 13:37:32	Racoon	hehe
+2013-05-31 15:27:07	sabreman	btw
+2013-05-31 15:27:12	sabreman	did you buy premium clockwork?
+2013-05-31 15:27:18	sabreman	and if so, is it worth it?
+2013-05-31 15:31:39	Racoon	no i didn't
+2013-05-31 15:32:13	Racoon	and i don't think it would be all that gnarly
+2013-05-31 15:35:36	sabreman	kk
+2013-05-31 16:05:55	sabreman	yea
+2013-05-31 16:05:59	sabreman	that worked flawlessly
+2013-05-31 16:06:06	sabreman	and was considerably less painfull
+2013-05-31 16:06:08	sabreman	thanks
+2013-05-31 16:06:23	sabreman	I had no idea that existed (and now i have a sweeet little battery icon thing!)
+2013-05-31 16:34:35	sabreman	Also, if you could link me to the theme you used for your battery, i'd appreciate it
+2013-05-31 16:34:45	sabreman	i t*think* i found it, but i just wanna be sure.
+2013-05-31 17:58:43	Racoon	i just used the default that came with the cyanogenmod

@@ -1,0 +1,92 @@
+2013-04-02 14:33:40	-->	sabreman (byelogur@rita.cat.pdx.edu) has joined #cygwin
+2013-04-02 14:33:40	--	Topic for #cygwin is "Discussion of the Cygwin distribution found at http://cygwin.com/ .  For the best quality help use the Cygwin mailing list."
+2013-04-02 14:33:40	--	Topic set by cgf (~cgf@pool-98-110-186-130.bstnma.fios.verizon.net) on Fri, 22 Mar 2013 09:54:40
+2013-04-02 14:33:40	--	Nicks #cygwin: [@ChanServ akashj87__ alvin_ azizLIGHTS BladedThesis Caelum caf census cgf Chetic corinna cuba33ci Dagger2 dan64 delias|w deSilva dfletcher DynV Eagle_Er1in eblake eboettcher factor felipe_ hachque HardDisk_WP hp jlf jon_y JPeterson jturney juser k-man kraft lhall1 Mac101 Masca merijn Olipro Parhs8 peda pingec programmerq quotemstr RigidWig Rix rurban sabreman sam setmeaway2 SeySayux Shawn_ SleePy somian[1] spb speedieg SWAT t4bz telex tomek Vampire0 yeryry yosafbridge]
+2013-04-02 14:33:40	--	Channel #cygwin: 62 nicks (1 op, 0 halfops, 0 voices, 61 normals)
+2013-04-02 14:33:41	--	URL for #cygwin: http://cygwin.com/
+2013-04-02 14:33:42	--	Mode #cygwin [+cnt]
+2013-04-02 14:33:42	--	Channel created on Sat, 25 Nov 2006 22:43:22
+2013-04-02 14:33:54	sabreman	ok so, running cygwin on an ntfs partition
+2013-04-02 14:34:02	sabreman	and i want to set up an ssh key wiht openssh
+2013-04-02 14:34:33	sabreman	Open ssh requires that the private key file only have read permissions for me (and no one else)
+2013-04-02 14:34:52	sabreman	however it looks like ntfs doesnt properly handle user and group permissions, so when i try to set user permissions
+2013-04-02 14:34:57	sabreman	it sets the group ones as well.
+2013-04-02 14:35:15	sabreman	meaning, i can't set the permissions properly for openssh to accept the file
+2013-04-02 14:35:30	sabreman	is there any way around this wihtout re-compiling openssh to pysicly remove the cheks?
+2013-04-02 14:50:07	-->	juser_ (~juser@grm-studby-128-39-149-158.studby.uia.no) has joined #cygwin
+2013-04-02 14:53:28	<--	juser (~juser@grm-studby-128-39-149-158.studby.uia.no) has quit (Ping timeout: 245 seconds)
+2013-04-02 14:55:14	<--	Mac101 (~Mac@host86-179-47-24.range86-179.btcentralplus.com) has quit (Quit: Leaving)
+2013-04-02 15:25:22	-->	diakopter (~M8YCjC56g@host06.appflux.net) has joined #cygwin
+2013-04-02 15:25:35	<--	diakopter (~M8YCjC56g@host06.appflux.net) has left #cygwin
+2013-04-02 15:35:45	-->	Mangix (~sdfasd@c-50-143-175-163.hsd1.ca.comcast.net) has joined #cygwin
+2013-04-02 15:37:05	hp	sabreman: which group does ls -l say the file belongs to?
+2013-04-02 15:37:52	census	hi hp!
+2013-04-02 15:38:16	hp	hey
+2013-04-02 15:38:42	census	thank you so much for all of your help earlier! :)
+2013-04-02 15:39:07	hp	well did it actually help though?
+2013-04-02 15:39:52	census	seriously yes!!!
+2013-04-02 15:39:56	census	not kidding at all!!
+2013-04-02 15:39:59	census	you helped me SOOO much
+2013-04-02 15:42:05	census	now i'm strugglign with one last one
+2013-04-02 15:43:54	hp	at the cpan prompt, try "clean Net::SSLeay"
+2013-04-02 15:44:15	hp	then "install Net::SSLeay" again
+2013-04-02 15:44:23	census	well at the moment, i'm trying to download some gcc4 stuff as well ...
+2013-04-02 15:44:52	hp	it may have left some garbage when it tried to install it first and failed
+2013-04-02 15:45:10	census	is that a capital c for clean?
+2013-04-02 15:45:24	hp	it isn't
+2013-04-02 15:47:41	hp	for future reference, type "help" at the cpan prompt for a command summary
+2013-04-02 15:47:51	census	http://scsys.co.uk:8002/238998?ln=on&tidy=on&hl=on&submit=Format+it!
+2013-04-02 15:51:21	census	is that what you had suggestd?
+2013-04-02 15:51:51	hp	yes, but it didn't work
+2013-04-02 15:56:05	hp	i have no idea how to remove a package from cpan to try a clean install
+2013-04-02 15:57:16	hp	you can try deleting the directory from the cpan/build directory
+2013-04-02 15:57:31	census	how would that work?
+2013-04-02 15:57:55	hp	"look Net::SSLeay"
+2013-04-02 15:58:01	hp	should put you in the directory
+2013-04-02 15:58:08	hp	with a shell prompt
+2013-04-02 15:59:20	hp	"cd .." and "rm -r Net-SSLeay-..." where ... is whatever it's called
+2013-04-02 15:59:50	hp	if your shell is bash or zsh, you can probably hit <TAB> at that point to have it complete the name
+2013-04-02 16:00:37	census	did i do something wrong? http://scsys.co.uk:8002/239014?ln=on&tidy=on&hl=on&submit=Format+it!
+2013-04-02 16:00:55	census	oops
+2013-04-02 16:00:55	census	i did
+2013-04-02 16:00:56	census	typo
+2013-04-02 16:01:30	census	ok .. removed.
+2013-04-02 16:01:38	census	now reinstall?
+2013-04-02 16:01:57	hp	yeah, quitting out of that shell will return you to cpan
+2013-04-02 16:02:11	hp	there, just try and install again
+2013-04-02 16:02:14	census	so go back to cpan?
+2013-04-02 16:02:23	hp	don't type "cpan"
+2013-04-02 16:02:40	hp	in the shell that opened when you typed look Net:SSLeay, type "exit"
+2013-04-02 16:02:50	hp	and you should be back in cpan
+2013-04-02 16:02:53	hp	correct?
+2013-04-02 16:04:21	hp	cpan opened a subshell for you to do stuff, but it's still running. if you just run cpan a second time, it will get confused and swear at you
+2013-04-02 16:04:51	hp	at least i would
+2013-04-02 16:05:09	sabreman	oh sorry i was afk
+2013-04-02 16:05:18	sabreman	let me check
+2013-04-02 16:06:06	sabreman	none
+2013-04-02 16:07:20	-->	Vampire0_ (vampire@jEdit/Vampire) has joined #cygwin
+2013-04-02 16:09:40	hp	http://stackoverflow.com/questions/9561759/why-cannot-chmod-in-cygwin-on-windows-8-cp
+2013-04-02 16:09:48	<--	Vampire0 (vampire@jEdit/Vampire) has quit (Ping timeout: 264 seconds)
+2013-04-02 16:11:36	hp	(it being win8 isn't relevant, i think)
+2013-04-02 16:11:41	hp	sabreman: ^
+2013-04-02 16:12:13	hp	census: i'm afk for a while
+2013-04-02 16:12:20	census	ok
+2013-04-02 16:12:26	census	might you be backlater?
+2013-04-02 16:12:29	hp	yes
+2013-04-02 16:12:30	census	i'm downloding gcc4
+2013-04-02 16:12:36	census	i want to see what will happen after that
+2013-04-02 16:13:03	hp	did removing the build dir not help?
+2013-04-02 16:13:17	census	nope
+2013-04-02 16:13:24	census	the download is at 32%
+2013-04-02 16:13:28	census	it is like 1% = 1 min about
+2013-04-02 16:13:29	census	slow
+2013-04-02 16:13:40	hp	ouch
+2013-04-02 16:13:50	hp	ok. bye for now.
+2013-04-02 16:14:11	census	ok
+2013-04-02 16:14:16	census	talk to you soon hopefully!!
+2013-04-02 16:16:18	sabreman	excelent
+2013-04-02 16:16:21	sabreman	thanks man
+2013-04-02 16:16:29	sabreman	tha'ts been driving me crazy fro a bit
+2013-04-02 16:16:30	sabreman	D:
+2013-04-02 16:16:32	sabreman	:D*
+2013-04-02 16:16:38	census	i hear ya!

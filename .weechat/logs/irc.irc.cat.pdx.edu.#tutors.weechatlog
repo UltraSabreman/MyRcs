@@ -1,0 +1,1767 @@
+2013-01-17 15:43:21	-->	byelogur (byelogur@rita.cat.pdx.edu) has joined #tutors
+2013-01-17 15:43:21	--	Topic for #tutors is "Schedule up at http://tinyurl.com/7pucvbg"
+2013-01-17 15:43:21	--	Topic set by krinkle on Fri, 15 Jun 2012 17:08:29
+2013-01-17 15:43:21	--	Nicks #tutors: [@krinkle +alevar +askore +avi +lpl +rueckerc beaker bkm byelogur jesusaurus Kraytul mcsmash monleezy nUbee protoben Racoon]
+2013-01-17 15:43:21	--	Channel #tutors: 16 nicks (1 op, 0 halfops, 5 voices, 10 normals)
+2013-01-17 15:43:23	--	Mode #tutors [+ntk tutorsonly]
+2013-01-17 15:43:23	--	Channel created on Thu, 28 Aug 2008 16:52:04
+2013-01-17 15:43:57	--	You are now known as sabreman
+2013-01-17 15:58:33		irc: disconnected from server
+2013-01-17 15:59:54	-->	byelogur (byelogur@rita.cat.pdx.edu) has joined #tutors
+2013-01-17 15:59:54	--	Topic for #tutors is "Schedule up at http://tinyurl.com/7pucvbg"
+2013-01-17 15:59:54	--	Topic set by krinkle on Fri, 15 Jun 2012 17:08:29
+2013-01-17 15:59:54	--	Nicks #tutors: [@krinkle +alevar +askore +avi +lpl +rueckerc beaker bkm byelogur jesusaurus Kraytul mcsmash monleezy nUbee protoben Racoon]
+2013-01-17 15:59:54	--	Channel #tutors: 16 nicks (1 op, 0 halfops, 5 voices, 10 normals)
+2013-01-17 15:59:56	--	Mode #tutors [+ntk tutorsonly]
+2013-01-17 15:59:56	--	Channel created on Thu, 28 Aug 2008 16:52:04
+2013-01-17 16:00:10	--	You are now known as sabreman
+2013-01-17 16:02:50	-->	sabreman (byelogur@rita.cat.pdx.edu) has joined #tutors
+2013-01-17 16:02:50	--	Topic for #tutors is "Schedule up at http://tinyurl.com/7pucvbg"
+2013-01-17 16:02:50	--	Topic set by krinkle on Fri, 15 Jun 2012 17:08:29
+2013-01-17 16:02:50	--	Nicks #tutors: [@krinkle +alevar +askore +avi +lpl +rueckerc beaker bkm jesusaurus Kraytul mcsmash monleezy nUbee protoben Racoon sabreman]
+2013-01-17 16:02:50	--	Channel #tutors: 16 nicks (1 op, 0 halfops, 5 voices, 10 normals)
+2013-01-17 16:02:52	--	Mode #tutors [+ntk tutorsonly]
+2013-01-17 16:02:52	--	Channel created on Thu, 28 Aug 2008 16:52:04
+2013-01-18 12:07:01	+alevar	I'm trying to understand how Karla wants the 163 students to return from the symbol table's get() method.
+2013-01-18 12:07:08	+alevar	Is it just a pointer to a struct?
+2013-01-18 12:13:21	@krinkle	I'd guess printing it to stdout would suffice, otherwise make a copy or return a reference
+2013-01-18 12:14:05	+alevar	k
+2013-01-18 12:14:09	+alevar	thx
+2013-01-22 00:41:56	+alevar	The linked list of arrays used in 163 is an unrolled linked list
+2013-01-22 00:42:36	+alevar	http://en.wikipedia.org/wiki/Unrolled_linked_list
+2013-01-22 11:14:57	@krinkle	lpl: if knick (re: #cshelp) comes in, ping me and I'll come over
+2013-01-22 14:45:07	+lpl	krinkle: got it. Im not sure if he came in, but beaker is my go to guy for that starting at 12, so I think we have it covered
+2013-01-22 14:45:40	@krinkle	cool
+2013-01-22 14:45:47	@krinkle	I think there's also acm people
+2013-01-22 17:56:23	+avi	does anyone know about the message "The users access request is pending with CPSO" when requesting keycard access?
+2013-01-22 18:41:17	@krinkle	I'm not sure, but I don't think it hurts to send it again
+2013-01-22 19:20:41	+avi	I checked the key card history and there was request from Jan 15. His card still doesn't work by now.
+2013-01-25 11:36:18	@krinkle	I'm having second thoughts about opening early, I have a feeling it won't be successful. Let me know if you guys have feelings about it or if you get feedback from students about it.
+2013-01-25 11:38:53	@krinkle	but for now let's just keep it at 11
+2013-01-25 12:40:49	nUbee	krinkle: What did you have in mind? Like 9 or 10 AM?
+2013-01-25 12:43:33	@krinkle	 10am was the plan, but I don't think anymore that it will be busy enough that early to warrant that
+2013-01-25 12:47:25	nUbee	It is pretty quiet in the morning. I could see people needing help after 6pm (especially the procrastinators), but I'm not sure how realistic that would be. Personally, I'd tutor after 6
+2013-01-28 15:44:30	@krinkle	I'm thinking no meeting tomorrow...I don't really have anything to talk about.
+2013-01-28 15:44:53	@krinkle	If there are no objections...
+2013-01-28 16:09:57	+askore	no objections here
+2013-01-28 22:29:48	sabreman	irc
+2013-01-28 22:30:04	sabreman	my bad, ment that a command. please ignore
+2013-01-31 12:05:18	-->	Sabreman (byelogur@rita.cat.pdx.edu) has joined #tutors
+2013-01-31 12:05:18	--	Topic for #tutors is "Schedule up at http://tinyurl.com/7pucvbg"
+2013-01-31 12:05:18	--	Topic set by krinkle on Fri, 15 Jun 2012 17:08:29
+2013-01-31 12:05:18	--	Nicks #tutors: [@krinkle +alevar +askore +lpl avi beaker bkm jesusaurus Kraytul mcsmash monleezy nUbee protoben Racoon Sabreman]
+2013-01-31 12:05:18	--	Channel #tutors: 15 nicks (1 op, 0 halfops, 3 voices, 11 normals)
+2013-01-31 12:05:20	--	Mode #tutors [+ntk tutorsonly]
+2013-01-31 12:05:20	--	Channel created on Thu, 28 Aug 2008 16:52:04
+2013-01-31 12:40:56	Sabreman	did anything happpen since yesterday? Cause apperantly i closed weechat on accident.
+2013-01-31 12:41:32	@krinkle	rita rebooted, everyone on it got kicked off
+2013-01-31 12:41:39	@krinkle	you only missed since like 4am :)
+2013-01-31 12:45:23	Sabreman	oh cool, good to know that i'm not crazy.
+2013-01-31 12:46:03	@krinkle	yeah that may happen from time to time
+2013-01-31 12:46:11	@krinkle	just log back in as soon as you realize
+2013-01-31 15:58:33	-->	curtisr (curtisr@rita.cat.pdx.edu) has joined #tutors
+2013-01-31 15:58:45	--	curtisr is now known as rueckerc
+2013-01-31 15:58:53	--	Mode #tutors [+v rueckerc] by ChanServ
+2013-01-31 16:02:30	--	Mode #tutors [+v avi] by ChanServ
+2013-02-01 09:04:57	@krinkle	If anyone is able I would very much appreciate it if someone could cover my shift 11-2ish today. I'm feeling very ill.
+2013-02-01 09:08:31	@krinkle	The shift is till 3:30 but askore gets there at 2, so the length of the shift would be up to the person covering
+2013-02-01 09:11:52	@krinkle	alevar: askore: avi: lpl: rueckerc: ^
+2013-02-01 09:17:55	+askore	unfortunately I'm in class until 12:35, so I can only get there a few minutes early at most.
+2013-02-01 09:24:14	@krinkle	okay, if someone else could cover the first hour or two that would be amazing
+2013-02-01 10:36:04	@krinkle	anyone?
+2013-02-01 10:40:50	nUbee	I can cover
+2013-02-01 10:40:53	nUbee	I'm here anyway
+2013-02-01 18:38:31	<--	nUbee (~robw@stargate.cat.pdx.edu) has quit (Read error: Operation timed out)
+2013-02-01 18:38:31	<--	protoben (~bhamlin@stargate.cat.pdx.edu) has quit (Read error: Operation timed out)
+2013-02-01 18:38:31	<--	Racoon (~suthere@stargate.cat.pdx.edu) has quit (Read error: Operation timed out)
+2013-02-01 18:38:31	<--	beaker (~mmes22@stargate.cat.pdx.edu) has quit (Read error: Operation timed out)
+2013-02-01 18:50:37	-->	protoben (~bhamlin@stargate.cat.pdx.edu) has joined #tutors
+2013-02-01 18:57:24	-->	beaker (mmes22@rita.cat.pdx.edu) has joined #tutors
+2013-02-01 19:01:27	-->	robw (~robw@stargate.cat.pdx.edu) has joined #tutors
+2013-02-01 19:02:29	--	robw is now known as GNUbee
+2013-02-01 19:14:14	<--	beaker (mmes22@rita.cat.pdx.edu) has quit (Quit: Lost terminal)
+2013-02-01 19:20:53	-->	beaker (mmes22@rita.cat.pdx.edu) has joined #tutors
+2013-02-02 11:48:12	-->	Racoon (~suthere@stargate.cat.pdx.edu) has joined #tutors
+2013-02-02 16:27:34	+alevar	I like the email that tutors@cs.pdx.edu go :)
+2013-02-02 16:27:37	+alevar	got*
+2013-02-02 16:28:17	+alevar	The one entitled "Feedback"
+2013-02-02 16:32:04	@krinkle	yes, I am very pleased :)
+2013-02-02 16:32:07	@krinkle	youguys++
+2013-02-03 18:45:53	Racoon	:)
+2013-02-04 12:47:13	--	GNUbee is now known as nUbee
+2013-02-04 14:44:15	@krinkle	the guy who warren emailed about: https://www.facebook.com/jerrad.wohlleber
+2013-02-04 14:44:28	@krinkle	rueckerc: did you see this guy over the weekend? ^
+2013-02-05 16:39:16	+lpl	krinkle: I dont know if you are the right person to ask, but I am part of a local group here in portland that is looking to have a presentation/meeting on games for change and would like to use the conference room near the CS lounge. Who would I ask/coordinate with to reserve that room?
+2013-02-05 16:48:57	@krinkle	lpl: talk to beth
+2013-02-05 16:49:41	@krinkle	I think they really only reserve that room for CS and MCECS things
+2013-02-05 16:50:19	@krinkle	also beth likes to get the request way ahead of time
+2013-02-05 16:54:58	+lpl	Sounds fair, the date is the end of Feb. Should I email beth then?
+2013-02-05 16:55:38	@krinkle	yeah, I would email beth asap
+2013-02-06 00:56:28	<--	jesusaurus (~jesusaur@15.185.107.203) has quit (Read error: Operation timed out)
+2013-02-06 00:57:50	-->	jesusaurus (~jesusaur@15.185.107.203) has joined #tutors
+2013-02-06 12:11:55	+alevar	Has anyone else had people come in with keycard problems access suddenly not working?
+2013-02-06 12:12:04	+alevar	I've had three people in the past 3 days.
+2013-02-06 12:12:27	@krinkle	I haven't recently, but it's happened before
+2013-02-06 12:12:33	@krinkle	I think it's a problem on cpso's end
+2013-02-07 07:48:20	beaker	krinkle: im not feeling well today, (coughing and fever), so i wont be able to make my shift today
+2013-02-07 10:01:47	@krinkle	beaker: noted, thanks for letting me know
+2013-02-07 10:10:16	Racoon	krinkle: if you'd like, I could pick up the shift?
+2013-02-07 10:12:28	@krinkle	Racoon: awesome, that would be great
+2013-02-07 10:14:24	Racoon	twelve right?
+2013-02-07 10:58:55	@krinkle	12-3
+2013-02-07 11:00:58	Racoon	got it
+2013-02-07 12:36:23	+alevar	beaker: Chest pain at all? I'm coming down with something. Might be the same thing, I fear.
+2013-02-07 14:49:59	beaker	alevar: yeh i have a deep cough with green mucus, totally nasty, chest hurts a bit, couldnt sleep all night
+2013-02-07 16:15:49	+alevar	beaker: Does your chest pain get worse when you breath heavily?
+2013-02-07 16:55:43	+alevar	krinkle: There's a chance I won't be able to make it tomorrow (3:30-6) if this gets significantly worse.
+2013-02-07 16:56:16	@krinkle	alevar: okay
+2013-02-07 16:56:21	@krinkle	feel better :)
+2013-02-07 16:56:34	+alevar	thanks
+2013-02-07 16:56:35	@krinkle	can anyone cover that? ^ I'm supposed to record the acm talk
+2013-02-07 16:56:48	 *	askore can
+2013-02-07 16:56:54	@krinkle	woot askore++
+2013-02-07 16:56:57	+askore	:)
+2013-02-07 16:56:57	+alevar	askore++
+2013-02-07 16:57:07	+alevar	Hopefully that won't be necessary
+2013-02-07 16:57:24	+alevar	battery's dead, gtg
+2013-02-07 20:08:58	beaker	alevar: yeh gets worse when breathe heavy
+2013-02-07 20:31:42	+alevar	askore: It looks like it will be necessary. I started getting a fever a few hours ago and it's steadily rising.
+2013-02-07 20:40:24	+askore	D: feel better soon!
+2013-02-09 12:33:18	+alevar	askore++++++
+2013-02-09 12:34:00	+alevar	I spent most of yesterday sleeping.
+2013-02-11 03:11:58	<--	Racoon (~suthere@stargate.cat.pdx.edu) has quit (Ping timeout: 252 seconds)
+2013-02-11 03:21:35	-->	Racoon (~suthere@stargate.cat.pdx.edu) has joined #tutors
+2013-02-11 08:30:06	nUbee	protoben: so unfortunately it seems that I have caught whatever has been going around lately (natures BD present i guess). So I will not be able to make it in today to work on the homework. If I have the strength, I'll be in #cshelp and maybe we can work on some of the problems there
+2013-02-11 10:53:59	-->	lewisrjc (lewisrjc@chandra.cs.pdx.edu) has joined #tutors
+2013-02-11 14:25:23	+alevar	nUbee: :(
+2013-02-11 14:26:15	lewisrjc	?
+2013-02-11 14:26:33	+alevar	lewisrjc: regarding nUbee getting sick
+2013-02-11 14:28:17	+alevar	Oh, you weren't in the channel at that point. nUbee got the same cold/flu thing that I've had since Thursday.
+2013-02-11 14:30:44	lewisrjc	well get better both of you
+2013-02-11 14:54:42	nUbee	thanks Lewis!
+2013-02-12 12:12:07	nUbee	It turns out that my illness got worse, I woke up this morning with a high fever.
+2013-02-12 12:13:01	nUbee	if needed, would anyone be able to cover my shift (4pm - 6pm)?
+2013-02-12 12:38:50	@krinkle	nUbee: if not, no worries, we have enough people on at that time
+2013-02-12 12:39:04	@krinkle	feel better!
+2013-02-12 12:46:54	nUbee	thanks krinkle! I'm pretty sure if I get lots of rest today, I'll be good to go for tomorrow
+2013-02-12 13:21:39	+avi	get better nUbee and Alevar!
+2013-02-12 13:37:05	lewisrjc	^^that
+2013-02-12 16:14:27	@krinkle	don't forget, I need timesheets soon
+2013-02-12 16:14:41	@krinkle	preferably by Thursday, at latest Friday at 4
+2013-02-13 09:25:48	nUbee	hey guys! so I'm trying to determine whether or not I'm fit to come in today. The fever is gone, however I still have a pretty stuffy nose and muffled hearing. I'm not sure if that means I'm still contagious. What do you guys think?
+2013-02-13 09:29:46	lewisrjc	my uninformed opinion is go back to sleep
+2013-02-13 09:45:28	+askore	my similarly uninformed opinion agrees
+2013-02-13 09:45:40	nUbee	I guess me staying home would be for the best. I really don't want to spread any illness.
+2013-02-13 09:46:25	nUbee	physically, I can tutor. But it's not worth getting students sick
+2013-02-13 09:48:22	nUbee	will there be enough on duty today?
+2013-02-13 10:04:46	@krinkle	nUbee: yep, I'm pretty sure we'll be fine
+2013-02-13 10:07:08	nUbee	thank you! I hate missing work, but I do appreciate your understanding
+2013-02-13 11:43:23	+askore	krinkle: I might be a few minutes late to my shift today, probably no more than fifteen-ish.
+2013-02-13 11:43:34	@krinkle	askore: kk thanks
+2013-02-14 11:33:35	+lpl	Does anyone remember which tuesdays we had meetings?
+2013-02-14 11:35:05	+lpl	Or rather, is the tutor schedule correct on that account?
+2013-02-14 11:39:14	@krinkle	yeah I think I deleted the meeting that we skipped
+2013-02-14 11:39:17	@krinkle	I think it was only one
+2013-02-14 11:40:00	+lpl	Awesome, Ill have my timesheet over before my shift is up
+2013-02-15 13:25:27	+alevar	krinkle: I'll give you my timesheet when I start my shift at 3:30
+2013-02-15 13:25:39	+alevar	You'll be leaving, I'll be starting. Perfect timing.
+2013-02-15 13:32:00	@krinkle	alevar: kk
+2013-02-19 11:16:08	@krinkle	so...anyone want to give the eclipse tutorial? karla's asking
+2013-02-19 11:45:14	nUbee	krinkle: what time would the tutorial be?
+2013-02-19 12:32:34	@krinkle	nUbee: karla says "on Friday (10-11:50)", not sure if she means this Friday, but even so I could ask her to push it back to next Friday
+2013-02-19 12:32:39	@krinkle	interested?
+2013-02-19 12:33:11	@krinkle	you'd be giving an hour-ish long presentation to karla's 202 students
+2013-02-19 13:20:09	jesusaurus	wow, really? 202 students need an hour-long tutorial on how to use an editor?
+2013-02-19 13:20:34	jesusaurus	is it mostly trivia like what the classpath should be in our environment, or is it actually how to use an ide?
+2013-02-19 13:23:48	@krinkle	I think it's really how to use the idea
+2013-02-19 13:24:06	@krinkle	monleezy: what kinds of things did you cover when you did this workshop?
+2013-02-19 13:25:51	jesusaurus	i guess it is before they get into the foray of learn-to-teach-yourself of operating systems and compilers
+2013-02-19 13:26:27	jesusaurus	but still, it makes me sad that they need a tutorial above and beyond a list of environment settings
+2013-02-19 13:35:53	@krinkle	also probably a little "what is a jre" etc
+2013-02-19 13:45:09	lewisrjc	krinkle: I will probably be on campus that day, and have even used that environment profesionally (gasp) admittedly briefly and could probably be convinced to do a tutorial
+2013-02-19 13:47:33	jesusaurus	when did you do java professionally?
+2013-02-19 13:49:39	lewisrjc	intel
+2013-02-19 14:00:45	@krinkle	lewisrjc: if you want to give the workshop that would be fantastic
+2013-02-19 14:02:50	lewisrjc	will do
+2013-02-19 14:35:12	monleezy	krinkle: mm package hierachy/"namespacing", eclipse's class generation menus (options, pkgs, inheritance)
+2013-02-19 14:35:41	@krinkle	lewisrjc: ^
+2013-02-19 14:35:42	monleezy	debugger, console
+2013-02-19 14:36:15	monleezy	generating jar files for submission
+2013-02-19 14:37:36	monleezy	oh, start with eclipse's "perspectives" (java, debug, other langs) and project generation
+2013-02-19 14:39:08	monleezy	and if there's time/interest from students, built-in plugin repos (CDT for c/c++, git/hg, fun stuff like emacs/vim bindings)
+2013-02-19 14:46:19	monleezy	iirc i just made some derived HelloWorld objects with print statements that showed dynamic binding
+2013-02-19 14:51:41	lewisrjc	yeah, all right, so the basics then
+2013-02-19 14:51:45	lewisrjc	figured as such
+2013-02-19 14:51:46	lewisrjc	thanks
+2013-02-19 15:07:39	monleezy	no prob
+2013-02-19 15:10:56	@krinkle	lewisrjc: room is 40-06, exact time she says is 10:15-12:05
+2013-02-19 15:11:47	@krinkle	if you want to come sometime in the middle that'd probably be okay
+2013-02-19 15:28:02	<--	nUbee (~robw@stargate.cat.pdx.edu) has quit (Ping timeout: 252 seconds)
+2013-02-19 17:16:44	-->	nUbee (~robw@stargate.cat.pdx.edu) has joined #tutors
+2013-02-19 19:06:28	+alevar	Can someone fill in for me 11:00-11:30 tomorrow?
+2013-02-19 19:08:21	+alevar	I really need to get in to my stats professor's office hours, but they go slightly into my shift.
+2013-02-19 22:48:25	lewisrjc	alevar: scope in python = wtf?
+2013-02-19 22:50:19	lewisrjc	also
+2013-02-19 22:50:22	lewisrjc	goddammit bart
+2013-02-19 22:50:37	lewisrjc	he has a bloody doctoral paper attached to this assignment...
+2013-02-19 23:23:21	Racoon	hehe.. he would
+2013-02-19 23:57:04	@krinkle	alevar: I can cover for you
+2013-02-20 07:22:13	+alevar	krinkle: Thank you!
+2013-02-20 07:23:04	+alevar	lewisrjc: Python scope can be wtf sometimes
+2013-02-20 07:51:41	lewisrjc	yeah I see that
+2013-02-20 07:52:41	lewisrjc	it looks like it has to do with the dynamic nature of the language (scope has less meaning when variables are just...where ever
+2013-02-20 12:30:33	+alevar	There's an email to [Tutors] forwarded by Karla about our Unix environment.
+2013-02-20 12:31:42	+alevar	I could attempt to reply, but I don't know if there's funky behavior that I don't know of.
+2013-02-20 12:36:35	@krinkle	if he's opening for writing then it should create the file, if he's opening for reading it won't
+2013-02-20 12:36:42	@krinkle	idunno, his email's not very clear
+2013-02-20 12:36:56	@krinkle	you could try to get more specifics from him
+2013-02-20 12:37:26	+alevar	Should I just reply to tutors@cs.pdx.edu and the student? Or include Karla?
+2013-02-20 12:37:43	@krinkle	just him and us, I doubt karla cares
+2013-02-20 14:21:41	lewisrjc	I am certain she is beyond caring, whether or not she would pay attention is another question
+2013-02-21 13:46:45	+lpl	Whew, that was a crazy morning
+2013-02-21 15:46:50	@krinkle	lpl: super busy?
+2013-02-21 16:02:52	+lpl	it was until about 1:30 ish then just normal busy
+2013-02-26 12:22:13	-->	sabreman (byelogur@rita.cat.pdx.edu) has joined #tutors
+2013-02-26 12:22:13	--	Topic for #tutors is "Schedule up at http://tinyurl.com/7pucvbg"
+2013-02-26 12:22:13	--	Topic set by krinkle on Fri, 15 Jun 2012 17:08:29
+2013-02-26 12:22:13	--	Nicks #tutors: [@krinkle +alevar +askore +avi +lpl +rueckerc beaker bhamlin bkm jesusaurus Kraytul lewisc mcsmash monleezy nUbee Racoon sabreman]
+2013-02-26 12:22:13	--	Channel #tutors: 17 nicks (1 op, 0 halfops, 5 voices, 11 normals)
+2013-02-26 12:22:15	--	Mode #tutors [+ntk tutorsonly]
+2013-02-26 12:22:15	--	Channel created on Thu, 28 Aug 2008 16:52:04
+2013-02-26 12:33:22		irc: disconnected from server
+2013-02-26 12:50:29	-->	sabreman (byelogur@rita.cat.pdx.edu) has joined #tutors
+2013-02-26 12:50:29	--	Topic for #tutors is "Schedule up at http://tinyurl.com/7pucvbg"
+2013-02-26 12:50:29	--	Topic set by krinkle on Fri, 15 Jun 2012 17:08:29
+2013-02-26 12:50:29	--	Nicks #tutors: [@krinkle +alevar +askore +avi +lpl +rueckerc beaker bhamlin bkm jesusaurus Kraytul lewisc mcsmash monleezy nUbee Racoon sabreman]
+2013-02-26 12:50:29	--	Channel #tutors: 17 nicks (1 op, 0 halfops, 5 voices, 11 normals)
+2013-02-26 12:50:31	--	Mode #tutors [+ntk tutorsonly]
+2013-02-26 12:50:31	--	Channel created on Thu, 28 Aug 2008 16:52:04
+2013-02-26 12:51:17		irc: disconnected from server
+2013-02-26 12:51:22	-->	sabreman (byelogur@rita.cat.pdx.edu) has joined #tutors
+2013-02-26 12:51:22	--	Topic for #tutors is "Schedule up at http://tinyurl.com/7pucvbg"
+2013-02-26 12:51:22	--	Topic set by krinkle on Fri, 15 Jun 2012 17:08:29
+2013-02-26 12:51:22	--	Nicks #tutors: [@krinkle +alevar +askore +avi +lpl +rueckerc beaker bhamlin bkm jesusaurus Kraytul lewisc mcsmash monleezy nUbee Racoon sabreman]
+2013-02-26 12:51:22	--	Channel #tutors: 17 nicks (1 op, 0 halfops, 5 voices, 11 normals)
+2013-02-26 12:51:24	--	Mode #tutors [+ntk tutorsonly]
+2013-02-26 12:51:24	--	Channel created on Thu, 28 Aug 2008 16:52:04
+2013-02-26 12:51:25		irc: disconnected from server
+2013-02-26 12:52:07	-->	sabreman (byelogur@rita.cat.pdx.edu) has joined #tutors
+2013-02-26 12:52:07	--	Topic for #tutors is "Schedule up at http://tinyurl.com/7pucvbg"
+2013-02-26 12:52:07	--	Topic set by krinkle on Fri, 15 Jun 2012 17:08:29
+2013-02-26 12:52:07	--	Nicks #tutors: [@krinkle +alevar +askore +avi +lpl +rueckerc beaker bhamlin bkm jesusaurus Kraytul lewisc mcsmash monleezy nUbee Racoon sabreman]
+2013-02-26 12:52:07	--	Channel #tutors: 17 nicks (1 op, 0 halfops, 5 voices, 11 normals)
+2013-02-26 12:52:09	--	Mode #tutors [+ntk tutorsonly]
+2013-02-26 12:52:09	--	Channel created on Thu, 28 Aug 2008 16:52:04
+2013-02-26 12:52:19		irc: disconnected from server
+2013-02-26 12:55:53	-->	sabreman (byelogur@rita.cat.pdx.edu) has joined #tutors
+2013-02-26 12:55:53	--	Topic for #tutors is "Schedule up at http://tinyurl.com/7pucvbg"
+2013-02-26 12:55:53	--	Topic set by krinkle on Fri, 15 Jun 2012 17:08:29
+2013-02-26 12:55:53	--	Nicks #tutors: [@krinkle +alevar +askore +avi +lpl +rueckerc beaker bhamlin bkm jesusaurus Kraytul lewisc mcsmash monleezy nUbee Racoon sabreman]
+2013-02-26 12:55:53	--	Channel #tutors: 17 nicks (1 op, 0 halfops, 5 voices, 11 normals)
+2013-02-26 12:55:54	--	Mode #tutors [+ntk tutorsonly]
+2013-02-26 12:55:54	--	Channel created on Thu, 28 Aug 2008 16:52:04
+2013-02-26 12:57:40		irc: disconnected from server
+2013-02-26 13:07:57	-->	sabreman (byelogur@rita.cat.pdx.edu) has joined #tutors
+2013-02-26 13:07:57	--	Topic for #tutors is "Schedule up at http://tinyurl.com/7pucvbg"
+2013-02-26 13:07:57	--	Topic set by krinkle on Fri, 15 Jun 2012 17:08:29
+2013-02-26 13:07:57	--	Nicks #tutors: [@krinkle +alevar +askore +avi +lpl +rueckerc beaker bhamlin bkm jesusaurus Kraytul lewisc mcsmash monleezy nUbee Racoon sabreman]
+2013-02-26 13:07:57	--	Channel #tutors: 17 nicks (1 op, 0 halfops, 5 voices, 11 normals)
+2013-02-26 13:07:59	--	Mode #tutors [+ntk tutorsonly]
+2013-02-26 13:07:59	--	Channel created on Thu, 28 Aug 2008 16:52:04
+2013-02-26 13:08:10	sabreman	ok im done, so there shouldn't be to muhc more spam.
+2013-02-26 14:16:24	--	You are now known as sabreman2
+2013-02-26 14:16:49	--	You are now known as sabreman
+2013-02-26 20:04:39	--	bhamlin is now known as protoben
+2013-02-27 14:20:36	@krinkle	I had the voicemail reset. The voicemail number and password are in /stash/tutors/docs/voicemail.txt
+2013-02-27 14:20:40	@krinkle	so future generations will know
+2013-02-27 14:21:07	@krinkle	morning shifters are now responsible for checking messages
+2013-02-27 16:48:15	lewisc	http://media.beta.photobucket.com/user/zerosignal/media/mother-of-god-super-troopers.jpg.html?filters[term]=2522mother%20of%20god2522&filters[primary]=images&o=1
+2013-02-27 16:48:30	lewisc	how old were the voice mails?
+2013-02-27 16:50:17	@krinkle	a month old
+2013-02-27 16:50:25	@krinkle	supposedly they get deleted every 30 days
+2013-02-27 16:51:48	lewisc	ah
+2013-02-27 16:51:51	lewisc	sadness
+2013-02-27 16:52:05	lewisc	could have gotten a 3 year old cry for help on a java assignment
+2013-02-28 18:01:06	<--	alevar (adevore@ruby.cat.pdx.edu) has quit (Remote host closed the connection)
+2013-02-28 18:01:27	<--	sabreman (byelogur@rita.cat.pdx.edu) has quit (Quit: WeeChat 0.3.7)
+2013-02-28 18:01:27		irc: disconnected from server
+2013-03-05 09:52:52	-->	sabreman (byelogur@rita.cat.pdx.edu) has joined #tutors
+2013-03-05 09:52:52	--	Topic for #tutors is "Schedule up at http://tinyurl.com/7pucvbg"
+2013-03-05 09:52:52	--	Topic set by krinkle on Fri, 15 Jun 2012 17:08:29
+2013-03-05 09:52:52	--	Nicks #tutors: [@krinkle +alevar +askore +avi +lpl beaker bkm Guest53200 jesusaurus Kraytul lewisc mcsmash monleezy nUbee protoben sabreman]
+2013-03-05 09:52:52	--	Channel #tutors: 16 nicks (1 op, 0 halfops, 4 voices, 11 normals)
+2013-03-05 09:52:54	--	Mode #tutors [+ntk tutorsonly]
+2013-03-05 09:52:54	--	Channel created on Thu, 28 Aug 2008 16:52:04
+2013-03-05 09:53:23	sabreman	when was everything rebooted?
+2013-03-05 09:55:17	sabreman	also, is thre anyway i can make it atuo-redo everything wihtout having to log on? Like atm i have it autolaunching weechat and conencting to everything
+2013-03-05 09:55:34	sabreman	but it doesnt start a screen before i log on.
+2013-03-05 10:18:46	lewisc	I think you can put it in your screen startup scripts
+2013-03-05 10:18:51	lewisc	but I wouldn't reccommend that
+2013-03-05 10:19:20	lewisc	either restart your screen twice a term or find a box that doesn't get rebooted would be my suggestion
+2013-03-05 10:19:25	 *	lewisc just restarts
+2013-03-05 10:27:05	@krinkle	tutors: reminder no meeting today
+2013-03-05 11:30:52	+alevar	krinkle: Thanks for the reminder
+2013-03-05 12:34:18	sabreman	kk i'l just leave it here then
+2013-03-05 19:23:23	--	Guest53200 is now known as alevar-exiled
+2013-03-05 20:35:00	+alevar	Inheritance would be so nice for assignment 4 for CS 163
+2013-03-05 20:36:00	+alevar	A single base class for the BST, a protected _extract method, and two subclasses that implement extract in different ways.
+2013-03-07 10:50:09	-->	rueckerc (rueckerc@ruby.cat.pdx.edu) has joined #tutors
+2013-03-07 10:50:09	--	Mode #tutors [+v rueckerc] by ChanServ
+2013-03-07 19:55:16	<--	beaker (mmes22@rita.cat.pdx.edu) has quit (Quit: leaving)
+2013-03-07 19:57:42	-->	beaker (mmes2@chandra.cs.pdx.edu) has joined #tutors
+2013-03-08 11:22:29	-->	Racoon (~suthere@stargate.cat.pdx.edu) has joined #tutors
+2013-03-08 18:30:04	<--	mcsmash (mcsmash@2610:10:20:208::21) has quit (Remote host closed the connection)
+2013-03-08 18:30:04	<--	Kraytul (kraytul@131.252.208.21) has quit (Read error: Connection reset by peer)
+2013-03-08 18:30:04	<--	bkm (bkm@reaver.cat.pdx.edu) has quit (Read error: Connection reset by peer)
+2013-03-08 18:30:04	<--	askore (askore@127.0.0.1) has quit (*.net *.split)
+2013-03-08 18:30:05	<--	krinkle (cmurphy@reaver.cat.pdx.edu) has quit (Quit: WeeChat 0.3.8)
+2013-03-08 18:30:05	<--	monleezy (monleezy@reaver.cat.pdx.edu) has quit (Quit: WeeChat 0.3.8)
+2013-03-08 19:11:00	-->	krinkle (cmurphy@reaver.cat.pdx.edu) has joined #tutors
+2013-03-08 19:11:00	--	Mode #tutors [+o krinkle] by ChanServ
+2013-03-08 19:59:28	<--	krinkle (cmurphy@reaver.cat.pdx.edu) has quit (Quit: WeeChat 0.3.9)
+2013-03-08 20:04:01	-->	krinkle (cmurphy@reaver.cat.pdx.edu) has joined #tutors
+2013-03-08 20:04:01	--	Mode #tutors [+o krinkle] by ChanServ
+2013-03-08 20:04:07	--	Mode #tutors [+k tutorsonly] by krinkle
+2013-03-08 20:04:43	--	Mode #tutors [+k tutorsonly] by krinkle
+2013-03-08 20:04:57	<--	krinkle (cmurphy@reaver.cat.pdx.edu) has left #tutors (WeeChat 0.3.9)
+2013-03-08 20:05:02	-->	krinkle (cmurphy@reaver.cat.pdx.edu) has joined #tutors
+2013-03-08 20:05:02	--	Mode #tutors [+o krinkle] by ChanServ
+2013-03-08 21:50:26	-->	askore (askore@reaver.cat.pdx.edu) has joined #tutors
+2013-03-08 21:50:26	--	Mode #tutors [+v askore] by ChanServ
+2013-03-08 22:09:30		irc: disconnected from server
+2013-03-08 22:10:00	-->	sabreman (byelogur@rita.cat.pdx.edu) has joined #tutors
+2013-03-08 22:10:00	--	Topic for #tutors is "Schedule up at http://tinyurl.com/7pucvbg"
+2013-03-08 22:10:00	--	Topic set by krinkle on Fri, 15 Jun 2012 17:08:29
+2013-03-08 22:10:00	--	Nicks #tutors: [@krinkle +askore alevar-exiled_ beaker_ sabreman]
+2013-03-08 22:10:00	--	Channel #tutors: 5 nicks (1 op, 0 halfops, 1 voice, 3 normals)
+2013-03-08 22:10:06	--	Mode #tutors [+ntk tutorsonly]
+2013-03-08 22:10:06	--	Channel created on Thu, 28 Aug 2008 16:52:04
+2013-03-08 22:10:08	-->	lpl (lpl@rita.cat.pdx.edu) has joined #tutors
+2013-03-08 22:11:31	-->	jesusaurus (~jesusaur@15.185.107.203) has joined #tutors
+2013-03-08 22:11:46	-->	rueckerc (rueckerc@ruby.cat.pdx.edu) has joined #tutors
+2013-03-08 22:13:25	-->	lewisc (lewisrjc@chandra.cs.pdx.edu) has joined #tutors
+2013-03-08 22:16:51	--	jesusaurus is now known as Guest77250
+2013-03-08 22:17:02	-->	alevar (adevore@rita.cat.pdx.edu) has joined #tutors
+2013-03-08 22:17:02	--	Mode #tutors [+v alevar] by ChanServ
+2013-03-08 22:17:08	-->	avi (avi@rita.cat.pdx.edu) has joined #tutors
+2013-03-08 22:27:31	-->	protoben (~bhamlin@stargate.cat.pdx.edu) has joined #tutors
+2013-03-08 22:43:02	-->	nUbee (~robw@stargate.cat.pdx.edu) has joined #tutors
+2013-03-08 22:43:02	-->	Racoon (~suthere@stargate.cat.pdx.edu) has joined #tutors
+2013-03-09 05:54:07	-->	go_veg (go_veg@chandra.cs.pdx.edu) has joined #tutors
+2013-03-09 11:56:13	<--	rueckerc (rueckerc@ruby.cat.pdx.edu) has quit (Quit: leaving)
+2013-03-09 11:57:56	-->	rueckerc (rueckerc@ruby.cat.pdx.edu) has joined #tutors
+2013-03-09 11:57:56	--	Mode #tutors [+v rueckerc] by ChanServ
+2013-03-09 12:14:24	--	Guest77250 is now known as jesusaurus
+2013-03-11 09:56:22	<--	go_veg (go_veg@chandra.cs.pdx.edu) has left #tutors
+2013-03-11 11:45:05	-->	mcsmash (mcsmash@reaver.cat.pdx.edu) has joined #tutors
+2013-03-11 16:13:24	@krinkle	timesheets due...Friday at 4 :D
+2013-03-11 21:52:01	Racoon	roger that
+2013-03-11 23:49:02	--	Mode #tutors [+v lpl] by ChanServ
+2013-03-12 11:32:25	+lpl	I talked to the cat, but I just wanted to warn people here that I wasnt able to unlock the door this morning. I can get in, but the code isnt keeping it unlocked
+2013-03-12 11:56:15	+lpl	Nevermind, I somehow forgot how to unlock the door T.T
+2013-03-12 15:52:42	@krinkle	nUbee: the emails from katerina were regarding a session in #cshelp, no need to respond to them
+2013-03-12 16:50:03	nUbee	krinkle: Ahhh, OK. Sorry about that.
+2013-03-12 23:20:40	<--	alevar-exiled_ (~alevar@c-24-21-251-156.hsd1.or.comcast.net) has quit (Ping timeout: 276 seconds)
+2013-03-12 23:21:08	-->	alevar-exiled_ (~alevar@c-24-21-251-156.hsd1.or.comcast.net) has joined #tutors
+2013-03-14 03:29:10	<--	alevar-exiled_ (~alevar@c-24-21-251-156.hsd1.or.comcast.net) has quit (Read error: Operation timed out)
+2013-03-14 04:31:19	-->	alevar-exiled_ (~alevar@c-24-21-251-156.hsd1.or.comcast.net) has joined #tutors
+2013-03-14 12:09:15	-->	mcsmash_ (mcsmash@reaver.cat.pdx.edu) has joined #tutors
+2013-03-14 12:09:43	<--	mcsmash_ (mcsmash@reaver.cat.pdx.edu) has quit (Client Quit)
+2013-03-14 13:56:26	@krinkle	tutors and trainees: if your schedule needs to be altered for finals next week please let me know asap
+2013-03-14 13:57:23	@krinkle	will also need availability for next term soonish
+2013-03-14 14:09:57	beaker_	krinkle: are you in the zonebah?
+2013-03-14 14:10:11	@krinkle	beaker_: yep
+2013-03-14 14:10:22	beaker_	ok will drop off time sheet now
+2013-03-14 14:10:28	@krinkle	kk
+2013-03-14 14:13:02	beaker_	also, i may be a bit late getting schedule to you for next quarter, i need to wait for departmental acceptance before i can sign up for anymore upper division CS classes
+2013-03-14 14:18:02	@krinkle	beaker_: okay
+2013-03-15 10:57:03	@krinkle	nUbee: you forwarded something to tutors@cs yesterday, did you also answer her question?
+2013-03-15 12:15:00	nUbee	krinkle: I did not, she sent her code to me, and not tutors@cs. I assumed she was sending more code in regards to that #cshelp session you mentioned, so I didn't answer it
+2013-03-15 12:15:25	nUbee	I also was guessing she replied to me, and not "to all"
+2013-03-15 12:28:40	+alevar	Oh no. There's quite a bit left for her to do.
+2013-03-15 12:29:37	+alevar	Or did she just cut out the code that handles anything except for jobs?
+2013-03-15 12:32:54	+alevar	Oh, nvm, she did
+2013-03-17 19:17:01	protoben	krinkle: I should be able to submit my availability by tomorrow. Also, it looks like I misread the finals schedule, and it turns out I have a final that goes until 11:15 tomorrow. So I might be a little late to my 11:00 shift, although I'll try not to be. Sorry for not letting you know sooner.
+2013-03-17 19:36:12	@krinkle	protoben: no problem, thanks for letting me know
+2013-03-17 21:44:22	-->	Racoon_phone (~androirc@mobile-166-147-081-092.mycingular.net) has joined #tutors
+2013-03-18 03:35:14	<--	Racoon_phone (~androirc@mobile-166-147-081-092.mycingular.net) has quit (Remote host closed the connection)
+2013-03-18 10:38:45	-->	Racoon_phone (~androirc@mobile-166-147-081-092.mycingular.net) has joined #tutors
+2013-03-18 11:04:02	@krinkle	rueckerc: lpl: I killed your sessions on adelie because they had firefoxes eating all the memory
+2013-03-18 11:24:07	lewisc	pssshhh...who needs memory
+2013-03-18 11:55:01	<--	Racoon_phone (~androirc@mobile-166-147-081-092.mycingular.net) has quit (Ping timeout: 252 seconds)
+2013-03-18 19:09:58	+alevar	krinkle: My open times are MWF all day, TR any time after 2:30
+2013-03-18 19:27:18	@krinkle	alevar: okay
+2013-03-18 19:28:56	@krinkle	everybody: lab cleaning will be Thursday at 3pm. No meeting tomorrow. trainees are invited to help but I'm not going to make it mandatory for you guys (but it's paid time)
+2013-03-18 23:12:53	protoben	krinkle: looks as if i'll have class 2-4 tuesdays and thursdays next term, but otherwise my schedule is open (all evening classes).
+2013-03-19 16:49:34	<--	askore (askore@reaver.cat.pdx.edu) has quit (Ping timeout: 276 seconds)
+2013-03-19 16:52:02	-->	askore (askore@reaver.cat.pdx.edu) has joined #tutors
+2013-03-19 16:52:02	--	Mode #tutors [+v askore] by ChanServ
+2013-03-20 12:58:19	@krinkle	rueckerc: I'm going to cancel your shift on 3/23, we're going to close on Friday
+2013-03-20 13:35:16	@krinkle	alevar: did those keys go to the appropriate place (wherever that is)?
+2013-03-20 16:56:52	+alevar	yes
+2013-03-20 16:58:45	+alevar	krinkle: I dropped them off at the CAT front desk at 11 when my shift started.
+2013-03-21 07:30:59	-->	robw (~robw@stargate.cat.pdx.edu) has joined #tutors
+2013-03-21 07:34:37	<--	nUbee (~robw@stargate.cat.pdx.edu) has quit (Ping timeout: 276 seconds)
+2013-03-21 07:34:42	<--	robw (~robw@stargate.cat.pdx.edu) has quit (Client Quit)
+2013-03-21 14:21:53	+rueckerc	krinkle: thanks, i was wondering if that would change
+2013-03-21 14:34:01	@krinkle	yep
+2013-03-21 14:34:17	@krinkle	lab cleanings in half an hour!!!
+2013-03-21 15:33:44	avi	yay, we forgot our desk monitors :)
+2013-03-21 15:56:32	-->	nUbee (~robw@stargate.cat.pdx.edu) has joined #tutors
+2013-03-21 16:02:28	@krinkle	@krinkle | rueckerc: I'm going to cancel your shift on 3/23, we're going to close on Friday <-- by that I meant the last day will be Friday and we'll be closed on Saturday
+2013-03-25 19:05:13	<--	rueckerc (rueckerc@ruby.cat.pdx.edu) has quit (Ping timeout: 276 seconds)
+2013-03-25 19:05:13	<--	avi (avi@rita.cat.pdx.edu) has quit (Ping timeout: 276 seconds)
+2013-03-25 19:05:13	<--	alevar (adevore@rita.cat.pdx.edu) has quit (Ping timeout: 276 seconds)
+2013-03-25 19:05:13	<--	lewisc (lewisrjc@chandra.cs.pdx.edu) has quit (Ping timeout: 276 seconds)
+2013-03-25 19:05:13	<--	lpl (lpl@rita.cat.pdx.edu) has quit (Ping timeout: 276 seconds)
+2013-03-25 19:05:13	<--	sabreman (byelogur@rita.cat.pdx.edu) has quit (Ping timeout: 276 seconds)
+2013-03-25 19:05:13		irc: disconnected from server
+2013-03-25 19:14:04	-->	sabreman (byelogur@rita.cat.pdx.edu) has joined #tutors
+2013-03-25 19:14:04	--	Topic for #tutors is "Schedule up at http://tinyurl.com/7pucvbg"
+2013-03-25 19:14:04	--	Topic set by krinkle on Fri, 15 Jun 2012 17:08:29
+2013-03-25 19:14:04	--	Nicks #tutors: [lewisc lpl mcsmash rueckerc sabreman]
+2013-03-25 19:14:04	--	Channel #tutors: 5 nicks (0 ops, 0 halfops, 0 voices, 5 normals)
+2013-03-25 19:14:10	--	Mode #tutors [+nt]
+2013-03-25 19:14:10	--	Channel created on Thu, 28 Aug 2008 16:52:04
+2013-03-25 19:14:42	--	Mode #tutors [+k tutorsonly] by iss.cat.pdx.edu
+2013-03-25 19:14:42	-->	alevar (adevore@rita.cat.pdx.edu) has joined #tutors
+2013-03-25 19:14:42	-->	avi (avi@rita.cat.pdx.edu) has joined #tutors
+2013-03-25 19:14:42	-->	beaker (mmes2@chandra.cs.pdx.edu) has joined #tutors
+2013-03-25 19:14:42	-->	nUbee (~robw@stargate.cat.pdx.edu) has joined #tutors
+2013-03-25 19:14:42	-->	askore (askore@reaver.cat.pdx.edu) has joined #tutors
+2013-03-25 19:14:42	-->	alevar-exiled_ (~alevar@c-24-21-251-156.hsd1.or.comcast.net) has joined #tutors
+2013-03-25 19:14:42	-->	Racoon (~suthere@stargate.cat.pdx.edu) has joined #tutors
+2013-03-25 19:14:42	-->	protoben (~bhamlin@stargate.cat.pdx.edu) has joined #tutors
+2013-03-25 19:14:42	-->	jesusaurus (~jesusaur@15.185.107.203) has joined #tutors
+2013-03-25 19:14:42	-->	krinkle (cmurphy@reaver.cat.pdx.edu) has joined #tutors
+2013-03-25 19:14:42	--	Mode #tutors [+vo askore krinkle] by iss.cat.pdx.edu
+2013-03-25 19:14:42	--	Mode #tutors [+v alevar] by ChanServ
+2013-03-25 19:16:13	--	alevar is now known as Guest14174
+2013-03-25 19:47:22	--	Mode #tutors [+v lpl] by ChanServ
+2013-03-26 12:00:23	--	Guest14174 is now known as alevar
+2013-03-27 17:59:20	<--	Racoon (~suthere@stargate.cat.pdx.edu) has quit (Write error: Connection reset by peer)
+2013-03-27 17:59:20	<--	protoben (~bhamlin@stargate.cat.pdx.edu) has quit (Read error: Connection reset by peer)
+2013-03-27 17:59:20	<--	nUbee (~robw@stargate.cat.pdx.edu) has quit (Write error: Connection reset by peer)
+2013-03-27 18:08:26	<--	rueckerc (rueckerc@ruby.cat.pdx.edu) has quit (Remote host closed the connection)
+2013-03-31 18:00:30	-->	sabreman (byelogur@rita.cat.pdx.edu) has joined #tutors
+2013-03-31 18:00:30	--	Topic for #tutors is "Schedule up at http://tinyurl.com/7pucvbg"
+2013-03-31 18:00:30	--	Topic set by krinkle on Fri, 15 Jun 2012 17:08:29
+2013-03-31 18:00:30	--	Nicks #tutors: [@krinkle +alevar +askore +avi +lpl +rueckerc alevar-exiled beaker go_veg jesusaurus lewisrjc mcsmash nUbee protoben sabreman]
+2013-03-31 18:00:30	--	Channel #tutors: 15 nicks (1 op, 0 halfops, 5 voices, 9 normals)
+2013-03-31 18:00:32	--	Mode #tutors [+ntk tutorsonly]
+2013-03-31 18:00:32	--	Channel created on Thu, 28 Aug 2008 16:52:04
+2013-03-31 18:00:42	sabreman	yay, thanks for fixing weechat
+2013-03-31 18:00:52	sabreman	the world is right once again.
+2013-03-31 18:03:56	sabreman	also, is there a better way to kill off extre screens?  I just kill the proccess.
+2013-03-31 18:57:15	-->	sabreman (byelogur@rita.cat.pdx.edu) has joined #tutors
+2013-03-31 18:57:15	--	Topic for #tutors is "Schedule up at http://tinyurl.com/7pucvbg"
+2013-03-31 18:57:15	--	Topic set by krinkle on Fri, 15 Jun 2012 17:08:29
+2013-03-31 18:57:15	--	Nicks #tutors: [@krinkle +alevar +askore +avi +lpl +rueckerc alevar-exiled beaker go_veg jesusaurus lewisrjc mcsmash nUbee protoben sabreman]
+2013-03-31 18:57:15	--	Channel #tutors: 15 nicks (1 op, 0 halfops, 5 voices, 9 normals)
+2013-03-31 18:57:17	--	Mode #tutors [+ntk tutorsonly]
+2013-03-31 18:57:17	--	Channel created on Thu, 28 Aug 2008 16:52:04
+2013-03-31 18:58:08	sabreman	nvm, i figured it out. If anyone else cares, hit CTRL-a, : then type "quit"
+2013-03-31 19:27:09	@krinkle	if you're in the screen you can just exit or ctrl-a ctrl-k
+2013-03-31 20:11:38	sabreman	Is this the best place to ask these things? or should i do that in cs help?
+2013-03-31 20:11:54	sabreman	or chat
+2013-03-31 21:02:58	alevar-exiled	krinkle: This doesn't really matter, but the meeting shows up as 4-5, instead of something like 4-4:30.
+2013-03-31 21:22:01	-->	Racoon (~suthere@stargate.cat.pdx.edu) has joined #tutors
+2013-03-31 21:40:01	@krinkle	alevar-exiled: fixed
+2013-03-31 21:40:06	@krinkle	sabreman: it's fine to ask here
+2013-04-01 08:53:26	-->	protoben_ (bhamlin@anglachel.cat.pdx.edu) has joined #tutors
+2013-04-01 13:10:40	--	rueckerc is now known as Guest12866
+2013-04-01 13:10:50	-->	rueckerc (rueckerc@ruby.cat.pdx.edu) has joined #tutors
+2013-04-01 13:11:25	--	Mode #tutors [+v rueckerc] by ChanServ
+2013-04-01 13:18:18	--	Mode #tutors [-v Guest12866] by ChanServ
+2013-04-01 13:19:50	--	Mode #tutors [-v avi] by ChanServ
+2013-04-02 02:15:02	<--	Guest12866 (rueckerc@ruby.cat.pdx.edu) has quit (Quit: Lost terminal)
+2013-04-02 16:14:10	 *	krinkle fails
+2013-04-02 16:14:17	@krinkle	I forgot about the meeting, sorry guys
+2013-04-02 16:14:47	@krinkle	will have one next week
+2013-04-03 12:26:23	+alevar	Occasionally people come in asking for directions for the maze that is FAB/EB. How about having a map next to the tutors' desk?
+2013-04-03 12:26:54	@krinkle	where would it fit? :)
+2013-04-03 12:28:42	+alevar	That's what I was just thinking as well.
+2013-04-03 12:29:30	@krinkle	the CAT has a map on their desk you can point them to. If you find a good place to put one near our desk than go for it.
+2013-04-03 12:30:01	+alevar	The wall behind the desk? It wouldn't be ideal, but it should work okay.
+2013-04-03 12:30:27	@krinkle	sure
+2013-04-03 15:49:36	@krinkle	alevar: askore: I switched your shifts on Friday
+2013-04-03 15:55:08	+askore	okie dokie
+2013-04-03 15:55:19	+askore	thanks :)
+2013-04-03 16:59:32	+alevar	krinkle: okay
+2013-04-04 10:18:22	@krinkle	askore: lpl: lewisrjc: I have workshops scheduled, please verify them
+2013-04-04 11:26:17	lewisrjc	confirmed
+2013-04-04 15:11:21	+askore	krinkle: confirm!
+2013-04-04 15:11:26	+askore	ed!
+2013-04-05 18:33:11	@krinkle	Racoon's shift on Saturday 4/20 is available for a trainee to snatch
+2013-04-05 22:19:52		irc: disconnected from server
+2013-04-05 22:54:34	-->	sabreman (byelogur@rita.cat.pdx.edu) has joined #tutors
+2013-04-05 22:54:34	--	Topic for #tutors is "Schedule up at http://tinyurl.com/7pucvbg"
+2013-04-05 22:54:34	--	Topic set by krinkle on Fri, 15 Jun 2012 17:08:29
+2013-04-05 22:54:34	--	Nicks #tutors: [@krinkle +alevar +askore alevar-exiled avi beaker Guest22663 Guest80769 jesusaurus lpl mcsmash nUbee protoben protoben_ Racoon rueckerc sabreman]
+2013-04-05 22:54:34	--	Channel #tutors: 17 nicks (1 op, 0 halfops, 2 voices, 14 normals)
+2013-04-05 22:54:40	--	Mode #tutors [+ntk tutorsonly]
+2013-04-05 22:54:40	--	Channel created on Thu, 28 Aug 2008 16:52:04
+2013-04-06 13:26:05	--	Guest80769 is now known as go_veg
+2013-04-06 13:27:35	--	go_veg is now known as Guest48716
+2013-04-06 13:39:34	Racoon	just realized what time it is and im on my way, sorry lpl
+2013-04-06 14:40:39	--	Guest48716 is now known as go_veg
+2013-04-06 20:06:18	--	Guest22663 is now known as lewisrjc
+2013-04-06 20:06:51	--	lewisrjc is now known as lewisc
+2013-04-06 20:07:04	--	Mode #tutors [+v lewisc] by ChanServ
+2013-04-07 22:36:06	 *	lewisc wins at email apparently
+2013-04-08 09:54:50	@krinkle	alevar: askore lewisc lpl rueckerc I'd like to move the meeting for this week to Thursday at 4, does this work for you guys?
+2013-04-08 11:08:10	+lewisc	roger
+2013-04-08 11:08:54	+askore	okie dokie
+2013-04-08 11:47:47	+alevar	krinkle: Thursday works, but could you stick a reminder in the channel that morning?
+2013-04-08 11:48:24	@krinkle	alevar: sure
+2013-04-08 11:48:28	+alevar	thanks
+2013-04-08 14:18:17	<--	go_veg (go_veg@chandra.cs.pdx.edu) has left #tutors
+2013-04-08 15:25:06	nUbee	rueckerc: I forgot to do the morning printer check, could you do that snot ticket?
+2013-04-08 21:16:29	lpl	krinkle: works for me too
+2013-04-09 10:02:52	-->	helpdesker (~mmes2@host-46-132.dhcp.pdx.edu) has joined #tutors
+2013-04-09 10:03:06	<--	helpdesker (~mmes2@host-46-132.dhcp.pdx.edu) has left #tutors
+2013-04-09 10:53:44	-->	Raccoon (~androirc@131.252.142.212) has joined #tutors
+2013-04-09 10:54:58	<--	Raccoon (~androirc@131.252.142.212) has quit (Remote host closed the connection)
+2013-04-09 11:13:15	@krinkle	crap, lpl's workshop would be in the middle of the meeting on Thursday
+2013-04-09 11:13:32	@krinkle	lpl: I'll have to fill you in later I guess
+2013-04-09 13:53:58	+lewisc	I would like the record to show that I don't think we are using good agile practices here
+2013-04-09 14:08:17	lpl	krinkle: I was wondering about that. Im fine with being filled in later though'
+2013-04-09 17:10:57	lpl	lewisc: are you gonna be here for your talk?
+2013-04-09 17:19:08	+askore	krinkle: fyi nUbee and lpl are going ahead with the gdb/make talk
+2013-04-09 17:19:17	+askore	workshop
+2013-04-09 17:19:19	+askore	thing
+2013-04-09 18:33:30	Racoon	lewisc <- apologizes for missing the make/gdb/valgrind workshop
+2013-04-09 18:46:56	+lewisc	yeah I apparently can't read
+2013-04-09 18:47:09	 *	lewisc offers something in apologia?
+2013-04-09 18:47:48	+lewisc	I will cook for the tutors or something? That's actually not a very good offer.
+2013-04-10 10:19:23	+lewisc	so...who is Ba Nguyen?
+2013-04-10 10:30:53	@krinkle	?
+2013-04-10 10:32:30	@krinkle	oh email
+2013-04-10 10:35:19	 *	krinkle blocks more linkedin invitations to the tutors
+2013-04-10 11:05:48	+lewisc	thanks
+2013-04-10 13:21:57	<--	protoben_ (bhamlin@anglachel.cat.pdx.edu) has quit (Remote host closed the connection)
+2013-04-10 13:25:19	jesusaurus	he was a tutor once upon a time
+2013-04-10 13:25:27	jesusaurus	i worked with him a bit
+2013-04-11 14:51:06	Racoon	alevar: meeting today
+2013-04-11 14:51:25	+alevar	yup yup
+2013-04-11 14:51:28	+alevar	thanks
+2013-04-12 12:56:38	<--	Racoon (~suthere@stargate.cat.pdx.edu) has quit (Quit: leaving)
+2013-04-12 14:58:58	-->	Racoon (suthere@reaver.cat.pdx.edu) has joined #tutors
+2013-04-12 15:46:18	+lewisc	uh
+2013-04-12 15:46:26	+lewisc	is that from a student or a prof?
+2013-04-12 15:46:37	+lewisc	(extra homework)
+2013-04-12 15:46:49	@krinkle	Tim Reilley is teachign 161
+2013-04-12 15:47:02	@krinkle	two sections, one with warren one with tim
+2013-04-12 15:49:36	+lewisc	ah
+2013-04-12 15:49:39	+lewisc	odd
+2013-04-12 15:49:41	+lewisc	that's...
+2013-04-12 15:49:45	+lewisc	going to confuse people
+2013-04-12 15:49:47	+lewisc	but whatever
+2013-04-12 15:50:19	@krinkle	why?
+2013-04-12 15:51:13	+lewisc	uh open ended assignments are always a little confusing to beginners
+2013-04-12 15:51:21	@krinkle	oh I hadn't read it yet
+2013-04-12 15:51:27	+lewisc	since they don't usually realize that the point is the concept not the code
+2013-04-12 15:51:35	+lewisc	and "for example, compound interest"
+2013-04-12 15:51:38	+lewisc	yeah no
+2013-04-12 15:51:56	+lewisc	it's "do something with math"
+2013-04-12 15:52:06	 *	lewisc reads to make sure he isn't making an ass of himself
+2013-04-12 15:52:26	+lewisc	"because math is fun
+2013-04-12 15:52:40	+lewisc	There's a bitter part of my sould that loves this guy
+2013-04-12 15:52:45	+lewisc	both sarcastically and really
+2013-04-12 15:53:55	@krinkle	oh yeah "Decide what your program will do", that's a little wtf
+2013-04-12 15:54:24	+lewisc	and then the example is a fairly subtle calc 2/3 concept
+2013-04-12 15:54:34	+lewisc	that's going to just be noise distracting them
+2013-04-12 15:54:46	+lewisc	but whatever
+2013-04-12 15:54:53	+lewisc	we'll muddle through somehow
+2013-04-12 15:55:07	+lewisc	brian g on the other hand I am leaving you to deal with
+2013-04-12 15:56:58	@krinkle	brian g?
+2013-04-12 15:57:29	+lewisc	brian gray
+2013-04-12 15:57:45	+lewisc	or aaron
+2013-04-12 15:57:47	+lewisc	I guess
+2013-04-12 15:57:51	+lewisc	alevar++
+2013-04-12 15:57:58	+lewisc	libharu guy
+2013-04-12 15:59:08	@krinkle	oh, /me should read mail more
+2013-04-12 15:59:31	@krinkle	is this a real karla assignment?
+2013-04-12 15:59:54	+lewisc	I don't think so
+2013-04-12 16:00:02	+lewisc	hazarding a guess it's something for his work
+2013-04-12 16:00:10	+lewisc	which he shouldn't be doing on school computers
+2013-04-12 16:00:13	+lewisc	but uh...
+2013-04-12 16:00:14	+lewisc	yeah
+2013-04-12 16:00:21	+lewisc	I am going to let you figure that one out
+2013-04-12 16:00:32	 *	lewisc is largely speculating there
+2013-04-12 16:00:42	 *	krinkle looks
+2013-04-12 16:02:11	@krinkle	it's not in her first assignment
+2013-04-12 16:02:20	@krinkle	but he cc'd karla
+2013-04-12 16:02:22	@krinkle	weird
+2013-04-12 16:02:51	+lewisc	I am suspicious
+2013-04-12 16:03:08	+lewisc	um
+2013-04-12 16:03:15	+lewisc	oh I just got more suspicious
+2013-04-12 16:03:18	+lewisc	here's a hint guys
+2013-04-12 16:03:29	+lewisc	if your CTO and COO are in cs 161
+2013-04-12 16:03:35	+lewisc	people are going to be suspicious
+2013-04-12 16:07:41	+lewisc	huh he's a math guy apparently
+2013-04-12 16:07:52	@krinkle	alevar++
+2013-04-12 17:45:28	+alevar	lewisc++ good response to the email. Did you talk to someone about it?
+2013-04-12 17:45:39	+alevar	"as they claim"
+2013-04-12 18:53:00	-->	sabreman (byelogur@rita.cat.pdx.edu) has joined #tutors
+2013-04-12 18:53:00	--	Topic for #tutors is "Schedule up at http://tinyurl.com/7pucvbg"
+2013-04-12 18:53:00	--	Topic set by krinkle on Fri, 15 Jun 2012 17:08:29
+2013-04-12 18:53:00	--	Nicks #tutors: [@krinkle +alevar +askore +lewisc alevar-exiled beaker jesusaurus mcsmash Racoon sabreman]
+2013-04-12 18:53:00	--	Channel #tutors: 10 nicks (1 op, 0 halfops, 3 voices, 6 normals)
+2013-04-12 18:53:02	--	Mode #tutors [+ntk tutorsonly]
+2013-04-12 18:53:02	--	Channel created on Thu, 28 Aug 2008 16:52:04
+2013-04-12 18:53:42	-->	byelogur (byelogur@rita.cat.pdx.edu) has joined #tutors
+2013-04-12 18:53:52	byelogur	weechat is gone again D:
+2013-04-12 18:54:33	@krinkle	no it's not
+2013-04-12 18:54:44	byelogur	wait....
+2013-04-12 18:54:48	<--	byelogur (byelogur@rita.cat.pdx.edu) has quit (Client Quit)
+2013-04-12 18:55:45	sabreman	im an idiot
+2013-04-12 18:55:46	sabreman	MY BAD
+2013-04-12 18:55:56	sabreman	back to doing things
+2013-04-12 18:56:56	sabreman	well i'm honestly not quite sure what happened there, but w/e
+2013-04-12 19:00:12	-->	robw (~robw@stargate.cat.pdx.edu) has joined #tutors
+2013-04-12 19:00:33	--	robw is now known as nUbee
+2013-04-12 21:10:43	+alevar	How about we have Brian (guy with the PDF project) use Linux instead?
+2013-04-12 21:11:03	+alevar	I think libharu uses some GNU extensions to m4 or something of that nature.
+2013-04-12 21:34:50	+alevar	I've got this. I'm writing the email right now.
+2013-04-12 21:40:49	+alevar	Maybe I don't have this :/
+2013-04-12 21:43:21	@krinkle	well libharu isn't installed on linux either
+2013-04-12 21:45:26	@krinkle	also seems like he got it
+2013-04-12 22:00:35	+alevar	No, he just found the Fedora packages :P
+2013-04-12 22:00:41	+alevar	That's of 0 help
+2013-04-12 23:51:15	+lewisc	alevar: how about he does his job?
+2013-04-12 23:52:25	+lewisc	sometimes you are wrong
+2013-04-12 23:52:33	+lewisc	sometimes you are right
+2013-04-12 23:52:40	+lewisc	in this case I was right
+2013-04-12 23:53:16	+lewisc	let this be a lesson to us all, trust no one?
+2013-04-12 23:54:11	+lewisc	and also, don't always assume you are right, as this totally could have been for a class that he elided in his email
+2013-04-13 12:04:05	-->	lpl (lpl@rita.cat.pdx.edu) has joined #tutors
+2013-04-13 12:04:19	--	Mode #tutors [+v lpl] by ChanServ
+2013-04-14 10:50:14	-->	avi (avi@rita.cat.pdx.edu) has joined #tutors
+2013-04-14 11:00:33	@krinkle	guys, I need timesheets by 2pm on Monday if you please
+2013-04-14 11:00:43	@krinkle	scan them and email me if you need to
+2013-04-14 13:02:59	+lewisc	will do
+2013-04-14 13:13:18	Racoon	roger that
+2013-04-14 13:42:45	-->	protoben (bhamlin@reaver.cat.pdx.edu) has joined #tutors
+2013-04-14 13:47:46	@krinkle	protoben: you missed announcement above, I need timesheets by 2pm Monday if possible
+2013-04-14 14:46:45	beaker	Hey I just realized I can't access any of the tutors emails, i think it was tied to my CAT account which is no longer active (mmes22)... Can i get it tied to my regular mcecs account? (mmes2)
+2013-04-14 14:55:53	@krinkle	beaker: sure
+2013-04-14 14:56:35	beaker	thanks :)
+2013-04-14 15:32:48	+alevar	krinkle: I can bring it in just after my shift
+2013-04-14 15:33:35	+alevar	They have a veeery exact rate for the payrate
+2013-04-14 15:33:40	+alevar	.000000
+2013-04-14 15:33:47	+alevar	Gotta make that thing correct!
+2013-04-14 16:50:47	jesusaurus	thats a very precise nothing
+2013-04-14 18:06:31	+alevar	jesusaurus: 12.000000
+2013-04-15 10:03:32	-->	rueckerc (rueckerc@ruby.cat.pdx.edu) has joined #tutors
+2013-04-15 10:03:32	--	Mode #tutors [+v rueckerc] by ChanServ
+2013-04-15 10:16:05	@krinkle	meeting will be at the normal time/day this week (tuesday 4pm)
+2013-04-15 10:43:59	+lewisc	I will probably be a half hour late to my wednesday session (meeting with a prof). I asked to meet him before class rather than after, but I need I haven't heard back.
+2013-04-15 10:45:35	@krinkle	rueckerc: ^ are you able to stay a little late?
+2013-04-15 10:45:38	@krinkle	if not I can cover
+2013-04-15 10:48:34	+rueckerc	I have class at 4:40, so I could stay for an extra 20 minutes or so if that helps
+2013-04-15 10:48:59	@krinkle	that'll probably be fine
+2013-04-15 11:18:09	@krinkle	alevar++ checking email :D
+2013-04-15 11:22:14	beaker	hey guys, i will not be at my shift today, my wife is in the hospital possibly in labor so am heading there in a few mins
+2013-04-15 11:23:32	@krinkle	zomg! good luck!
+2013-04-15 11:23:56	beaker	thanks
+2013-04-15 11:24:00	@krinkle	any trainee or tutor want to cover? I'll be busy then
+2013-04-15 11:30:11	+alevar	beaker: Excuses, excuses
+2013-04-15 11:30:27	+alevar	And by that, I mean [potentially] congrats
+2013-04-15 13:22:58	-->	robw (robw@reaver.cat.pdx.edu) has joined #tutors
+2013-04-15 13:25:55	<--	nUbee (~robw@stargate.cat.pdx.edu) has quit (Quit: leaving)
+2013-04-15 13:26:24	<--	robw (robw@reaver.cat.pdx.edu) has quit (Client Quit)
+2013-04-15 13:26:44	-->	robw (robw@reaver.cat.pdx.edu) has joined #tutors
+2013-04-15 13:26:47	--	robw is now known as nUbee
+2013-04-15 14:57:10	@krinkle	anyone want beaker's hours today? or part of them?
+2013-04-15 14:57:37	+askore	krinkle: I can take from 3 to 4
+2013-04-15 14:57:56	@krinkle	askore: cool
+2013-04-15 14:59:43	+askore	how should I reflect that on my timesheet, since I already gave you the one that covers today?
+2013-04-15 15:00:32	@krinkle	crap
+2013-04-15 15:06:27	+askore	krinkle: not sure where you went, put the sheet on the zonebah desk
+2013-04-16 10:39:07	@krinkle	Is everybody's availability still accurate? I might need to rework the schedule if beaker needs time off
+2013-04-16 10:39:26	@krinkle	alevar: askore lewisc lpl rueckerc nUbee protoben Racoon sabreman ^
+2013-04-16 10:42:14	Racoon	affirmative
+2013-04-16 11:03:53	+askore	yep
+2013-04-16 11:23:27	+lewisc	Yes it's accurate
+2013-04-16 11:23:29	+lewisc	Oh
+2013-04-16 11:23:38	+lewisc	I do not need anyone to cover for me tomorrow
+2013-04-16 11:23:43	+lewisc	thanks for the help
+2013-04-16 12:31:37	@krinkle	rueckerc: I started doing the print check but then never got around to actually checking the printer
+2013-04-16 12:31:50	@krinkle	plz to finish :)
+2013-04-16 12:34:57	@krinkle	also guys don't forget we have a meeting today
+2013-04-16 12:37:57	+askore	I won't if you don't :)
+2013-04-16 12:39:07	+rueckerc	krinkle: roger that
+2013-04-16 12:39:27	+rueckerc	askore: good one
+2013-04-16 12:39:43	@krinkle	askore: :P
+2013-04-16 12:39:56	+askore	>.>
+2013-04-16 13:20:29	+lewisc	krinkle: with that email you answered...did you look at the file attached?
+2013-04-16 13:20:31	+lewisc	because uh
+2013-04-16 13:20:36	+lewisc	he says that's the entire program
+2013-04-16 13:20:44	+lewisc	and if it is that's a bit of an issue
+2013-04-16 13:30:01	beaker	Hey guys, my wife gave birth at 5:12am this morning, I will be spending today and tomorrow with her here in the hospital, but I will be back to school/work on Thursday
+2013-04-16 13:30:29	beaker	If someone could cover my hours tomorrow I would really appreciate it
+2013-04-16 13:39:09	@krinkle	beaker: congratulations!
+2013-04-16 13:40:17	+lewisc	beaker: congrats
+2013-04-16 13:42:19	+lewisc	rueckerc: I think it makes the most sense that one of us picks up the shift, I would like to avoid that but will if necessary
+2013-04-16 13:42:35	@krinkle	lewisc: yeah, if that's really his whole program I feel like there would be much more than a "simple error"
+2013-04-16 13:42:58	@krinkle	I pointed out that his file lacked a "main"
+2013-04-16 13:43:18	@krinkle	but I want them to be able to say "these are the symptoms" instead of "it's not working here's my whole program plz fix"
+2013-04-16 13:43:37	+lewisc	lol
+2013-04-16 13:43:46	 *	lewisc reads better I missed the comment about the main
+2013-04-16 13:44:14	+lewisc	meetings at 4?
+2013-04-16 13:44:33	+lewisc	yes
+2013-04-16 13:47:21	+rueckerc	lewisc: you are already working for most of his shift, so I'm not sure how you'll pick it up
+2013-04-16 13:48:58	+rueckerc	I can't do it though, i have class at 4:40, but I do still plan on staying a little late
+2013-04-16 13:51:54	@krinkle	protoben: Racoon nUbee want some hours? 3-6 Wednesday, all or part of the shift
+2013-04-16 14:17:06	+rueckerc	I tried to complete that snot ticket, god forbid you enter your password wrong for Snot, because you can't try again
+2013-04-16 14:17:22	@krinkle	you should just be able to refresh the page
+2013-04-16 14:17:30	+rueckerc	just gives me a 500 error
+2013-04-16 14:21:04	@krinkle	you can't just go to cat.pdx.edu/~snot and try again? it's working for me
+2013-04-16 14:21:55	+rueckerc	It didn't want to work, I reset cookies and it works now though
+2013-04-16 14:22:07	@krinkle	ok
+2013-04-16 17:20:25	Racoon	krinkle: I can work up till four if needed
+2013-04-16 17:20:56	@krinkle	Racoon: awesome
+2013-04-16 18:03:07	protoben	i can take 4-6
+2013-04-16 18:03:43	@krinkle	yay
+2013-04-16 19:03:58	<--	alevar (adevore@rita.cat.pdx.edu) has quit (Ping timeout: 276 seconds)
+2013-04-16 19:08:31	<--	lpl (lpl@rita.cat.pdx.edu) has quit (Ping timeout: 252 seconds)
+2013-04-16 19:08:31	<--	sabreman (byelogur@rita.cat.pdx.edu) has quit (Ping timeout: 252 seconds)
+2013-04-16 19:08:31		irc: disconnected from server
+2013-04-16 19:10:32	-->	sabreman (byelogur@rita.cat.pdx.edu) has joined #tutors
+2013-04-16 19:10:32	--	Topic for #tutors is "Schedule up at http://tinyurl.com/7pucvbg"
+2013-04-16 19:10:32	--	Topic set by krinkle on Fri, 15 Jun 2012 17:08:29
+2013-04-16 19:10:32	--	Nicks #tutors: [@krinkle +askore +lewisc +rueckerc alevar-exiled avi beaker jesusaurus mcsmash nUbee protoben Racoon sabreman]
+2013-04-16 19:10:32	--	Channel #tutors: 13 nicks (1 op, 0 halfops, 3 voices, 9 normals)
+2013-04-16 19:10:32	-->	lpl (lpl@rita.cat.pdx.edu) has joined #tutors
+2013-04-16 19:10:35	-->	alevar_ (adevore@rita.cat.pdx.edu) has joined #tutors
+2013-04-16 19:10:38	--	Mode #tutors [+ntk tutorsonly]
+2013-04-16 19:10:38	--	Channel created on Thu, 28 Aug 2008 16:52:04
+2013-04-16 19:23:41	<--	alevar_ (adevore@rita.cat.pdx.edu) has quit (Ping timeout: 252 seconds)
+2013-04-16 19:23:52	-->	alevar_ (adevore@rita.cat.pdx.edu) has joined #tutors
+2013-04-16 20:13:16	--	alevar_ is now known as alevar
+2013-04-16 20:13:29	--	Mode #tutors [+v alevar] by ChanServ
+2013-04-17 15:38:27	nUbee	There must be a way for my phone to be texted whenever my name is mentioned on here. Any suggestions?
+2013-04-17 15:40:21	@krinkle	I think there is a weechat or irssi plugin to do that, but I haven't played with it. #gnarwals or #meow might have suggestions though
+2013-04-17 15:41:18	nUbee	thanks krinkle. I know I'm so terrible at being on every day, I definitely need to work on that
+2013-04-17 15:42:04	@krinkle	:)
+2013-04-17 17:13:40	jesusaurus	nUbee: its possible, but not free unless you use voip. telcos always want your money
+2013-04-17 17:14:25	jesusaurus	but things like twilio might be worth looking into
+2013-04-17 18:14:54	lpl	There is a chance that I might not be able to make my saturday shift this week, and I wanted to check in and see if its possible for someone else to cover it (Bar camp weekend is bad timing). Ill know by tomorrow, but is anyone available?
+2013-04-17 20:16:30	--	Mode #tutors [+v lpl] by ChanServ
+2013-04-18 11:39:32	+lpl	So it looks like I definitely need someone to cover saturday, Im going to be out of town. Im leaving this afternoon so I would really like to know if someone can cover before about 3
+2013-04-18 14:29:34	 *	lewisc can do it if all else fails, if someone wants the hours though, take em
+2013-04-18 14:29:57	@krinkle	lewisc++
+2013-04-18 14:30:27	+lpl	lewisc++++++++++++++++++++++++++++
+2013-04-18 14:30:40	+lewisc	lol
+2013-04-18 16:43:40	+lewisc	3 phone calls, all single tone no person talking
+2013-04-18 16:43:43	+lewisc	no idea why
+2013-04-21 08:26:23	+lewisc	win 27
+2013-04-22 11:46:29	+alevar	nUbee just fixed the phone. Unplug, wait a few seconds, plug it back in.
+2013-04-22 11:59:44	@krinkle	it was broken?
+2013-04-22 12:39:53	jesusaurus	is that a bug or a feature?
+2013-04-22 14:23:26	+alevar	nUbee++
+2013-04-23 12:55:07	+lpl	Does anyone know why we got an email from a student with nothing but a paste-bin link? If not we should probably reply asking what the question is...
+2013-04-23 12:55:25	@krinkle	it was re: #cshelp
+2013-04-23 12:56:25	@krinkle	(generally emails like that are from #cshelp, everyone should read scrollback in #cshelp before responding to an email like that)
+2013-04-23 13:11:55	+lewisc	is there a meeting today?
+2013-04-23 13:13:24	+lewisc	I will take that as a yes
+2013-04-23 13:51:34	@krinkle	yes
+2013-04-24 16:52:49	<--	protoben (bhamlin@reaver.cat.pdx.edu) has quit (*.net *.split)
+2013-04-24 16:52:49	<--	Racoon (suthere@reaver.cat.pdx.edu) has quit (*.net *.split)
+2013-04-24 16:52:49	<--	beaker (mmes2@chandra.cs.pdx.edu) has quit (*.net *.split)
+2013-04-24 16:52:49	<--	askore (askore@reaver.cat.pdx.edu) has quit (*.net *.split)
+2013-04-24 16:52:49	<--	alevar-exiled (~alevar@c-24-21-251-156.hsd1.or.comcast.net) has quit (*.net *.split)
+2013-04-24 16:52:49	<--	jesusaurus (~jesusaur@15.185.107.203) has quit (*.net *.split)
+2013-04-24 16:52:49	<--	krinkle (cmurphy@reaver.cat.pdx.edu) has quit (*.net *.split)
+2013-04-24 16:56:44	-->	beaker (mmes2@chandra.cs.pdx.edu) has joined #tutors
+2013-04-24 16:59:18	-->	Racoon (suthere@reaver.cat.pdx.edu) has joined #tutors
+2013-04-24 17:03:20	-->	krinkle (cmurphy@reaver.cat.pdx.edu) has joined #tutors
+2013-04-24 17:03:20	--	Mode #tutors [+o krinkle] by ChanServ
+2013-04-24 17:04:40	-->	protoben (bhamlin@reaver.cat.pdx.edu) has joined #tutors
+2013-04-24 17:08:41	-->	alevar-exiled (~alevar@c-24-21-251-156.hsd1.or.comcast.net) has joined #tutors
+2013-04-24 17:08:48	-->	jesusaurus (~jesusaur@15.185.107.203) has joined #tutors
+2013-04-24 17:10:02	--	alevar-exiled is now known as Guest3728
+2013-04-24 17:21:17	-->	askore (askore@reaver.cat.pdx.edu) has joined #tutors
+2013-04-24 17:21:17	--	Mode #tutors [+v askore] by ChanServ
+2013-04-24 18:51:49	--	Guest3728 is now known as alevar-exiled
+2013-04-24 19:36:18	<--	askore (askore@reaver.cat.pdx.edu) has quit (*.net *.split)
+2013-04-24 19:59:15	-->	askore (askore@reaver.cat.pdx.edu) has joined #tutors
+2013-04-24 19:59:15	--	Mode #tutors [+v askore] by ChanServ
+2013-04-25 10:24:40	+rueckerc	If someone is able to cover all or part of my shift on thursday may 9th that would be great
+2013-04-25 10:24:47	+rueckerc	It's not critical though
+2013-04-25 10:25:31	+rueckerc	It is from 12-2
+2013-04-25 15:13:45	+askore	this is really super short notice, but can anyone cover my shift from 3-6pm tomorrow?
+2013-04-25 15:13:47	+askore	>.>
+2013-04-25 16:30:50	 *	lewisc actually has to go to work tomorrow :(
+2013-04-25 21:03:42	nUbee	askore: Would a trainee be able to cover you? Or do you need a full-tutor to cover you?
+2013-04-25 21:45:00	@krinkle	nUbee: i'll allow it
+2013-04-25 21:45:37	@krinkle	i'll be in the zonebah if you guys need help
+2013-04-25 22:01:48	nUbee	krinkle: cool!
+2013-04-25 22:02:31	nUbee	I'd be willing to cover for askore, but unfortunately, since my wallet was stolen, I have to spend tomorrow doing damage control
+2013-04-25 22:03:23	nUbee	I went to the Portland police, and they wouldn't take a report since I would need  my driver's license
+2013-04-25 22:04:13	nUbee	"of your ID was stolen? we can fill out a report. We'll just need to see your ID"
+2013-04-25 22:08:44	@krinkle	so...you can't cover?
+2013-04-25 22:48:09	nUbee	krinkle: sorry for the late reply. That is affirmative. I was asking because I was curious. I apologize for not being clear.
+2013-04-25 22:59:06	@krinkle	alevar: think you could cover? i could take 11-1 or 11-2 so you don't have to be there the whole day
+2013-04-25 22:59:33	@krinkle	or lpl rueckerc ^^
+2013-04-25 23:06:17	+alevar	krinkle: I'll take it.
+2013-04-25 23:16:28	+alevar	Hmmm. That would be nice if you covered for the previous shift. I'm not sure if I would be much use after 6 hours of tutoring.
+2013-04-25 23:16:56	+alevar	Not that I would suffer greatly, but...
+2013-04-25 23:35:33	@krinkle	ok, i'll plan on coming in 11-2 unless someone else wants the hours
+2013-04-26 08:36:20	+askore	krinkle: I can be there from about 12:30.
+2013-04-26 08:52:03	@krinkle	askore: ok
+2013-04-26 11:07:22	<--	alevar-exiled (~alevar@c-24-21-251-156.hsd1.or.comcast.net) has quit (Read error: Operation timed out)
+2013-04-26 12:32:14	+lewisc	can we coerce karla /win 32
+2013-04-26 12:32:31	+lewisc	can we coerece karla to teach -Wall -Wextra?
+2013-04-26 12:32:41	+lewisc	they catch a ton of basic problems
+2013-04-26 12:37:45	@krinkle	you could advocate it while tutoring
+2013-04-26 12:37:56	@krinkle	askore: still coming at 12:30?
+2013-04-26 12:38:52	@krinkle	nm :)
+2013-04-26 12:39:31	+lewisc	krinkle: I do
+2013-04-26 22:26:54	<--	rueckerc (rueckerc@ruby.cat.pdx.edu) has quit (Read error: Operation timed out)
+2013-04-26 22:29:57	<--	alevar (adevore@rita.cat.pdx.edu) has quit (Ping timeout: 253 seconds)
+2013-04-26 22:29:57	-->	rueckerc (rueckerc@ruby.cat.pdx.edu) has joined #tutors
+2013-04-26 22:30:00	-->	alevar (adevore@rita.cat.pdx.edu) has joined #tutors
+2013-04-26 22:30:00	--	Mode #tutors [+v alevar] by ChanServ
+2013-04-29 10:08:44	@krinkle	alevar: nUbee let me know that he may be late for his shift
+2013-04-29 11:29:40	-->	mmes2 (~mmes2@host-46-118.dhcp.pdx.edu) has joined #tutors
+2013-04-29 13:50:30	@krinkle	protoben: I think the maximum stack size on chandra is 8192 (ulimit -Hs), so you wouldn't be able to increase it
+2013-04-29 13:51:26	@krinkle	or at least I tried and couldn't
+2013-04-29 13:51:45	@krinkle	but protoben++ for answering emails
+2013-04-29 14:47:54	<--	mmes2 (~mmes2@host-46-118.dhcp.pdx.edu) has left #tutors
+2013-04-29 15:30:15	@krinkle	someone please respond to gabriel's email, if you have time :)
+2013-04-29 16:28:08	+alevar	krinkle: He came in today, so he probably got it sorted it.
+2013-04-29 16:29:00	@krinkle	kk ty
+2013-04-30 01:38:48	@krinkle	reminder -- no meeting tomorrow
+2013-04-30 01:38:52	@krinkle	(today)
+2013-04-30 10:35:27	 *	lewisc thinks you should get some sleep
+2013-04-30 11:03:31	@krinkle	lpl: rueckerc I killed your firefoxes on adelie, they were being problematic
+2013-04-30 14:18:44	+alevar	krinkle: A student just recommended some sort of flags that can be placed on the tables to indicate that they need help, in addition to the sign in sheet.
+2013-04-30 14:36:02	-->	mmes2 (~mmes2@host-46-128.dhcp.pdx.edu) has joined #tutors
+2013-04-30 16:59:31	<--	mmes2 (~mmes2@host-46-128.dhcp.pdx.edu) has left #tutors
+2013-04-30 18:02:22	sabreman	Can someone cover for me this thursday 2:30 - 3:30? Maybe a tinybit less or more.
+2013-04-30 18:02:32	sabreman	I have a meeting with beth about some cs related stuff
+2013-04-30 18:02:49	sabreman	erm barbra
+2013-04-30 21:44:08	<--	krinkle (cmurphy@reaver.cat.pdx.edu) has quit (Ping timeout: 252 seconds)
+2013-04-30 21:50:02	Racoon	alevar: Overheard that, it was actually a pretty goo d idea
+2013-04-30 21:53:47	-->	krinkle (cmurphy@reaver.cat.pdx.edu) has joined #tutors
+2013-05-01 08:37:04	protoben	krinkle: increasing the stack size works for me. I think some shells have a ulimit builtin, so depending on your shell, you might have to /usr/bin/ulimit.
+2013-05-01 11:13:28	krinkle	protoben: hmm
+2013-05-01 11:13:42	krinkle	nUbee: alevar says he might be late, let me know if you need help
+2013-05-01 11:13:46	krinkle	(unless he's already there)
+2013-05-01 11:14:36	--	Mode #tutors [+o krinkle] by ChanServ
+2013-05-01 12:04:21	-->	mmes2 (~mmes2@host-46-118.dhcp.pdx.edu) has joined #tutors
+2013-05-01 14:52:35	<--	mmes2 (~mmes2@host-46-118.dhcp.pdx.edu) has left #tutors
+2013-05-01 16:15:57	<--	nUbee (robw@reaver.cat.pdx.edu) has quit (Remote host closed the connection)
+2013-05-01 16:16:19	-->	robw (robw@reaver.cat.pdx.edu) has joined #tutors
+2013-05-01 16:16:42	--	robw is now known as nUbee
+2013-05-02 10:07:30	-->	mmes2 (~mmes2@host-46-118.dhcp.pdx.edu) has joined #tutors
+2013-05-02 11:47:54	<--	mmes2 (~mmes2@host-46-118.dhcp.pdx.edu) has left #tutors
+2013-05-02 14:04:13	-->	mmes2 (~mmes2@host-46-249.dhcp.pdx.edu) has joined #tutors
+2013-05-02 16:58:06	<--	mmes2 (~mmes2@host-46-249.dhcp.pdx.edu) has left #tutors
+2013-05-03 11:32:05	-->	mmes2 (~mmes2@host-46-249.dhcp.pdx.edu) has joined #tutors
+2013-05-03 14:48:26	<--	mmes2 (~mmes2@host-46-249.dhcp.pdx.edu) has left #tutors
+2013-05-04 02:45:36	<--	rueckerc (rueckerc@ruby.cat.pdx.edu) has quit (Ping timeout: 253 seconds)
+2013-05-05 12:40:37	-->	rueckerc (rueckerc@ruby.cat.pdx.edu) has joined #tutors
+2013-05-05 12:40:37	--	Mode #tutors [+v rueckerc] by ChanServ
+2013-05-05 12:41:09	+rueckerc	I'd like to propose that we start locking the conference room
+2013-05-05 12:41:32	+rueckerc	It's turning into a place where people camp out, and it's regularly full of garbage
+2013-05-05 12:43:57	+rueckerc	It could be opened by tutors for group study, etc, and otherwise be closed
+2013-05-05 12:46:48	@krinkle	rueckerc: yeah, I've kicked people out for sleeping in there
+2013-05-05 12:46:58	@krinkle	if you need me to come down I can do that
+2013-05-05 12:47:20	@krinkle	but I like the idea of locking it
+2013-05-05 12:47:32	@krinkle	anyone else have thoughts? ^ I can talk to Beth about locking it
+2013-05-05 13:18:44	Racoon	im in favor
+2013-05-05 13:46:23	 *	jesusaurus remembers some late nights in that conference room actually doing group work on compilers
+2013-05-06 10:18:36	@krinkle	I just kicked two guys out of fab88-08 again with the warning that if they come back i'll escalate it to cpso/cs department
+2013-05-06 10:18:43	@krinkle	please let me know if you see them there again
+2013-05-06 10:27:32	+rueckerc	Were they sleeping in there?
+2013-05-06 10:27:42	@krinkle	yup
+2013-05-06 10:28:06	 *	rueckerc rolls eyes
+2013-05-06 11:02:58	+lewisc	...
+2013-05-06 11:03:05	+lewisc	people aren't using include guards are they
+2013-05-06 11:03:13	 *	lewisc needs to keep an eye on that
+2013-05-06 11:55:05	-->	mmes2 (~mmes2@host-46-118.dhcp.pdx.edu) has joined #tutors
+2013-05-06 12:57:32	<--	mmes2 (~mmes2@host-46-118.dhcp.pdx.edu) has left #tutors
+2013-05-06 13:16:14	+rueckerc	does karla teach include guards?
+2013-05-06 13:17:10	+askore	I don't think so?
+2013-05-06 14:13:10	-->	mmes2 (~mmes2@host-46-249.dhcp.pdx.edu) has joined #tutors
+2013-05-06 14:50:31	<--	mmes2 (~mmes2@host-46-249.dhcp.pdx.edu) has left #tutors
+2013-05-06 15:13:03	beaker	i like the idea of locking
+2013-05-06 18:10:25	Racoon	rueckerc++
+2013-05-06 18:10:25	Racoon	rueckerc++
+2013-05-06 18:10:25	Racoon	rueckerc++
+2013-05-06 18:10:27	Racoon	rueckerc++
+2013-05-06 18:10:39	Racoon	that answer was killing me
+2013-05-07 09:49:19	+rueckerc	=P
+2013-05-07 09:57:04	+askore	tutor meeting today?
+2013-05-07 11:34:56	@krinkle	yes
+2013-05-07 14:07:14	-->	mmes2 (~mmes2@host-46-118.dhcp.pdx.edu) has joined #tutors
+2013-05-07 16:58:10	<--	mmes2 (~mmes2@host-46-118.dhcp.pdx.edu) has left #tutors
+2013-05-08 11:30:07	-->	mmes2 (~mmes2@host-46-118.dhcp.pdx.edu) has joined #tutors
+2013-05-08 13:59:47	<--	mmes2 (~mmes2@host-46-118.dhcp.pdx.edu) has left #tutors
+2013-05-08 14:25:47	-->	mmes2 (~mmes2@host-46-118.dhcp.pdx.edu) has joined #tutors
+2013-05-08 14:51:27	<--	mmes2 (~mmes2@host-46-118.dhcp.pdx.edu) has left #tutors
+2013-05-09 10:10:56	-->	mmes2 (~mmes2@host-46-118.dhcp.pdx.edu) has joined #tutors
+2013-05-09 11:49:33	<--	mmes2 (~mmes2@host-46-118.dhcp.pdx.edu) has left #tutors
+2013-05-09 12:32:08	@krinkle	lewisc: do you think you could advise Levi on eclipse stuff? (tutors email)
+2013-05-09 14:01:35	-->	mmes2 (~mmes2@host-46-239.dhcp.pdx.edu) has joined #tutors
+2013-05-09 16:59:15	<--	mmes2 (~mmes2@host-46-239.dhcp.pdx.edu) has left #tutors
+2013-05-09 17:05:49	+lewisc	yes
+2013-05-09 18:05:03	+lewisc	wait
+2013-05-09 18:05:06	+lewisc	what?
+2013-05-09 18:14:13	@krinkle	lewisc: ?
+2013-05-10 07:14:16	+lewisc	I already answered him...
+2013-05-10 07:14:28	+lewisc	did I not forward that to the tutors email?
+2013-05-10 07:50:59	@krinkle	not that I saw
+2013-05-10 14:24:19	beaker	might be few minutes late today so i can microwave food at student union at around 2:50 or so
+2013-05-10 18:42:09	<--	askore (askore@reaver.cat.pdx.edu) has quit (Ping timeout: 258 seconds)
+2013-05-10 18:46:31	-->	askore (askore@reaver.cat.pdx.edu) has joined #tutors
+2013-05-10 18:46:31	--	Mode #tutors [+v askore] by ChanServ
+2013-05-13 10:08:36	@krinkle	I need timesheets ASAP s'il vous plait
+2013-05-13 10:19:57	@krinkle	lewisc: others: interested in doing an eclipse tutorial for 202?
+2013-05-13 10:20:02	@krinkle	I'm forwarding karla's email
+2013-05-13 10:27:04	@krinkle	nUbee: alevar says he'll be a little late, so you may be on your own for a bit
+2013-05-13 10:27:13	@krinkle	I'll be in splatnix, ping me if you need help
+2013-05-13 11:17:09	+alevar	krinkle: s'il vous plait?
+2013-05-13 11:18:00	@krinkle	"please"
+2013-05-13 11:22:24	+askore	it's that time again... timesheet time!
+2013-05-13 12:09:40	+alevar	krinkle++: That schedule is hella nice for filling out timesheets. :)
+2013-05-13 14:33:41	+lewisc	krinkle: I can deal with fant
+2013-05-13 14:34:01	Racoon	yipee
+2013-05-13 14:34:01	beaker	krinkle: can i turn in my timesheet on the 15th? or would u like it earlier?
+2013-05-13 14:35:18	@krinkle	beaker: earlier is always preferred but no later than 4pm on the 15th
+2013-05-13 14:35:26	beaker	ok thanks :)
+2013-05-13 14:35:35	@krinkle	lewisc: awesome
+2013-05-13 14:36:12	Racoon	 /win 9
+2013-05-13 14:36:21	Racoon	:|
+2013-05-13 17:47:22	beaker	tutor emails from nicholas bender have been dealt with
+2013-05-13 18:17:05	@krinkle	beaker++
+2013-05-13 22:06:53	<--	jesusaurus (~jesusaur@15.185.107.203) has quit (Read error: Operation timed out)
+2013-05-13 22:08:12	-->	jesusaurus (~jesusaur@15.185.107.203) has joined #tutors
+2013-05-13 22:10:19	<--	jesusaurus (~jesusaur@15.185.107.203) has quit (Excess Flood)
+2013-05-13 22:11:38	-->	jesusaurus (~jesusaur@15.185.107.203) has joined #tutors
+2013-05-14 11:46:40	@krinkle	lewisc: can you email karla and confirm that you can give those two workshops on Friday morning?
+2013-05-14 13:59:30	@krinkle	no meeting today
+2013-05-14 13:59:35	@krinkle	but timesheet reminder
+2013-05-15 09:10:42	+lewisc	yes
+2013-05-15 14:23:36	beaker	might be a few mins late today, need to microwave food in student union
+2013-05-15 14:27:20	nUbee	beaker: There is a microwave in the EE lounge
+2013-05-15 14:34:51	beaker	where is the EE lounge?  someone tried to point me there and me no findy
+2013-05-15 14:35:07	beaker	meh oh well, im already in student union anywho
+2013-05-15 14:35:14	beaker	will just heat up here before i walk over
+2013-05-15 14:35:17	beaker	thanks though
+2013-05-15 18:11:23	+alevar	krinkle: FYI, the tutors were overloaded this evening. There were three people waiting; much more than desireable.
+2013-05-16 11:31:02	@krinkle	In response to ^, does anyone want more hours? and can I get recommendations on what days and times it would be good to have additional staffing?
+2013-05-16 15:22:30	sabreman	i'll take more hours any day
+2013-05-16 15:22:41	sabreman	well ,except for the ones when i'm unavaible :p
+2013-05-16 19:06:06	-->	sabreman (byelogur@rita.cat.pdx.edu) has joined #tutors
+2013-05-16 19:06:06	--	Topic for #tutors is "Schedule up at http://tinyurl.com/7pucvbg"
+2013-05-16 19:06:06	--	Topic set by krinkle on Fri, 15 Jun 2012 17:08:29
+2013-05-16 19:06:06	--	Nicks #tutors: [@krinkle +askore +lewisc +lpl alevar-exiled beaker jesusaurus mcsmash nUbee protoben Racoon sabreman]
+2013-05-16 19:06:06	--	Channel #tutors: 12 nicks (1 op, 0 halfops, 3 voices, 8 normals)
+2013-05-16 19:06:08	--	Mode #tutors [+ntk tutorsonly]
+2013-05-16 19:06:08	--	Channel created on Thu, 28 Aug 2008 16:52:04
+2013-05-16 19:22:51	-->	alevar (adevore@rita.cat.pdx.edu) has joined #tutors
+2013-05-16 19:22:51	--	Mode #tutors [+v alevar] by ChanServ
+2013-05-20 12:26:20	+alevar	krinkle: We are again out of dry erase markers :/
+2013-05-20 12:26:25	+alevar	That was quick...
+2013-05-20 12:26:35	@krinkle	:(
+2013-05-20 12:26:59	+alevar	I grabbed one of the 3 remaining markers from the locker. Lower locker, right?
+2013-05-20 12:27:19	@krinkle	yep
+2013-05-20 12:27:29	@krinkle	i'll get more from beth in a few minutes
+2013-05-20 12:27:39	+askore	did you check the acm room? they can't be gone so soon
+2013-05-20 12:28:33	@krinkle	we need some of those scanner things for the doors that beep when someone walks off with them
+2013-05-20 12:29:24	+askore	lol
+2013-05-20 12:29:33	@krinkle	does the new acm room have whiteboards?
+2013-05-20 12:30:28	+askore	it had one to begin with
+2013-05-20 12:31:57	+alevar	I just double checked the locker and all rooms that I have access to in the adjacent rooms. No hint of a hidden stash.
+2013-05-20 12:32:16	@krinkle	grumble
+2013-05-20 12:32:25	 *	alevar does not approve.
+2013-05-20 12:33:07	+alevar	Is it worth labeling them?
+2013-05-20 12:33:13	@krinkle	labeling would be good
+2013-05-20 12:33:29	 *	krinkle thinks checking them out library-style would work best, but probably overkill
+2013-05-20 12:33:34	+alevar	yeah
+2013-05-20 12:33:51	+alevar	Too much of a PitA, plus it makes things difficult after hours.
+2013-05-20 12:33:59	@krinkle	yeah
+2013-05-20 14:41:57	Racoon	hey how are the computers in the unix lab? I have a user (on desk) saying that he logs in, and it spits him right back out to the login screen
+2013-05-20 14:47:32	+lewisc	which unix lab?
+2013-05-20 14:47:39	+lewisc	like VLSI Lab?
+2013-05-20 14:47:55	+lewisc	we don't support, and it's a problem with his login (.bashrc)
+2013-05-20 14:48:01	+lewisc	otherwise
+2013-05-20 14:48:07	+lewisc	it's a problem with his .bashrc
+2013-05-20 14:49:11	+askore	I think he ww'd
+2013-05-20 14:51:15	+lewisc	ah
+2013-05-20 14:52:08	+lewisc	I stand corrected, quota and logfiles, will remember that
+2013-05-20 22:08:50		irc: disconnected from server
+2013-05-20 22:09:20	-->	sabreman (byelogur@rita.cat.pdx.edu) has joined #tutors
+2013-05-20 22:09:20	--	Topic for #tutors is "Schedule up at http://tinyurl.com/7pucvbg"
+2013-05-20 22:09:20	--	Topic set by krinkle on Fri, 15 Jun 2012 17:08:29
+2013-05-20 22:09:20	--	Nicks #tutors: [krinkle lewisc lpl sabreman]
+2013-05-20 22:09:20	--	Channel #tutors: 4 nicks (0 ops, 0 halfops, 0 voices, 4 normals)
+2013-05-20 22:09:28	--	Mode #tutors [+nt]
+2013-05-20 22:09:28	--	Channel created on Thu, 28 Aug 2008 16:52:04
+2013-05-20 22:11:24	-->	jesusaurus (~jesusaur@15.185.107.203) has joined #tutors
+2013-05-20 22:13:50	-->	Racoon (suthere@reaver.cat.pdx.edu) has joined #tutors
+2013-05-20 22:13:52	-->	mcsmash (mcsmash@reaver.cat.pdx.edu) has joined #tutors
+2013-05-20 22:14:31	--	Mode #tutors [+k tutorsonly] by iss.cat.pdx.edu
+2013-05-20 22:14:31	-->	nUbee (robw@reaver.cat.pdx.edu) has joined #tutors
+2013-05-20 22:14:31	-->	alevar_ (adevore@rita.cat.pdx.edu) has joined #tutors
+2013-05-20 22:14:31	-->	beaker_ (mmes2@chandra.cs.pdx.edu) has joined #tutors
+2013-05-20 22:14:31	-->	alevar-exiled (~alevar@c-24-21-251-156.hsd1.or.comcast.net) has joined #tutors
+2013-05-20 22:14:31	-->	askore (askore@reaver.cat.pdx.edu) has joined #tutors
+2013-05-20 22:14:31	--	Mode #tutors [+v askore] by iss.cat.pdx.edu
+2013-05-20 22:18:46	-->	protoben (bhamlin@reaver.cat.pdx.edu) has joined #tutors
+2013-05-20 22:52:36	--	Mode #tutors [+o krinkle] by ChanServ
+2013-05-20 23:05:31	--	alevar_ is now known as alevar
+2013-05-20 23:05:41	--	Mode #tutors [+v alevar] by ChanServ
+2013-05-21 09:50:09	lewisc	meeting today?
+2013-05-21 09:50:42	@krinkle	yes
+2013-05-21 10:09:30	 *	lewisc groan
+2013-05-21 10:09:37	@krinkle	?
+2013-05-21 10:09:47	lewisc	sore, behind on work, behind on school
+2013-05-21 10:09:58	lewisc	it's fine I will be there in body if not in spirit
+2013-05-21 13:06:05	--	Mode #tutors [+v lpl] by ChanServ
+2013-05-21 13:18:37	-->	railsdev (~railsdev@railsdev.cecs.pdx.edu) has joined #tutors
+2013-05-21 13:25:41	railsdev	Meeting today?
+2013-05-21 13:25:49	--	railsdev is now known as rueckerc
+2013-05-21 13:25:57	--	Mode #tutors [+v rueckerc] by ChanServ
+2013-05-21 13:26:50	Racoon	yup
+2013-05-22 03:08:56	<--	alevar-exiled (~alevar@c-24-21-251-156.hsd1.or.comcast.net) has quit (Ping timeout: 258 seconds)
+2013-05-22 03:13:41	-->	alevar-exiled (~alevar@c-24-21-251-156.hsd1.or.comcast.net) has joined #tutors
+2013-05-22 03:15:01	--	alevar-exiled is now known as Guest43829
+2013-05-22 05:34:35	<--	lewisc (lewisrjc@131.252.208.127) has quit (Read error: Operation timed out)
+2013-05-22 05:37:40	<--	beaker_ (mmes2@chandra.cs.pdx.edu) has quit (Ping timeout: 258 seconds)
+2013-05-22 05:47:43	-->	lewisc (lewisrjc@chandra.cs.pdx.edu) has joined #tutors
+2013-05-22 06:20:08	-->	beaker (~mmes2@chandra.cs.pdx.edu) has joined #tutors
+2013-05-22 17:42:08	--	Guest43829 is now known as alevar-exiled
+2013-05-22 18:05:27	+alevar	Lewis had to head out very quickly, so he left a checked out textbook in the locker. Whoever opens tomorrow needs to stick it back in the bookshelf.
+2013-05-22 22:10:35	<--	lewisc (lewisrjc@chandra.cs.pdx.edu) has quit (Read error: Operation timed out)
+2013-05-22 22:13:53	<--	beaker (~mmes2@chandra.cs.pdx.edu) has quit (Ping timeout: 258 seconds)
+2013-05-22 22:14:29	-->	beaker (mmes2@chandra.cs.pdx.edu) has joined #tutors
+2013-05-22 22:22:40	-->	lewisc (~lewisrjc@chandra.cs.pdx.edu) has joined #tutors
+2013-05-22 23:52:02	<--	lewisc (~lewisrjc@chandra.cs.pdx.edu) has quit (Remote host closed the connection)
+2013-05-22 23:52:02	<--	beaker (mmes2@chandra.cs.pdx.edu) has quit (Remote host closed the connection)
+2013-05-23 13:11:07	Racoon	heads up, user in CS help, im in class.
+2013-05-23 15:35:24	-->	go_veg (go_veg@chandra.cs.pdx.edu) has joined #tutors
+2013-05-23 16:24:52	-->	beaker (mmes2@chandra.cs.pdx.edu) has joined #tutors
+2013-05-24 15:04:22	-->	lewisrjc (lewisrjc@chandra.cs.pdx.edu) has joined #tutors
+2013-05-25 18:25:41	-->	nvi (nvi@ruby.cat.pdx.edu) has joined #tutors
+2013-05-26 09:49:20	nUbee	just thought i would ask: are we working tomorrow or should we ignore the schedule?
+2013-05-26 11:10:50	@krinkle	no, we'll be closed tomorroe
+2013-05-26 11:11:09	@krinkle	tomorrow*
+2013-05-27 02:46:42	<--	alevar-exiled (~alevar@c-24-21-251-156.hsd1.or.comcast.net) has quit (Read error: Operation timed out)
+2013-05-27 02:49:41	-->	alevar-exiled (~alevar@c-24-21-251-156.hsd1.or.comcast.net) has joined #tutors
+2013-05-27 02:51:00	--	alevar-exiled is now known as Guest18713
+2013-05-27 13:58:41	--	Guest18713 is now known as alevar-exiled
+2013-05-28 10:21:56	<--	askore (askore@reaver.cat.pdx.edu) has quit (Ping timeout: 258 seconds)
+2013-05-28 10:25:22	-->	askore (askore@reaver.cat.pdx.edu) has joined #tutors
+2013-05-28 10:25:22	--	Mode #tutors [+v askore] by ChanServ
+2013-05-28 11:16:57	@krinkle	We're going to try to have extended hours/extra staff on Thursday and Friday of dead week and Monday and Tuesday of finals week. Please fill this out if you want some extra hours: http://goo.gl/zAGnQ
+2013-05-28 11:18:41	@krinkle	And I know it's still early but if you guys could send me your availability for summer too that would help me a lot with planning
+2013-05-28 15:51:22	+alevar	A heads up: There's a poorly worded sentence in assignment 4. A student is about to send a request for clarification, with a CC to tutors@cs.pdx.edu at my request.
+2013-05-28 17:45:05	<--	go_veg (go_veg@chandra.cs.pdx.edu) has left #tutors
+2013-05-30 16:06:28	@krinkle	alevar: askore lewisrjc rueckerc beaker nUbee protoben Racoon sabreman please fill out the lil google doc with dead/finals week availability or mark that you're not available for hours besides what you're already working
+2013-05-30 16:06:41	@krinkle	also if you need your schedule adjusted for finals week please let me know asap
+2013-05-30 16:07:16	+askore	krinkle: will do
+2013-05-30 16:07:24	@krinkle	ty! :)
+2013-05-30 17:48:15		irc: disconnected from server
+2013-05-30 17:48:50	-->	sabreman (byelogur@rita.cat.pdx.edu) has joined #tutors
+2013-05-30 17:48:50	--	Topic for #tutors is "Schedule up at http://tinyurl.com/7pucvbg"
+2013-05-30 17:48:50	--	Topic set by krinkle on Fri, 15 Jun 2012 17:08:29
+2013-05-30 17:48:50	--	Nicks #tutors: [+alevar +askore beaker lewisrjc nUbee rueckerc_ sabreman]
+2013-05-30 17:48:50	--	Channel #tutors: 7 nicks (0 ops, 0 halfops, 2 voices, 5 normals)
+2013-05-30 17:48:58	--	Mode #tutors [+ntk tutorsonly]
+2013-05-30 17:48:58	--	Channel created on Thu, 28 Aug 2008 16:52:04
+2013-05-30 17:49:14	<--	alevar (adevore@rita.cat.pdx.edu) has quit (Remote host closed the connection)
+2013-05-30 17:49:16	<--	beaker (mmes2@chandra.cs.pdx.edu) has quit (Ping timeout: 258 seconds)
+2013-05-30 17:49:16	<--	lewisrjc (lewisrjc@chandra.cs.pdx.edu) has quit (Ping timeout: 258 seconds)
+2013-05-30 17:49:19	-->	alevar-exiled (~alevar@c-24-21-251-156.hsd1.or.comcast.net) has joined #tutors
+2013-05-30 17:49:57	-->	nvi (nvi@ruby.cat.pdx.edu) has joined #tutors
+2013-05-30 17:51:06	-->	lpl (lpl@rita.cat.pdx.edu) has joined #tutors
+2013-05-30 17:51:06	-->	jesusaurus (~jesusaur@15.185.107.203) has joined #tutors
+2013-05-30 17:52:14	-->	alevar (adevore@rita.cat.pdx.edu) has joined #tutors
+2013-05-30 17:54:15	-->	alevar_ (adevore@rita.cat.pdx.edu) has joined #tutors
+2013-05-30 17:54:26	-->	mcsmash (mcsmash@reaver.cat.pdx.edu) has joined #tutors
+2013-05-30 17:54:26	-->	krinkle (cmurphy@reaver.cat.pdx.edu) has joined #tutors
+2013-05-30 17:54:26	--	Mode #tutors [+o krinkle] by firefly.cat.pdx.edu
+2013-05-30 17:54:26	--	Mode #tutors [+v alevar] by ChanServ
+2013-05-30 17:54:27	-->	beaker (mmes2@chandra.cs.pdx.edu) has joined #tutors
+2013-05-30 17:54:44	-->	lewisrjc (lewisrjc@chandra.cs.pdx.edu) has joined #tutors
+2013-05-30 17:55:56	--	alevar-exiled is now known as Guest30220
+2013-05-30 17:55:56	--	jesusaurus is now known as Guest77823
+2013-05-30 17:55:56	--	alevar is now known as Guest52675
+2013-05-30 17:56:14	--	lewisrjc is now known as Guest26457
+2013-05-30 17:56:28	-->	protoben (bhamlin@reaver.cat.pdx.edu) has joined #tutors
+2013-05-30 17:56:29	-->	Racoon (suthere@reaver.cat.pdx.edu) has joined #tutors
+2013-05-30 17:57:57	--	Guest77823 is now known as jesusaurus
+2013-05-30 18:03:58	-->	kayrinkle (cmurphy@reaver.cat.pdx.edu) has joined #tutors
+2013-05-30 18:05:27	<--	krinkle (cmurphy@reaver.cat.pdx.edu) has quit (Quit: WeeChat 0.3.9)
+2013-05-30 18:05:37	--	kayrinkle is now known as krinkle
+2013-05-30 18:05:44	--	Mode #tutors [+o krinkle] by ChanServ
+2013-05-30 22:00:40	+Guest52675	krinkle: Nice catch with Nicholas. I took a look through some of his code this morning, but I didn't spot the mistake.
+2013-05-30 22:00:55	--	Guest52675 is now known as alevar
+2013-05-30 22:02:52	<--	alevar (adevore@rita.cat.pdx.edu) has quit (Quit: leaving)
+2013-05-30 22:02:52	<--	alevar_ (adevore@rita.cat.pdx.edu) has quit (Quit: leaving)
+2013-05-30 22:02:56	-->	alevar (adevore@rita.cat.pdx.edu) has joined #tutors
+2013-05-30 22:02:56	--	Mode #tutors [+v alevar] by ChanServ
+2013-05-30 22:04:48	@krinkle	alevar: heh, thanks
+2013-05-30 22:05:30	@krinkle	Sam's problem was a giant pain to figure out, I still don't actually understand the problem
+2013-05-30 22:05:46	@krinkle	It seemed like scope just wasn't working
+2013-05-31 07:53:26	nUbee	done
+2013-05-31 07:57:13	nUbee	done as in entered my times
+2013-05-31 12:14:33	+alevar	Adelie had a music player plugged into it. I stuck it in the locker.
+2013-05-31 12:14:49	+alevar	The music player, not Adelie.
+2013-05-31 13:30:57	+askore	krinkle: availability is filled out
+2013-05-31 15:06:56	--	Guest26457 is now known as lewisrjc
+2013-05-31 16:46:11	nUbee	alevar: that's mine. thanks. i keep forgetting about it :X
+2013-05-31 17:08:30	sabreman	I'm waiting for a responce form two of my proffesors, and then i'll be able to fill out my time sheet thingy
+2013-05-31 17:17:19	sabreman	worst comes to worst i'll have mine filled by monday
+2013-05-31 17:19:01	sabreman	actualy i did my hours for next week at least, it's finals week that i'll have to wait on
+2013-06-01 15:26:10	sabreman	Ok, I've fille dout my times compleatly
+2013-06-01 15:26:14	sabreman	filled out*
+2013-06-01 18:26:39	-->	ultra_sabreman (byelogur@rita.cat.pdx.edu) has joined #tutors
+2013-06-01 18:26:54	<--	ultra_sabreman (byelogur@rita.cat.pdx.edu) has quit (Client Quit)
+2013-06-01 18:29:30	-->	ultra_sabreman (byelogur@rita.cat.pdx.edu) has joined #tutors
+2013-06-01 18:29:51	<--	ultra_sabreman (byelogur@rita.cat.pdx.edu) has quit (Client Quit)
+2013-06-01 18:34:28	-->	ultra_sabreman (byelogur@rita.cat.pdx.edu) has joined #tutors
+2013-06-01 18:34:39	<--	ultra_sabreman (byelogur@rita.cat.pdx.edu) has quit (Client Quit)
+2013-06-01 18:34:41	-->	ultra_sabreman (byelogur@rita.cat.pdx.edu) has joined #tutors
+2013-06-01 18:34:45	<--	ultra_sabreman (byelogur@rita.cat.pdx.edu) has quit (Client Quit)
+2013-06-01 18:35:15	-->	ultra_sabreman (byelogur@rita.cat.pdx.edu) has joined #tutors
+2013-06-01 18:35:19	<--	ultra_sabreman (byelogur@rita.cat.pdx.edu) has quit (Client Quit)
+2013-06-01 18:35:34	-->	ultra_sabreman (byelogur@rita.cat.pdx.edu) has joined #tutors
+2013-06-01 18:36:21	<--	ultra_sabreman (byelogur@rita.cat.pdx.edu) has quit (Client Quit)
+2013-06-01 18:37:43	sabreman	oh man i'm spamming this pretty hard
+2013-06-01 18:37:49	sabreman	sorry
+2013-06-01 18:39:29	-->	ultra_sabreman (byelogur@rita.cat.pdx.edu) has joined #tutors
+2013-06-01 18:39:35	<--	ultra_sabreman (byelogur@rita.cat.pdx.edu) has quit (Client Quit)
+2013-06-02 12:00:34	--	irc: disconnected from server
+2013-06-02 12:00:44	-->	sabreman (byelogur@rita.cat.pdx.edu) has joined #tutors
+2013-06-02 12:00:44	--	Topic for #tutors is "Schedule up at http://tinyurl.com/7pucvbg"
+2013-06-02 12:00:44	--	Topic set by krinkle on Fri, 15 Jun 2012 17:08:29
+2013-06-02 12:00:44	--	Nicks #tutors: [@krinkle +alevar +askore beaker Guest30220 jesusaurus lewisrjc lpl mcsmash nUbee nvi protoben Racoon rueckerc_ sabreman]
+2013-06-02 12:00:44	--	Channel #tutors: 15 nicks (1 op, 0 halfops, 2 voices, 12 normals)
+2013-06-02 12:00:46	--	Mode #tutors [+ntk tutorsonly]
+2013-06-02 12:00:46	--	Channel created on Thu, 28 Aug 2008 16:52:04
+2013-06-02 12:03:32	-->	sabreman (byelogur@rita.cat.pdx.edu) has joined #tutors
+2013-06-02 12:03:32	--	Topic for #tutors is "Schedule up at http://tinyurl.com/7pucvbg"
+2013-06-02 12:03:32	--	Topic set by krinkle on Fri, 15 Jun 2012 17:08:29
+2013-06-02 12:03:32	--	Nicks #tutors: [@krinkle +alevar +askore beaker Guest30220 jesusaurus lewisrjc lpl mcsmash nUbee nvi protoben Racoon rueckerc_ sabreman]
+2013-06-02 12:03:32	--	Channel #tutors: 15 nicks (1 op, 0 halfops, 2 voices, 12 normals)
+2013-06-02 12:03:34	--	Mode #tutors [+ntk tutorsonly]
+2013-06-02 12:03:34	--	Channel created on Thu, 28 Aug 2008 16:52:04
+2013-06-02 14:38:16	lewisrjc	oh uh
+2013-06-02 14:38:56	lewisrjc	where is the google doc?
+2013-06-02 14:39:00	lewisrjc	is it the topic?
+2013-06-02 14:50:32	--	rueckerc_ is now known as rueckerc
+2013-06-02 14:50:38	--	Mode #tutors [+v rueckerc] by ChanServ
+2013-06-02 15:02:45	protoben	lewisrjc: it's http://goo.gl/zAGnQ
+2013-06-02 15:17:47	lewisrjc	thanks
+2013-06-03 14:10:18	@krinkle	k I've changed the schedule a bit for this Thursday, Friday, Monday and Tuesday, but only for people who filled out something on the google doc
+2013-06-03 14:10:58	@krinkle	protoben: sabreman askore nUbee lpl Racoon
+2013-06-03 14:11:06	@krinkle	please make sure they work for you
+2013-06-03 14:11:27	@krinkle	also feel free to trade or adjust, as long as you let me know what you're doing
+2013-06-03 14:17:14	Racoon	aye aye
+2013-06-03 15:27:58	protoben	looks good to me, with the exception that i have a final until noon on tuesday the 11th (which i may not have indicated very well)
+2013-06-03 15:45:01	+askore	looks good to me, I do have a final on thursday the 13th that overlaps with my hours by a few minutes. very unlikely to actually cause a problem, just a heads up.
+2013-06-03 16:51:22	@krinkle	protoben: sorry about that. I made adjustments to Tuesday the 11th, changes affect lpl, nUbee, protoben, Racoon please review
+2013-06-03 16:51:24	@krinkle	askore: okay
+2013-06-03 22:16:04		irc: disconnected from server
+2013-06-03 22:40:18	-->	sabreman (byelogur@rita.cat.pdx.edu) has joined #tutors
+2013-06-03 22:40:18	--	Topic for #tutors is "Schedule up at http://tinyurl.com/7pucvbg"
+2013-06-03 22:40:18	--	Topic set by krinkle on Fri, 15 Jun 2012 17:08:29
+2013-06-03 22:40:18	--	Nicks #tutors: [@krinkle +alevar +askore +rueckerc beaker Guest1212 Guest76739 jesusaurus lpl mcsmash nUbee nvi protoben Racoon sabreman]
+2013-06-03 22:40:18	--	Channel #tutors: 15 nicks (1 op, 0 halfops, 3 voices, 11 normals)
+2013-06-03 22:40:26	--	Mode #tutors [+ntk tutorsonly]
+2013-06-03 22:40:26	--	Channel created on Thu, 28 Aug 2008 16:52:04
+2013-06-03 23:20:22	sabreman	http://tinyurl.com/7pucvbg
+2013-06-03 23:20:38	sabreman	sorry my copy/pasting is a tad funky
+2013-06-03 23:21:49	sabreman	krinkle: my times are all cool, thanks
+2013-06-04 12:03:28	Guest1212	krinkle: first off thanks for responding to the java guy, also my hours are the same for the finals week as this week.
+2013-06-04 12:04:16	Guest1212	...
+2013-06-04 12:04:21	--	Guest1212 is now known as lewisrjc
+2013-06-04 13:44:33	@krinkle	meeting today I think
+2013-06-04 14:18:54	lewisrjc	yeah just noticed that
+2013-06-05 10:26:54	nUbee	there is a Lenovo AC adapter on the front desk. Does this belong to any of you? Or shall I take it to the CAT?
+2013-06-05 11:35:58	+alevar	An idea: Why don't we request that Karla run the assignments by a tutor or two before assigning them?
+2013-06-05 11:36:05	+alevar	Just a check for clarity.
+2013-06-05 11:36:45	+alevar	We spend/waste way too much time on frankly poorly worded specifications.
+2013-06-05 11:54:49	beaker	i second alevar
+2013-06-05 13:07:08	lewisrjc	mmm...second guessing profs isn't really our business.
+2013-06-05 13:57:11	+alevar	lewisrjc: Or *anyone* who might give some advice. We've wasted many hours trying to decode a sentence or two.
+2013-06-05 14:00:39	jesusaurus	maybe get a grad student to do it?
+2013-06-05 14:01:23	@krinkle	I think it might be more practical for us to read the assignments after she posts them but prior to a tutor meeting, then we can discuss them and ask her for clarification if necessary
+2013-06-05 15:40:07	+alevar	If should had someone take a look over it (not necessarily us), it could save a lot of people a lot of time.
+2013-06-05 15:42:12	+alevar	Not just for us and our tutorees. For everyone in the class.
+2013-06-05 21:25:05	Racoon	Agree with alevar
+2013-06-05 21:35:47	Racoon	it'd be really cool to have a list of things she is looking for from these wacky karla structures
+2013-06-06 09:22:02	lewisrjc	krinkle: that's actually what I was thinking
+2013-06-06 09:22:32	lewisrjc	Racoon: my impression for what she's looking for is code
+2013-06-06 10:16:22	@krinkle	^ basically. Things she cares about won't be vague (such and such data structure, must be able to insert, display, remove, whatever). Everything else is completely subject to interpretation and will get full points.
+2013-06-06 10:16:40	<--	krinkle has kicked Guest76739 (Guest76739)
+2013-06-06 10:17:07	@krinkle	oops, I didn't realize dragging on a name in weechat would kick someone
+2013-06-06 10:17:47	@krinkle	alevar: sorry ^
+2013-06-06 10:18:08	+askore	was that alevar?
+2013-06-06 10:27:40	@krinkle	 /whois says it was
+2013-06-06 11:20:20	protoben	krinkle: next term's schedule: looks like i'll have class mon-thurs 2:15-3:20, and i have a class that starts right at 6 tues and thurs, so it'd be hard for me to close up. otherwise i'm free.
+2013-06-06 12:34:51	Racoon	lewisrjc: oh right, but it'd be nice to have a list detailing the level of expectation in terms of control constructs, pointer usage and such
+2013-06-06 12:35:32	Racoon	on of my biggest problems is not knowing what level these guys are and I'm sick of catching myself pushing copy constructors on 162 students :P
+2013-06-06 12:39:30	lewisrjc	I am responding to that tutor request btw, going to at least find out what's going on
+2013-06-06 13:36:33	@krinkle	Racoon: if you check out her website each class has a section for lecture materials, and that page is kind of like a syllabus for the class
+2013-06-06 13:36:58	@krinkle	you should be able to glean very basically what a cs162/163/202 student should be learning and what they should have already covered
+2013-06-06 13:37:32	@krinkle	lewisrjc: which request?
+2013-06-06 13:39:14	Racoon	krinkle: good call
+2013-06-06 13:40:30	Racoon	krinkle: heads up, I'm going to be just a couple minutes late to my shift today
+2013-06-06 13:55:30	lewisrjc	krinkle: there was a blast from beth about some lady needing a cs 162 tutor which made me confused
+2013-06-06 13:56:15	lewisrjc	sorry, it was from the ungergrad coordinator
+2013-06-06 14:03:07	@krinkle	oh must be in my student mail
+2013-06-06 14:33:49	lewisrjc	I am going to evaluate the situation, I am suspicious that either a) she's a pcc student or b) she isn't aware tutors exists
+2013-06-06 14:34:07	lewisrjc	in the case of the latter I will point her to us, if she actually wants 1:1 time I will offer it
+2013-06-06 14:43:28	+alevar	askore: The kicked user was alevar-exiled.
+2013-06-06 14:43:40	+askore	ah nice
+2013-06-06 14:44:20	-->	alevar-exiled (~alevar@c-24-21-251-156.hsd1.or.comcast.net) has joined #tutors
+2013-06-06 14:44:30	+alevar	Hence the comcast.net ;)
+2013-06-06 14:45:59	+alevar	krinkle: My schedule for next term is nice and simple. Any weekday.
+2013-06-07 14:07:40	lewisrjc	so, what are our hours during the next term
+2013-06-07 14:19:06	@krinkle	lewisrjc: same as this term
+2013-06-07 15:26:46	lewisrjc	hrmm
+2013-06-07 15:28:48	lewisrjc	how mad would you be if I said my hours were 4-6 M, 4-5:55 t/r?
+2013-06-07 15:33:53	@krinkle	lewisrjc: you said you would probably be available saturdays?
+2013-06-07 15:34:04	lewisrjc	yup
+2013-06-07 15:34:06	lewisrjc	that too
+2013-06-07 15:34:33	lewisrjc	I can stay til 6 I just need to hop across the river at 6:15 so having a few minutes head start would be nice
+2013-06-09 22:54:07	+alevar	I'm talking to some people over in #cschat about doing a bike trip, so I might take a long weekend.
+2013-06-09 22:54:16	+alevar	I would need to get covered for the Friday.
+2013-06-10 11:38:58	sabreman	I can take thoes hours if noone else had their eye on them.
+2013-06-10 13:23:51	beaker	http://tinyurl.com/7pucvbg
+2013-06-10 13:24:41	beaker	^woops
+2013-06-10 16:22:41	lpl	Whoa, I definitely didnt see the schedule for today! Im super sorry krinkle! And to anyone else that was inconvenienced! I will be there tomorrow to open at 10 though.
+2013-06-11 11:35:29	beaker	will we be tutoring at all next week? i assume no, but any info would be great :)
+2013-06-11 12:03:59	@krinkle	nope
+2013-06-11 13:14:16	@krinkle	everybody please start timesheeting
+2013-06-11 13:47:36	+alevar	timesheeting--
+2013-06-11 13:48:13	+alevar	krinkle: Could I switch to 10 hours instead of 7/8 for the summer?
+2013-06-11 13:51:39	@krinkle	alevar: probably
+2013-06-12 02:00:20	<--	jesusaurus (~jesusaur@15.185.107.203) has quit (Ping timeout: 258 seconds)
+2013-06-12 02:10:16	-->	jesusaurus (~jesusaur@15.185.81.25) has joined #tutors
+2013-06-13 11:01:03	lewisrjc	lab cleanings today?
+2013-06-13 11:04:02	@krinkle	yes! I almost forgot
+2013-06-13 11:04:07	@krinkle	4:30
+2013-06-13 11:04:43	@krinkle	tutors and trainees please attend ^
+2013-06-13 11:07:12	@krinkle	lpl: Racoon you're not working on Saturday
+2013-06-13 11:08:21	@krinkle	alevar: do you still need your shift covered on Friday?
+2013-06-13 11:08:39	@krinkle	askore: I forget, did you have a scheduling conflict on Friday?
+2013-06-13 11:37:49	+askore	krinkle: yes I do
+2013-06-13 12:00:16	@krinkle	are there any tutors who can cover askore and/or alevar's shifts? ^
+2013-06-13 12:03:32	+askore	I think lpl said he would take mine
+2013-06-13 12:05:48	+alevar	krinkle: Oh, not this Friday. I'm not sure exactly which Friday.
+2013-06-13 12:20:27	@krinkle	alevar: okay I won't worry about it then
+2013-06-13 12:20:35	@krinkle	lpl: please confirm ^^
+2013-06-13 12:22:49	beaker	sorry can not attend lab cleanings today, will be working at that time
+2013-06-13 14:14:36	<--	rueckerc (~railsdev@railsdev.cecs.pdx.edu) has quit (Ping timeout: 258 seconds)
+2013-06-13 14:21:51	nUbee	If there are any shift needing to be covered, I am more than happy to oblige
+2013-06-13 15:48:40	lpl	I will take askore's shift tomorrow
+2013-06-13 15:51:46	@krinkle	woot
+2013-06-13 16:15:49	lewisrjc	on my way
+2013-06-13 16:15:52	lewisrjc	going to be a bit late
+2013-06-13 16:18:56	@krinkle	also I need timesheets asap, no later than tomorrow at 4:30
+2013-06-13 16:19:00	@krinkle	</yelling>
+2013-06-13 19:48:55	sabreman	alevar: how could you misslead me? 
+2013-06-13 19:49:18	sabreman	j/k, I'll get you a scanned copy of my timesheet tommorow krinkle.
+2013-06-14 12:47:59	protoben	krinkle: on of my classes got cancelled, so my summer schedule has changed. i have class now from 11:45-1:00 MTWR, and at 6 on TR. Hope that doesn't screw anything up. Also, should have my timesheet to you shortly.
+2013-06-14 12:48:36	protoben	s/on/one
+2013-06-14 17:26:31	@krinkle	youguys++ very smooth timesheeting this month :D
+2013-06-16 15:58:16	<--	krinkle (cmurphy@reaver.cat.pdx.edu) has quit (Ping timeout: 258 seconds)
+2013-06-16 16:00:51	-->	krinkle (cmurphy@reaver.cat.pdx.edu) has joined #tutors
+2013-06-16 18:44:17	--	Mode #tutors [+o krinkle] by ChanServ
+2013-06-16 18:59:58	<--	jesusaurus (~jesusaur@15.185.81.25) has quit (Ping timeout: 258 seconds)
+2013-06-16 20:59:27	-->	jesusaurus (~jesusaur@15.185.107.203) has joined #tutors
+2013-06-17 18:05:58	<--	nvi (nvi@ruby.cat.pdx.edu) has quit (Remote host closed the connection)
+2013-06-18 09:02:42	-->	sabreman (byelogur@rita.cat.pdx.edu) has joined #tutors
+2013-06-18 09:02:42	--	Topic for #tutors is "Schedule up at http://tinyurl.com/7pucvbg"
+2013-06-18 09:02:42	--	Topic set by krinkle on Fri, 15 Jun 2012 17:08:29
+2013-06-18 09:02:42	--	Nicks #tutors: [@krinkle +askore alevar-exiled beaker Guest24887 jesusaurus mcsmash nUbee protoben Racoon sabreman]
+2013-06-18 09:02:42	--	Channel #tutors: 11 nicks (1 op, 0 halfops, 1 voice, 9 normals)
+2013-06-18 09:02:44	--	Mode #tutors [+ntk tutorsonly]
+2013-06-18 09:02:44	--	Channel created on Thu, 28 Aug 2008 16:52:04
+2013-06-18 13:06:27	-->	alevar (adevore@rita.cat.pdx.edu) has joined #tutors
+2013-06-18 13:06:27	--	Mode #tutors [+v alevar] by ChanServ
+2013-06-18 14:17:04	+alevar	krinkle: Do you have any idea when the schedule will be up? I'm trying to plan a couple of things ahead.
+2013-06-18 14:17:37	+alevar	I won't die if it's not done right now. I'm just finding out when I'm finding out.
+2013-06-18 14:24:04	@krinkle	alevar: will try for tonight
+2013-06-18 14:24:58	@krinkle	I haven't checked yet whether I have everybody's availability, if anyone hasn't gotten it to me yet please do so nowish
+2013-06-18 14:25:16	-->	lpl (lpl@rita.cat.pdx.edu) has joined #tutors
+2013-06-18 14:53:55	+alevar	Just to reiterate mine: Any weekday.
+2013-06-19 17:25:32	@krinkle	okay, I have a schedule for the first week up, please take a look and let me know if I need to fix anything
+2013-06-19 21:13:58	@krinkle	and now I've changed some of the trainee hours, please take another look
+2013-06-19 22:00:50	Guest24887	that is seriously the coolest schedule for me
+2013-06-19 22:58:56	@krinkle	Guest24887: please /nick
+2013-06-19 23:34:14	<--	alevar (adevore@rita.cat.pdx.edu) has quit (*.net *.split)
+2013-06-19 23:34:14	<--	Guest24887 (lewisrjc@chandra.cs.pdx.edu) has quit (*.net *.split)
+2013-06-19 23:34:14	<--	krinkle (cmurphy@reaver.cat.pdx.edu) has quit (*.net *.split)
+2013-06-19 23:34:14	<--	protoben (bhamlin@reaver.cat.pdx.edu) has quit (*.net *.split)
+2013-06-19 23:34:14	<--	Racoon (suthere@reaver.cat.pdx.edu) has quit (*.net *.split)
+2013-06-19 23:34:14	<--	alevar-exiled (~alevar@c-24-21-251-156.hsd1.or.comcast.net) has quit (*.net *.split)
+2013-06-19 23:34:14	<--	askore (askore@reaver.cat.pdx.edu) has quit (*.net *.split)
+2013-06-19 23:34:14	<--	nUbee (robw@reaver.cat.pdx.edu) has quit (*.net *.split)
+2013-06-19 23:34:26	-->	protoben (bhamlin@reaver.cat.pdx.edu) has joined #tutors
+2013-06-19 23:35:23	-->	alevar-exiled (~alevar@c-24-21-251-156.hsd1.or.comcast.net) has joined #tutors
+2013-06-19 23:36:43	--	alevar-exiled is now known as Guest1366
+2013-06-19 23:39:32	-->	Racoon (suthere@reaver.cat.pdx.edu) has joined #tutors
+2013-06-19 23:39:57	-->	nUbee (robw@reaver.cat.pdx.edu) has joined #tutors
+2013-06-19 23:41:10	--	Guest1366 is now known as alevar-exiled
+2013-06-19 23:41:18	-->	alevar (adevore@rita.cat.pdx.edu) has joined #tutors
+2013-06-19 23:41:18	-->	lewisrjc (lewisrjc@chandra.cs.pdx.edu) has joined #tutors
+2013-06-19 23:41:18	-->	askore (askore@reaver.cat.pdx.edu) has joined #tutors
+2013-06-19 23:41:18	-->	krinkle (cmurphy@reaver.cat.pdx.edu) has joined #tutors
+2013-06-19 23:41:18	--	Mode #tutors [+v alevar] by ChanServ
+2013-06-19 23:42:48	--	lewisrjc is now known as Guest4812
+2013-06-19 23:42:48	--	alevar is now known as Guest79499
+2013-06-19 23:43:28	--	Guest79499 is now known as alevar
+2013-06-19 23:44:26	<--	alevar (adevore@rita.cat.pdx.edu) has quit (*.net *.split)
+2013-06-19 23:44:26	<--	Guest4812 (lewisrjc@chandra.cs.pdx.edu) has quit (*.net *.split)
+2013-06-19 23:44:26	<--	askore (askore@reaver.cat.pdx.edu) has quit (*.net *.split)
+2013-06-19 23:44:26	<--	krinkle (cmurphy@reaver.cat.pdx.edu) has quit (*.net *.split)
+2013-06-19 23:46:12	-->	alevar (adevore@rita.cat.pdx.edu) has joined #tutors
+2013-06-19 23:46:12	--	Mode #tutors [+v alevar] by ChanServ
+2013-06-19 23:50:24	-->	lewisrjc (lewisrjc@chandra.cs.pdx.edu) has joined #tutors
+2013-06-19 23:50:24	-->	askore (askore@reaver.cat.pdx.edu) has joined #tutors
+2013-06-19 23:50:24	-->	krinkle (cmurphy@reaver.cat.pdx.edu) has joined #tutors
+2013-06-19 23:51:54	--	lewisrjc is now known as Guest25409
+2013-06-19 23:55:24	--	Mode #tutors [+o krinkle] by ChanServ
+2013-06-20 00:15:57	--	Mode #tutors [+v lpl] by ChanServ
+2013-06-20 01:48:30	<--	jesusaurus (~jesusaur@15.185.107.203) has quit (Ping timeout: 252 seconds)
+2013-06-20 01:55:27	-->	jesusaurus (~jesusaur@15.185.107.203) has joined #tutors
+2013-06-20 07:02:27	--	Mode #tutors [+v askore] by ChanServ
+2013-06-20 09:24:04	--	Guest25409 is now known as lewisrjc
+2013-06-20 09:24:30	lewisrjc	that was werid
+2013-06-20 09:24:36	lewisrjc	and that was me btw
+2013-06-20 10:32:18	nUbee	:)
+2013-06-20 10:32:34	nUbee	I like the schedule, thanks krinkle
+2013-06-20 13:35:56	Racoon	good schedule
+2013-06-20 20:31:11	sabreman	that works just fine for me
+2013-06-21 17:22:29	<--	nUbee (robw@reaver.cat.pdx.edu) has quit (Ping timeout: 252 seconds)
+2013-06-21 20:07:34	-->	nUbee (robw@reaver.cat.pdx.edu) has joined #tutors
+2013-06-21 20:36:24	<--	nUbee (robw@reaver.cat.pdx.edu) has quit (Quit: Lost terminal)
+2013-06-21 20:36:53	-->	robw (robw@reaver.cat.pdx.edu) has joined #tutors
+2013-06-21 20:37:18	--	robw is now known as nUbee
+2013-06-22 20:00:30	<--	nUbee (robw@reaver.cat.pdx.edu) has quit (Quit: leaving)
+2013-06-22 20:01:15	-->	robw (robw@reaver.cat.pdx.edu) has joined #tutors
+2013-06-22 20:01:26	--	robw is now known as nUbee
+2013-06-22 20:01:51	<--	nUbee (robw@reaver.cat.pdx.edu) has quit (Client Quit)
+2013-06-22 20:03:28	-->	nUbee (robw@reaver.cat.pdx.edu) has joined #tutors
+2013-06-23 11:36:35	+alevar	krinkle: What's happening with a tutor meeting over the summer?
+2013-06-23 11:46:15	+alevar	BTW, Monday before 6 or any time Tuesday/Thursday are my best times for a tutor meeting.
+2013-06-24 11:11:04	+alevar	A heads up: I just got a cold that has totally knocked out several people who got it.
+2013-06-24 11:11:28	+alevar	I might at some point need to be filled in for if it gets intense enough.
+2013-06-24 11:11:32	+alevar	krinkle: ^
+2013-06-24 11:12:29	Racoon	I /win 9
+2013-06-24 11:13:14	Racoon	If I'm not hitting my limit on hours I could fill in if needed alevar:
+2013-06-24 11:14:17	+alevar	Ugh. I was hoping this wouldn't happen. :(
+2013-06-24 13:21:44	nUbee	Do we have a limit if we're not taking classes?
+2013-06-24 17:45:40	@krinkle	as I understand it, PSU's limit when you're not taking classes is 40 hours/week
+2013-06-24 17:46:11	@krinkle	the CS department or MCECS or something might have a slightly different idea, but I've never been clear on what it is or whether it matters
+2013-06-25 02:27:37	<--	jesusaurus (~jesusaur@15.185.107.203) has quit (Ping timeout: 252 seconds)
+2013-06-25 02:30:19	-->	jesusaurus (~jesusaur@15.185.107.203) has joined #tutors
+2013-06-25 07:47:10	@krinkle	I told karla to send account requests for online students to me when I should have said tutors@cs, I'm going to forward them
+2013-06-25 07:47:52	@krinkle	If you guys could validate these accounts in crack and then send them the formletter in /stash/tutors/docs/moarp_communication.txt (and cc tutors@cs) that would be awesome
+2013-06-25 07:48:17	@krinkle	make sure to fill in <these things> with actual values
+2013-06-25 07:49:47	@krinkle	let me know if you have questions
+2013-06-25 11:37:05	Racoon	krinkle: Im about to start doing them, is this the full list or will there be more?
+2013-06-25 11:37:31	@krinkle	more will trickle in
+2013-06-25 11:38:18	Racoon	send spam to odin account?
+2013-06-25 11:39:43	Racoon	krinkle: ^
+2013-06-25 11:41:21	@krinkle	to the email they sent the request with
+2013-06-25 11:41:32	Racoon	oh i c
+2013-06-25 11:42:32	@krinkle	thank you!
+2013-06-25 11:48:58	Racoon	krinkle: one user is asking for password reset and verification of username, should i reset and attach the printout or ask them to come in?
+2013-06-25 11:50:21	@krinkle	the moarp site can handle password resets
+2013-06-25 11:50:31	@krinkle	when they log in it shows them a pdf of the account sheet
+2013-06-25 11:50:45	@krinkle	same for new accounts
+2013-06-25 11:51:03	@krinkle	don't attach any account information for anyone
+2013-06-25 11:51:16	Racoon	okay, one more:
+2013-06-25 11:51:54	Racoon	user with id 937404063 doesnt have any activation or reset options, one clobbered account and current classes
+2013-06-25 11:52:43	@krinkle	they're in a cs class?
+2013-06-25 11:53:00	Racoon	Summer 201381993CS 163 002 cecs,cs,windows
+2013-06-25 11:53:12	@krinkle	ask hiss in #hack to unclobber
+2013-06-25 11:53:27	Racoon	awesome thanks
+2013-06-25 11:55:04	Racoon	er.. i may have gotton two mixed up
+2013-06-25 12:14:06	 *	Racoon graduated high school with one of these kids
+2013-06-25 12:18:02	lewisrjc	Racoon++ thanks for all that
+2013-06-25 12:18:28	Racoon	lewisrjc++ thanks for replying to kristen
+2013-06-25 12:18:34	Racoon	I noticed it too though
+2013-06-25 12:18:41	Racoon	its a blank page for me
+2013-06-25 12:19:13	lewisrjc	Oh whoops, was that oh...know
+2013-06-25 12:19:20	lewisrjc	I think it's a blank page if nothing is pending
+2013-06-25 12:19:41	lewisrjc	that might be an enhancement request to post a "if you expect something, wait a half hour"
+2013-06-25 12:20:09	lewisrjc	but we'll hear back in a bit if it failed
+2013-06-25 12:21:23	Racoon	gotcha
+2013-06-25 12:21:49	lewisrjc	krinkle: can you confirm this behavior?
+2013-06-25 12:25:59	@krinkle	what is a blank page?
+2013-06-25 12:26:17	 *	krinkle not in a good place to check cat email right now
+2013-06-25 12:26:34	Racoon	the moarp site
+2013-06-25 12:54:46	@krinkle	did you reset your own password?
+2013-06-25 12:58:12	lewisrjc	looks like moarp isn't working
+2013-06-25 12:59:49	@krinkle	it won't show you anything if you haven't made your own account or reset your password
+2013-06-25 13:00:11	@krinkle	well it should show an error message actually
+2013-06-25 13:00:17	@krinkle	ask johnj
+2013-06-25 15:26:18	@krinkle	did this get resolved?
+2013-06-25 15:26:49	Racoon	as far as yet, I am unsure
+2013-06-26 18:41:15	@krinkle	how's Thursdays at 6pm for tutor meetings, guys?
+2013-06-26 18:41:53	@krinkle	alevar: lewisrjc protoben Racoon
+2013-06-26 18:42:02	@krinkle	wow there's not many of you
+2013-06-26 19:35:40	lewisrjc	errrrrmmmm
+2013-06-26 19:35:47	lewisrjc	notsogood
+2013-06-26 19:36:19	@krinkle	lewisrjc: when is better?
+2013-06-26 19:36:22	lewisrjc	maybe a little earlier?
+2013-06-26 19:36:27	@krinkle	5:30?
+2013-06-26 19:36:48	lewisrjc	5:00 would be ideal, 5:30 would be survivable
+2013-06-26 19:36:53	lewisrjc	I am guessing you work til 5?
+2013-06-26 19:36:59	@krinkle	yeah
+2013-06-26 19:37:20	lewisrjc	k, yeah 5:30 every other week would be okay
+2013-06-26 19:38:04	@krinkle	works for me
+2013-06-26 19:38:19	@krinkle	Tuesdays or Thursdays will work for me
+2013-06-26 19:38:36	lewisrjc	yeah thursday 5:30 is find
+2013-06-26 19:41:53	+alevar	Works with me
+2013-06-26 22:48:42	+alevar	Ugh. My cold's getting worse. :(
+2013-06-27 00:05:58	@krinkle	has anyone responded to Sumitha or Isabella and not CC'd tutors@cs?
+2013-06-27 00:06:52	@krinkle	If not, could someone working tomorrow please respond to them?
+2013-06-27 00:07:24	@krinkle	(also please make sure to CC tutors@cs and set your reply-to to tutors@cs when responding to emails)
+2013-06-27 00:20:49	Racoon	krinkle: will do ^
+2013-06-27 00:21:09	Racoon	and thursdays at six works for me
+2013-06-27 13:04:39	@krinkle	Can we do today at 5:30 for a meeting? Is that too short of notice?
+2013-06-27 13:24:29	Racoon	i could pull it off
+2013-06-27 14:05:43	protoben	krinkle: I have class at that 6:00.
+2013-06-27 14:05:56	protoben	If the meeting is short, I could do 5:30
+2013-06-27 14:07:39	lewisrjc	yes
+2013-06-27 14:30:22	@krinkle	it'll be short
+2013-06-28 10:07:06	+alevar	I can't come today.
+2013-06-28 10:08:18	+alevar	I have a severe headache that's not going away. I need some quality time flat on back.
+2013-06-28 10:29:35	nUbee	alevar: what time is your schedule?
+2013-06-28 10:30:28	Racoon	1500 -> 1800
+2013-06-28 10:30:45	nUbee	heck, id cover you
+2013-06-28 10:30:56	Racoon	:D
+2013-06-28 10:31:06	nUbee	i get off cat desk at 2
+2013-06-28 10:31:16	nUbee	free till braindump
+2013-06-28 10:33:13	 *	nUbee is heading to campus now, no internet until then
+2013-06-28 10:55:30	+alevar	thank you
+2013-06-28 11:41:43	@krinkle	thanks guys :)
+2013-06-30 20:03:09	+alevar	protoben: Could I switch with you Monday <-> Tuesday, 2-6?
+2013-06-30 20:04:21	+alevar	Because of the time that my capstone group meets, I'm going downtown on Monday just for the meeting. It would be handy to combine tutoring and meeting, if you're okay with it.
+2013-07-01 14:14:31	protoben	alevar: sorry, just saw your message. are you asking me to cover for you tuesday? I'm afraid I have desk shift next door until 4.
+2013-07-01 14:14:54	protoben	i could cover the second half, though, if you could get someone else to do the first.
+2013-07-01 15:34:07	+alevar	protoben: I was looking at switching shifts if it was convenient for you. Apparently it is not, neh?
+2013-07-02 12:10:06	Racoon	what is the protocol for aquiring more dry erase markers. we have only one in the lounge
+2013-07-02 12:56:53	@krinkle	there should be some in the bottom locker
+2013-07-02 12:57:01	@krinkle	otherwise go beg beth
+2013-07-02 13:17:50	Racoon	bottom loccker it was
+2013-07-02 13:17:52	Racoon	ty
+2013-07-03 19:43:33	<--	krinkle (cmurphy@reaver.cat.pdx.edu) has quit (Ping timeout: 258 seconds)
+2013-07-03 19:46:00	-->	krinkle (cmurphy@reaver.cat.pdx.edu) has joined #tutors
+2013-07-03 23:09:36		irc: disconnected from server
+2013-07-03 23:10:09	-->	sabreman (byelogur@rita.cat.pdx.edu) has joined #tutors
+2013-07-03 23:10:09	--	Topic for #tutors is "Schedule up at http://tinyurl.com/7pucvbg"
+2013-07-03 23:10:09	--	Topic set by krinkle on Fri, 15 Jun 2012 17:08:29
+2013-07-03 23:10:09	--	Nicks #tutors: [beaker mcsmash sabreman]
+2013-07-03 23:10:09	--	Channel #tutors: 3 nicks (0 ops, 0 halfops, 0 voices, 3 normals)
+2013-07-03 23:10:09	-->	lpl (lpl@rita.cat.pdx.edu) has joined #tutors
+2013-07-03 23:10:17	--	Mode #tutors [+nt]
+2013-07-03 23:10:17	--	Channel created on Thu, 28 Aug 2008 16:52:04
+2013-07-03 23:11:05	-->	alevar-exiled (~alevar@c-24-21-251-156.hsd1.or.comcast.net) has joined #tutors
+2013-07-03 23:12:25	--	alevar-exiled is now known as Guest79107
+2013-07-03 23:13:11	--	Guest79107 is now known as alevar-exiled
+2013-07-03 23:14:07	-->	lewisrjc (lewisrjc@chandra.cs.pdx.edu) has joined #tutors
+2013-07-03 23:15:36	--	lewisrjc is now known as Guest11646
+2013-07-03 23:16:59	--	Mode #tutors [+k tutorsonly] by iss.cat.pdx.edu
+2013-07-03 23:16:59	-->	alevar (adevore@rita.cat.pdx.edu) has joined #tutors
+2013-07-03 23:16:59	-->	protoben_ (bhamlin@reaver.cat.pdx.edu) has joined #tutors
+2013-07-03 23:16:59	-->	Racoon_ (suthere@reaver.cat.pdx.edu) has joined #tutors
+2013-07-03 23:16:59	-->	nUbee_ (robw@reaver.cat.pdx.edu) has joined #tutors
+2013-07-03 23:16:59	-->	krinkle (cmurphy@reaver.cat.pdx.edu) has joined #tutors
+2013-07-03 23:16:59	-->	jesusaurus (~jesusaur@15.185.107.203) has joined #tutors
+2013-07-03 23:16:59	-->	askore (askore@reaver.cat.pdx.edu) has joined #tutors
+2013-07-03 23:16:59	--	Mode #tutors [+v askore] by iss.cat.pdx.edu
+2013-07-03 23:16:59	--	Mode #tutors [+v alevar] by ChanServ
+2013-07-03 23:36:55	--	Mode #tutors [+o krinkle] by ChanServ
+2013-07-05 11:09:55	--	Guest11646 is now known as lewisrjc
+2013-07-05 12:11:11	--	nUbee_ is now known as nUbee
+2013-07-05 13:55:59	--	Racoon_ is now known as Racoon
+2013-07-05 18:44:49	--	protoben_ is now known as protoben
+2013-07-06 16:21:30	sabreman	I'm going to be gone on vacation the first week of august (1-8) 
+2013-07-06 16:22:42	sabreman	If anyone can cover for me on the 2nd (12 -3), 5th (12-3) and 7th(12-3) that would be fantastic
+2013-07-07 10:33:19	sabreman	Oh just to clarify, on the 2nd its from 1-4, not 12-3
+2014-01-30 10:20:20	-->	sabreman (byelogur@rita.cat.pdx.edu) has joined #tutors
+2014-01-30 10:20:20	--	Topic for #tutors is "Vote on your vests http://goo.gl/OevG7C | Schedule up at http://tinyurl.com/7pucvbg"
+2014-01-30 10:20:20	--	Topic set by krinkle (krinkle@zim.cat.pdx.edu) on Thu, 05 Dec 2013 11:27:52
+2014-01-30 10:20:20	--	Nicks #tutors: [@krinkle +alevar +askore +drbop +kendall +lpl +protoben +Racoon lewisrjc nUbee sabreman]
+2014-01-30 10:20:20	--	Channel #tutors: 11 nicks (1 op, 0 halfops, 7 voices, 3 normals)
+2014-01-30 10:20:22	--	Mode #tutors [+ntk tutorsonly]
+2014-01-30 10:20:22	--	Channel created on Thu, 28 Aug 2008 16:52:04
+2014-01-30 10:21:05	sabreman	sorry my power went out at home the toehr day, and my server didnt reboot. did i miss anything?
+2014-01-30 10:22:07	@krinkle	not that much, glad to see you on rita
+2014-01-30 11:03:29	+alevar	Is anyone else having trouble sshing out from adelie?
+2014-01-30 11:04:39	@krinkle	nope
+2014-01-30 11:04:44	@krinkle	where are you trying to go?
+2014-01-30 11:04:50	@krinkle	try ssh -4
+2014-01-30 14:01:55	+drbop	Yeah, sshing from adelie to reaver takes a long time for me.
+2014-01-30 14:06:52	@krinkle	drbop: -4
+2014-01-30 14:16:33	+drbop	krinkle++  That works.
+2014-01-30 16:39:00	-->	_sabreman (~sabreman@71-34-66-216.ptld.qwest.net) has joined #tutors
+2014-01-30 16:41:12	<--	_sabreman (~sabreman@71-34-66-216.ptld.qwest.net) has quit (Read error: Connection reset by peer)
+2014-01-30 16:41:22	-->	_sabreman (~sabreman@71-34-66-216.ptld.qwest.net) has joined #tutors
+2014-01-30 16:43:29	+alevar	if [[ $HOST == "adelie" ]]
+2014-01-30 16:43:29	+alevar	then    alias ssh="ssh -4"
+2014-01-30 16:43:32	+alevar	fi
+2014-01-30 16:44:12	+alevar	Stick it in your bashrc/zshrc. It seemed to fix the problem.
+2014-01-30 16:44:27	+alevar	A newline between 'then' and 'alias' helps
+2014-01-30 16:44:31	sabreman	krinkle: i like having it on  my home box, so i'll just keep this one up as a backup and use the other one instead
+2014-05-06 17:48:08	-->	sabreman (byelogur@rita.cat.pdx.edu) has joined #tutors
+2014-05-06 17:48:08	--	Topic for #tutors is "Schedule: http://tinyurl.com/n6objnz"
+2014-05-06 17:48:08	--	Topic set by nUbee (robw@reaver.cat.pdx.edu) on Mon, 28 Apr 2014 12:59:40
+2014-05-06 17:48:08	--	Nicks #tutors: [@nUbee +askore +Brooklyn +cam +Hubris +kendall +lpl +mancat +protoben +relsqui alevar drbop lewisc peasant sabreman]
+2014-05-06 17:48:08	--	Channel #tutors: 15 nicks (1 op, 0 halfops, 9 voices, 5 normals)
+2014-05-06 17:48:10	--	Mode #tutors [+nt]
+2014-05-06 17:48:10	--	Channel created on Thu, 28 Aug 2008 16:52:04
+2014-07-05 18:56:48	-->	ultra_sabreman (byelogur@rita.cat.pdx.edu) has joined #tutors
+2014-07-05 18:56:48	--	Topic for #tutors is "Schedule: http://tinyurl.com/n6objn"
+2014-07-05 18:56:48	--	Topic set by nUbee on Wed, 02 Jul 2014 19:04:43
+2014-07-05 18:56:48	--	Nicks #tutors: [@nUbee +askore +Hubris +lpl +relsqui Brooklyn cam drbop Guest18868 mancat protoben ultra_sabreman]
+2014-07-05 18:56:48	--	Channel #tutors: 12 nicks (1 op, 4 voices, 7 normals)
+2014-07-05 18:56:49	--	Mode #tutors [+nt]
+2014-07-05 18:56:49	--	Channel created on Thu, 28 Aug 2008 16:52:04
+2014-07-05 18:59:12	-->	sabreman (byelogur@rita.cat.pdx.edu) has joined #tutors
+2014-07-05 18:59:12	--	Topic for #tutors is "Schedule: http://tinyurl.com/n6objn"
+2014-07-05 18:59:12	--	Topic set by nUbee on Wed, 02 Jul 2014 19:04:43
+2014-07-05 18:59:12	--	Nicks #tutors: [@nUbee +askore +Hubris +lpl +relsqui Brooklyn cam drbop Guest18868 mancat protoben sabreman]
+2014-07-05 18:59:12	--	Channel #tutors: 12 nicks (1 op, 4 voices, 7 normals)
+2014-07-05 18:59:14	--	Mode #tutors [+nt]
+2014-07-05 18:59:14	--	Channel created on Thu, 28 Aug 2008 16:52:04
+2014-08-06 18:29:38	-->	sabreman (byelogur@rita.cat.pdx.edu) has joined #tutors
+2014-08-06 18:29:38	--	Topic for #tutors is "Schedule: http://tinyurl.com/n6objnz"
+2014-08-06 18:29:38	--	Topic set by nUbee (robw@reaver.cat.pdx.edu) on Mon, 14 Jul 2014 13:42:47
+2014-08-06 18:29:38	--	Nicks #tutors: [@nUbee +askore +Hubris +kendall +lpl +mancat +peasant +relsqui Brooklyn cam drbop protoben sabreman]
+2014-08-06 18:29:38	--	Channel #tutors: 13 nicks (1 op, 7 voices, 5 normals)
+2014-08-06 18:29:40	--	Mode #tutors [+nt]
+2014-08-06 18:29:40	--	Channel created on Thu, 28 Aug 2008 16:52:04
+2014-08-06 18:30:23	-->	sabreman (byelogur@rita.cat.pdx.edu) has joined #tutors
+2014-08-06 18:30:23	--	Topic for #tutors is "Schedule: http://tinyurl.com/n6objnz"
+2014-08-06 18:30:23	--	Topic set by nUbee (robw@reaver.cat.pdx.edu) on Mon, 14 Jul 2014 13:42:53
+2014-08-06 18:30:23	--	Nicks #tutors: [@nUbee +askore +Hubris +kendall +lpl +mancat +peasant +relsqui Brooklyn cam drbop protoben sabreman]
+2014-08-06 18:30:23	--	Channel #tutors: 13 nicks (1 op, 7 voices, 5 normals)
+2014-08-06 18:30:25	--	Mode #tutors [+nt]
+2014-08-06 18:30:25	--	Channel created on Thu, 28 Aug 2008 16:52:04
+2014-08-21 21:29:38	-->	sabreman (byelogur@rita.cat.pdx.edu) has joined #tutors
+2014-08-21 21:29:38	--	Topic for #tutors is "Please e-mail Rob (robw@cat.pdx.edu) your availability for the Fall term"
+2014-08-21 21:29:38	--	Topic set by nUbee (robw@reaver.cat.pdx.edu) on Mon, 18 Aug 2014 09:27:22
+2014-08-21 21:29:38	--	Nicks #tutors: [@nUbee +askore +mancat +relsqui Brooklyn drbop protoben sabreman]
+2014-08-21 21:29:38	--	Channel #tutors: 8 nicks (1 op, 3 voices, 4 normals)
+2014-08-21 21:29:40	--	Mode #tutors [+nt]
+2014-08-21 21:29:40	--	Channel created on Thu, 28 Aug 2008 16:52:04
+2014-09-08 20:24:02	-->	sabreman (byelogur@rita.cat.pdx.edu) has joined #tutors
+2014-09-08 20:24:02	--	Topic for #tutors is "Please e-mail Rob (robw@cat.pdx.edu) your availability for the Fall term"
+2014-09-08 20:24:02	--	Topic set by nUbee (robw@reaver.cat.pdx.edu) on Mon, 18 Aug 2014 09:27:22
+2014-09-08 20:24:02	--	Nicks #tutors: [@nUbee +askore +mancat +peasant Brooklyn drbop protoben sabreman]
+2014-09-08 20:24:02	--	Channel #tutors: 8 nicks (1 op, 3 voices, 4 normals)
+2014-09-08 20:24:03	--	Mode #tutors [+nt]
+2014-09-08 20:24:03	--	Channel created on Thu, 28 Aug 2008 16:52:04
+2014-09-08 20:24:13	sabreman	I sware i'll remove this from my autojoins someday
+2014-09-26 09:18:49	-->	sabreman (byelogur@rita.cat.pdx.edu) has joined #tutors
+2014-09-26 09:18:49	--	Topic for #tutors is "Schedule: http://tinyurl.com/7pucvbg"
+2014-09-26 09:18:49	--	Topic set by nUbee (robw@reaver.cat.pdx.edu) on Thu, 25 Sep 2014 18:36:20
+2014-09-26 09:18:49	--	Nicks #tutors: [@nUbee +mancat askore Brooklyn drbop protoben sabreman]
+2014-09-26 09:18:49	--	Channel #tutors: 7 nicks (1 op, 1 voice, 5 normals)
+2014-09-26 09:18:51	--	Mode #tutors [+nt]
+2014-09-26 09:18:51	--	Channel created on Thu, 28 Aug 2008 16:52:04
+2014-10-14 22:10:23	-->	sabreman (byelogur@rita.cat.pdx.edu) has joined #tutors
+2014-10-14 22:10:23	--	Topic for #tutors is "Schedule: http://tinyurl.com/7pucvbg"
+2014-10-14 22:10:23	--	Topic set by nUbee (robw@reaver.cat.pdx.edu) on Thu, 25 Sep 2014 18:36:20
+2014-10-14 22:10:23	--	Nicks #tutors: [@nUbee +Hubris +locle +lpl +mancat +peasant askore Brooklyn nightfly protoben sabreman]
+2014-10-14 22:10:23	--	Channel #tutors: 11 nicks (1 op, 5 voices, 5 normals)
+2014-10-14 22:10:25	--	Mode #tutors [+nt]
+2014-10-14 22:10:25	--	Channel created on Thu, 28 Aug 2008 16:52:04
+2014-10-14 22:10:45	sabreman	 http://tinyurl.com/7pucvbg
+2014-10-14 22:10:50	sabreman	oops
+2014-10-15 10:15:05	+mancat	nUbee: I can make Wed 6:30 (though maybe not this week, we'll see)
+2014-10-15 10:15:25	+mancat	i'm gonna try to be there today, I have a math class at 3:15 i want to try to make it to
+2014-10-15 10:16:47	+mancat	also: my timesheet is on your desk, but it's not signed. I printed it from home. I can gpg-sign it again if you want >_>
+2014-10-15 10:16:52	+mancat	or i can probably get it later today
+2014-10-15 12:58:11	@nUbee	mancat: just make sure the electronic one is submitted
+2014-10-15 12:58:24	@nUbee	you can get your printed and signed one later
+2014-10-15 14:34:06	@nUbee	Make sure you all have submitted your timesheet electronically, that's the most important part if you want to get paid
+2014-10-15 17:10:51	Brooklyn	sorry for the late notice, but I work another job every Wed, so cannot make it to 6:30 meetings
+2014-10-16 13:10:09	<--	locle (locle@ada.cs.pdx.edu) has quit (Quit: leaving)
+2014-10-16 13:13:44	-->	locle (locle@ada.cs.pdx.edu) has joined #tutors
+2014-10-17 14:29:06	--	irc: disconnected from server
+2014-10-17 14:29:31	=!=	irc: you are not connected to server
+2014-10-17 15:50:11	-->	sabreman (byelogur@rita.cat.pdx.edu) has joined #tutors
+2014-10-17 15:50:11	--	Topic for #tutors is "Schedule: http://tinyurl.com/7pucvbg"
+2014-10-17 15:50:11	--	Topic set by nUbee (robw@reaver.cat.pdx.edu) on Thu, 25 Sep 2014 18:36:20
+2014-10-17 15:50:11	--	Nicks #tutors: [@nUbee +Hubris +lpl +mancat +peasant askore Brooklyn locle nightfly protoben sabreman]
+2014-10-17 15:50:11	--	Channel #tutors: 11 nicks (1 op, 4 voices, 6 normals)
+2014-10-17 15:50:15	--	Mode #tutors [+nt]
+2014-10-17 15:50:15	--	Channel created on Thu, 28 Aug 2008 16:52:04
+2014-10-18 14:43:46	+Hubris	I have a conference next week that I signed up to volunteer.  I might be able to cover Brooklyn's Friday shift
+2014-10-18 14:44:00	+Hubris	can anybody cover that for me?
+2014-10-18 14:44:32	+Hubris	it's 4-6 on the 24th
+2014-10-19 13:59:57	--	mancat is now known as mansed
+2014-10-19 15:36:39	--	mansed is now known as mancat
+2014-10-19 19:11:09	sabreman	Hubris: Yeah I'll cover you. 
+2014-10-19 21:51:20	+Hubris	thanks
+2014-10-20 09:20:02	@nUbee	I'm a little confused, Hubris is supposed to work on Friday? or Brooklyn?
+2014-10-20 16:42:51	--	askore is now known as quietcat
+2014-10-20 18:03:52	--	quietcat is now known as askore
+2014-10-21 14:10:07	Brooklyn	I needed the last 2 hours of my shift covered. So it looks like I'll be working 2-4 and sabreman will cover me 4-6.
+2014-10-21 14:10:19	Brooklyn	nUbee ^
+2014-10-21 15:44:48	@nUbee	Brooklyn: thank you for clearing that up[
+2014-10-21 20:29:36	sabreman	Ok cool, cause what was there before didn't make to much sence
+2014-10-22 12:28:29	+peasant	if anyone wants my shift today from 4-6 thatd be cool, if not thats also cool
+2014-10-24 14:24:59	Brooklyn	nUbee: I had a student come in and ask if thee was any way that he could borrow a couple books for longer than the cs lounge hours. I told him it wasn't our policy, but that I'd check wih you if that is possible
+2014-10-24 14:56:54	sabreman	Couldnt he just borrow them from the library?
+2014-10-24 15:23:40	@nUbee	Brooklyn: yeah, please don't give out the books when the tutors are not there
+2014-10-24 15:23:50	@nUbee	besides, who would give back his ID?
+2014-10-24 15:24:07	@nUbee	speaking of which, everyone: please lock the cabinet
+2014-10-24 15:24:22	@nUbee	especially if there are ID's and such in there
+2014-10-24 15:53:34	Brooklyn	mk
+2014-10-24 23:09:09	+mancat	partial list of friday mentor session:
+2014-10-24 23:09:15	+mancat	17:09 [Users #lion]
+2014-10-24 23:09:15	+mancat	17:09 [@Atticus ] [ bluesun     ] [ Flamestorm] [ JuliusCheeser] [ PKJamoo] [ stephc] 
+2014-10-24 23:09:18	+mancat	17:09 [@ChanServ] [ CyberBolt   ] [ foo       ] [ Lebowski     ] [ sel    ] [ Turtle] 
+2014-10-24 23:09:21	+mancat	17:09 [ BigMech ] [ DaKine      ] [ Geese     ] [ mancat       ] [ silver ] 
+2014-10-24 23:09:24	+mancat	17:09 [ blt     ] [ DaKine-shout] [ hERO      ] [ oscitet      ] [ Slim   ] 
+2014-10-24 23:09:26	+mancat	17:09 -!- Irssi: #lion: Total of 22 nicks [2 ops, 0 halfops, 0 voices, 20 normal]
+2014-10-24 23:09:29	+mancat	17:56 -!- oscitet [~oscitet@84.200.228.232] has left #lion []
+2014-10-25 12:09:45	+lpl	Please everyone remember to do your printchecks! The paper in the printer was 100% empty today
+2014-10-27 10:05:59	sabreman	so apperantly my bussd has beeen canceled
+2014-10-27 10:06:30	sabreman	i.imgur.com/QQQb9Kw.png
+2014-10-27 10:06:48	sabreman	so i'll have to taek the next one
+2014-10-27 10:06:56	sabreman	and will probably be ~15 minutes late
+2014-10-27 10:22:08	+mancat	kk
+2014-10-27 10:22:16	+mancat	see you when you arrive
+2014-10-27 10:34:54	--	mancat is now known as stacybird-tired
+2014-10-27 13:28:12	--	askore is now known as askores_monster
+2014-10-27 13:47:24	--	stacybird-tired is now known as mancat
+2014-10-27 16:17:28	--	mancat is now known as mancaterwaul
+2014-10-27 16:18:46	--	nightfly is now known as blightfly
+2014-10-27 16:51:55	--	nUbee is now known as eeBOOn
+2014-10-28 13:51:04	Brooklyn	running 10 late
+2014-10-28 14:06:06	locle	ok
+2014-10-28 16:37:56	-->	mobilecat (andywood@stargate.cat.pdx.edu) has joined #tutors
+2014-10-28 16:38:55	<--	mobilecat (andywood@stargate.cat.pdx.edu) has quit (Client Quit)
+2014-10-29 16:58:21	--	askores_monster is now known as askore
+2014-10-29 17:34:12	--	blightfly is now known as c
+2014-10-29 17:34:30	--	c is now known as s
+2014-10-29 17:52:41	--	s is now known as blightfly
+2014-10-29 19:11:57	--	You are now known as weechatman
+2014-10-29 20:51:27	--	You are now known as sabreman
+2014-10-29 23:26:20	+peasant	I am not feeling well at all, is there anyone who wants to cover my 4-6 shift tomorrow. I likely will not be making it into school at all
+2014-10-30 01:05:09	+mancaterwaul	i would, but i'm already on...
+2014-10-30 11:30:23	+peasant	lol thanks mancat. if anyone sees nubee down there can you tell him to check irc for me
+2014-10-30 14:09:19	+mancaterwaul	yes
+2014-10-30 14:16:13	sabreman	peasant: I'll cover you today
+2014-10-30 14:16:26	+mancaterwaul	sabreman++
+2014-10-30 14:16:33	@eeBOOn	sabreman: thanks
+2014-10-31 10:25:52	+Hubris	i think i am covering for loc today for 11-2, but i will be late 20 mins or so
+2014-10-31 11:06:31	+mancaterwaul	ok, see you then
+2014-11-01 01:08:07	--	mancaterwaul is now known as mancat
+2014-11-01 06:20:26	+lpl	I got locked out of my apartment on my way back from haloween festivites and had to stay at a friends place, so I wont be able to make it in today.
+2014-11-01 06:20:39	+lpl	I got locked out of my apartment on my way back from haloween festivites and had to stay at a friends place, so I wont be able to make it in today.
+2014-11-01 12:31:45	--	blightfly is now known as nightfly
+2014-11-01 13:03:50	+Hubris	lol....
+2014-11-01 14:17:13	+Hubris	soo if anybody has any time an added tutor would be appreciated for saturday
+2014-11-03 17:39:19	--	eeBOOn is now known as nUbee
+2014-11-03 17:39:36	@nUbee	Wow, I just logged in since last week. Sorry lpl!
+2014-11-03 17:39:57	@nUbee	Hubris: I take it the world didn't go to hell on Saturday?
+2014-11-03 20:25:52	+Hubris	Nah, I was just super tired and didn't know if I could stay awake for that long
+2014-11-03 20:26:08	+Hubris	I found my proverbial second wind
+2014-11-04 09:01:57	<--	locle (locle@ada.cs.pdx.edu) has quit (Quit: leaving)
+2014-11-04 09:07:34	-->	locle (locle@ada.cs.pdx.edu) has joined #tutors
+2014-11-04 09:16:56	--	Mode #tutors [+v locle] by ChanServ
+2014-11-04 09:45:55	-->	sabreman (byelogur@rita.cat.pdx.edu) has joined #tutors
+2014-11-04 09:45:55	--	Topic for #tutors is "Schedule: http://tinyurl.com/7pucvbg"
+2014-11-04 09:45:55	--	Topic set by nUbee (robw@reaver.cat.pdx.edu) on Thu, 25 Sep 2014 18:36:20
+2014-11-04 09:45:55	--	Nicks #tutors: [@nUbee +Hubris +locle +lpl +mancat +peasant askore Brooklyn nightfly protoben sabreman]
+2014-11-04 09:45:55	--	Channel #tutors: 11 nicks (1 op, 5 voices, 5 normals)
+2014-11-04 09:45:59	--	Mode #tutors [+nt]
+2014-11-04 09:45:59	--	Channel created on Thu, 28 Aug 2008 16:52:04
+2014-11-04 10:39:23	-->	sabreman (byelogur@rita.cat.pdx.edu) has joined #tutors
+2014-11-04 10:39:23	--	Topic for #tutors is "Schedule: http://tinyurl.com/7pucvbg"
+2014-11-04 10:39:23	--	Topic set by nUbee (robw@reaver.cat.pdx.edu) on Thu, 25 Sep 2014 18:36:20
+2014-11-04 10:39:23	--	Nicks #tutors: [@nUbee +Hubris +locle +lpl +mancat +peasant askore Brooklyn nightfly protoben sabreman]
+2014-11-04 10:39:23	--	Channel #tutors: 11 nicks (1 op, 5 voices, 5 normals)
+2014-11-04 10:39:27	--	Mode #tutors [+nt]
+2014-11-04 10:39:27	--	Channel created on Thu, 28 Aug 2008 16:52:04
+2014-11-04 10:45:40	-->	sabreman (byelogur@rita.cat.pdx.edu) has joined #tutors
+2014-11-04 10:45:40	--	Topic for #tutors is "Schedule: http://tinyurl.com/7pucvbg"
+2014-11-04 10:45:40	--	Topic set by nUbee (robw@reaver.cat.pdx.edu) on Thu, 25 Sep 2014 18:36:20
+2014-11-04 10:45:40	--	Nicks #tutors: [@nUbee +Hubris +locle +lpl +mancat +peasant askore Brooklyn nightfly protoben sabreman]
+2014-11-04 10:45:40	--	Channel #tutors: 11 nicks (1 op, 5 voices, 5 normals)
+2014-11-04 10:45:44	--	Mode #tutors [+nt]
+2014-11-04 10:45:44	--	Channel created on Thu, 28 Aug 2008 16:52:04
+2014-11-05 04:55:44	<--	locle (locle@ada.cs.pdx.edu) has quit (Ping timeout: 240 seconds)
+2014-11-05 04:57:48	-->	locle (locle@ada.cs.pdx.edu) has joined #tutors
+2014-11-05 05:22:54	<--	locle (locle@ada.cs.pdx.edu) has quit (Ping timeout: 240 seconds)
+2014-11-05 05:27:29	-->	locle (locle@ada.cs.pdx.edu) has joined #tutors
+2014-11-05 08:02:30	<--	locle (locle@ada.cs.pdx.edu) has quit (Ping timeout: 240 seconds)
+2014-11-05 08:02:56	<--	Hubris (haoyu@ada.cs.pdx.edu) has quit (Ping timeout: 240 seconds)
+2014-11-05 09:23:30	-->	Hubris (haoyu@ada.cs.pdx.edu) has joined #tutors
+2014-11-05 09:23:30	--	Mode #tutors [+v Hubris] by ChanServ
+2014-11-05 15:24:28	-->	locle (locle@2610:10:20:208:225:90ff:fec0:b528) has joined #tutors
+2014-11-05 15:25:43	--	Mode #tutors [+v locle] by ChanServ
+2014-11-05 16:37:44	<--	Hubris (haoyu@ada.cs.pdx.edu) has quit (Ping timeout: 240 seconds)
+2014-11-05 16:38:06	<--	locle (locle@2610:10:20:208:225:90ff:fec0:b528) has quit (Ping timeout: 240 seconds)
+2014-11-05 21:01:55	-->	Hubris (haoyu@ada.cs.pdx.edu) has joined #tutors
+2014-11-05 21:01:55	--	Mode #tutors [+v Hubris] by ChanServ
+2014-11-06 11:59:54	-->	locle (locle@ada.cs.pdx.edu) has joined #tutors
+2014-11-06 11:59:54	--	Mode #tutors [+v locle] by ChanServ
+2014-11-07 14:22:08	<--	locle (locle@ada.cs.pdx.edu) has quit (Ping timeout: 240 seconds)
+2014-11-07 14:25:18	<--	Hubris (haoyu@ada.cs.pdx.edu) has quit (Ping timeout: 240 seconds)
+2014-11-07 15:03:50	-->	locle (locle@rita.cat.pdx.edu) has joined #tutors
+2014-11-07 15:03:50	--	Mode #tutors [+v locle] by ChanServ
+2014-11-08 11:19:41	-->	Hubris (haoyu@ada.cs.pdx.edu) has joined #tutors
+2014-11-08 11:19:41	--	Mode #tutors [+v Hubris] by ChanServ
+2014-11-10 10:51:50	protoben	so, i seem to have picked up a case of food poisoning somewhere.
+2014-11-10 10:52:08	protoben	don't think i'll be able to make my shift today.
+2014-11-10 10:52:48	protoben	i'll see if i'm done shivering and vomiting by the 1-ish, though. maybe i can make the second half.
+2014-11-10 10:53:06	protoben	sorry for the late notice. came on kind of sudden.
+2014-11-10 11:20:44	sabreman	protoben: hope you feel better soon.
+2014-11-10 12:11:41	@nUbee	oh that reminds me: TIMESHEETS!
+2014-11-10 12:11:53	@nUbee	Please have them to me as soon as you have a moment
+2014-11-10 12:12:15	@nUbee	in fact, I'd ask any tutor on duty to take a break from tutoring to do that
+2014-11-10 12:43:50	sabreman	nUbee: are you at the cat?
+2014-11-10 12:45:59	@nUbee	sabreman: not at the moment
+2014-11-10 12:48:56	<--	peasant (ghegnell@stargate.cat.pdx.edu) has quit (Quit: Lost terminal)
+2014-11-10 12:53:43	-->	peasant (ghegnell@destiny.cat.pdx.edu) has joined #tutors
+2014-11-10 12:53:44	--	Mode #tutors [+v peasant] by ChanServ
+2014-11-10 13:10:26	<--	peasant (ghegnell@destiny.cat.pdx.edu) has quit (Quit: Lost terminal)
+2014-11-10 13:12:03	-->	peasant (ghegnell@destiny.cat.pdx.edu) has joined #tutors
+2014-11-10 13:15:06	<--	peasant (ghegnell@destiny.cat.pdx.edu) has quit (Client Quit)
+2014-11-10 13:15:09	-->	peasant (ghegnell@destiny.cat.pdx.edu) has joined #tutors
+2014-11-10 13:16:26	<--	peasant (ghegnell@destiny.cat.pdx.edu) has quit (Client Quit)
+2014-11-10 13:16:31	-->	peasant (ghegnell@destiny.cat.pdx.edu) has joined #tutors
+2014-11-10 14:01:58	sabreman	i'll just email you a scan tonight or something then
+2014-11-10 14:02:06	sabreman	unless you come in between now and 6 nUbee 
+2014-11-10 17:59:13	-->	Kratos (rinconm@stargate.cat.pdx.edu) has joined #tutors
+2014-11-10 18:00:30	Kratos	anyone available to help with cs201 programming hw
+2014-11-10 19:10:06	<--	nUbee has kicked Kratos (#tutors is for the CS Tutors internal communication.)
+2014-11-10 21:04:20	<--	nightfly (~nightfly@destiny.cat.pdx.edu) has left #tutors (WeeChat 0.4.3)
+2014-11-10 21:39:20	<--	askore (bucknerb@destiny.cat.pdx.edu) has quit (Ping timeout: 240 seconds)
+2014-11-10 21:39:49	-->	askore (bucknerb@destiny.cat.pdx.edu) has joined #tutors
+2014-11-11 09:03:15	@nUbee	lpl: I'm really sorry if this is inconvenient for you, but today is holiday, so you're not expected to work
+2014-11-11 09:03:18	@nUbee	peasant: ^
+2014-11-11 09:03:21	@nUbee	Brooklyn: ^
+2014-11-11 09:03:23	@nUbee	locle: ^
+2014-11-11 09:03:26	@nUbee	Hubris: ^
+2014-11-11 09:03:44	@nUbee	--me for forgetting it was a holiday
+2014-11-12 10:13:40	protoben	karmabot: me
+2014-11-12 10:13:53	protoben	infoobot: karma me
+2014-11-12 10:14:17	protoben	no? nobody?
+2014-11-12 10:14:27	askore	not in #tutors, no...
+2014-11-12 10:14:29	askore	>.>
+2014-11-12 10:14:43	protoben	karma-free zone
+2014-11-12 10:16:08	protoben	wait... do infoobot/karmabot resolve me to username?
+2014-11-12 10:16:26	askore	infoobot used to but now that it's actually zortbot it doesn't anymore
+2014-11-12 10:16:30	askore	I dunno about karmabot
+2014-11-12 10:16:39	protoben	huh
+2014-11-12 13:03:40	Brooklyn	Thanks nUbee, wish I had seen that yesterday before I headed over :P

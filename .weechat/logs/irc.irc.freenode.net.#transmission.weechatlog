@@ -1,0 +1,266 @@
+2013-06-21 14:43:22	-->	sabreman (byelogur@rita.cat.pdx.edu) has joined #transmission
+2013-06-21 14:43:22	--	Topic for #transmission is "Latest stable: 2.77 (2013/02/18) || http://www.transmissionbt.com || Nightlies: http://build.transmissionbt.com || TROUBLE?  READ THIS FIRST: http://forum.transmissionbt.com/viewtopic.php?t=3274"
+2013-06-21 14:43:22	--	Topic set by John_ (~John@unaffiliated/johnclay) on Mon, 18 Feb 2013 08:19:12
+2013-06-21 14:43:22	--	Nicks #transmission: [@BentMyWookie @John_ @jordan @titer Amoz Ancient AndresSM balrog bizarro_1 BotoX Bruce1953 chrisccoulson cilly costela CrazyLemon Crotch[OFF] d0k daker dano5_away Diaoul dimadima djc dormoose dynaflash Elbandi_ elhana elkng emmanuelux f8l fneyret freeedrich| Gallomimia geirha ghoti GoGi hagabaka HarryS helloadam hudson-t i3luefire Jae02__ jave_ jdhore jlouis ketas Kiranos klaxa KuduIO Lacrocivious Lazybones lolgnu m0ltar m0rtis0000 macmaN mave_ melodyb mikedld|h MissionCritical MVXA nantou nfk Nikoli nodame nutron nyao OmlkRoNiXz Orbixx Pensacola phunyguy sabreman saneki SeySayux SimonVT SirCmpwn smw sonOfRa spaam spectro Sprocks ssiloti stalled sw4 sxdw Tango_und_Cash_ teneightypea Vegar yardena Zeroedout zoktar |woody|]
+2013-06-21 14:43:22	--	Channel #transmission: 90 nicks (4 ops, 0 halfops, 0 voices, 86 normals)
+2013-06-21 14:43:22	--	URL for #transmission: http://www.transmissionbt.com
+2013-06-21 14:43:24	sabreman	so
+2013-06-21 14:43:24	--	Mode #transmission [+cnt]
+2013-06-21 14:43:25	--	Channel created on Sat, 25 Nov 2006 22:43:06
+2013-06-21 14:43:55	sabreman	is there any way to get chromium to use the transmission-remote command as the default handler for magnet links?
+2013-06-21 14:44:08	sabreman	im running arch with gnome 3.8 as my DE
+2013-06-21 14:44:23	sabreman	but would love a general solution that would work everywhere
+2013-06-21 14:45:14	smw	sabreman, I use transmission-qt for that
+2013-06-21 14:45:22	<--	spaam (johan@lighttpd/spaam) has quit (Read error: Operation timed out)
+2013-06-21 14:45:24	sabreman	i've tried this one already https://trac.transmissionbt.com/wiki/MagnetLinks (the gnome solution)
+2013-06-21 14:45:42	sabreman	smw: well, the qt/gtk version DO work with magnet links 
+2013-06-21 14:45:54	sabreman	but i spesificly want the daemon version
+2013-06-21 14:46:00	smw	sabreman, yes, I use transmission-qt with a remote session
+2013-06-21 14:46:45	smw	sabreman, I am running transmission-daemon. I have transmission-qt connected to the daemon. When I click on a magnet link, it goes to transmission-qt which sends it to transmission-daemon
+2013-06-21 14:48:05	sabreman	huh
+2013-06-21 14:48:09	sabreman	i didn't notice that
+2013-06-21 14:48:15	-->	heoyea (~heoyea@cpe-72-130-43-168.socal.res.rr.com) has joined #transmission
+2013-06-21 14:48:28	smw	sabreman, works for torrent files too
+2013-06-21 14:48:44	smw	sabreman, and gives you all the features of a transmission gui as an added bonus
+2013-06-21 14:48:55	-->	spaam (johan@lighttpd/spaam) has joined #transmission
+2013-06-21 14:48:55	sabreman	i'm looking at the setting right now, i have the webclient enabled, but the torrents currently being downloaded by the daemon aren't showing up in the gtk window
+2013-06-21 14:49:09	smw	yeah
+2013-06-21 14:49:26	smw	you need to use transmission-qt and set the remote session option
+2013-06-21 14:49:41	smw	no transmission-gtk. I ended up uninstalling it so it wouldn't be confusing
+2013-06-21 14:54:44	sabreman	huh
+2013-06-21 14:55:01	sabreman	appernatly the gtk version doesnt have the "change session" option
+2013-06-21 14:55:05	sabreman	interesting
+2013-06-21 14:55:49	<--	cilly (pluto@unaffiliated/cilly) has quit (Ping timeout: 248 seconds)
+2013-06-21 14:57:01	-->	cilly (pluto@unaffiliated/cilly) has joined #transmission
+2013-06-21 14:57:33	<--	CrazyLemon (cppZBzx8xA@BSN-77-143-220.static.dsl.siol.net) has quit (Remote host closed the connection)
+2013-06-21 15:02:07	-->	LekeFly (~LekeFly@195.79-160-47.customer.lyse.net) has joined #transmission
+2013-06-21 15:04:38	<--	m0ltar (~moltar@modemcable046.153-176-173.mc.videotron.ca) has quit (Quit: peace.)
+2013-06-21 15:08:40	<--	cilly (pluto@unaffiliated/cilly) has quit (Ping timeout: 276 seconds)
+2013-06-21 15:25:56	-->	cilly (pluto@unaffiliated/cilly) has joined #transmission
+2013-06-21 15:50:55	<--	HarryS (H@unaffiliated/harrys) has quit (Ping timeout: 264 seconds)
+2013-06-21 15:56:21	-->	HarryS (H@unaffiliated/harrys) has joined #transmission
+2013-06-21 16:00:42	-->	rathis (~rathis@2.219.137.220) has joined #transmission
+2013-06-21 16:13:02	Lacrocivious	sabreman: Transmission-gtk predates both transmission-daemon and transmission-qt, and would require significant work to be able to talk to the daemon the way transmission-qt does. It is about history and points on the linear timeline, is all
+2013-06-21 16:14:07	Lacrocivious	sabreman: Apart from that, the gui clients -- gtk and qt -- are feature identical
+2013-06-21 16:18:16	<--	HarryS (H@unaffiliated/harrys) has quit (Quit: Äddi)
+2013-06-21 16:19:43	<--	cilly (pluto@unaffiliated/cilly) has quit (Ping timeout: 264 seconds)
+2013-06-21 16:21:21	-->	cilly (pluto@unaffiliated/cilly) has joined #transmission
+2013-06-21 16:56:50	<--	d0k (~d0k@p5B3B36BE.dip0.t-ipconnect.de) has quit (Quit: he does that)
+2013-06-21 17:00:01	<--	LekeFly (~LekeFly@195.79-160-47.customer.lyse.net) has quit (Quit: LekeFly)
+2013-06-21 17:14:41	<--	phunyguy (~phunyguy@unaffiliated/phunyguy) has quit (Quit: Goodbye, cruel world!)
+2013-06-21 17:15:33	-->	phunyguy (~phunyguy@h69-131-9-135.stmyga.broadband.dynamic.tds.net) has joined #transmission
+2013-06-21 17:15:33	<--	phunyguy (~phunyguy@h69-131-9-135.stmyga.broadband.dynamic.tds.net) has quit (Changing host)
+2013-06-21 17:15:33	-->	phunyguy (~phunyguy@unaffiliated/phunyguy) has joined #transmission
+2013-06-21 17:16:57	-->	Velociraptor85 (~Miranda@88.151.74.153) has joined #transmission
+2013-06-21 17:21:32	<--	cilly (pluto@unaffiliated/cilly) has quit (Read error: Operation timed out)
+2013-06-21 17:26:01	-->	cilly (pluto@unaffiliated/cilly) has joined #transmission
+2013-06-21 17:38:58	<--	emmanuelux (~emmanuelu@192.123.25.109.rev.sfr.net) has quit (Remote host closed the connection)
+2013-06-21 17:39:14	<--	Velociraptor85 (~Miranda@88.151.74.153) has quit (Read error: Connection reset by peer)
+2013-06-21 17:43:34	<--	phunyguy (~phunyguy@unaffiliated/phunyguy) has left #transmission
+2013-06-21 17:52:16	<--	chrisccoulson (~chr1s@ubuntu/member/chrisccoulson) has quit (Ping timeout: 252 seconds)
+2013-06-21 19:19:10	-->	redofrac (~redofrac@c-98-234-29-233.hsd1.ca.comcast.net) has joined #transmission
+2013-06-21 19:36:37	<--	AndresSM (~Andres@186.4.143.102) has quit (Ping timeout: 246 seconds)
+2013-06-21 20:02:10	<--	heoyea (~heoyea@cpe-72-130-43-168.socal.res.rr.com) has quit (Ping timeout: 246 seconds)
+2013-06-21 20:04:23	<--	Tango_und_Cash_ (~Tango_und@p5DC8C592.dip0.t-ipconnect.de) has quit (Ping timeout: 240 seconds)
+2013-06-21 20:05:14	<--	nantou (~phonetic@gateway/tor-sasl/martinphone) has quit (Quit: gone)
+2013-06-21 20:07:02	<--	redofrac (~redofrac@c-98-234-29-233.hsd1.ca.comcast.net) has quit (Quit: ["Textual IRC Client: www.textualapp.com"])
+2013-06-21 20:17:01	-->	Tango_und_Cash_ (~Tango_und@p5DC8C584.dip0.t-ipconnect.de) has joined #transmission
+2013-06-21 20:37:34	-->	AndresSM (~Andres@186.4.143.102) has joined #transmission
+2013-06-21 20:41:40	-->	DocPlatypus (~skquinn@98.195.26.149) has joined #transmission
+2013-06-21 20:54:25	-->	MisterE2U (~MisterE@unaffiliated/mistere) has joined #transmission
+2013-06-21 21:04:21	-->	iliv (~iliv@178.137.27.53) has joined #transmission
+2013-06-21 21:11:23	<--	cilly (pluto@unaffiliated/cilly) has quit (Ping timeout: 240 seconds)
+2013-06-21 21:13:21	-->	cilly (pluto@unaffiliated/cilly) has joined #transmission
+2013-06-21 21:15:27	<--	bizarro_1 (~bizarro_1@34.Red-193-153-237.dynamicIP.rima-tde.net) has quit (Quit: Leaving)
+2013-06-21 21:27:19	-->	heoyea (~heoyea@cpe-72-130-43-168.socal.res.rr.com) has joined #transmission
+2013-06-21 22:13:44	<--	AndresSM (~Andres@186.4.143.102) has quit (Read error: Connection reset by peer)
+2013-06-21 22:14:08	-->	AndresSM (~Andres@186.4.143.102) has joined #transmission
+2013-06-21 22:55:26	<--	MisterE2U (~MisterE@unaffiliated/mistere) has quit (Quit: The term 'terrorism' is a magic word [which] unlocks [vast] government powers we normally associate [only] with wartime. --maciej)
+2013-06-21 23:22:18	-->	chrisccoulson (~chr1s@ubuntu/member/chrisccoulson) has joined #transmission
+2013-06-21 23:29:08	<--	AndresSM (~Andres@186.4.143.102) has quit (Read error: Connection reset by peer)
+2013-06-21 23:32:51	<--	nfk (~nfk@unaffiliated/kamijou-touma/x-3149615) has quit (Read error: Operation timed out)
+2013-06-21 23:34:39	-->	nfk (~nfk@85.255.72.64) has joined #transmission
+2013-06-21 23:34:39	<--	nfk (~nfk@85.255.72.64) has quit (Changing host)
+2013-06-21 23:34:39	-->	nfk (~nfk@unaffiliated/kamijou-touma/x-3149615) has joined #transmission
+2013-06-22 00:04:17	-->	Polleke (~quassel@h220216.upc-h.chello.nl) has joined #transmission
+2013-06-22 00:11:50	<--	cilly (pluto@unaffiliated/cilly) has left #transmission
+2013-06-22 00:20:23	<--	DocPlatypus (~skquinn@98.195.26.149) has quit (Ping timeout: 240 seconds)
+2013-06-22 00:21:04	-->	hemathor (~hemathor@p54A0076C.dip0.t-ipconnect.de) has joined #transmission
+2013-06-22 00:21:20	<--	djc (~djc@gentoo/developer/djc) has left #transmission
+2013-06-22 00:23:40	<--	elkng (~elkng@unaffiliated/elkng) has quit (Ping timeout: 256 seconds)
+2013-06-22 00:28:06	-->	elkng (~elkng@unaffiliated/elkng) has joined #transmission
+2013-06-22 00:28:21	<--	Polleke (~quassel@h220216.upc-h.chello.nl) has quit (Remote host closed the connection)
+2013-06-22 01:43:09	-->	jkfod (~Icedove@212-178-15-125.broadband.tenet.odessa.ua) has joined #transmission
+2013-06-22 01:44:16	-->	wereHamster (~tomc@azeroth.caurea.org) has joined #transmission
+2013-06-22 01:46:53	-->	Velociraptor85 (~Miranda@88.151.74.153) has joined #transmission
+2013-06-22 02:25:49	<--	chrisccoulson (~chr1s@ubuntu/member/chrisccoulson) has quit (Quit: OSError: [Errno 130] Owner died)
+2013-06-22 02:27:07	-->	d0k (~d0k@p5B3B1712.dip0.t-ipconnect.de) has joined #transmission
+2013-06-22 02:43:19	-->	bizarro_1 (~bizarro_1@246.Red-193-152-142.dynamicIP.rima-tde.net) has joined #transmission
+2013-06-22 03:18:07	<--	hemathor (~hemathor@p54A0076C.dip0.t-ipconnect.de) has quit
+2013-06-22 03:22:25	<--	hagabaka (~quassel@unaffiliated/hagabaka) has quit (Read error: Connection reset by peer)
+2013-06-22 03:25:13	-->	hagabaka (~quassel@unaffiliated/hagabaka) has joined #transmission
+2013-06-22 03:30:52	<--	Velociraptor85 (~Miranda@88.151.74.153) has quit (Ping timeout: 246 seconds)
+2013-06-22 03:36:37	-->	RanX_XeroX (~RanX_Xero@unaffiliated/ranx-xerox/x-1471846) has joined #transmission
+2013-06-22 03:46:05	-->	pierreghz (~krux@39.206-240-81.adsl-dyn.isp.belgacom.be) has joined #transmission
+2013-06-22 03:48:08	-->	HiddenWolf (~HiddenWol@095-096-047-159.static.chello.nl) has joined #transmission
+2013-06-22 03:53:34	<--	Bruce1953 (~Bruce1953@99-28-144-108.lightspeed.irvnca.sbcglobal.net) has quit
+2013-06-22 03:54:48	<--	HiddenWolf (~HiddenWol@095-096-047-159.static.chello.nl) has quit (Remote host closed the connection)
+2013-06-22 04:03:09	-->	nantou (~phonetic@gateway/tor-sasl/martinphone) has joined #transmission
+2013-06-22 04:13:18	<--	klaxa (~klaxa@klaxa.eu) has quit (Ping timeout: 264 seconds)
+2013-06-22 04:16:34	-->	klaxa (~klaxa@klaxa.eu) has joined #transmission
+2013-06-22 04:17:40	-->	Velociraptor85 (~Miranda@88.151.74.153) has joined #transmission
+2013-06-22 04:17:49	<--	Velociraptor85 (~Miranda@88.151.74.153) has quit (Client Quit)
+2013-06-22 04:18:31	-->	Velociraptor85 (~Miranda@88.151.74.153) has joined #transmission
+2013-06-22 04:32:19	-->	emmanuelux (~emmanuelu@192.123.25.109.rev.sfr.net) has joined #transmission
+2013-06-22 04:48:00	-->	LekeFly (~LekeFly@195.79-160-47.customer.lyse.net) has joined #transmission
+2013-06-22 05:37:13	<--	Velociraptor85 (~Miranda@88.151.74.153) has quit (Quit: Miranda IM! Smaller, Faster, Easier. http://miranda-im.org)
+2013-06-22 06:40:01	<--	spectro (~spectro@99-13-14-221.lightspeed.livnmi.sbcglobal.net) has quit (Remote host closed the connection)
+2013-06-22 07:05:02	<--	elkng (~elkng@unaffiliated/elkng) has quit (Ping timeout: 255 seconds)
+2013-06-22 07:07:02	-->	elkng (~elkng@unaffiliated/elkng) has joined #transmission
+2013-06-22 07:08:50	-->	hemathor (~hemathor@p54A0076C.dip0.t-ipconnect.de) has joined #transmission
+2013-06-22 07:09:45	<--	hemathor (~hemathor@p54A0076C.dip0.t-ipconnect.de) has quit (Remote host closed the connection)
+2013-06-22 07:10:16	-->	hemathor (~hemathor@p54A0076C.dip0.t-ipconnect.de) has joined #transmission
+2013-06-22 07:18:36	<--	nfk (~nfk@unaffiliated/kamijou-touma/x-3149615) has quit (Quit: yawn)
+2013-06-22 07:21:48	-->	nfk (~nfk@85.255.72.64) has joined #transmission
+2013-06-22 07:21:48	<--	nfk (~nfk@85.255.72.64) has quit (Changing host)
+2013-06-22 07:21:48	-->	nfk (~nfk@unaffiliated/kamijou-touma/x-3149615) has joined #transmission
+2013-06-22 08:10:35	<--	nantou (~phonetic@gateway/tor-sasl/martinphone) has quit (Quit: gone)
+2013-06-22 08:31:55	-->	hemathor_ (~hemathor@p54A0099D.dip0.t-ipconnect.de) has joined #transmission
+2013-06-22 08:35:23	<--	hemathor (~hemathor@p54A0076C.dip0.t-ipconnect.de) has quit (Ping timeout: 240 seconds)
+2013-06-22 09:06:11	<--	RanX_XeroX (~RanX_Xero@unaffiliated/ranx-xerox/x-1471846) has quit (Quit: General Order 9)
+2013-06-22 09:22:25	<--	jkfod (~Icedove@212-178-15-125.broadband.tenet.odessa.ua) has quit (Remote host closed the connection)
+2013-06-22 09:34:53	--	hemathor_ is now known as hemathor
+2013-06-22 09:37:32	<--	hemathor (~hemathor@p54A0099D.dip0.t-ipconnect.de) has quit
+2013-06-22 09:41:00	-->	Mimiko (~Mimiko@89.28.88.177) has joined #transmission
+2013-06-22 09:42:14	-->	AndresSM (~Andres@186.4.143.102) has joined #transmission
+2013-06-22 10:13:49	-->	makara (~makara@202.166.205.148) has joined #transmission
+2013-06-22 10:27:15	-->	hemathor (~hemathor@p54A0099D.dip0.t-ipconnect.de) has joined #transmission
+2013-06-22 10:31:02	-->	denisx (~denis@p5DDB9776.dip0.t-ipconnect.de) has joined #transmission
+2013-06-22 11:11:20	<--	heoyea (~heoyea@cpe-72-130-43-168.socal.res.rr.com) has left #transmission ("WeeChat 0.4.1")
+2013-06-22 11:30:05	-->	nantou (~phonetic@gateway/tor-sasl/martinphone) has joined #transmission
+2013-06-22 11:37:36	<--	makara (~makara@202.166.205.148) has quit (Quit: Leaving)
+2013-06-22 11:49:37	<--	iliv (~iliv@178.137.27.53) has quit (Ping timeout: 248 seconds)
+2013-06-22 12:48:09	<--	hemathor (~hemathor@p54A0099D.dip0.t-ipconnect.de) has quit
+2013-06-22 13:07:16	-->	denisx_ (~denis@195.160.173.4) has joined #transmission
+2013-06-22 13:07:44	<--	denisx (~denis@p5DDB9776.dip0.t-ipconnect.de) has quit (Ping timeout: 255 seconds)
+2013-06-22 13:07:44	--	denisx_ is now known as denisx
+2013-06-22 13:11:11	-->	chrisccoulson (~chr1s@ubuntu/member/chrisccoulson) has joined #transmission
+2013-06-22 13:15:49	<--	Mimiko (~Mimiko@89.28.88.177) has quit
+2013-06-22 13:21:03	-->	bp0 (~bp@223.222.2.96.wimax.dynamic.datatruck.com) has joined #transmission
+2013-06-22 13:21:03	<--	bp0 (~bp@223.222.2.96.wimax.dynamic.datatruck.com) has quit (Changing host)
+2013-06-22 13:21:03	-->	bp0 (~bp@unaffiliated/bp0) has joined #transmission
+2013-06-22 13:26:05	<--	nantou (~phonetic@gateway/tor-sasl/martinphone) has quit (Remote host closed the connection)
+2013-06-22 13:43:17	-->	nantou (~phonetic@gateway/tor-sasl/martinphone) has joined #transmission
+2013-06-22 14:02:43	<--	elkng (~elkng@unaffiliated/elkng) has quit (Read error: Operation timed out)
+2013-06-22 14:03:07	<--	bp0 (~bp@unaffiliated/bp0) has quit (Quit: Leaving)
+2013-06-22 14:05:46	-->	elkng (~elkng@unaffiliated/elkng) has joined #transmission
+2013-06-22 14:37:17	<--	AndresSM (~Andres@186.4.143.102) has quit (Ping timeout: 255 seconds)
+2013-06-22 15:06:35	<--	d0k (~d0k@p5B3B1712.dip0.t-ipconnect.de) has quit (Quit: he does that)
+2013-06-22 15:14:06	<--	denisx (~denis@195.160.173.4) has quit (Quit: denisx)
+2013-06-22 15:23:15	<--	nantou (~phonetic@gateway/tor-sasl/martinphone) has quit (Quit: gone)
+2013-06-22 15:23:41	<--	bizarro_1 (~bizarro_1@246.Red-193-152-142.dynamicIP.rima-tde.net) has quit (Quit: Leaving)
+2013-06-22 15:41:11	-->	bizarro_1 (~bizarro_1@246.Red-193-152-142.dynamicIP.rima-tde.net) has joined #transmission
+2013-06-22 15:53:26	-->	bloger (~blah@127-121-135-95.pool.ukrtel.net) has joined #transmission
+2013-06-22 15:56:27	<--	bloger (~blah@127-121-135-95.pool.ukrtel.net) has quit (Client Quit)
+2013-06-22 16:08:55	-->	AndresSM (~Andres@186.4.143.102) has joined #transmission
+2013-06-22 16:26:48	-->	nantou (~phonetic@gateway/tor-sasl/martinphone) has joined #transmission
+2013-06-22 18:11:32	<--	AndresSM (~Andres@186.4.143.102) has quit (Quit: I'm out!)
+2013-06-22 18:11:55	-->	AndresSM (~Andres@186.4.143.102) has joined #transmission
+2013-06-22 18:31:40	<--	nfk (~nfk@unaffiliated/kamijou-touma/x-3149615) has quit (Quit: yawn)
+2013-06-22 19:54:42	<--	nantou (~phonetic@gateway/tor-sasl/martinphone) has quit (Quit: gone)
+2013-06-22 20:04:43	<--	Tango_und_Cash_ (~Tango_und@p5DC8C584.dip0.t-ipconnect.de) has quit (Ping timeout: 264 seconds)
+2013-06-22 20:17:08	-->	Tango_und_Cash_ (~Tango_und@93.200.207.26) has joined #transmission
+2013-06-22 20:48:34	-->	recalrico (~recalrico@S0106001ff3f6804a.cg.shawcable.net) has joined #transmission
+2013-06-22 21:13:30	-->	iliv (~iliv@178.137.27.53) has joined #transmission
+2013-06-22 21:30:17	<--	emmanuelux (~emmanuelu@192.123.25.109.rev.sfr.net) has quit (Quit: emmanuelux)
+2013-06-22 21:56:02	<--	bizarro_1 (~bizarro_1@246.Red-193-152-142.dynamicIP.rima-tde.net) has quit (Quit: Leaving)
+2013-06-22 23:01:40	-->	hemathor (~hemathor@p54A0099D.dip0.t-ipconnect.de) has joined #transmission
+2013-06-22 23:40:00	<--	recalrico (~recalrico@S0106001ff3f6804a.cg.shawcable.net) has quit (Remote host closed the connection)
+2013-06-22 23:40:27	-->	recalrico (~recalrico@S0106001ff3f6804a.cg.shawcable.net) has joined #transmission
+2013-06-22 23:47:52	<--	recalrico (~recalrico@S0106001ff3f6804a.cg.shawcable.net) has quit (Ping timeout: 256 seconds)
+2013-06-23 00:35:59	<--	hemathor (~hemathor@p54A0099D.dip0.t-ipconnect.de) has quit
+2013-06-23 00:46:48	-->	Polleke (~quassel@h220216.upc-h.chello.nl) has joined #transmission
+2013-06-23 01:07:31	-->	hemathor (~hemathor@p54A0099D.dip0.t-ipconnect.de) has joined #transmission
+2013-06-23 01:45:47	<--	SeySayux (SeySayux@libsylph/developer/seysayux) has quit (Ping timeout: 252 seconds)
+2013-06-23 01:48:39	-->	SeySayux (SeySayux@libsylph/developer/seysayux) has joined #transmission
+2013-06-23 02:00:47	-->	d0k (~d0k@p5B3B3A8B.dip0.t-ipconnect.de) has joined #transmission
+2013-06-23 02:19:50	-->	emmanuelux (~emmanuelu@192.123.25.109.rev.sfr.net) has joined #transmission
+2013-06-23 02:32:35	<--	emmanuelux (~emmanuelu@192.123.25.109.rev.sfr.net) has quit (Quit: emmanuelux)
+2013-06-23 02:55:45	-->	nfk (~nfk@85.255.72.64) has joined #transmission
+2013-06-23 02:55:45	<--	nfk (~nfk@85.255.72.64) has quit (Changing host)
+2013-06-23 02:55:45	-->	nfk (~nfk@unaffiliated/kamijou-touma/x-3149615) has joined #transmission
+2013-06-23 02:57:57	-->	Alessandrovano (~Alessandr@79.40.142.17) has joined #transmission
+2013-06-23 02:58:10	<--	Alessandrovano (~Alessandr@79.40.142.17) has left #transmission
+2013-06-23 03:06:39	<--	Polleke (~quassel@h220216.upc-h.chello.nl) has quit (Remote host closed the connection)
+2013-06-23 03:45:06	<--	hemathor (~hemathor@p54A0099D.dip0.t-ipconnect.de) has quit
+2013-06-23 03:55:14	-->	Bruce1953 (Bruce1953@99-28-144-108.lightspeed.irvnca.sbcglobal.net) has joined #transmission
+2013-06-23 03:57:16	Bruce1953	I am on Centos 6.4 x 64 my Transmission  says it is up to date but is at 2.33 how  do i get it  closer to 2.77?
+2013-06-23 03:58:39	Bruce1953	Do I need to add a repository?
+2013-06-23 03:59:29	-->	CrazyLemon (2Irt6C7uwY@BSN-77-143-220.static.dsl.siol.net) has joined #transmission
+2013-06-23 04:07:01	Bruce1953	please note the Geekery  repository is installed, but i am  not  sure I am using it.
+2013-06-23 04:48:53	-->	jkfod (~Icedove@212-178-15-125.broadband.tenet.odessa.ua) has joined #transmission
+2013-06-23 05:04:15	-->	hemathor (~hemathor@p54A0099D.dip0.t-ipconnect.de) has joined #transmission
+2013-06-23 05:11:11	geirha	That's more of a CentOS question; where to get an updated centos rpm for transmission
+2013-06-23 05:11:33	geirha	Otherwise you could build it from source
+2013-06-23 05:14:12	geirha	Bruce1953: ^
+2013-06-23 05:24:09	-->	bizarro_1 (~bizarro_1@80.30.234.84) has joined #transmission
+2013-06-23 06:32:25	<--	Crotch[OFF] (~Crotch@89.221.241.83) has quit (Ping timeout: 246 seconds)
+2013-06-23 06:32:54	-->	nantou (~phonetic@gateway/tor-sasl/martinphone) has joined #transmission
+2013-06-23 06:37:44	-->	Crotch[OFF] (~Crotch@89.221.241.83) has joined #transmission
+2013-06-23 06:37:45	--	Crotch[OFF] is now known as Crotch
+2013-06-23 07:05:19	<--	elkng (~elkng@unaffiliated/elkng) has quit (Ping timeout: 264 seconds)
+2013-06-23 07:07:07	-->	elkng (~elkng@unaffiliated/elkng) has joined #transmission
+2013-06-23 07:11:28	Lacrocivious	Bruce1953: There's a help section on the wiki for building with CentOS 5.4 but it may still be useful for 6.4: https://trac.transmissionbt.com/wiki/Building
+2013-06-23 08:06:36	-->	emmanuelux (~emmanuelu@192.123.25.109.rev.sfr.net) has joined #transmission
+2013-06-23 08:09:02	-->	paxcoder (~Icedove@unaffiliated/paxcoder) has joined #transmission
+2013-06-23 08:09:42	paxcoder	I think Transmission is creating a weirdly-named directory in my home directory
+2013-06-23 08:10:32	paxcoder	And when adding new torrents, it offers to download there
+2013-06-23 08:11:25	paxcoder	weirdly-named because it consists of utf-8 chars (3 in total, so far)
+2013-06-23 08:11:35	paxcoder	I remove it, another, named according to the same pattern appears
+2013-06-23 08:11:59	<--	paxcoder (~Icedove@unaffiliated/paxcoder) has quit (Quit: paxcoder)
+2013-06-23 08:17:53	<--	Bruce1953 (Bruce1953@99-28-144-108.lightspeed.irvnca.sbcglobal.net) has quit
+2013-06-23 08:19:34	<--	nfk (~nfk@unaffiliated/kamijou-touma/x-3149615) has quit (Quit: yawn)
+2013-06-23 08:34:55	-->	hemathor_ (~hemathor@p54A00EEE.dip0.t-ipconnect.de) has joined #transmission
+2013-06-23 08:35:37	<--	hemathor (~hemathor@p54A0099D.dip0.t-ipconnect.de) has quit (Ping timeout: 246 seconds)
+2013-06-23 09:04:09	<--	jordan (~jordan@unaffiliated/jordan) has quit (Read error: Operation timed out)
+2013-06-23 09:04:23	-->	jordan (~jordan@unaffiliated/jordan) has joined #transmission
+2013-06-23 09:04:23	--	Mode #transmission [+o jordan] by ChanServ
+2013-06-23 09:08:36	-->	recalrico (~recalrico@S0106001ff3f6804a.cg.shawcable.net) has joined #transmission
+2013-06-23 10:48:05	<--	nantou (~phonetic@gateway/tor-sasl/martinphone) has quit (Quit: gone)
+2013-06-23 10:57:28	--	hemathor_ is now known as hemathor
+2013-06-23 11:07:03	<--	SirCmpwn (~SirCmpwn@unaffiliated/sircmpwn) has quit (Ping timeout: 245 seconds)
+2013-06-23 11:07:38	<--	hemathor (~hemathor@p54A00EEE.dip0.t-ipconnect.de) has quit
+2013-06-23 11:12:55	-->	SirCmpwn (~SirCmpwn@unaffiliated/sircmpwn) has joined #transmission
+2013-06-23 11:22:27	<--	jkfod (~Icedove@212-178-15-125.broadband.tenet.odessa.ua) has quit (Remote host closed the connection)
+2013-06-23 11:24:25	<--	emmanuelux (~emmanuelu@192.123.25.109.rev.sfr.net) has quit (Quit: emmanuelux)
+2013-06-23 11:34:05	-->	Velociraptor85 (~Miranda@88.151.74.153) has joined #transmission
+2013-06-23 11:59:43	-->	emmanuelux (~emmanuelu@192.123.25.109.rev.sfr.net) has joined #transmission
+2013-06-23 12:15:55	<--	iliv (~iliv@178.137.27.53) has quit (Read error: Operation timed out)
+2013-06-23 13:15:21	-->	DocPlatypus (~skquinn@98.195.26.149) has joined #transmission
+2013-06-23 13:38:21	-->	nantou (~phonetic@gateway/tor-sasl/martinphone) has joined #transmission
+2013-06-23 14:01:52	<--	Velociraptor85 (~Miranda@88.151.74.153) has quit (Ping timeout: 276 seconds)
+2013-06-23 14:04:07	<--	elkng (~elkng@unaffiliated/elkng) has quit (Ping timeout: 264 seconds)
+2013-06-23 14:04:19	-->	Velociraptor85 (~Miranda@88.151.74.153) has joined #transmission
+2013-06-23 14:05:27	-->	elkng (~elkng@unaffiliated/elkng) has joined #transmission
+2013-06-23 14:08:46	<--	AndresSM (~Andres@186.4.143.102) has quit (Read error: Connection reset by peer)
+2013-06-23 14:11:40	-->	m0ltar (~moltar@modemcable046.153-176-173.mc.videotron.ca) has joined #transmission
+2013-06-23 14:14:01	<--	Velociraptor85 (~Miranda@88.151.74.153) has quit (Quit: Miranda IM! Smaller, Faster, Easier. http://miranda-im.org)
+2013-06-23 14:15:29	<--	m0ltar (~moltar@modemcable046.153-176-173.mc.videotron.ca) has quit (Client Quit)
+2013-06-23 14:25:33	<--	Lazybones (~Lazybones@S010614dae90961bc.vf.shawcable.net) has quit (Quit: That's it I Quit!)
+2013-06-23 14:31:31	-->	Lazybones (~Lazybones@S010614dae90961bc.vf.shawcable.net) has joined #transmission
+2013-06-23 14:42:04	<--	elkng (~elkng@unaffiliated/elkng) has left #transmission
+2013-06-23 14:54:36	<--	Lazybones (~Lazybones@S010614dae90961bc.vf.shawcable.net) has quit (Quit: That's it I Quit!)
+2013-06-23 15:01:31	-->	Lazybones (~Lazybones@S010614dae90961bc.vf.shawcable.net) has joined #transmission
+2013-06-23 15:07:22	<--	d0k (~d0k@p5B3B3A8B.dip0.t-ipconnect.de) has quit (Quit: he does that)
+2013-06-23 15:27:16	<--	CrazyLemon (2Irt6C7uwY@BSN-77-143-220.static.dsl.siol.net) has quit (Remote host closed the connection)
+2013-06-23 15:41:11	<--	dormoose (~dormoose@84-73-177-146.dclient.hispeed.ch) has quit (Ping timeout: 255 seconds)
+2013-06-23 15:43:47	-->	dormoose (~dormoose@84-73-177-146.dclient.hispeed.ch) has joined #transmission
+2013-06-23 15:48:33	<--	dormoose (~dormoose@84-73-177-146.dclient.hispeed.ch) has quit (Ping timeout: 248 seconds)
+2013-06-23 15:51:17	-->	dormoose (~dormoose@46-126-123-250.dynamic.hispeed.ch) has joined #transmission
+2013-06-23 15:55:47	<--	chrisccoulson (~chr1s@ubuntu/member/chrisccoulson) has quit (Quit: OSError: [Errno 130] Owner died)
+2013-06-23 15:56:05	-->	nfk (~nfk@85.255.72.64) has joined #transmission
+2013-06-23 15:56:05	<--	nfk (~nfk@85.255.72.64) has quit (Changing host)
+2013-06-23 15:56:05	-->	nfk (~nfk@unaffiliated/kamijou-touma/x-3149615) has joined #transmission
+2013-06-23 16:02:14	-->	hk328 (~hk328@eth59-167-137-105.static.internode.on.net) has joined #transmission
+2013-06-23 16:17:36	-->	redofrac (~redofrac@c-98-234-29-233.hsd1.ca.comcast.net) has joined #transmission
+2013-06-23 16:46:28	-->	AndresSM (~Andres@186.4.143.102) has joined #transmission

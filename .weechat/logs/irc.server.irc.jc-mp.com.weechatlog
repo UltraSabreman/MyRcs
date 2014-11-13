@@ -1,0 +1,130 @@
+2013-01-28 22:39:30		irc: connecting to server irc.jc-mp.com/6667...
+2013-01-28 22:39:31		irc: connected to irc.jc-mp.com/6667 (178.17.40.74)
+2013-01-28 22:39:31	--	irc.elephant.jc-mp.com (irc.elephant.jc-mp.com): *** Looking up your hostname...
+2013-01-28 22:39:31	--	irc.elephant.jc-mp.com (irc.elephant.jc-mp.com): *** Found your hostname
+2013-01-28 22:39:33	--	Welcome to the JC2-MP IRC IRC Network byelogur!byelogur@rita.cat.pdx.edu
+2013-01-28 22:39:33	--	Your host is irc.elephant.jc-mp.com, running version Unreal3.2.9
+2013-01-28 22:39:33	--	This server was created Sun Jul 29 2012 at 03:25:41 BST
+2013-01-28 22:39:33	--	irc.elephant.jc-mp.com Unreal3.2.9 iowghraAsORTVSxNCWqBzvdHtGp lvhopsmntikrRcaqOALQbSeIKVfMCuzNTGjZ
+2013-01-28 22:39:33	--	CMDS=KNOCK,MAP,DCCALLOW,USERIP UHNAMES NAMESX SAFELIST HCN MAXCHANNELS=10000 CHANLIMIT=#:10000 MAXLIST=b:60,e:60,I:60 NICKLEN=30 CHANNELLEN=32 TOPICLEN=307 KICKLEN=307 AWAYLEN=307 :are supported by this server
+2013-01-28 22:39:33	--	MAXTARGETS=20 WALLCHOPS WATCH=128 WATCHOPTS=A SILENCE=15 MODES=12 CHANTYPES=# PREFIX=(qaohv)~&@%+ CHANMODES=beI,kfL,lj,psmntirRcOAQKVCuzNSMTGZ NETWORK=JC2-MP-IRC CASEMAPPING=ascii EXTBAN=~,qjncrR ELIST=MNUCT :are supported by this server
+2013-01-28 22:39:33	--	STATUSMSG=~&@%+ EXCEPTS INVEX :are supported by this server
+2013-01-28 22:39:33	--	There are 8 users and 73 invisible on 7 servers
+2013-01-28 22:39:33	--	15 :operator(s) online
+2013-01-28 22:39:33	--	23 :channels formed
+2013-01-28 22:39:33	--	I have 19 clients and 1 servers
+2013-01-28 22:39:33	--	Current Local Users: 19  Max: 331
+2013-01-28 22:39:33	--	Current Global Users: 81  Max: 1822
+2013-01-28 22:39:33	--	- irc.elephant.jc-mp.com Message of the Day -
+2013-01-28 22:39:33	--	- 13/12/2012 14:25
+2013-01-28 22:39:33	--	-     _  ____ ____       __  __ ____  
+2013-01-28 22:39:33	--	-     | |/ ___|___ \     |  \/  |  _ \
+2013-01-28 22:39:33	--	-  _  | | |     __) |____| |\/| | |_) |
+2013-01-28 22:39:33	--	- | |_| | |___ / __/_____| |  | |  __/
+2013-01-28 22:39:33	--	-  \___/ \____|_____|    |_|  |_|_|    
+2013-01-28 22:39:33	--	-  JUST CAUSE 2 MULTIPLAYER
+2013-01-28 22:39:33	--	-                                     
+2013-01-28 22:39:33	--	- --------------------------------------------
+2013-01-28 22:39:33	--	- = WELCOME TO THE JC2-MP IRC SERVER
+2013-01-28 22:39:33	--	- --------------------------------------------
+2013-01-28 22:39:33	--	- ========
+2013-01-28 22:39:33	--	- Website:	http://www.jc-mp.com
+2013-01-28 22:39:33	--	- ========
+2013-01-28 22:39:33	--	- Twitter:	http://twitter.com/#/jc2mpdev
+2013-01-28 22:39:33	--	- ========
+2013-01-28 22:39:33	--	- Facebook:	https://www.facebook.com/jc2mp
+2013-01-28 22:39:33	--	- ========
+2013-01-28 22:39:33	--	- FAQ:		http://www.jc-mp.info/index.php/Frequently_Asked_Questions
+2013-01-28 22:39:33	--	- ========
+2013-01-28 22:39:33	--	-
+2013-01-28 22:39:33	--	- --------------------------------------------
+2013-01-28 22:39:33	--	- = RULES
+2013-01-28 22:39:33	--	- --------------------------------------------
+2013-01-28 22:39:33	--	-
+2013-01-28 22:39:33	--	- - No spamming/flooding
+2013-01-28 22:39:33	--	-
+2013-01-28 22:39:33	--	- - No anti-social behavior.
+2013-01-28 22:39:33	--	-
+2013-01-28 22:39:33	--	- - No inappropriate advertising
+2013-01-28 22:39:33	--	-
+2013-01-28 22:39:33	--	- - Proxy connections may be refused
+2013-01-28 22:39:33	--	-
+2013-01-28 22:39:33	--	- - English is preferred in English language channels.
+2013-01-28 22:39:33	--	-
+2013-01-28 22:39:33	--	- - JC2-MP IRC follows a two-strike policy.
+2013-01-28 22:39:33	--	-   Your first offence you will recieve a warning or a kick based on severity
+2013-01-28 22:39:33	--	-   Second offence you will recieve a temporary or permanent ban from the channel
+2013-01-28 22:39:33	--	End of /MOTD command.
+2013-01-28 22:39:33	--	User mode [+iwx] by byelogur
+2013-01-28 22:40:40	--	Rico (oneday@they.will.write.books.about.all.of.this): [#jc2-mp] Please read the FAQ before asking a question! http://www.jc-mp.info/index.php/Frequently_Asked_Questions
+2013-01-29 12:53:55	=!=	irc: this buffer is not a channel!
+2013-01-29 12:54:06	=!=	irc: this buffer is not a channel!
+2013-01-29 12:55:09	=!=	irc: this buffer is not a channel!
+2013-01-29 13:00:32	=!=	irc: this buffer is not a channel!
+2013-01-29 13:04:35	=!=	irc: this buffer is not a channel!
+2013-01-29 13:19:31	=!=	irc: this buffer is not a channel!
+2013-01-29 13:21:46	=!=	irc: this buffer is not a channel!
+2013-01-29 13:24:28	=!=	irc: this buffer is not a channel!
+2013-01-31 12:09:44		irc: connecting to server irc.jc-mp.com/6667...
+2013-01-31 12:09:45		irc: connected to irc.jc-mp.com/6667 (158.255.211.25)
+2013-01-31 12:09:45	--	irc.dolphin.jc-mp.com (irc.dolphin.jc-mp.com): *** Looking up your hostname...
+2013-01-31 12:09:46	--	irc.dolphin.jc-mp.com (irc.dolphin.jc-mp.com): *** Found your hostname
+2013-01-31 12:09:46	--	Welcome to the JC2-MP IRC IRC Network byelogur!byelogur@rita.cat.pdx.edu
+2013-01-31 12:09:46	--	Your host is irc.dolphin.jc-mp.com, running version Unreal3.2.9
+2013-01-31 12:09:46	--	This server was created Sun Jul 29 2012 at 04:25:35 CEST
+2013-01-31 12:09:46	--	irc.dolphin.jc-mp.com Unreal3.2.9 iowghraAsORTVSxNCWqBzvdHtGp lvhopsmntikrRcaqOALQbSeIKVfMCuzNTGjZ
+2013-01-31 12:09:46	--	UHNAMES NAMESX SAFELIST HCN MAXCHANNELS=10000 CHANLIMIT=#:10000 MAXLIST=b:60,e:60,I:60 NICKLEN=30 CHANNELLEN=32 TOPICLEN=307 KICKLEN=307 AWAYLEN=307 MAXTARGETS=20 :are supported by this server
+2013-01-31 12:09:46	--	WALLCHOPS WATCH=128 WATCHOPTS=A SILENCE=15 MODES=12 CHANTYPES=# PREFIX=(qaohv)~&@%+ CHANMODES=beI,kfL,lj,psmntirRcOAQKVCuzNSMTGZ NETWORK=JC2-MP-IRC CASEMAPPING=ascii EXTBAN=~,qjncrR ELIST=MNUCT STATUSMSG=~&@%+ :are supported by this server
+2013-01-31 12:09:46	--	EXCEPTS INVEX CMDS=KNOCK,MAP,DCCALLOW,USERIP :are supported by this server
+2013-01-31 12:09:46	--	There are 8 users and 101 invisible on 7 servers
+2013-01-31 12:09:46	--	14 :operator(s) online
+2013-01-31 12:09:46	--	25 :channels formed
+2013-01-31 12:09:46	--	I have 15 clients and 1 servers
+2013-01-31 12:09:46	--	Current Local Users: 15  Max: 299
+2013-01-31 12:09:46	--	Current Global Users: 109  Max: 1822
+2013-01-31 12:09:46	--	- irc.dolphin.jc-mp.com Message of the Day -
+2013-01-31 12:09:46	--	- 12/12/2012 21:30
+2013-01-31 12:09:46	--	-     _  ____ ____       __  __ ____  
+2013-01-31 12:09:46	--	-     | |/ ___|___ \     |  \/  |  _ \
+2013-01-31 12:09:46	--	-  _  | | |     __) |____| |\/| | |_) |
+2013-01-31 12:09:46	--	- | |_| | |___ / __/_____| |  | |  __/
+2013-01-31 12:09:46	--	-  \___/ \____|_____|    |_|  |_|_|    
+2013-01-31 12:09:46	--	-  JUST CAUSE 2 MULTIPLAYER
+2013-01-31 12:09:46	--	-                                     
+2013-01-31 12:09:46	--	- --------------------------------------------
+2013-01-31 12:09:46	--	- = WELCOME TO THE JC2-MP IRC SERVER
+2013-01-31 12:09:46	--	- --------------------------------------------
+2013-01-31 12:09:46	--	- ========
+2013-01-31 12:09:46	--	- Website:	http://www.jc-mp.com
+2013-01-31 12:09:46	--	- ========
+2013-01-31 12:09:46	--	- Twitter:	http://twitter.com/#/jc2mpdev
+2013-01-31 12:09:46	--	- ========
+2013-01-31 12:09:46	--	- Facebook:	https://www.facebook.com/jc2mp
+2013-01-31 12:09:46	--	- ========
+2013-01-31 12:09:46	--	- FAQ:		http://www.jc-mp.info/index.php/Frequently_Asked_Questions
+2013-01-31 12:09:46	--	- ========
+2013-01-31 12:09:46	--	-
+2013-01-31 12:09:46	--	- --------------------------------------------
+2013-01-31 12:09:46	--	- = RULES
+2013-01-31 12:09:46	--	- --------------------------------------------
+2013-01-31 12:09:46	--	-
+2013-01-31 12:09:46	--	- - No spamming/flooding
+2013-01-31 12:09:46	--	-
+2013-01-31 12:09:46	--	- - No anti-social behavior.
+2013-01-31 12:09:46	--	-
+2013-01-31 12:09:46	--	- - No inappropriate advertising
+2013-01-31 12:09:46	--	-
+2013-01-31 12:09:46	--	- - Proxy connections may be refused
+2013-01-31 12:09:46	--	-
+2013-01-31 12:09:46	--	- - English is preferred in English language channels.
+2013-01-31 12:09:46	--	-
+2013-01-31 12:09:46	--	- - JC2-MP IRC follows a two-strike policy.
+2013-01-31 12:09:46	--	-   Your first offence you will recieve a warning or a kick based on severity
+2013-01-31 12:09:46	--	-   Second offence you will recieve a temporary or permanent ban from the channel
+2013-01-31 12:09:46	--	End of /MOTD command.
+2013-01-31 12:09:46	--	User mode [+iwx] by byelogur
+2013-01-31 12:10:05	--	Rico (oneday@they.will.write.books.about.all.of.this): [#jc2-mp] Please read the FAQ before asking a question! http://www.jc-mp.info/index.php/Frequently_Asked_Questions
+2013-01-31 12:24:29	--	[Rico] (oneday@they.will.write.books.about.all.of.this): Rico Rodriguez
+2013-01-31 12:24:29	--	[Rico] is a Network Service
+2013-01-31 12:24:29	--	[Rico] End of /WHOIS list.
+2013-02-07 12:32:56		irc: disconnected from server

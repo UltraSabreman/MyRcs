@@ -1,0 +1,45 @@
+2014-07-20 21:31:33	--	irc: connecting to server irc.foonetic.net/6667...
+2014-07-20 21:31:34	--	irc: connected to irc.foonetic.net/6667 (178.79.176.77)
+2014-07-20 21:31:34	--	anchor.foonetic.net (anchor.foonetic.net): *** Looking up your hostname...
+2014-07-20 21:31:34	--	anchor.foonetic.net (anchor.foonetic.net): *** Found your hostname
+2014-07-20 21:31:35	--	Welcome to the Foonetic IRC Network sabreman!sabreman@rita.cat.pdx.edu
+2014-07-20 21:31:35	--	Your host is anchor.foonetic.net, running version Unreal3.2.10.1
+2014-07-20 21:31:35	--	This server was created Sat Jun 1 2013 at 14:02:40 PDT
+2014-07-20 21:31:35	--	anchor.foonetic.net Unreal3.2.10.1 iowghraAsORTVSxNCWqBzvdHtGpI lvhopsmntikrRcaqOALQbSeIKVfMCuzNTGjZ
+2014-07-20 21:31:35	--	CMDS=KNOCK,MAP,DCCALLOW,USERIP,STARTTLS UHNAMES NAMESX SAFELIST HCN MAXCHANNELS=40 CHANLIMIT=#:40 MAXLIST=b:600,e:600,I:600 NICKLEN=30 CHANNELLEN=32 TOPICLEN=307 KICKLEN=307 AWAYLEN=307 :are supported by this server
+2014-07-20 21:31:35	--	MAXTARGETS=20 WALLCHOPS WATCH=128 WATCHOPTS=A SILENCE=15 MODES=12 CHANTYPES=# PREFIX=(qaohv)~&@%+ CHANMODES=beI,kfL,lj,psmntirRcOAQKVCuzNSMTGZ NETWORK=Foonetic CASEMAPPING=ascii EXTBAN=~,qjncrRa ELIST=MNUCT :are supported by this server
+2014-07-20 21:31:35	--	STATUSMSG=~&@%+ EXCEPTS INVEX :are supported by this server
+2014-07-20 21:31:35	--	There are 522 users and 750 invisible on 7 servers
+2014-07-20 21:31:35	--	14 :operator(s) online
+2014-07-20 21:31:35	--	472 :channels formed
+2014-07-20 21:31:35	--	I have 345 clients and 1 servers
+2014-07-20 21:31:35	--	345 649 :Current local users 345, max 649
+2014-07-20 21:31:35	--	1272 1910 :Current global users 1272, max 1910
+2014-07-20 21:31:35	--	- anchor.foonetic.net Message of the Day -
+2014-07-20 21:31:35	--	- 17/6/2014 17:14
+2014-07-20 21:31:35	--	-      __                        _   _
+2014-07-20 21:31:35	--	-     / _| ___   ___  _ __   ___| |_(_) ___
+2014-07-20 21:31:35	--	-    | |_ / _ \ / _ \| '_ \ / _ \ __| |/ __|
+2014-07-20 21:31:35	--	-    |  _| (_) | (_) | | | |  __/ |_| | (__
+2014-07-20 21:31:35	--	-    |_|  \___/ \___/|_| |_|\___|\__|_|\___|
+2014-07-20 21:31:35	--	-
+2014-07-20 21:31:35	--	-  Welcome to Foonetic IRC @ anchor.foonetic.net
+2014-07-20 21:31:35	--	-             London, England, UK
+2014-07-20 21:31:35	--	-
+2014-07-20 21:31:35	--	-        Server Administrator:   zigdon
+2014-07-20 21:31:35	--	-
+2014-07-20 21:31:35	--	-            http://foonetic.net/
+2014-07-20 21:31:35	--	-
+2014-07-20 21:31:35	--	-        To get help or find IRCops:
+2014-07-20 21:31:35	--	-                 #help
+2014-07-20 21:31:35	--	-
+2014-07-20 21:31:35	--	-        Random server: irc.foonetic.net
+2014-07-20 21:31:35	--	-
+2014-07-20 21:31:35	--	-        To see the rules, type /quote rules
+2014-07-20 21:31:35	--	-
+2014-07-20 21:31:35	--	-        Port: 80 (ipv4), 6667, 6668, 6669, 7000
+2014-07-20 21:31:35	--	-        SSL Ports: 443 (ipv4), 6697, 7001
+2014-07-20 21:31:35	--	-
+2014-07-20 21:31:35	--	End of /MOTD command.
+2014-07-20 21:31:35	--	User mode [+wx] by sabreman
+2014-07-20 21:31:35	--	NickServ (NickServ@services.foonetic.net): Welcome to Foonetic, sabreman! Here on Foonetic, we provide services to enable the registration of nicknames and channels! For details, type /msg NickServ help and /msg ChanServ help.

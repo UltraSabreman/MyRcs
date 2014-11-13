@@ -1,0 +1,206 @@
+2013-06-30 23:20:55		irc: connecting to server irc.coldfront.net/6667...
+2013-06-30 23:20:56		irc: connected to irc.coldfront.net/6667 (80.94.68.71)
+2013-06-30 23:20:56	--	ice.coldfront.net (ice.coldfront.net): *** Looking up your hostname...
+2013-06-30 23:20:57	--	ice.coldfront.net (ice.coldfront.net): *** Found your hostname
+2013-06-30 23:20:57	--	Welcome to the Coldfront IRC Network sabreman!sabreman@rita.cat.pdx.edu
+2013-06-30 23:20:57	--	Your host is ice.coldfront.net, running version Unreal3.2.9
+2013-06-30 23:20:57	--	This server was created Wed Jan 11 2012 at 15:05:26 CET
+2013-06-30 23:20:57	--	ice.coldfront.net Unreal3.2.9 iowghraAsORTVSxNCWqBzvdHtGp lvhopsmntikrRcaqOALQbSeIKVfMCuzNTGjZ
+2013-06-30 23:20:57	--	UHNAMES NAMESX SAFELIST HCN MAXCHANNELS=40 CHANLIMIT=#:40 MAXLIST=b:60,e:60,I:60 NICKLEN=30 CHANNELLEN=32 TOPICLEN=307 KICKLEN=307 AWAYLEN=307 MAXTARGETS=20 :are supported by this server
+2013-06-30 23:20:57	--	WALLCHOPS WATCH=128 WATCHOPTS=A SILENCE=15 MODES=12 CHANTYPES=# PREFIX=(qaohv)~&@%+ CHANMODES=beI,kfL,lj,psmntirRcOAQKVCuzNSMTGZ NETWORK=Coldfront CASEMAPPING=ascii EXTBAN=~,qjncrR ELIST=MNUCT STATUSMSG=~&@%+ :are supported by this server
+2013-06-30 23:20:57	--	EXCEPTS INVEX CMDS=KNOCK,MAP,DCCALLOW,USERIP :are supported by this server
+2013-06-30 23:20:57	--	There are 6 users and 1353 invisible on 7 servers
+2013-06-30 23:20:57	--	13 :operator(s) online
+2013-06-30 23:20:57	--	1 :unknown connection(s)
+2013-06-30 23:20:57	--	1956 :channels formed
+2013-06-30 23:20:57	--	I have 330 clients and 1 servers
+2013-06-30 23:20:57	--	Current Local Users: 330  Max: 437
+2013-06-30 23:20:57	--	Current Global Users: 1359  Max: 4005
+2013-06-30 23:20:57	--	- ice.coldfront.net Message of the Day -
+2013-06-30 23:20:57	--	- 3/5/2012 21:10
+2013-06-30 23:20:57	--	- Founded May 10th, 2002
+2013-06-30 23:20:57	--	-
+2013-06-30 23:20:57	--	- The Coldfront Network is dedicated to gaming community clans and
+2013-06-30 23:20:57	--	- guilds. Our primary goal and interest is to make YOU, our guest
+2013-06-30 23:20:57	--	- feel at home on our network. We try and keep the rules very simple
+2013-06-30 23:20:57	--	- to allow for enjoyment and a good chatting environment.
+2013-06-30 23:20:57	--	-
+2013-06-30 23:20:57	--	- RULES: Please use the /rules command. Basic summary: play nice.
+2013-06-30 23:20:57	--	-
+2013-06-30 23:20:57	--	- Individual channels may have additional rules that you must also
+2013-06-30 23:20:57	--	- abide by if you wish to use them.
+2013-06-30 23:20:57	--	-
+2013-06-30 23:20:57	--	- Please respect our other guests on the network and all will be well.
+2013-06-30 23:20:57	--	-
+2013-06-30 23:20:57	--	- We do reserve the right to deny anyone access to the Coldfront Network.
+2013-06-30 23:20:57	--	-
+2013-06-30 23:20:57	--	- Please visit http://www.coldfront.net/privacy-policy for our
+2013-06-30 23:20:57	--	- privacy policy.
+2013-06-30 23:20:57	--	-
+2013-06-30 23:20:57	--	- -------------------------------------------------------------------
+2013-06-30 23:20:57	--	- IRC Server List
+2013-06-30 23:20:57	--	- -------------------------------------------------------------------
+2013-06-30 23:20:57	--	-
+2013-06-30 23:20:57	--	- irc.coldfront.net (random server)
+2013-06-30 23:20:57	--	-
+2013-06-30 23:20:57	--	- frozen.coldfront.net    Dallas, TX
+2013-06-30 23:20:57	--	- polar.coldfront.net     Newark, NJ
+2013-06-30 23:20:57	--	- stark.coldfront.net     Fremont, CA
+2013-06-30 23:20:57	--	-
+2013-06-30 23:20:57	--	- ice.coldfront.net       Amsterdam,NL
+2013-06-30 23:20:57	--	- snow.coldfront.net      London, UK
+2013-06-30 23:20:57	--	- burizado.coldfront.net  Tokyo, JP
+2013-06-30 23:20:57	--	-
+2013-06-30 23:20:57	--	- Ports 6667, 8080 and SSL 7778
+2013-06-30 23:20:57	--	-
+2013-06-30 23:20:57	--	- NOTE: All server to server communication is encrypted with SSL
+2013-06-30 23:20:57	--	-
+2013-06-30 23:20:57	--	- -------------------------------------------------------------------
+2013-06-30 23:20:57	--	- Services
+2013-06-30 23:20:57	--	- -------------------------------------------------------------------
+2013-06-30 23:20:57	--	-
+2013-06-30 23:20:57	--	- /NickServ help commands - /ns may be substituted
+2013-06-30 23:20:57	--	- /ChanServ help commands - /cs may be substituted
+2013-06-30 23:20:57	--	- /MemoServ help commands - /ms may be substituted
+2013-06-30 23:20:57	--	-
+2013-06-30 23:20:57	--	- -------------------------------------------------------------------
+2013-06-30 23:20:57	--	- IRC Staff
+2013-06-30 23:20:57	--	- -------------------------------------------------------------------
+2013-06-30 23:20:57	--	-
+2013-06-30 23:20:57	--	- Server Admins:
+2013-06-30 23:20:57	--	-
+2013-06-30 23:20:57	--	-      Mag        - Server Admin  - Born to drink...
+2013-06-30 23:20:57	--	-      Merlin     - Server Admin  - I eat Harry Potter for breakfast
+2013-06-30 23:20:57	--	- 	
+2013-06-30 23:20:57	--	- IRCops:
+2013-06-30 23:20:57	--	-
+2013-06-30 23:20:57	--	-      FrostByghte - Owner, Coldfront LLC
+2013-06-30 23:20:57	--	-
+2013-06-30 23:20:57	--	-      \ aka BackSlash   - Because pronouncability is for MVWTXLFPKs.
+2013-06-30 23:20:57	--	-      Citizenkane       - Pestering FrostByghte forever
+2013-06-30 23:20:57	--	-      Diaego            - Radio monkey
+2013-06-30 23:20:57	--	-      Entity            - Purr! =^.^=
+2013-06-30 23:20:57	--	-      gluon             - morn
+2013-06-30 23:20:57	--	-      Lane/Rainbooty    - I am the mooodle of a moodern major general!
+2013-06-30 23:20:57	--	-      PepsiTab          - Look Mister Bubbles, it's an ANGEL!
+2013-06-30 23:20:57	--	-      Renril            - Meow! =^.^=
+2013-06-30 23:20:57	--	-      Singe             - frost is not a hillbilly
+2013-06-30 23:20:57	--	-      syberghost        - Hello, I am syberghost and I kill u fadder
+2013-06-30 23:20:57	--	-      Vertex            - I'm graduating on Coldfront
+2013-06-30 23:20:57	--	-
+2013-06-30 23:20:57	--	- Join #irchelp for any network problems you may need help with.
+2013-06-30 23:20:57	--	- Use /helpop for help with commands, user modes and channels modes.
+2013-06-30 23:20:57	--	- Please email irc@coldfront.net with any questions or concerns.
+2013-06-30 23:20:57	--	-
+2013-06-30 23:20:57	--	- We hope you enjoy your time on Coldfront IRC!
+2013-06-30 23:20:57	--	-
+2013-06-30 23:20:57	--	- -------------------------------------------------------------------
+2013-06-30 23:20:57	--	End of /MOTD command.
+2013-06-30 23:20:57	--	User mode [+iwx] by sabreman
+2013-06-30 23:20:57	--	Global (services@coldfront.net): [Logon News - Apr 04 2013] Check out some of our community channels! | Radio: #DigitalMayhem #eve-radio #newedenradio #subspace-radio | EVE: #eve #evetv | PotBS: #burningsea | Star Trek Online: #sto | Champions Online: #championsonline | CyberNations: #CyberNations | Star Wars: #tor #swtor | Project Terra: #project-terra | TV: #totalgamingtv | PixelNations: #pixelnations | Blame Frostbyghte for this message losing it's colo(u)rs.
+2013-06-30 23:20:57	--	Global (services@coldfront.net): [Logon News - Jan 16 2013] Coldfront has invaded social media! Facebook: https://www.facebook.com/Coldfront.net | Twitter: http://twitter.com/coldfrontnet | Steam: http://steamcommunity.com/groups/ColdfrontNet Come visit us! Bored? Can't find noone else to game? They'll always be someone to game with!
+2013-07-03 23:18:14	=!=	irc: reading data on socket: error 113 No route to host
+2013-07-03 23:18:14		irc: disconnecting from server...
+2013-07-03 23:18:14		irc: disconnected from server
+2013-07-03 23:18:14		irc: reconnecting to server in 10 seconds
+2013-07-03 23:18:24		irc: reconnecting to server...
+2013-07-03 23:18:24		irc: connecting to server irc.coldfront.net/6667...
+2013-07-03 23:18:30		irc: connected to irc.coldfront.net/6667 (80.94.68.71)
+2013-07-03 23:18:30	--	ice.coldfront.net (ice.coldfront.net): *** Looking up your hostname...
+2013-07-03 23:18:31	--	ice.coldfront.net (ice.coldfront.net): *** Found your hostname
+2013-07-03 23:18:31	--	Welcome to the Coldfront IRC Network sabreman!sabreman@rita.cat.pdx.edu
+2013-07-03 23:18:31	--	Your host is ice.coldfront.net, running version Unreal3.2.9
+2013-07-03 23:18:31	--	This server was created Wed Jan 11 2012 at 15:05:26 CET
+2013-07-03 23:18:31	--	ice.coldfront.net Unreal3.2.9 iowghraAsORTVSxNCWqBzvdHtGp lvhopsmntikrRcaqOALQbSeIKVfMCuzNTGjZ
+2013-07-03 23:18:31	--	UHNAMES NAMESX SAFELIST HCN MAXCHANNELS=40 CHANLIMIT=#:40 MAXLIST=b:60,e:60,I:60 NICKLEN=30 CHANNELLEN=32 TOPICLEN=307 KICKLEN=307 AWAYLEN=307 MAXTARGETS=20 :are supported by this server
+2013-07-03 23:18:31	--	WALLCHOPS WATCH=128 WATCHOPTS=A SILENCE=15 MODES=12 CHANTYPES=# PREFIX=(qaohv)~&@%+ CHANMODES=beI,kfL,lj,psmntirRcOAQKVCuzNSMTGZ NETWORK=Coldfront CASEMAPPING=ascii EXTBAN=~,qjncrR ELIST=MNUCT STATUSMSG=~&@%+ :are supported by this server
+2013-07-03 23:18:31	--	EXCEPTS INVEX CMDS=KNOCK,MAP,DCCALLOW,USERIP :are supported by this server
+2013-07-03 23:18:31	--	There are 6 users and 1372 invisible on 7 servers
+2013-07-03 23:18:31	--	13 :operator(s) online
+2013-07-03 23:18:31	--	1882 :channels formed
+2013-07-03 23:18:31	--	I have 303 clients and 1 servers
+2013-07-03 23:18:31	--	Current Local Users: 303  Max: 437
+2013-07-03 23:18:31	--	Current Global Users: 1378  Max: 4005
+2013-07-03 23:18:31	--	- ice.coldfront.net Message of the Day -
+2013-07-03 23:18:31	--	- 3/5/2012 21:10
+2013-07-03 23:18:31	--	- Founded May 10th, 2002
+2013-07-03 23:18:31	--	-
+2013-07-03 23:18:31	--	- The Coldfront Network is dedicated to gaming community clans and
+2013-07-03 23:18:31	--	- guilds. Our primary goal and interest is to make YOU, our guest
+2013-07-03 23:18:31	--	- feel at home on our network. We try and keep the rules very simple
+2013-07-03 23:18:31	--	- to allow for enjoyment and a good chatting environment.
+2013-07-03 23:18:31	--	-
+2013-07-03 23:18:31	--	- RULES: Please use the /rules command. Basic summary: play nice.
+2013-07-03 23:18:31	--	-
+2013-07-03 23:18:31	--	- Individual channels may have additional rules that you must also
+2013-07-03 23:18:31	--	- abide by if you wish to use them.
+2013-07-03 23:18:31	--	-
+2013-07-03 23:18:31	--	- Please respect our other guests on the network and all will be well.
+2013-07-03 23:18:31	--	-
+2013-07-03 23:18:31	--	- We do reserve the right to deny anyone access to the Coldfront Network.
+2013-07-03 23:18:31	--	-
+2013-07-03 23:18:31	--	- Please visit http://www.coldfront.net/privacy-policy for our
+2013-07-03 23:18:31	--	- privacy policy.
+2013-07-03 23:18:31	--	-
+2013-07-03 23:18:31	--	- -------------------------------------------------------------------
+2013-07-03 23:18:31	--	- IRC Server List
+2013-07-03 23:18:31	--	- -------------------------------------------------------------------
+2013-07-03 23:18:31	--	-
+2013-07-03 23:18:31	--	- irc.coldfront.net (random server)
+2013-07-03 23:18:31	--	-
+2013-07-03 23:18:31	--	- frozen.coldfront.net    Dallas, TX
+2013-07-03 23:18:31	--	- polar.coldfront.net     Newark, NJ
+2013-07-03 23:18:31	--	- stark.coldfront.net     Fremont, CA
+2013-07-03 23:18:31	--	-
+2013-07-03 23:18:31	--	- ice.coldfront.net       Amsterdam,NL
+2013-07-03 23:18:31	--	- snow.coldfront.net      London, UK
+2013-07-03 23:18:31	--	- burizado.coldfront.net  Tokyo, JP
+2013-07-03 23:18:31	--	-
+2013-07-03 23:18:31	--	- Ports 6667, 8080 and SSL 7778
+2013-07-03 23:18:31	--	-
+2013-07-03 23:18:31	--	- NOTE: All server to server communication is encrypted with SSL
+2013-07-03 23:18:31	--	-
+2013-07-03 23:18:31	--	- -------------------------------------------------------------------
+2013-07-03 23:18:31	--	- Services
+2013-07-03 23:18:31	--	- -------------------------------------------------------------------
+2013-07-03 23:18:31	--	-
+2013-07-03 23:18:31	--	- /NickServ help commands - /ns may be substituted
+2013-07-03 23:18:31	--	- /ChanServ help commands - /cs may be substituted
+2013-07-03 23:18:31	--	- /MemoServ help commands - /ms may be substituted
+2013-07-03 23:18:31	--	-
+2013-07-03 23:18:31	--	- -------------------------------------------------------------------
+2013-07-03 23:18:31	--	- IRC Staff
+2013-07-03 23:18:31	--	- -------------------------------------------------------------------
+2013-07-03 23:18:31	--	-
+2013-07-03 23:18:31	--	- Server Admins:
+2013-07-03 23:18:31	--	-
+2013-07-03 23:18:31	--	-      Mag        - Server Admin  - Born to drink...
+2013-07-03 23:18:31	--	-      Merlin     - Server Admin  - I eat Harry Potter for breakfast
+2013-07-03 23:18:31	--	- 	
+2013-07-03 23:18:31	--	- IRCops:
+2013-07-03 23:18:31	--	-
+2013-07-03 23:18:31	--	-      FrostByghte - Owner, Coldfront LLC
+2013-07-03 23:18:31	--	-
+2013-07-03 23:18:31	--	-      \ aka BackSlash   - Because pronouncability is for MVWTXLFPKs.
+2013-07-03 23:18:31	--	-      Citizenkane       - Pestering FrostByghte forever
+2013-07-03 23:18:31	--	-      Diaego            - Radio monkey
+2013-07-03 23:18:31	--	-      Entity            - Purr! =^.^=
+2013-07-03 23:18:31	--	-      gluon             - morn
+2013-07-03 23:18:31	--	-      Lane/Rainbooty    - I am the mooodle of a moodern major general!
+2013-07-03 23:18:31	--	-      PepsiTab          - Look Mister Bubbles, it's an ANGEL!
+2013-07-03 23:18:31	--	-      Renril            - Meow! =^.^=
+2013-07-03 23:18:31	--	-      Singe             - frost is not a hillbilly
+2013-07-03 23:18:31	--	-      syberghost        - Hello, I am syberghost and I kill u fadder
+2013-07-03 23:18:31	--	-      Vertex            - I'm graduating on Coldfront
+2013-07-03 23:18:31	--	-
+2013-07-03 23:18:31	--	- Join #irchelp for any network problems you may need help with.
+2013-07-03 23:18:31	--	- Use /helpop for help with commands, user modes and channels modes.
+2013-07-03 23:18:31	--	- Please email irc@coldfront.net with any questions or concerns.
+2013-07-03 23:18:31	--	-
+2013-07-03 23:18:31	--	- We hope you enjoy your time on Coldfront IRC!
+2013-07-03 23:18:31	--	-
+2013-07-03 23:18:31	--	- -------------------------------------------------------------------
+2013-07-03 23:18:31	--	End of /MOTD command.
+2013-07-03 23:18:31	--	User mode [+iwx] by sabreman
+2013-07-03 23:18:31	--	Global (services@coldfront.net): [Logon News - Apr 04 2013] Check out some of our community channels! | Radio: #DigitalMayhem #eve-radio #newedenradio #subspace-radio | EVE: #eve #evetv | PotBS: #burningsea | Star Trek Online: #sto | Champions Online: #championsonline | CyberNations: #CyberNations | Star Wars: #tor #swtor | Project Terra: #project-terra | TV: #totalgamingtv | PixelNations: #pixelnations | Blame Frostbyghte for this message losing it's colo(u)rs.
+2013-07-03 23:18:31	--	Global (services@coldfront.net): [Logon News - Jan 16 2013] Coldfront has invaded social media! Facebook: https://www.facebook.com/Coldfront.net | Twitter: http://twitter.com/coldfrontnet | Steam: http://steamcommunity.com/groups/ColdfrontNet Come visit us! Bored? Can't find noone else to game? They'll always be someone to game with!

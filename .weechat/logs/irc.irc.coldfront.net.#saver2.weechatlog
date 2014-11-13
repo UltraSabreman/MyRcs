@@ -1,0 +1,287 @@
+2013-06-30 23:21:05	-->	sabreman (sabreman@coldfront-231BBC8F.cat.pdx.edu) has joined #saver2
+2013-06-30 23:21:05	--	Topic for #saver2 is "::: Official Saver2 IRC Channel ::: http://ridetheclown.com/s2/ ~~~  | If you get 42 seconds of silence or RPC error 1039, try skipping less, listening to a different station, or another account. I can't fix these errors! They are caused by Pandora's servers. -ZZJ"
+2013-06-30 23:21:05	--	Topic set by ZigZagJoe on Tue, 23 Apr 2013 20:08:27
+2013-06-30 23:21:05	--	Nicks #saver2: [@pegasus @Unit193 %setkeh +Beansman +karbowiak angrysock GeorgeH J21 muchtall sabreman]
+2013-06-30 23:21:05	--	Channel #saver2: 10 nicks (2 ops, 1 halfop, 2 voices, 5 normals)
+2013-06-30 23:21:07	--	Mode #saver2 [+ntr]
+2013-06-30 23:21:07	--	Channel created on Tue, 20 Jul 2010 02:54:54
+2013-06-30 23:21:29	sabreman	So just wondering, what fonts does the pandora client use?
+2013-06-30 23:21:44	sabreman	I'm trying to run it in wine and it's missing quite a bit of the text.
+2013-06-30 23:22:01	sabreman	also the sproxy window is tiny and can't be resized
+2013-07-01 02:18:37	-->	alyssa (alyssa@coldfront-85F911AF.dynamic.guam.net) has joined #saver2
+2013-07-01 02:18:38	alyssa	SaverHelp! I need Saver2 help! OS: Microsoft Windows NT 6.1.7601 Service Pack 1, S2 v1.5 built 11/23/2012 4:13:01 PM CST; 10 plugins; IEp 1; Lin 0; AllT 1; Prx 0; NoL 0; LPo 8888; SVMode Auto; Log: http://ridetheclown.com/u/d00596ae78b.log
+2013-07-01 02:19:00	alyssa	how to download ?
+2013-07-01 02:28:31	<--	alyssa (alyssa@coldfront-85F911AF.dynamic.guam.net) has quit (Quit: Window closed [7])
+2013-07-01 02:58:23	-->	Nicks (Nicks@coldfront-A055DDC9.lightspeed.okcyok.sbcglobal.net) has joined #saver2
+2013-07-01 02:58:23	Nicks	SaverHelp! I need Saver2 help! OS: Microsoft Windows NT 6.1.7601 Service Pack 1, S2 v1.5 built 11/23/2012 4:13:01 PM CST; 10 plugins; IEp 1; Lin 0; AllT 1; Prx 0; NoL 0; LPo 8888; SVMode Auto; Log: http://ridetheclown.com/u/9ebf6c8a206.log
+2013-07-01 02:59:07	Nicks	When i try to play a song it plays 43 seconds of nothing, I think its some sort of security
+2013-07-01 03:07:38	<--	muchtall (jholmstadt@coldfront-C17EF8C4.muchtall.com) has quit (Connection reset by peer)
+2013-07-01 03:08:00	-->	muchtall (jholmstadt@coldfront-C17EF8C4.muchtall.com) has joined #saver2
+2013-07-01 03:20:31	<--	Nicks (Nicks@coldfront-A055DDC9.lightspeed.okcyok.sbcglobal.net) has quit (Quit: Window closed [2])
+2013-07-01 03:37:37	<--	muchtall (jholmstadt@coldfront-C17EF8C4.muchtall.com) has quit (Connection reset by peer)
+2013-07-01 03:38:15	-->	muchtall (jholmstadt@coldfront-C17EF8C4.muchtall.com) has joined #saver2
+2013-07-01 05:55:52	<--	muchtall (jholmstadt@coldfront-C17EF8C4.muchtall.com) has quit (Connection reset by peer)
+2013-07-01 05:55:59	-->	muchtall (jholmstadt@coldfront-C17EF8C4.muchtall.com) has joined #saver2
+2013-07-01 06:09:41	<--	muchtall (jholmstadt@coldfront-C17EF8C4.muchtall.com) has quit (Quit: Leaving.)
+2013-07-01 06:42:58	-->	muchtall (jholmstadt@coldfront-C17EF8C4.muchtall.com) has joined #saver2
+2013-07-01 06:48:06	<--	muchtall (jholmstadt@coldfront-C17EF8C4.muchtall.com) has quit (Ping timeout)
+2013-07-01 07:02:23	-->	Whinis (Whinis@coldfront-BF396D2A.hsd1.fl.comcast.net) has joined #saver2
+2013-07-01 07:02:24	--	Mode #saver2 [+v Whinis] by ChanServ
+2013-07-01 07:15:08	-->	muchtall (jholmstadt@D3A9F5A3.8829BFD9.EE5BED6D.IP) has joined #saver2
+2013-07-01 08:53:33	--	karbowiak is now known as Karbowiak
+2013-07-01 10:05:07	-->	Josh (Josh@coldfront-FF468EAF.hsd1.pa.comcast.net) has joined #saver2
+2013-07-01 11:30:25	<--	muchtall (jholmstadt@D3A9F5A3.8829BFD9.EE5BED6D.IP) has quit (Quit: Leaving.)
+2013-07-01 11:34:07	-->	muchtall (jholmstadt@2D6FCBD2.C9A4036B.EE5BED6D.IP) has joined #saver2
+2013-07-01 13:35:36	-->	ITF (ITF@coldfront-9464E721.lightspeed.hstntx.sbcglobal.net) has joined #saver2
+2013-07-01 13:35:37	--	ITF is now known as ITF|AFK
+2013-07-01 15:12:32	<--	muchtall (jholmstadt@2D6FCBD2.C9A4036B.EE5BED6D.IP) has quit (Quit: Leaving.)
+2013-07-01 17:12:18	-->	muchtall (jholmstadt@coldfront-C17EF8C4.muchtall.com) has joined #saver2
+2013-07-01 17:30:26	<--	muchtall (jholmstadt@coldfront-C17EF8C4.muchtall.com) has quit (Quit: Leaving.)
+2013-07-01 18:31:03	--	Karbowiak is now known as karbowiak
+2013-07-01 18:36:19	-->	ZigZagJoe (Ziggy@coldfront-AC4C7B47.austin.res.rr.com) has joined #saver2
+2013-07-01 18:36:20	--	Mode #saver2 [+oq ZigZagJoe ZigZagJoe] by ChanServ
+2013-07-01 19:36:03	<--	GeorgeH (George@coldfront-4A1E977E.hsd1.nj.comcast.net) has quit (Ping timeout)
+2013-07-01 19:41:08	-->	GeorgeH (George@coldfront-4A1E977E.hsd1.nj.comcast.net) has joined #saver2
+2013-07-01 21:26:13	<--	Whinis (Whinis@coldfront-BF396D2A.hsd1.fl.comcast.net) has quit (Ping timeout)
+2013-07-01 21:56:51	<--	ZigZagJoe (Ziggy@coldfront-AC4C7B47.austin.res.rr.com) has quit (Ping timeout)
+2013-07-02 04:33:45	<--	angrysock (owen@EFCD6BBD:7AB3FB71:BCFA4FCB:IP) has quit (Ping timeout)
+2013-07-02 04:36:28	-->	angrysock|away (owen@EFCD6BBD:7AB3FB71:BCFA4FCB:IP) has joined #saver2
+2013-07-02 04:36:55	--	angrysock|away is now known as angrysock
+2013-07-02 05:15:30	-->	Whinis (Whinis@coldfront-BF396D2A.hsd1.fl.comcast.net) has joined #saver2
+2013-07-02 05:15:30	--	Mode #saver2 [+v Whinis] by ChanServ
+2013-07-02 07:09:58	-->	muchtall (jholmstadt@D3A9F5A3.8829BFD9.EE5BED6D.IP) has joined #saver2
+2013-07-02 08:13:50	--	karbowiak is now known as Karbowiak
+2013-07-02 12:56:09	sabreman	??
+2013-07-02 12:56:14	sabreman	no word on the font's used?
+2013-07-02 12:56:20	sabreman	it would be really nice to know.
+2013-07-02 13:00:00	@Unit193	I'd have thought ttf-mscorefonts-installer would have them.  Have you seen http://ridetheclown.com/s2/docs/wineinst.html ?
+2013-07-02 13:01:24	@Unit193	Note of course you'll have to change the domin.
+2013-07-02 13:01:41	@Unit193	sabreman: What is your main goal here?
+2013-07-02 13:21:00	<--	angrysock (owen@EFCD6BBD:7AB3FB71:BCFA4FCB:IP) has quit (Ping timeout)
+2013-07-02 13:23:25	-->	angrysock|away (owen@EFCD6BBD:7AB3FB71:BCFA4FCB:IP) has joined #saver2
+2013-07-02 13:23:51	--	angrysock|away is now known as angrysock
+2013-07-02 14:35:38	<--	muchtall (jholmstadt@D3A9F5A3.8829BFD9.EE5BED6D.IP) has quit (Quit: Leaving.)
+2013-07-02 14:57:01	-->	Kevin (Kevin@coldfront-682B4459.lsanca.fios.verizon.net) has joined #saver2
+2013-07-02 14:57:01	Kevin	SaverHelp! I need Pandora help! OS: Microsoft Windows NT 6.1.7601 Service Pack 1, O666 v1.7 built 11/23/2012 4:13:02 PM CST; Lin 0; Prx 0; Log: http://ridetheclown.com/u/4575caebe06.log
+2013-07-02 14:57:07	Kevin	hello?
+2013-07-02 14:57:49	Kevin	i just updated the sproxy client thing
+2013-07-02 14:58:16	Kevin	and i was just wondering if i still get the music i listen to on pandora.....
+2013-07-02 14:58:24	Kevin	like into my music
+2013-07-02 15:01:14	Kevin	anyone...
+2013-07-02 15:01:16	Kevin	...........................
+2013-07-02 15:06:31	<--	Kevin (Kevin@coldfront-682B4459.lsanca.fios.verizon.net) has quit (Quit: Window closed)
+2013-07-02 15:22:54	-->	Eddie (Eddie@658CFADA.B8A8F063.24B0226E.IP) has joined #saver2
+2013-07-02 15:23:01	Eddie	Yo
+2013-07-02 15:23:31	Eddie	So where are the music files stored
+2013-07-02 15:23:55	@Unit193	Open Sproxy/saver2 and click "Where is my Music"
+2013-07-02 15:24:05	Eddie	and are they automatically downloaded or do you have to do something
+2013-07-02 15:24:29	@Unit193	Depends on if you are in approval mode or automatic.
+2013-07-02 15:31:07	Eddie	So Im having some trubble
+2013-07-02 15:31:10	Eddie	trouble8
+2013-07-02 15:31:14	Eddie	* -_-
+2013-07-02 15:32:28	Eddie	I realised I had downloaded just the client, Now when I am installing the saver2 bundle
+2013-07-02 15:33:17	Eddie	It tells me
+2013-07-02 15:33:43	Eddie	Saver2 Install Started
+2013-07-02 15:33:44	Eddie	Saver2 Install Started
+2013-07-02 15:33:44	Eddie	Delete file: C:\Program Files (x86)\Saver2\install.log
+2013-07-02 15:33:45	Eddie	Setup generated on 4:52:50 PM CST 11/23/2012
+2013-07-02 15:33:46	Eddie	Output folder: C:\Program Files (x86)\Saver2
+2013-07-02 15:33:47	Eddie	Searching for processes called 'SProxy.exe'
+2013-07-02 15:33:48	Eddie	-> Found 0 processes running
+2013-07-02 15:33:49	Eddie	No application instances found
+2013-07-02 15:33:50	Eddie	Searching for processes called 'Pandora.exe'
+2013-07-02 15:33:51	Eddie	-> Found 0 processes running
+2013-07-02 15:33:52	Eddie	No application instances found
+2013-07-02 15:33:53	Eddie	Downloading S2bins.zip...
+2013-07-02 15:33:54	Eddie	S2bins.zip downloaded OK.
+2013-07-02 15:33:55	Eddie	Extracting from S2bins.zip
+2013-07-02 15:33:56	Eddie	Delete file: C:\Program Files (x86)\Saver2\S2bins.zip
+2013-07-02 15:33:57	Eddie	Installation aborted due to error while extracting S2bins.zip: Error opening ZIP file
+2013-07-02 15:33:58	Eddie	Writing log file C:\Program Files (x86)\Saver2\install.log
+2013-07-02 15:33:59	Eddie	Installation Aborted.
+2013-07-02 15:37:13	@Unit193	I'd recommend removing C:\Program Files (x86)\Saver2 if anything exists there, and clearing your temp files, then start the install over.
+2013-07-02 15:45:43	Eddie	still aborting
+2013-07-02 16:04:45	-->	Eddie923 (Eddie@4F578F4A.28D6CA8B.D809C2DE.IP) has joined #saver2
+2013-07-02 16:04:52	<--	Eddie923 (Eddie@4F578F4A.28D6CA8B.D809C2DE.IP) has quit (Quit: Eddie923)
+2013-07-02 16:06:01	<--	Eddie (Eddie@658CFADA.B8A8F063.24B0226E.IP) has quit (Ping timeout)
+2013-07-02 18:40:14	--	Karbowiak is now known as karbowiak
+2013-07-02 18:59:24	-->	JavierBenitez (JavierBeni@coldfront-F0014BE.amrlcmtk01.tx.dh.suddenlink.net) has joined #saver2
+2013-07-02 18:59:25	JavierBenitez	SaverHelp! I need Pandora help! OS: Microsoft Windows NT 6.1.7601 Service Pack 1, O666 v1.7 built 11/23/2012 4:13:02 PM CST; Lin 0; Prx 0; Log: http://ridetheclown.com/u/bf33190b78d.log
+2013-07-02 19:00:14	JavierBenitez	I was going to ask a question but, the intro answered it for me. thanks
+2013-07-02 19:01:12	<--	JavierBenitez (JavierBeni@coldfront-F0014BE.amrlcmtk01.tx.dh.suddenlink.net) has quit (Quit: Window closed [1])
+2013-07-02 20:06:29	<--	Whinis (Whinis@coldfront-BF396D2A.hsd1.fl.comcast.net) has quit (Ping timeout)
+2013-07-02 20:25:38	-->	muchtall (jholmstadt@coldfront-2B8B3185.lightspeed.cicril.sbcglobal.net) has joined #saver2
+2013-07-02 20:43:59	-->	ZigZagJoe (Ziggy@coldfront-AC4C7B47.austin.res.rr.com) has joined #saver2
+2013-07-02 20:43:59	--	Mode #saver2 [+oq ZigZagJoe ZigZagJoe] by ChanServ
+2013-07-02 20:55:30	<--	muchtall (jholmstadt@coldfront-2B8B3185.lightspeed.cicril.sbcglobal.net) has quit (Quit: Leaving.)
+2013-07-02 21:58:15	-->	Nola (Nola@coldfront-CD5D529.no.no.cox.net) has joined #saver2
+2013-07-02 21:58:15	Nola	SaverHelp! I need Pandora help! OS: Microsoft Windows NT 6.1.7601 Service Pack 1, O666 v1.7 built 11/23/2012 4:13:02 PM CST; Lin 0; Prx 0; Log: http://ridetheclown.com/u/7e00c90972a.log
+2013-07-02 21:58:19	Nola	Hi homies
+2013-07-02 21:58:53	Nola	A while back I swear I remember a webclient feature that allowed you to control the pandora client via local ip...
+2013-07-02 21:59:17	Nola	but I can't find anything in the docs. - or I am not looking in the right places maybe.
+2013-07-02 21:59:39	Nola	anyone confirm I am ither a retard and it don't exist, or I am retard and I cant find it
+2013-07-02 22:05:21	@Unit193	http://127.0.0.1:8888
+2013-07-02 22:06:17	Nola	God I fucking love you
+2013-07-02 22:06:18	Nola	:)
+2013-07-02 22:06:31	Nola	Makes things 10x easier
+2013-07-02 22:07:12	Nola	Sweet bro - thanks again
+2013-07-02 22:07:14	Nola	parting now
+2013-07-02 22:07:15	<--	Nola (Nola@coldfront-CD5D529.no.no.cox.net) has quit (Quit: User quit)
+2013-07-02 23:35:33	<--	ZigZagJoe (Ziggy@coldfront-AC4C7B47.austin.res.rr.com) has quit (Ping timeout)
+2013-07-03 00:18:11	<--	setkeh (setkeh@33CEA062.A54F882B.1A612441.IP) has quit (Ping timeout)
+2013-07-03 00:27:46	-->	setkeh (setkeh@33CEA062.A54F882B.1A612441.IP) has joined #saver2
+2013-07-03 00:27:46	--	Mode #saver2 [+h setkeh] by ChanServ
+2013-07-03 03:21:10	<--	setkeh (setkeh@33CEA062.A54F882B.1A612441.IP) has quit (Ping timeout)
+2013-07-03 03:25:29	-->	setkeh (setkeh@33CEA062.A54F882B.1A612441.IP) has joined #saver2
+2013-07-03 03:25:29	--	Mode #saver2 [+h setkeh] by ChanServ
+2013-07-03 05:46:36	<--	setkeh (setkeh@33CEA062.A54F882B.1A612441.IP) has quit (Ping timeout)
+2013-07-03 05:53:16	-->	setkeh (setkeh@33CEA062.A54F882B.1A612441.IP) has joined #saver2
+2013-07-03 05:53:16	--	Mode #saver2 [+h setkeh] by ChanServ
+2013-07-03 06:47:26	<--	setkeh (setkeh@33CEA062.A54F882B.1A612441.IP) has quit (Ping timeout)
+2013-07-03 06:52:41	-->	setkeh (setkeh@33CEA062.A54F882B.1A612441.IP) has joined #saver2
+2013-07-03 06:52:41	--	Mode #saver2 [+h setkeh] by ChanServ
+2013-07-03 07:15:45	-->	B_muppet_31 (Mibbit@coldfront-C503A02E.lightspeed.wepbfl.sbcglobal.net) has joined #saver2
+2013-07-03 07:17:01	B_muppet_31	Hello
+2013-07-03 07:18:10	<--	B_muppet_31 (Mibbit@coldfront-C503A02E.lightspeed.wepbfl.sbcglobal.net) has quit (Quit: http://www.mibbit.com ajax IRC Client)
+2013-07-03 09:47:27	-->	ZigZagJoe (Ziggy@coldfront-AC4C7B47.austin.res.rr.com) has joined #saver2
+2013-07-03 09:47:27	--	Mode #saver2 [+oq ZigZagJoe ZigZagJoe] by ChanServ
+2013-07-03 10:15:43	--	karbowiak is now known as Karbowiak
+2013-07-03 10:33:17	<--	ZigZagJoe (Ziggy@coldfront-AC4C7B47.austin.res.rr.com) has quit (Ping timeout)
+2013-07-03 10:38:11	-->	ZigZagJoe (Ziggy@coldfront-AC4C7B47.austin.res.rr.com) has joined #saver2
+2013-07-03 10:38:11	--	Mode #saver2 [+oq ZigZagJoe ZigZagJoe] by ChanServ
+2013-07-03 10:38:27	-->	B_muppet_80 (Mibbit@coldfront-14AACE8C.pitbpa.fios.verizon.net) has joined #saver2
+2013-07-03 10:45:42	<--	B_muppet_80 (Mibbit@coldfront-14AACE8C.pitbpa.fios.verizon.net) has quit (Quit: http://www.mibbit.com ajax IRC Client)
+2013-07-03 12:51:25	-->	muchtall (jholmstadt@coldfront-2B8B3185.lightspeed.cicril.sbcglobal.net) has joined #saver2
+2013-07-03 13:17:39	-->	dkb16 (Mibbit@coldfront-3B7F6665.dmt.ntelos.net) has joined #saver2
+2013-07-03 13:18:46	dkb16	trying this out for the first time. saver2 is great. probs with slacker though
+2013-07-03 13:19:21	dkb16	not seeing anything here
+2013-07-03 13:20:03	dkb16	i'll try again another time
+2013-07-03 13:20:32	<--	dkb16 (Mibbit@coldfront-3B7F6665.dmt.ntelos.net) has quit (Quit: http://www.mibbit.com ajax IRC Client)
+2013-07-03 13:20:40	-->	B_muppet_08 (Mibbit@coldfront-3B7F6665.dmt.ntelos.net) has joined #saver2
+2013-07-03 13:21:12	<--	B_muppet_08 (Mibbit@coldfront-3B7F6665.dmt.ntelos.net) has quit (Quit: B_muppet_08)
+2013-07-03 13:32:58	sabreman	paste stuff to pastebin, no need to spam irc.
+2013-07-03 13:33:15	sabreman	try unsintslling the client and reinstalling saver2 bundle
+2013-07-03 13:33:30	sabreman	oops
+2013-07-03 13:33:55	sabreman	i was actualy scrolled up in my buffer and was anwsering an anwsered question, lol
+2013-07-03 13:36:01	@Unit193	Hah, fun.
+2013-07-03 13:36:10	@Unit193	I've gotten stuck in scrollback before.
+2013-07-03 19:00:19	--	Karbowiak is now known as karbowiak
+2013-07-03 20:53:36	<--	muchtall (jholmstadt@coldfront-2B8B3185.lightspeed.cicril.sbcglobal.net) has quit (Quit: Leaving.)
+2013-07-03 20:53:44	-->	muchtall (jholmstadt@coldfront-2B8B3185.lightspeed.cicril.sbcglobal.net) has joined #saver2
+2013-07-03 20:56:36	<--	muchtall (jholmstadt@coldfront-2B8B3185.lightspeed.cicril.sbcglobal.net) has quit (Ping timeout)
+2013-07-03 21:00:35	-->	muchtall (jholmstadt@coldfront-2B8B3185.lightspeed.cicril.sbcglobal.net) has joined #saver2
+2013-07-03 21:56:26	<--	ZigZagJoe (Ziggy@coldfront-AC4C7B47.austin.res.rr.com) has quit (Ping timeout)
+2013-07-03 23:18:14		irc: disconnected from server
+2013-07-03 23:18:31	-->	sabreman (sabreman@coldfront-231BBC8F.cat.pdx.edu) has joined #saver2
+2013-07-03 23:18:31	--	Topic for #saver2 is "::: Official Saver2 IRC Channel ::: http://ridetheclown.com/s2/ ~~~  | If you get 42 seconds of silence or RPC error 1039, try skipping less, listening to a different station, or another account. I can't fix these errors! They are caused by Pandora's servers. -ZZJ"
+2013-07-03 23:18:31	--	Topic set by ZigZagJoe on Tue, 23 Apr 2013 20:08:27
+2013-07-03 23:18:31	--	Nicks #saver2: [@pegasus @Unit193 %setkeh +Beansman +karbowiak angrysock GeorgeH ITF|AFK J21 Josh muchtall sabreman]
+2013-07-03 23:18:31	--	Channel #saver2: 12 nicks (2 ops, 1 halfop, 2 voices, 7 normals)
+2013-07-03 23:18:33	--	Mode #saver2 [+ntr]
+2013-07-03 23:18:33	--	Channel created on Tue, 20 Jul 2010 02:54:54
+2013-07-04 00:31:08	--	karbowiak is now known as Karbowiak
+2013-07-04 05:54:35	-->	DeBahia (DeBahia@coldfront-4B13F83F.direct-adsl.nl) has joined #saver2
+2013-07-04 05:54:36	DeBahia	SaverHelp! I need Pandora help! OS: Microsoft Windows NT 6.2.9200.0, O666 v1.7 built 11/23/2012 4:13:02 PM CST; Lin 0; Prx 1; Log: http://ridetheclown.com/u/a847e7ea96b.log
+2013-07-04 05:55:24	<--	DeBahia (DeBahia@coldfront-4B13F83F.direct-adsl.nl) has quit (Connection reset by peer)
+2013-07-04 06:59:33	<--	GeorgeH (George@coldfront-4A1E977E.hsd1.nj.comcast.net) has quit (Ping timeout)
+2013-07-04 07:03:02	-->	GeorgeH (George@coldfront-4A1E977E.hsd1.nj.comcast.net) has joined #saver2
+2013-07-04 07:07:49	-->	Whinis (Whinis@coldfront-BF396D2A.hsd1.fl.comcast.net) has joined #saver2
+2013-07-04 07:07:49	--	Mode #saver2 [+v Whinis] by ChanServ
+2013-07-04 07:29:46	<--	setkeh (setkeh@33CEA062.A54F882B.1A612441.IP) has quit (Ping timeout)
+2013-07-04 07:44:51	-->	setkeh (setkeh@33CEA062.A54F882B.1A612441.IP) has joined #saver2
+2013-07-04 07:44:51	--	Mode #saver2 [+h setkeh] by ChanServ
+2013-07-04 08:31:55	<--	angrysock (owen@EFCD6BBD:7AB3FB71:BCFA4FCB:IP) has quit (Ping timeout)
+2013-07-04 08:35:10	-->	GeorgeH_ (George@coldfront-4A1E977E.hsd1.nj.comcast.net) has joined #saver2
+2013-07-04 08:35:35	<--	GeorgeH (George@coldfront-4A1E977E.hsd1.nj.comcast.net) has quit (Ping timeout)
+2013-07-04 08:50:04	-->	angrysock|away (owen@EFCD6BBD:7AB3FB71:BCFA4FCB:IP) has joined #saver2
+2013-07-04 08:50:25	--	angrysock|away is now known as angrysock
+2013-07-04 09:28:47	--	Josh is now known as Josh|Away
+2013-07-04 10:34:13	-->	Luis (Luis@coldfront-C3B8FC3C.cpe.netcabo.pt) has joined #saver2
+2013-07-04 10:34:13	Luis	SaverHelp! I need Saver2 help! OS: Microsoft Windows NT 6.1.7601 Service Pack 1, S2 v1.5 built 11/23/2012 4:13:01 PM CST; 10 plugins; IEp 1; Lin 0; AllT 1; Prx 0; NoL 0; LPo 80; SVMode Apprv; Pending 0; Log: http://ridetheclown.com/u/241ddc9c5fe.log
+2013-07-04 10:34:26	--	Luis is now known as kalibu
+2013-07-04 10:34:42	kalibu	hi there... i'm getting ERROR CODE 1039
+2013-07-04 10:41:37	@Unit193	You don't skipped too much, see the scrolling text?
+2013-07-04 10:44:46	kalibu	yeah.. i've read
+2013-07-04 10:45:07	kalibu	but this happens when I enter in saver2
+2013-07-04 10:45:19	kalibu	i've already tried to change stations
+2013-07-04 10:45:27	kalibu	but the problem's still there.
+2013-07-04 10:47:02	@Unit193	Aha, second guess was right, you live out of the country.  What's your method to "change where you are"?
+2013-07-04 10:47:38	kalibu	proxies
+2013-07-04 10:48:28	kalibu	i'm trying to use an US fast proxy
+2013-07-04 10:49:18	@Unit193	Mhmmmm...
+2013-07-04 11:04:27	kalibu	doesn't saver2 have his own ssl tunnel
+2013-07-04 11:04:28	kalibu	?
+2013-07-04 11:07:18	@Unit193	SProxy is for use of saving files, not actually pretending to be in the US.
+2013-07-04 11:43:43	<--	kalibu (Luis@coldfront-C3B8FC3C.cpe.netcabo.pt) has quit (Quit: Window closed)
+2013-07-04 13:16:08	-->	ZigZagJoe (Ziggy@coldfront-AC4C7B47.austin.res.rr.com) has joined #saver2
+2013-07-04 13:16:08	--	Mode #saver2 [+oq ZigZagJoe ZigZagJoe] by ChanServ
+2013-07-04 21:11:52	<--	Whinis (Whinis@coldfront-BF396D2A.hsd1.fl.comcast.net) has quit (Connection reset by peer)
+2013-07-04 23:19:56	<--	ZigZagJoe (Ziggy@coldfront-AC4C7B47.austin.res.rr.com) has quit (Ping timeout)
+2013-07-05 03:38:44	<--	setkeh (setkeh@33CEA062.A54F882B.1A612441.IP) has quit (Ping timeout)
+2013-07-05 03:42:39	-->	setkeh (setkeh@33CEA062.A54F882B.1A612441.IP) has joined #saver2
+2013-07-05 03:42:39	--	Mode #saver2 [+h setkeh] by ChanServ
+2013-07-05 04:32:52	<--	pegasus (pegasus@coldfront-BDFDD7D8.3-0.tlg-ubr1.atw-tlg.pa.static.cable.rcn.com) has quit (Connection reset by peer)
+2013-07-05 04:33:29	-->	pegasus (pegasus@coldfront-BDFDD7D8.3-0.tlg-ubr1.atw-tlg.pa.static.cable.rcn.com) has joined #saver2
+2013-07-05 04:35:02	--	Mode #saver2 [+o pegasus] by ChanServ
+2013-07-05 07:38:54	--	Karbowiak is now known as karbowiak|afk
+2013-07-05 07:57:45	--	karbowiak|afk is now known as Karbowiak
+2013-07-05 08:05:33	<--	setkeh (setkeh@33CEA062.A54F882B.1A612441.IP) has quit (Ping timeout)
+2013-07-05 10:53:41	<--	muchtall (jholmstadt@coldfront-2B8B3185.lightspeed.cicril.sbcglobal.net) has quit (Quit: Leaving.)
+2013-07-05 11:32:26	-->	ZigZagJoe (Ziggy@coldfront-AC4C7B47.austin.res.rr.com) has joined #saver2
+2013-07-05 11:32:26	--	Mode #saver2 [+oq ZigZagJoe ZigZagJoe] by ChanServ
+2013-07-05 11:41:08	-->	S2HelpUser977 (Admin@coldfront-69218001.c3-0.grn-ubr1.chi-grn.il.cable.rcn.com) has joined #saver2
+2013-07-05 11:41:09	S2HelpUser977	SaverHelp! I need Saver2 help! OS: Microsoft Windows NT 6.2.9200.0, S2 v1.5 built 11/23/2012 4:13:01 PM CST; 10 plugins; IEp 1; Lin 0; AllT 1; Prx 1; NoL 0; LPo 8888; SVMode Auto; Log: http://ridetheclown.com/u/5831762838a.log
+2013-07-05 11:42:55	S2HelpUser977	When runing Saver2 for Pandora I can not surf the internet at the same time as both Chrom and IE seems to use the Sproxy to run all requests. Is that normal  or is there a way I can unplug the browsers form the application. Thank you.
+2013-07-05 11:44:53	S2HelpUser977	502 Bad Gateway
+2013-07-05 11:44:54	S2HelpUser977	Connection Failure
+2013-07-05 11:44:55	S2HelpUser977	A socket operation was attempted to an unreachable network 2607:f8b0:4009:802::1011:80
+2013-07-05 11:44:56	S2HelpUser977	#305
+2013-07-05 11:44:57	S2HelpUser977	SProxy 1.5 built on 11/23/2012 4:13:00 PM CST
+2013-07-05 11:44:58	S2HelpUser977	? 2009-12 ZZJ
+2013-07-05 11:45:13	S2HelpUser977	This is teh error message I receive
+2013-07-05 11:45:16	~ZigZagJoe	go into settings
+2013-07-05 11:45:18	~ZigZagJoe	proxy tab
+2013-07-05 11:45:22	~ZigZagJoe	and uncheck use as ie/chrome proxy
+2013-07-05 11:45:25	~ZigZagJoe	hit okay
+2013-07-05 11:45:30	~ZigZagJoe	restart ie and chrome
+2013-07-05 11:46:14	S2HelpUser977	Perfect- Thank you very much
+2013-07-05 11:46:28	~ZigZagJoe	no problem
+2013-07-05 11:47:36	<--	S2HelpUser977 (Admin@coldfront-69218001.c3-0.grn-ubr1.chi-grn.il.cable.rcn.com) has quit (Quit: Window closed)
+2013-07-05 12:54:21	-->	muchtall (jholmstadt@coldfront-2B8B3185.lightspeed.cicril.sbcglobal.net) has joined #saver2
+2013-07-05 13:01:28	<--	muchtall (jholmstadt@coldfront-2B8B3185.lightspeed.cicril.sbcglobal.net) has quit (Quit: Leaving.)
+2013-07-05 14:00:53	<--	ITF|AFK (ITF@coldfront-9464E721.lightspeed.hstntx.sbcglobal.net) has quit (Quit: —I-n-v-i-s-i-o-n— 3.3 (November '11))
+2013-07-05 14:20:48	-->	Jacob (Jacob@coldfront-6A3F1905.rochester.res.rr.com) has joined #saver2
+2013-07-05 14:20:49	Jacob	SaverHelp! I need Pandora help! OS: Microsoft Windows NT 6.1.7601 Service Pack 1, O666 v1.7 built 11/23/2012 4:13:02 PM CST; Lin 0; Prx 0
+2013-07-05 14:21:25	Jacob	hello
+2013-07-05 14:22:17	Jacob	when ever i go to skip a song it goes to the next one but doesnt play it and the song is 45 seconds long what do i do
+2013-07-05 14:22:53	@Unit193	Pandora is really limiting skipping now, and that's the punishment.
+2013-07-05 14:23:19	Jacob	thats gay lol ok well thank you
+2013-07-05 14:23:33	<--	Jacob (Jacob@coldfront-6A3F1905.rochester.res.rr.com) has quit (Quit: Window closed)
+2013-07-05 16:28:14	-->	muchtall (jholmstadt@coldfront-2B8B3185.lightspeed.cicril.sbcglobal.net) has joined #saver2
+2013-07-05 17:06:32	--	Karbowiak is now known as karbowiak
+2013-07-05 18:48:35	-->	Jason (Jason@CC24B60F.4A29AC99.389BF7B0.IP) has joined #saver2
+2013-07-05 18:48:35	Jason	SaverHelp! I need Saver2 help! OS: Microsoft Windows NT 6.2.9200.0, S2 v1.5 built 11/23/2012 4:13:01 PM CST; 10 plugins; IEp 1; Lin 0; AllT 1; Prx 0; NoL 0; LPo 8888; SVMode Auto; Log: http://ridetheclown.com/u/3f4504e7bf6.log
+2013-07-05 18:48:53	Jason	Hey, sorry if the answer to this question is really simple, but where do I cahnge my Pandora station?
+2013-07-05 18:49:48	Jason	Nevermind, found it haha
+2013-07-05 19:50:49	<--	Jason (Jason@CC24B60F.4A29AC99.389BF7B0.IP) has quit (Quit: Window closed [1])
+2013-07-05 20:31:56	<--	ZigZagJoe (Ziggy@coldfront-AC4C7B47.austin.res.rr.com) has quit (Ping timeout)
+2013-07-05 20:34:36	-->	ZigZagJoe (Ziggy@coldfront-AC4C7B47.austin.res.rr.com) has joined #saver2
+2013-07-05 20:34:36	--	Mode #saver2 [+oq ZigZagJoe ZigZagJoe] by ChanServ
+2013-07-05 20:35:45	-->	dubrock (frisco@coldfront-14697B7.austin.res.rr.com) has joined #saver2
+2013-07-05 21:59:35	-->	muchtall1 (jholmstadt@coldfront-2B8B3185.lightspeed.cicril.sbcglobal.net) has joined #saver2
+2013-07-05 21:59:35	<--	muchtall (jholmstadt@coldfront-2B8B3185.lightspeed.cicril.sbcglobal.net) has quit (Connection reset by peer)
+2013-07-05 21:59:39	--	muchtall1 is now known as muchtall
+2013-07-05 22:01:00	-->	muchtall1 (jholmstadt@coldfront-2B8B3185.lightspeed.cicril.sbcglobal.net) has joined #saver2
+2013-07-05 22:01:01	<--	muchtall (jholmstadt@coldfront-2B8B3185.lightspeed.cicril.sbcglobal.net) has quit (Connection reset by peer)
+2013-07-05 22:01:04	--	muchtall1 is now known as muchtall
+2013-07-05 22:04:43	<--	muchtall (jholmstadt@coldfront-2B8B3185.lightspeed.cicril.sbcglobal.net) has quit (Quit: Leaving.)
+2013-07-05 22:23:27	<--	ZigZagJoe (Ziggy@coldfront-AC4C7B47.austin.res.rr.com) has quit (Ping timeout)
+2013-07-06 01:02:12	--	karbowiak is now known as Karbowiak
+2013-07-06 07:29:58	-->	muchtall (jholmstadt@coldfront-2B8B3185.lightspeed.cicril.sbcglobal.net) has joined #saver2
+2013-07-06 09:01:43	-->	Medusa (Medusa@coldfront-548813B0.dsl.bell.ca) has joined #saver2
+2013-07-06 09:01:44	Medusa	SaverHelp! I need Saver2 help! OS: Microsoft Windows NT 6.1.7601 Service Pack 1, S2 v1.5 built 11/23/2012 4:13:01 PM CST; 10 plugins; IEp 0; Lin 0; AllT 1; Prx 1; NoL 0; LPo 8888; SVMode Apprv; Pending 0; Log: http://ridetheclown.com/u/3062f0e3d2d.log
+2013-07-06 09:01:51	Medusa	Hi all
+2013-07-06 09:05:29	<--	Medusa (Medusa@coldfront-548813B0.dsl.bell.ca) has quit (Quit: Window closed)
+2013-07-06 10:23:22	-->	Jamie (Jamie@coldfront-9159BFE.hsd1.tx.comcast.net) has joined #saver2
+2013-07-06 10:23:22	Jamie	SaverHelp! I need Saver2 help! OS: Microsoft Windows NT 6.1.7601 Service Pack 1, S2 v1.5 built 11/23/2012 4:13:01 PM CST; 10 plugins; IEp 1; Lin 0; AllT 1; Prx 0; NoL 0; LPo 8888; SVMode Auto; Log: http://ridetheclown.com/u/81d98de9aa0.log
+2013-07-06 10:25:02	Jamie	i have been using for sometime. gret prograrm. recently it started saving the song after the song has played instead of adding it right away. Can this be changed ?

@@ -1,0 +1,22 @@
+2013-05-16 15:24:35	sabreman	So.... have you ever had any problems linking your cinder projects when some of your classes are split up into a header and source file?
+2013-05-17 12:23:46	sabreman	Also
+2013-05-17 12:23:50	sabreman	If possible
+2013-05-17 12:23:58	sabreman	actully nvm
+2013-05-18 19:23:30	sabreman	K
+2013-05-18 19:23:35	sabreman	you know what would be aweosme?
+2013-05-18 19:23:50	sabreman	if you could upload the source to one of your projects somewhere
+2013-05-18 19:24:03	sabreman	ireally want to see how shaders and vbo's interact with cinder
+2013-05-18 20:54:12	sabreman	Yea you know what
+2013-05-18 20:54:20	sabreman	a copy of one of your rograms would be fantastic
+2013-05-18 20:54:31	sabreman	Since I have no idea what im doing
+2013-05-18 20:54:47	sabreman	I'd love to beable to step through you code and see how all this sticks together.
+2013-05-20 22:08:50		irc: disconnected from server
+2013-05-21 13:05:47	lpl	I dont come on here much, but Ill talk to you at work today and I can give you some of my stuff then. Also, in the newest cinder 0.8.5 there is better iterator syntax so that you dont have to use i, or iterator->start and end
+2013-05-21 14:17:48	lpl	http://www.creativeapplications.net/tutorials/guide-to-meshes-in-cinder-cinder-tutorials/
+2013-05-21 19:57:40	sabreman	I got vertex based coloring working, this is epic.
+2013-05-21 19:57:51	sabreman	I think i fINALLY understand hopw it all glues together properly
+2013-05-21 19:57:56	sabreman	time to actualy start experementing
+2014-07-07 02:02:39	lpl	Not BASS. The older versions of Cinder used native audio hooks with extra stuff built on top. And now (While they work on the next revision of that for the next release) it uses FMOD
+2014-07-08 18:04:19	sabreman	huh
+2014-07-08 18:04:25	sabreman	thanks for the heads up
+2014-07-08 18:04:34	sabreman	although cinder isn't to usefull anymore since I do everything in c#
