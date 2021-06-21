@@ -1,5 +1,6 @@
 alias ls="ls --color=auto"
 alias ll="ls -alhF --color=auto"
+alias tb="nc termbin.com 9999"
 alias grep="grep --color=auto"
 alias sudo="sudo -E"
 
@@ -87,6 +88,10 @@ On_IPurple='\[\e[0;105m\]'  # Purple
 On_ICyan='\[\e[0;106m\]'    # Cyan
 On_IWhite='\[\e[0;107m\]'   # White
 
+case "$TERM" in
+    xterm-color|*-256color) color_prompt=yes;;
+esac
+
 if [[ ${EUID} == 0 ]]; then
     PrimCol=$Red
     Prompt="#"
@@ -96,14 +101,11 @@ else
 fi
 SecCol=$IBlue
 
- case $TERM in
-     xterm*)
+if [ "$color_prompt" = yes ]; then
         PS1="\[\033]0;[\u@\h]: \w\007\]$SecCol[$PrimCol\u$SecCol@$PrimCol\h$SecCol: $PrimCol\W$SecCol]$PrimCol$Prompt $Color_Off"
-        ;;
-     *)
+else
         PS1="[\u@\h: \W]$Prompt "
-        ;;
- esac
+fi
 
 #
 man() {
