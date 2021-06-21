@@ -3,7 +3,7 @@ set showcmd
 
 set autoindent
 
-"set smarttab
+set smartindent
 set expandtab
 set shiftwidth=4
 set softtabstop=4
@@ -26,6 +26,8 @@ set smartcase
 
 set incsearch
 
+set nohidden
+
 set hlsearch
 
 let g:clipbrdDefaultReg = '+'
@@ -34,3 +36,4 @@ set nohidden
 
 set nowrap
 
+set clipboard=unnamed
