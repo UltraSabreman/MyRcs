@@ -1,6 +1,9 @@
 set nocompatible
 set showcmd
 
+syntax on
+filetype on
+
 set autoindent
 
 set smartindent
